@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Index Dashboard - SMP · ETS · REC</title>
+  <title>Index Dashboard - All Indicators · LNG</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
@@ -523,6 +523,132 @@
         </div>
       </div>
     </section>
+
+    <section class="index-panel" id="oilPanel">
+      <div class="section-top">
+        <div class="section-label">Oil</div>
+        <div class="period-toggle" aria-label="유가 그래프 조회 기간 선택">
+          <button class="period-btn active" data-target="oil" data-period="1M" type="button">1M</button>
+          <button class="period-btn" data-target="oil" data-period="3M" type="button">3M</button>
+          <button class="period-btn" data-target="oil" data-period="6M" type="button">6M</button>
+          <button class="period-btn" data-target="oil" data-period="Y" type="button">Y</button>
+        </div>
+      </div>
+
+      <div class="section-grid">
+        <div class="chart-box">
+          <div class="chart-title-row">
+            <div class="chart-title-left">
+              <div class="chart-title">국제유가 추이</div>
+              <div id="oilChartSubtitle" class="chart-subtitle">최근 1개월</div>
+            </div>
+            <button class="expand-btn" data-expand="oil" type="button" title="그래프 확대">⤢</button>
+          </div>
+          <div class="chart-wrap"><canvas id="oilChart"></canvas></div>
+        </div>
+
+        <div class="table-box">
+          <div class="table-scroll" id="oilTableScroll">
+            <table class="index-table">
+              <thead>
+                <tr>
+                  <th>일자</th>
+                  <th>Dubai<br>($/bbl)</th>
+                  <th>Brent<br>($/bbl)</th>
+                  <th>WTI<br>($/bbl)</th>
+                </tr>
+              </thead>
+              <tbody id="oilTableBody"></tbody>
+            </table>
+          </div>
+          <div id="oilTableFootnote" class="table-footnote">데이터 로딩 중</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="index-panel" id="coalPanel">
+      <div class="section-top">
+        <div class="section-label">Coal</div>
+        <div class="period-toggle" aria-label="유연탄 그래프 조회 기간 선택">
+          <button class="period-btn active" data-target="coal" data-period="1M" type="button">1M</button>
+          <button class="period-btn" data-target="coal" data-period="3M" type="button">3M</button>
+          <button class="period-btn" data-target="coal" data-period="6M" type="button">6M</button>
+          <button class="period-btn" data-target="coal" data-period="Y" type="button">Y</button>
+        </div>
+      </div>
+
+      <div class="section-grid">
+        <div class="chart-box coal-chart-box">
+          <div class="chart-title-row">
+            <div class="chart-title-left">
+              <div class="chart-title">유연탄 가격 추이</div>
+              <div id="coalChartSubtitle" class="chart-subtitle">최근 1개월</div>
+            </div>
+            <button class="expand-btn" data-expand="coal" type="button" title="그래프 확대">⤢</button>
+          </div>
+          <div class="chart-wrap"><canvas id="coalChart"></canvas></div>
+        </div>
+
+        <div class="table-box">
+          <div class="table-scroll" id="coalTableScroll">
+            <table class="index-table">
+              <thead>
+                <tr>
+                  <th>일자</th>
+                  <th>ICI3<br>($/t)</th>
+                  <th>ICI4<br>($/t)</th>
+                  <th>NEWC<br>($/t)</th>
+                </tr>
+              </thead>
+              <tbody id="coalTableBody"></tbody>
+            </table>
+          </div>
+          <div id="coalTableFootnote" class="table-footnote">데이터 로딩 중</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="index-panel" id="lngPanel">
+      <div class="section-top">
+        <div class="section-label">LNG</div>
+        <div class="period-toggle" aria-label="LNG 그래프 조회 기간 선택">
+          <button class="period-btn active" data-target="lng" data-period="1M" type="button">1M</button>
+          <button class="period-btn" data-target="lng" data-period="3M" type="button">3M</button>
+          <button class="period-btn" data-target="lng" data-period="6M" type="button">6M</button>
+          <button class="period-btn" data-target="lng" data-period="Y" type="button">Y</button>
+        </div>
+      </div>
+
+      <div class="section-grid">
+        <div class="chart-box lng-chart-box">
+          <div class="chart-title-row">
+            <div class="chart-title-left">
+              <div class="chart-title">LNG 벤치마크 가격 추이</div>
+              <div id="lngChartSubtitle" class="chart-subtitle">최근 1개월</div>
+            </div>
+            <button class="expand-btn" data-expand="lng" type="button" title="그래프 확대">⤢</button>
+          </div>
+          <div class="chart-wrap"><canvas id="lngChart"></canvas></div>
+        </div>
+
+        <div class="table-box">
+          <div class="table-scroll" id="lngTableScroll">
+            <table class="index-table">
+              <thead>
+                <tr>
+                  <th>일자</th>
+                  <th>JKM<br>($/MMBtu)</th>
+                  <th>TTF<br>($/MMBtu)</th>
+                  <th>HH<br>($/MMBtu)</th>
+                </tr>
+              </thead>
+              <tbody id="lngTableBody"></tbody>
+            </table>
+          </div>
+          <div id="lngTableFootnote" class="table-footnote">데이터 로딩 중</div>
+        </div>
+      </div>
+    </section>
   </div>
 
   <div id="modalBackdrop" class="modal-backdrop"></div>
@@ -541,7 +667,10 @@
     const URLS = {
       smp: ['./data/epsis_index_data.json', './epsis_index_data.json'],
       ets: ['./data/ets_index_data.json', './ets_index_data.json'],
-      rec: ['./data/rec_index_data.json', './rec_index_data.json']
+      rec: ['./data/rec_index_data.json', './rec_index_data.json'],
+      oil: ['./data/oil_index_data.json', './oil_index_data.json'],
+      coal: ['./data/coal_index_data.json', './coal_index_data.json'],
+      lng: ['./data/lng_index_data.json', './lng_index_data.json']
     };
     const MAX_DAYS = 365;
     const PERIOD_DAYS = { '1M': 30, '3M': 90, '6M': 180, 'Y': 365 };
@@ -550,6 +679,9 @@
       smp: { rows: [], chart: null, period: '1M' },
       ets: { rows: [], chart: null, period: '1M' },
       rec: { rows: [], chart: null, period: '1M' },
+      oil: { rows: [], chart: null, period: '1M' },
+      coal: { rows: [], chart: null, period: '1M' },
+      lng: { rows: [], chart: null, period: '1M' },
       modalChart: null,
       modalType: null
     };
@@ -681,6 +813,394 @@
       if (!state.rec.rows.length) throw new Error('표시할 REC 데이터가 없습니다.');
       renderMarketTable('rec');
       renderChart('rec', state.rec.period);
+    }
+
+
+    function normalizeOilRows(rawRows) {
+      return rawRows
+        .filter(row => row && row.date)
+        .map(row => ({
+          date: row.date,
+          dubai: isValidNumber(row.dubai) ? Number(row.dubai) : null,
+          brent: isValidNumber(row.brent) ? Number(row.brent) : null,
+          wti: isValidNumber(row.wti) ? Number(row.wti) : null
+        }))
+        .sort((a, b) => parseDate(a.date) - parseDate(b.date));
+    }
+
+    async function loadOilData() {
+      const rawRows = await loadJson('oil');
+      state.oil.rows = filterLastDays(normalizeOilRows(rawRows), MAX_DAYS);
+      if (!state.oil.rows.length) throw new Error('표시할 유가 데이터가 없습니다.');
+      renderOilTable();
+      renderOilChart('oil', state.oil.period);
+    }
+
+    function renderOilTable() {
+      const tbody = document.getElementById('oilTableBody');
+      const displayRows = [...state.oil.rows].reverse();
+      tbody.innerHTML = displayRows.map(row => `
+        <tr>
+          <td>${escapeHtml(formatShortDate(row.date))}</td>
+          <td>${formatNumber(row.dubai, 2)}</td>
+          <td>${formatNumber(row.brent, 2)}</td>
+          <td>${formatNumber(row.wti, 2)}</td>
+        </tr>
+      `).join('');
+      document.getElementById('oilTableScroll').scrollTop = 0;
+      updateFootnote('oil');
+    }
+
+    function makeOilChartConfig(rows, maxTicksLimit = 8) {
+      const labels = rows.map(row => row.date);
+      return {
+        type: 'line',
+        data: {
+          labels,
+          datasets: [
+            {
+              label: 'Dubai',
+              data: rows.map(row => row.dubai),
+              borderColor: '#f97316',
+              backgroundColor: 'rgba(249, 115, 22, 0.08)',
+              borderWidth: 2,
+              fill: false,
+              tension: 0,
+              spanGaps: true,
+              pointRadius: 0,
+              pointHoverRadius: 4,
+              hitRadius: 12
+            },
+            {
+              label: 'Brent',
+              data: rows.map(row => row.brent),
+              borderColor: '#2563eb',
+              backgroundColor: 'rgba(37, 99, 235, 0.08)',
+              borderWidth: 2,
+              fill: false,
+              tension: 0,
+              spanGaps: true,
+              pointRadius: 0,
+              pointHoverRadius: 4,
+              hitRadius: 12
+            },
+            {
+              label: 'WTI',
+              data: rows.map(row => row.wti),
+              borderColor: '#64748b',
+              backgroundColor: 'rgba(100, 116, 139, 0.08)',
+              borderWidth: 2,
+              fill: false,
+              tension: 0,
+              spanGaps: true,
+              pointRadius: 0,
+              pointHoverRadius: 4,
+              hitRadius: 12
+            }
+          ]
+        },
+        options: {
+          maintainAspectRatio: false,
+          responsive: true,
+          interaction: { mode: 'index', intersect: false },
+          plugins: {
+            legend: {
+              display: true,
+              position: 'top',
+              labels: { boxWidth: 14, boxHeight: 8, font: { size: 12, weight: '700' } }
+            },
+            tooltip: {
+              enabled: true,
+              mode: 'index',
+              intersect: false,
+              callbacks: {
+                title: context => formatShortDate(context[0]?.label ?? ''),
+                label: context => `${context.dataset.label}: ${formatNumber(context.raw, 2)} $/bbl`
+              }
+            }
+          },
+          scales: {
+            y: {
+              type: 'linear',
+              position: 'left',
+              beginAtZero: false,
+              title: { display: true, text: '가격 ($/bbl)', font: { size: 12, weight: '700' } },
+              ticks: { callback: value => Number(value).toLocaleString('ko-KR') },
+              grid: { color: 'rgba(148, 163, 184, 0.24)' }
+            },
+            x: {
+              grid: { display: false },
+              ticks: {
+                maxTicksLimit,
+                callback: function(value) { return formatShortDate(this.getLabelForValue(value)); }
+              }
+            }
+          }
+        }
+      };
+    }
+
+    function renderOilChart(period) {
+      state.oil.period = period;
+      const rows = filterLastDays(state.oil.rows, PERIOD_DAYS[period] || 365);
+      const label = getPeriodLabel(period);
+      document.getElementById('oilChartSubtitle').textContent = label;
+      if (state.oil.chart) state.oil.chart.destroy();
+      state.oil.chart = new Chart(document.getElementById('oilChart'), makeOilChartConfig(rows, 8));
+      if (state.modalType === 'oil' && state.modalChart) {
+        document.getElementById('modalSubtitle').textContent = label;
+        state.modalChart.destroy();
+        state.modalChart = new Chart(document.getElementById('modalChartCanvas'), makeOilChartConfig(rows, 14));
+      }
+    }
+
+
+    function normalizeCoalRows(rawRows) {
+      return rawRows
+        .map(row => ({
+          date: row.date,
+          ici3: isValidNumber(row.ici3) ? Number(row.ici3) : null,
+          ici4: isValidNumber(row.ici4) ? Number(row.ici4) : null,
+          newc: isValidNumber(row.newc) ? Number(row.newc) : null
+        }))
+        .filter(row => row.date)
+        .sort((a, b) => a.date.localeCompare(b.date));
+    }
+
+    async function loadCoalData() {
+      const rawRows = await loadJson('coal');
+      state.coal.rows = filterLastDays(normalizeCoalRows(rawRows), MAX_DAYS);
+      if (!state.coal.rows.length) throw new Error('표시할 유연탄 데이터가 없습니다.');
+      renderCoalTable();
+      renderCoalChart(state.coal.period);
+    }
+
+    function renderCoalTable() {
+      const tbody = document.getElementById('coalTableBody');
+      const displayRows = [...state.coal.rows].reverse();
+      tbody.innerHTML = displayRows.map(row => `
+        <tr>
+          <td>${escapeHtml(formatShortDate(row.date))}</td>
+          <td>${formatNumber(row.ici3, 2)}</td>
+          <td>${formatNumber(row.ici4, 2)}</td>
+          <td>${formatNumber(row.newc, 2)}</td>
+        </tr>
+      `).join('');
+      document.getElementById('coalTableScroll').scrollTop = 0;
+      updateFootnote('coal');
+    }
+
+    function makeCoalChartConfigForRows(rows, maxTicksLimit = 8) {
+      const labels = rows.map(row => row.date);
+
+      return {
+        type: 'line',
+        data: {
+          labels,
+          datasets: [
+            {
+              label: 'ICI3',
+              data: rows.map(row => row.ici3),
+              borderColor: '#F97316',
+              backgroundColor: 'rgba(249, 115, 22, 0.08)',
+              yAxisID: 'y',
+              tension: 0,
+              spanGaps: true,
+              pointRadius: 0,
+              pointHoverRadius: 4,
+              hitRadius: 12
+            },
+            {
+              label: 'ICI4',
+              data: rows.map(row => row.ici4),
+              borderColor: '#2563EB',
+              backgroundColor: 'rgba(37, 99, 235, 0.08)',
+              yAxisID: 'y',
+              tension: 0,
+              spanGaps: true,
+              pointRadius: 0,
+              pointHoverRadius: 4,
+              hitRadius: 12
+            },
+            {
+              label: 'NEWC',
+              data: rows.map(row => row.newc),
+              borderColor: '#64748B',
+              backgroundColor: 'rgba(100, 116, 139, 0.08)',
+              yAxisID: 'y',
+              tension: 0,
+              spanGaps: true,
+              pointRadius: 0,
+              pointHoverRadius: 4,
+              hitRadius: 12
+            }
+          ]
+        },
+        options: {
+          maintainAspectRatio: false,
+          responsive: true,
+          interaction: {
+            mode: 'index',
+            intersect: false
+          },
+          plugins: {
+            legend: {
+              display: true,
+              position: 'top',
+              align: 'end',
+              labels: {
+                boxWidth: 10,
+                boxHeight: 10,
+                usePointStyle: true,
+                pointStyle: 'line',
+                color: '#334155',
+                font: { size: 11, weight: '600' }
+              }
+            },
+            tooltip: {
+              callbacks: {
+                title: context => formatShortDate(context[0]?.label || ''),
+                label: context => `${context.dataset.label}: ${formatNumber(context.raw, 2)} $/t`
+              }
+            }
+          },
+          scales: {
+            x: {
+              grid: { display: false },
+              ticks: {
+                maxTicksLimit,
+                callback: function(value) {
+                  return formatShortDate(this.getLabelForValue(value));
+                }
+              }
+            },
+            y: {
+              beginAtZero: false,
+              title: {
+                display: true,
+                text: '가격 ($/t)'
+              },
+              ticks: {
+                callback: value => Number(value).toLocaleString('ko-KR')
+              }
+            }
+          }
+        }
+      };
+    }
+
+    function makeCoalChartConfig(period) {
+      const rows = getRowsByPeriod(state.coal.rows, period);
+      return makeCoalChartConfigForRows(rows, period === 'Y' ? 10 : 7);
+    }
+
+    function renderCoalChart(period) {
+      state.coal.period = period;
+      const label = getPeriodLabel ? getPeriodLabel(period) : getPeriodLabel(period);
+      document.getElementById('coalChartSubtitle').textContent = label;
+      if (state.coal.chart) state.coal.chart.destroy();
+      const rows = filterLastDays(state.coal.rows, PERIOD_DAYS[period] || 365);
+      state.coal.chart = new Chart(document.getElementById('coalChart'), makeCoalChartConfigForRows(rows, 8));
+      if (state.modalType === 'coal' && state.modalChart) {
+        document.getElementById('modalSubtitle').textContent = label;
+        state.modalChart.destroy();
+        state.modalChart = new Chart(document.getElementById('modalChartCanvas'), makeCoalChartConfigForRows(rows, 14));
+      }
+    }
+
+
+    function normalizeLngRows(rawRows) {
+      return rawRows
+        .map(row => ({
+          date: row.date,
+          jkm: isValidNumber(row.jkm) ? Number(row.jkm) : null,
+          ttf: isValidNumber(row.ttf) ? Number(row.ttf) : null,
+          hh: isValidNumber(row.hh) ? Number(row.hh) : null
+        }))
+        .filter(row => row.date)
+        .sort((a, b) => a.date.localeCompare(b.date));
+    }
+
+    async function loadLngData() {
+      const rawRows = await loadJson('lng');
+      state.lng.rows = filterLastDays(normalizeLngRows(rawRows), MAX_DAYS);
+      if (!state.lng.rows.length) throw new Error('표시할 LNG 데이터가 없습니다.');
+      renderLngTable();
+      renderLngChart(state.lng.period);
+    }
+
+    function renderLngTable() {
+      const tbody = document.getElementById('lngTableBody');
+      const displayRows = [...state.lng.rows].reverse();
+      tbody.innerHTML = displayRows.map(row => `
+        <tr>
+          <td>${escapeHtml(formatShortDate(row.date))}</td>
+          <td>${formatNumber(row.jkm, 2)}</td>
+          <td>${formatNumber(row.ttf, 2)}</td>
+          <td>${formatNumber(row.hh, 2)}</td>
+        </tr>
+      `).join('');
+      document.getElementById('lngTableScroll').scrollTop = 0;
+      updateFootnote('lng');
+    }
+
+    function makeLngChartConfigForRows(rows, maxTicksLimit = 8) {
+      const labels = rows.map(row => row.date);
+      return {
+        type: 'line',
+        data: {
+          labels,
+          datasets: [
+            { label: 'JKM', data: rows.map(row => row.jkm), borderColor: '#F97316', backgroundColor: 'rgba(249, 115, 22, 0.08)', yAxisID: 'y', tension: 0, spanGaps: true, pointRadius: 0, pointHoverRadius: 4, hitRadius: 12 },
+            { label: 'TTF', data: rows.map(row => row.ttf), borderColor: '#2563EB', backgroundColor: 'rgba(37, 99, 235, 0.08)', yAxisID: 'y', tension: 0, spanGaps: true, pointRadius: 0, pointHoverRadius: 4, hitRadius: 12 },
+            { label: 'HH', data: rows.map(row => row.hh), borderColor: '#64748B', backgroundColor: 'rgba(100, 116, 139, 0.08)', yAxisID: 'y', tension: 0, spanGaps: true, pointRadius: 0, pointHoverRadius: 4, hitRadius: 12 }
+          ]
+        },
+        options: {
+          maintainAspectRatio: false,
+          responsive: true,
+          interaction: { mode: 'index', intersect: false },
+          plugins: {
+            legend: {
+              display: true,
+              position: 'top',
+              align: 'end',
+              labels: { boxWidth: 10, boxHeight: 10, usePointStyle: true, pointStyle: 'line', color: '#334155', font: { size: 11, weight: '600' } }
+            },
+            tooltip: {
+              callbacks: {
+                title: context => formatShortDate(context[0]?.label || ''),
+                label: context => `${context.dataset.label}: ${formatNumber(context.raw, 2)} $/MMBtu`
+              }
+            }
+          },
+          scales: {
+            x: {
+              grid: { display: false },
+              ticks: { maxTicksLimit, callback: function(value) { return formatShortDate(this.getLabelForValue(value)); } }
+            },
+            y: {
+              beginAtZero: false,
+              title: { display: true, text: '가격 ($/MMBtu)' },
+              ticks: { callback: value => Number(value).toLocaleString('ko-KR') }
+            }
+          }
+        }
+      };
+    }
+
+    function renderLngChart(period) {
+      state.lng.period = period;
+      const label = getPeriodLabel(period);
+      document.getElementById('lngChartSubtitle').textContent = label;
+      if (state.lng.chart) state.lng.chart.destroy();
+      const rows = filterLastDays(state.lng.rows, PERIOD_DAYS[period] || 365);
+      state.lng.chart = new Chart(document.getElementById('lngChart'), makeLngChartConfigForRows(rows, 8));
+      if (state.modalType === 'lng' && state.modalChart) {
+        document.getElementById('modalSubtitle').textContent = label;
+        state.modalChart.destroy();
+        state.modalChart = new Chart(document.getElementById('modalChartCanvas'), makeLngChartConfigForRows(rows, 14));
+      }
     }
 
     function renderSmpTable() {
@@ -850,7 +1370,7 @@
       if (state.modalType === type && state.modalChart) {
         document.getElementById('modalSubtitle').textContent = label;
         state.modalChart.destroy();
-        state.modalChart = new Chart(document.getElementById('modalChartCanvas'), makeChartConfig(type, rows, 14));
+        state.modalChart = new Chart(document.getElementById('modalChartCanvas'), type === 'oil' ? makeOilChartConfig(rows, 14) : (type === 'coal' ? makeCoalChartConfigForRows(rows, 14) : (type === 'lng' ? makeLngChartConfigForRows(rows, 14) : makeChartConfig(type, rows, 14))));
       }
     }
 
@@ -858,12 +1378,12 @@
       state.modalType = type;
       const period = state[type].period;
       const rows = filterLastDays(state[type].rows, PERIOD_DAYS[period] || 365);
-      document.getElementById('modalTitle').textContent = type === 'smp' ? 'SMP·예비력 추이 확대' : (type === 'rec' ? 'REC 가격·거래량 추이 확대' : '배출권 가격·거래량 추이 확대');
+      document.getElementById('modalTitle').textContent = type === 'smp' ? 'SMP·예비력 추이 확대' : (type === 'rec' ? 'REC 가격·거래량 추이 확대' : (type === 'oil' ? '국제유가 추이 확대' : (type === 'coal' ? '유연탄 가격 추이 확대' : (type === 'lng' ? 'LNG 벤치마크 가격 추이 확대' : '배출권 가격·거래량 추이 확대'))));
       document.getElementById('modalSubtitle').textContent = getPeriodLabel(period);
       document.getElementById('modalBackdrop').classList.add('show');
       document.getElementById('chartModal').classList.add('show');
       if (state.modalChart) state.modalChart.destroy();
-      state.modalChart = new Chart(document.getElementById('modalChartCanvas'), makeChartConfig(type, rows, 14));
+      state.modalChart = new Chart(document.getElementById('modalChartCanvas'), type === 'oil' ? makeOilChartConfig(rows, 14) : (type === 'coal' ? makeCoalChartConfigForRows(rows, 14) : (type === 'lng' ? makeLngChartConfigForRows(rows, 14) : makeChartConfig(type, rows, 14))));
     }
 
     function closeChartModal() {
@@ -883,7 +1403,12 @@
           const parent = button.closest('.period-toggle');
           parent.querySelectorAll('.period-btn').forEach(btn => btn.classList.remove('active'));
           button.classList.add('active');
-          if (state[type].rows.length) renderChart(type, button.dataset.period);
+          if (state[type].rows.length) {
+            if (type === 'oil') renderOilChart(button.dataset.period);
+            else if (type === 'coal') renderCoalChart(button.dataset.period);
+            else if (type === 'lng') renderLngChart(button.dataset.period);
+            else renderChart(type, button.dataset.period);
+          }
         });
       });
       document.querySelectorAll('[data-expand]').forEach(button => {
@@ -908,12 +1433,18 @@
       if (state.smp.chart) state.smp.chart.resize();
       if (state.ets.chart) state.ets.chart.resize();
       if (state.rec.chart) state.rec.chart.resize();
+      if (state.oil.chart) state.oil.chart.resize();
+      if (state.coal.chart) state.coal.chart.resize();
+      if (state.lng.chart) state.lng.chart.resize();
       if (state.modalChart) state.modalChart.resize();
     });
 
     loadSmpData().catch(error => showSectionError('smp', error));
     loadEtsData().catch(error => showSectionError('ets', error));
     loadRecData().catch(error => showSectionError('rec', error));
+    loadOilData().catch(error => showSectionError('oil', error));
+    loadCoalData().catch(error => showSectionError('coal', error));
+    loadLngData().catch(error => showSectionError('lng', error));
   </script>
 </body>
 </html>
