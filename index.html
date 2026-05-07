@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Index Dashboard - SMP · ETS · REC</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --navy: #062a68;
+      --blue: #0b69c7;
+      --orange: #f97316;
+      --panel: #eef4fb;
+      --section-card-h: clamp(320px, 25vw, 380px);
+      --section-chart-h: calc(var(--section-card-h) - 78px);
+      --section-table-foot-h: 32px;
+    }
+
+    body {
+      margin: 0;
+      background: #f5efe4;
+      color: #0f172a;
+      font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Segoe UI", sans-serif;
+    }
+
+    .page-wrap {
+      max-width: 1480px;
+      margin: 0 auto;
+      padding: 10px 14px 24px;
+    }
+
+    .hero {
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
+    }
+
+    .hero-inner {
+      background: linear-gradient(120deg, #163a63 0%, #214f84 55%, #2a67aa 100%);
+      color: #fff;
+      padding: 28px 34px 30px;
+    }
+
+    .brand {
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .dashboard-title {
+      margin-top: 10px;
+      font-size: 34px;
+      font-weight: 800;
+      line-height: 1.15;
+    }
+
+    .dashboard-desc {
+      margin-top: 10px;
+      font-size: 15px;
+      color: #eff6ff;
+    }
+
+    .index-panel {
+      margin-top: 10px;
+      background: var(--panel);
+      border: 1.8px solid #1b4c93;
+      border-radius: 10px;
+      padding: 8px 14px 18px;
+      position: relative;
+    }
+
+    .section-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+
+    .section-label {
+      width: 250px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--navy);
+      color: #fff;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 0.01em;
+    }
+
+    .period-toggle {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+
+    .period-btn {
+      min-width: 50px;
+      height: 25px;
+      padding: 0 12px;
+      border: 1.5px solid #0070c0;
+      border-radius: 4px;
+      background: #fff;
+      color: #0070c0;
+      font-size: 17px;
+      font-weight: 800;
+      line-height: 1;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .period-btn:hover,
+    .period-btn.active {
+      background: #0070c0;
+      color: #fff;
+    }
+
+    .section-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 2.15fr) minmax(300px, 0.85fr);
+      gap: clamp(10px, 1.1vw, 16px);
+      align-items: start;
+      min-width: 0;
+    }
+
+    .chart-box {
+      min-width: 0;
+      height: var(--section-card-h);
+      min-height: 0;
+      max-height: var(--section-card-h);
+      background: #fff;
+      border: 1px solid #e3e8ef;
+      display: flex;
+      flex-direction: column;
+      padding: clamp(8px, 0.8vw, 12px) clamp(9px, 1vw, 14px) 10px;
+      overflow: hidden;
+    }
+
+    .chart-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 6px;
+    }
+
+    .chart-title-left {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .expand-btn {
+      width: 30px;
+      height: 30px;
+      border-radius: 999px;
+      border: 1px solid #cbd5e1;
+      background: #fff;
+      color: #0f172a;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 800;
+      box-shadow: 0 2px 6px rgba(15, 23, 42, 0.10);
+      transition: all 0.15s ease;
+    }
+
+    .expand-btn:hover {
+      background: #eef6ff;
+      border-color: #0070c0;
+      color: #0070c0;
+    }
+
+    .chart-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: #0f172a;
+    }
+
+    .chart-subtitle {
+      font-size: 12px;
+      font-weight: 600;
+      color: #64748b;
+      white-space: nowrap;
+    }
+
+    .chart-wrap {
+      flex: 0 0 var(--section-chart-h);
+      width: 100%;
+      height: var(--section-chart-h);
+      min-width: 0;
+      min-height: 0;
+      max-height: var(--section-chart-h);
+      position: relative;
+    }
+
+    .chart-wrap canvas,
+    .modal-chart-wrap canvas {
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    .table-box {
+      min-width: 0;
+      height: var(--section-card-h);
+      min-height: 0;
+      max-height: var(--section-card-h);
+      background: #fff;
+      border: 1px solid #475569;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .table-scroll {
+      height: calc(var(--section-card-h) - var(--section-table-foot-h));
+      overflow-y: auto;
+      overflow-x: hidden;
+      flex: 0 0 calc(var(--section-card-h) - var(--section-table-foot-h));
+    }
+
+    table.index-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      table-layout: fixed;
+      font-size: clamp(11px, 0.82vw, 13px);
+    }
+
+    .index-table th,
+    .index-table td {
+      padding: clamp(5px, 0.55vw, 8px) clamp(3px, 0.45vw, 7px);
+      border-right: 1px solid #555;
+      border-bottom: 1px solid #8b8b8b;
+      text-align: center;
+      white-space: nowrap;
+      background: #fff;
+    }
+
+    .index-table th:last-child,
+    .index-table td:last-child {
+      border-right: none;
+    }
+
+    .index-table thead th {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background: var(--navy);
+      color: #fff;
+      font-size: clamp(11px, 0.82vw, 13px);
+      font-weight: 800;
+      line-height: 1.25;
+    }
+
+    .index-table tbody td {
+      color: #111827;
+      font-weight: 500;
+    }
+
+    .index-table tbody tr:hover td {
+      background: #f8fbff;
+    }
+
+    .table-footnote {
+      height: var(--section-table-foot-h);
+      padding: 7px 10px;
+      border-top: 1px solid #d7dde6;
+      background: #f8fafc;
+      font-size: 12px;
+      color: #64748b;
+      text-align: right;
+    }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      display: none;
+      background: rgba(15, 23, 42, 0.55);
+      z-index: 40;
+    }
+
+    .modal-backdrop.show { display: block; }
+
+    .chart-modal {
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: min(1180px, 94vw);
+      height: min(760px, 88vh);
+      display: none;
+      flex-direction: column;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 24px 70px rgba(15, 23, 42, 0.30);
+      z-index: 50;
+      overflow: hidden;
+    }
+
+    .chart-modal.show { display: flex; }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 18px;
+      border-bottom: 1px solid #e5e7eb;
+      background: #f8fafc;
+    }
+
+    .modal-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: #0f172a;
+    }
+
+    .modal-close {
+      border: none;
+      background: transparent;
+      font-size: 22px;
+      font-weight: 800;
+      color: #475569;
+      cursor: pointer;
+      padding: 4px 8px;
+      border-radius: 8px;
+    }
+
+    .modal-close:hover {
+      background: #e2e8f0;
+      color: #0f172a;
+    }
+
+    .modal-chart-wrap {
+      flex: 1;
+      min-height: 0;
+      padding: 20px 24px 24px;
+    }
+
+    .error-text {
+      color: #b91c1c;
+      font-weight: 700;
+    }
+
+    @media (max-width: 1100px) {
+      .section-grid { grid-template-columns: minmax(0, 1fr); }
+      .section-label { width: 190px; }
+      :root {
+        --section-card-h: 340px;
+        --section-chart-h: 262px;
+      }
+      .table-scroll { overflow-x: auto; }
+    }
+
+    @media (max-width: 720px) {
+      .page-wrap { padding: 8px; }
+      .hero-inner { padding: 22px 24px; }
+      .dashboard-title { font-size: 27px; }
+      .section-top {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      .section-label { width: 100%; }
+      .period-toggle {
+        width: 100%;
+        justify-content: flex-end;
+      }
+      .period-btn {
+        min-width: 46px;
+        font-size: 15px;
+      }
+      :root {
+        --section-card-h: 300px;
+        --section-chart-h: 222px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="brand">HANWHA ENERGY</div>
+        <h1 class="dashboard-title">Market Monitoring Dashboard</h1>
+        <p class="dashboard-desc">엑셀 Index 시트 기준 SMP, 배출권, REC 현황과 추이를 확인하는 화면입니다.</p>
+      </div>
+    </section>
+
+    <section class="index-panel" id="smpPanel">
+      <div class="section-top">
+        <div class="section-label">SMP</div>
+        <div class="period-toggle" aria-label="SMP 그래프 조회 기간 선택">
+          <button class="period-btn active" data-target="smp" data-period="1M" type="button">1M</button>
+          <button class="period-btn" data-target="smp" data-period="3M" type="button">3M</button>
+          <button class="period-btn" data-target="smp" data-period="6M" type="button">6M</button>
+          <button class="period-btn" data-target="smp" data-period="Y" type="button">Y</button>
+        </div>
+      </div>
+
+      <div class="section-grid">
+        <div class="chart-box">
+          <div class="chart-title-row">
+            <div class="chart-title-left">
+              <div class="chart-title">SMP·예비력 추이</div>
+              <div id="smpChartSubtitle" class="chart-subtitle">최근 1개월</div>
+            </div>
+            <button class="expand-btn" data-expand="smp" type="button" title="그래프 확대">⤢</button>
+          </div>
+          <div class="chart-wrap"><canvas id="smpChart"></canvas></div>
+        </div>
+
+        <div class="table-box">
+          <div class="table-scroll" id="smpTableScroll">
+            <table class="index-table">
+              <thead>
+                <tr>
+                  <th>일자</th>
+                  <th>SMP<br>(원/kWh)</th>
+                  <th>예비력<br>(MW)</th>
+                  <th>최대전력<br>(MW)</th>
+                  <th>최소전력<br>(MW)</th>
+                </tr>
+              </thead>
+              <tbody id="smpTableBody"></tbody>
+            </table>
+          </div>
+          <div id="smpTableFootnote" class="table-footnote">데이터 로딩 중</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="index-panel" id="etsPanel">
+      <div class="section-top">
+        <div class="section-label">배출권</div>
+        <div class="period-toggle" aria-label="배출권 그래프 조회 기간 선택">
+          <button class="period-btn active" data-target="ets" data-period="1M" type="button">1M</button>
+          <button class="period-btn" data-target="ets" data-period="3M" type="button">3M</button>
+          <button class="period-btn" data-target="ets" data-period="6M" type="button">6M</button>
+          <button class="period-btn" data-target="ets" data-period="Y" type="button">Y</button>
+        </div>
+      </div>
+
+      <div class="section-grid">
+        <div class="chart-box">
+          <div class="chart-title-row">
+            <div class="chart-title-left">
+              <div class="chart-title">배출권 가격·거래량 추이</div>
+              <div id="etsChartSubtitle" class="chart-subtitle">최근 1개월</div>
+            </div>
+            <button class="expand-btn" data-expand="ets" type="button" title="그래프 확대">⤢</button>
+          </div>
+          <div class="chart-wrap"><canvas id="etsChart"></canvas></div>
+        </div>
+
+        <div class="table-box">
+          <div class="table-scroll" id="etsTableScroll">
+            <table class="index-table">
+              <thead>
+                <tr>
+                  <th>일자</th>
+                  <th>가격<br>(원/tCO2)</th>
+                  <th>대비</th>
+                  <th>등락률</th>
+                  <th>거래량</th>
+                </tr>
+              </thead>
+              <tbody id="etsTableBody"></tbody>
+            </table>
+          </div>
+          <div id="etsTableFootnote" class="table-footnote">데이터 로딩 중</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="index-panel" id="recPanel">
+      <div class="section-top">
+        <div class="section-label">REC</div>
+        <div class="period-toggle" aria-label="REC 그래프 조회 기간 선택">
+          <button class="period-btn active" data-target="rec" data-period="1M" type="button">1M</button>
+          <button class="period-btn" data-target="rec" data-period="3M" type="button">3M</button>
+          <button class="period-btn" data-target="rec" data-period="6M" type="button">6M</button>
+          <button class="period-btn" data-target="rec" data-period="Y" type="button">Y</button>
+        </div>
+      </div>
+
+      <div class="section-grid">
+        <div class="chart-box">
+          <div class="chart-title-row">
+            <div class="chart-title-left">
+              <div class="chart-title">REC 가격·거래량 추이</div>
+              <div id="recChartSubtitle" class="chart-subtitle">최근 1개월</div>
+            </div>
+            <button class="expand-btn" data-expand="rec" type="button" title="그래프 확대">⤢</button>
+          </div>
+          <div class="chart-wrap"><canvas id="recChart"></canvas></div>
+        </div>
+
+        <div class="table-box">
+          <div class="table-scroll" id="recTableScroll">
+            <table class="index-table">
+              <thead>
+                <tr>
+                  <th>일자</th>
+                  <th>가격<br>(원/REC)</th>
+                  <th>대비</th>
+                  <th>등락률</th>
+                  <th>거래량<br>(REC)</th>
+                </tr>
+              </thead>
+              <tbody id="recTableBody"></tbody>
+            </table>
+          </div>
+          <div id="recTableFootnote" class="table-footnote">데이터 로딩 중</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div id="modalBackdrop" class="modal-backdrop"></div>
+  <div id="chartModal" class="chart-modal" role="dialog" aria-modal="true" aria-label="그래프 확대 보기">
+    <div class="modal-header">
+      <div>
+        <div id="modalTitle" class="modal-title">그래프 확대</div>
+        <div id="modalSubtitle" class="chart-subtitle">최근 1개월</div>
+      </div>
+      <button id="modalCloseBtn" class="modal-close" type="button" aria-label="닫기">×</button>
+    </div>
+    <div class="modal-chart-wrap"><canvas id="modalChartCanvas"></canvas></div>
+  </div>
+
+  <script>
+    const URLS = {
+      smp: ['./data/epsis_index_data.json', './epsis_index_data.json'],
+      ets: ['./data/ets_index_data.json', './ets_index_data.json'],
+      rec: ['./data/rec_index_data.json', './rec_index_data.json']
+    };
+    const MAX_DAYS = 365;
+    const PERIOD_DAYS = { '1M': 30, '3M': 90, '6M': 180, 'Y': 365 };
+
+    const state = {
+      smp: { rows: [], chart: null, period: '1M' },
+      ets: { rows: [], chart: null, period: '1M' },
+      rec: { rows: [], chart: null, period: '1M' },
+      modalChart: null,
+      modalType: null
+    };
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+    }
+
+    function isValidNumber(value) {
+      return value !== null && value !== undefined && value !== '' && Number.isFinite(Number(value));
+    }
+
+    function formatNumber(value, digits = 0) {
+      if (!isValidNumber(value)) return '-';
+      return Number(value).toLocaleString('ko-KR', {
+        minimumFractionDigits: digits,
+        maximumFractionDigits: digits
+      });
+    }
+
+    function formatPercent(value) {
+      if (!isValidNumber(value)) return '-';
+      return `${formatNumber(value, 2)}%`;
+    }
+
+    function formatShortDate(dateStr) {
+      if (!dateStr) return '';
+      const parts = String(dateStr).split('-');
+      if (parts.length === 3) return `${Number(parts[1])}/${Number(parts[2])}`;
+      return String(dateStr);
+    }
+
+    function parseDate(dateStr) {
+      const [y, m, d] = String(dateStr).split('-').map(Number);
+      return new Date(y, m - 1, d);
+    }
+
+    function addDays(date, days) {
+      const next = new Date(date);
+      next.setDate(next.getDate() + days);
+      return next;
+    }
+
+    function getLatestDate(rows) {
+      if (!rows.length) return null;
+      return parseDate(rows[rows.length - 1].date);
+    }
+
+    function filterLastDays(rows, days) {
+      const latest = getLatestDate(rows);
+      if (!latest) return [];
+      const startDate = addDays(latest, -(days - 1));
+      return rows.filter(row => parseDate(row.date) >= startDate && parseDate(row.date) <= latest);
+    }
+
+    function getPeriodLabel(period) {
+      if (period === '1M') return '최근 1개월';
+      if (period === '3M') return '최근 3개월';
+      if (period === '6M') return '최근 6개월';
+      return '최근 1년';
+    }
+
+    async function fetchTextWithFallback(urlList) {
+      for (const url of urlList) {
+        const response = await fetch(url + '?v=' + Date.now());
+        if (response.ok) return response.text();
+      }
+      throw new Error(`${urlList.join(' 또는 ')} 파일을 불러오지 못했습니다.`);
+    }
+
+    function normalizeSmpRows(rawRows) {
+      return rawRows
+        .filter(row => row && row.date)
+        .map(row => ({
+          date: row.date,
+          smp: isValidNumber(row.smp) ? Number(row.smp) : null,
+          reserve_power: isValidNumber(row.reserve_power) ? Number(row.reserve_power) : null,
+          reserve_ratio: isValidNumber(row.reserve_ratio) ? Number(row.reserve_ratio) : null,
+          max_power: isValidNumber(row.max_power) ? Number(row.max_power) : null,
+          min_power: isValidNumber(row.min_power) ? Number(row.min_power) : null
+        }))
+        .sort((a, b) => parseDate(a.date) - parseDate(b.date));
+    }
+
+    function normalizeMarketRows(rawRows) {
+      return rawRows
+        .filter(row => row && row.date)
+        .map(row => ({
+          date: row.date,
+          price: isValidNumber(row.price) ? Number(row.price) : null,
+          change: isValidNumber(row.change) ? Number(row.change) : null,
+          change_rate: isValidNumber(row.change_rate) ? Number(row.change_rate) : null,
+          volume: isValidNumber(row.volume) ? Number(row.volume) : null
+        }))
+        .sort((a, b) => parseDate(a.date) - parseDate(b.date));
+    }
+
+    async function loadJson(type) {
+      const text = await fetchTextWithFallback(URLS[type]);
+      const cleanText = text.replace(/\bNaN\b/g, 'null');
+      return JSON.parse(cleanText);
+    }
+
+    async function loadSmpData() {
+      const rawRows = await loadJson('smp');
+      state.smp.rows = filterLastDays(normalizeSmpRows(rawRows), MAX_DAYS);
+      if (!state.smp.rows.length) throw new Error('표시할 SMP 데이터가 없습니다.');
+      renderSmpTable();
+      renderChart('smp', state.smp.period);
+    }
+
+    async function loadEtsData() {
+      const rawRows = await loadJson('ets');
+      state.ets.rows = filterLastDays(normalizeMarketRows(rawRows), MAX_DAYS);
+      if (!state.ets.rows.length) throw new Error('표시할 배출권 데이터가 없습니다.');
+      renderEtsTable();
+      renderChart('ets', state.ets.period);
+    }
+
+
+    async function loadRecData() {
+      const rawRows = await loadJson('rec');
+      state.rec.rows = filterLastDays(normalizeMarketRows(rawRows), MAX_DAYS);
+      if (!state.rec.rows.length) throw new Error('표시할 REC 데이터가 없습니다.');
+      renderMarketTable('rec');
+      renderChart('rec', state.rec.period);
+    }
+
+    function renderSmpTable() {
+      const tbody = document.getElementById('smpTableBody');
+      const displayRows = [...state.smp.rows].reverse();
+      tbody.innerHTML = displayRows.map(row => `
+        <tr>
+          <td>${escapeHtml(formatShortDate(row.date))}</td>
+          <td>${formatNumber(row.smp, 2)}</td>
+          <td>${formatNumber(row.reserve_power, 0)}</td>
+          <td>${formatNumber(row.max_power, 0)}</td>
+          <td>${formatNumber(row.min_power, 0)}</td>
+        </tr>
+      `).join('');
+      document.getElementById('smpTableScroll').scrollTop = 0;
+      updateFootnote('smp');
+    }
+
+    function renderMarketTable(type) {
+      const tbody = document.getElementById(type + 'TableBody');
+      const displayRows = [...state[type].rows].reverse();
+      tbody.innerHTML = displayRows.map(row => `
+        <tr>
+          <td>${escapeHtml(formatShortDate(row.date))}</td>
+          <td>${formatNumber(row.price, 0)}</td>
+          <td>${formatNumber(row.change, 0)}</td>
+          <td>${formatPercent(row.change_rate)}</td>
+          <td>${formatNumber(row.volume, 0)}</td>
+        </tr>
+      `).join('');
+      document.getElementById(type + 'TableScroll').scrollTop = 0;
+      updateFootnote(type);
+    }
+
+    function renderEtsTable() {
+      renderMarketTable('ets');
+    }
+
+    function updateFootnote(type) {
+      const rows = state[type].rows;
+      const first = rows[0]?.date;
+      const last = rows[rows.length - 1]?.date;
+      const el = document.getElementById(type + 'TableFootnote');
+      el.textContent = first && last ? `${first} ~ ${last} / 총 ${rows.length}일` : '데이터 없음';
+    }
+
+    function commonOptions(type, maxTicksLimit = 8) {
+      const isSmp = type === 'smp';
+      const isRec = type === 'rec';
+      return {
+        maintainAspectRatio: false,
+        responsive: true,
+        plugins: {
+          legend: {
+            display: true,
+            position: 'top',
+            labels: { boxWidth: 14, boxHeight: 8, font: { size: 12, weight: '700' } }
+          },
+          tooltip: {
+            enabled: true,
+            mode: 'index',
+            intersect: false,
+            callbacks: {
+              title: context => formatShortDate(context[0]?.label ?? ''),
+              label: context => {
+                if (isSmp) {
+                  return context.dataset.yAxisID === 'y1'
+                    ? `예비력: ${formatNumber(context.raw, 0)} MW`
+                    : `SMP: ${formatNumber(context.raw, 2)} 원/kWh`;
+                }
+                return context.dataset.yAxisID === 'y1'
+                  ? `거래량: ${formatNumber(context.raw, 0)}`
+                  : (isRec ? `가격: ${formatNumber(context.raw, 0)} 원/REC` : `가격: ${formatNumber(context.raw, 0)} 원/tCO2`);
+              }
+            }
+          }
+        },
+        interaction: { mode: 'index', intersect: false },
+        scales: {
+          y: {
+            type: 'linear',
+            position: 'left',
+            beginAtZero: false,
+            title: {
+              display: true,
+              text: isSmp ? 'SMP (원/kWh)' : (isRec ? '가격 (원/REC)' : '가격 (원/tCO2)'),
+              font: { size: 12, weight: '700' }
+            },
+            ticks: { callback: value => Number(value).toLocaleString('ko-KR') },
+            grid: { color: 'rgba(148, 163, 184, 0.24)' }
+          },
+          y1: {
+            type: 'linear',
+            position: 'right',
+            beginAtZero: true,
+            title: {
+              display: true,
+              text: isSmp ? '예비력 (MW)' : (isRec ? '거래량 (REC)' : '거래량'),
+              font: { size: 12, weight: '700' }
+            },
+            ticks: { callback: value => Number(value).toLocaleString('ko-KR') },
+            grid: { drawOnChartArea: false }
+          },
+          x: {
+            grid: { display: false },
+            ticks: {
+              maxTicksLimit,
+              callback: function(value) { return formatShortDate(this.getLabelForValue(value)); }
+            }
+          }
+        }
+      };
+    }
+
+    function makeChartConfig(type, rows, maxTicksLimit = 8) {
+      const isSmp = type === 'smp';
+      const isRec = type === 'rec';
+      const labels = rows.map(row => row.date);
+      const barData = isSmp ? rows.map(row => row.reserve_power) : rows.map(row => row.volume);
+      const lineData = isSmp ? rows.map(row => row.smp) : rows.map(row => row.price);
+      return {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [
+            {
+              type: 'bar',
+              label: isSmp ? '예비력 (MW)' : (isRec ? '거래량 (REC)' : '거래량'),
+              data: barData,
+              yAxisID: 'y1',
+              backgroundColor: 'rgba(47, 95, 149, 0.24)',
+              borderColor: 'rgba(47, 95, 149, 0.56)',
+              borderWidth: 1,
+              order: 2,
+              barPercentage: 0.86,
+              categoryPercentage: 0.92
+            },
+            {
+              type: 'line',
+              label: isSmp ? 'SMP (원/kWh)' : (isRec ? '가격 (원/REC)' : '가격 (원/tCO2)'),
+              data: lineData,
+              yAxisID: 'y',
+              borderColor: '#f97316',
+              backgroundColor: 'rgba(249, 115, 22, 0.12)',
+              borderWidth: 2,
+              fill: false,
+              tension: 0,
+              spanGaps: true,
+              pointRadius: 0,
+              pointHoverRadius: 4,
+              hitRadius: 12,
+              order: 1
+            }
+          ]
+        },
+        options: commonOptions(type, maxTicksLimit)
+      };
+    }
+
+    function renderChart(type, period) {
+      state[type].period = period;
+      const rows = filterLastDays(state[type].rows, PERIOD_DAYS[period] || 365);
+      const label = getPeriodLabel(period);
+      document.getElementById(type + 'ChartSubtitle').textContent = label;
+      if (state[type].chart) state[type].chart.destroy();
+      state[type].chart = new Chart(document.getElementById(type + 'Chart'), makeChartConfig(type, rows, 8));
+      if (state.modalType === type && state.modalChart) {
+        document.getElementById('modalSubtitle').textContent = label;
+        state.modalChart.destroy();
+        state.modalChart = new Chart(document.getElementById('modalChartCanvas'), makeChartConfig(type, rows, 14));
+      }
+    }
+
+    function openChartModal(type) {
+      state.modalType = type;
+      const period = state[type].period;
+      const rows = filterLastDays(state[type].rows, PERIOD_DAYS[period] || 365);
+      document.getElementById('modalTitle').textContent = type === 'smp' ? 'SMP·예비력 추이 확대' : (type === 'rec' ? 'REC 가격·거래량 추이 확대' : '배출권 가격·거래량 추이 확대');
+      document.getElementById('modalSubtitle').textContent = getPeriodLabel(period);
+      document.getElementById('modalBackdrop').classList.add('show');
+      document.getElementById('chartModal').classList.add('show');
+      if (state.modalChart) state.modalChart.destroy();
+      state.modalChart = new Chart(document.getElementById('modalChartCanvas'), makeChartConfig(type, rows, 14));
+    }
+
+    function closeChartModal() {
+      document.getElementById('modalBackdrop').classList.remove('show');
+      document.getElementById('chartModal').classList.remove('show');
+      if (state.modalChart) {
+        state.modalChart.destroy();
+        state.modalChart = null;
+      }
+      state.modalType = null;
+    }
+
+    function bindButtons() {
+      document.querySelectorAll('.period-btn').forEach(button => {
+        button.addEventListener('click', () => {
+          const type = button.dataset.target;
+          const parent = button.closest('.period-toggle');
+          parent.querySelectorAll('.period-btn').forEach(btn => btn.classList.remove('active'));
+          button.classList.add('active');
+          if (state[type].rows.length) renderChart(type, button.dataset.period);
+        });
+      });
+      document.querySelectorAll('[data-expand]').forEach(button => {
+        button.addEventListener('click', () => {
+          const type = button.dataset.expand;
+          if (state[type].rows.length) openChartModal(type);
+        });
+      });
+    }
+
+    function showSectionError(type, error) {
+      console.error(error);
+      const foot = document.getElementById(type + 'TableFootnote');
+      foot.innerHTML = `<span class="error-text">${escapeHtml(error.message)}</span>`;
+    }
+
+    bindButtons();
+    document.getElementById('modalCloseBtn').addEventListener('click', closeChartModal);
+    document.getElementById('modalBackdrop').addEventListener('click', closeChartModal);
+    document.addEventListener('keydown', event => { if (event.key === 'Escape') closeChartModal(); });
+    window.addEventListener('resize', () => {
+      if (state.smp.chart) state.smp.chart.resize();
+      if (state.ets.chart) state.ets.chart.resize();
+      if (state.rec.chart) state.rec.chart.resize();
+      if (state.modalChart) state.modalChart.resize();
+    });
+
+    loadSmpData().catch(error => showSectionError('smp', error));
+    loadEtsData().catch(error => showSectionError('ets', error));
+    loadRecData().catch(error => showSectionError('rec', error));
+  </script>
+</body>
+</html>
