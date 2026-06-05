@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>일일 뉴스 클리핑 대시보드</title>
+  <style>
+    @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+    :root {
+      --primary-color: #0c2340; /* 한화 네이비 */
+      --accent-color: #f37021;  /* 한화 오렌지 */
+      --accent-hover: #d95d16;
+      --bg-gradient-start: #f8fafc;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Pretendard Variable", "Segoe UI", "Malgun Gothic", sans-serif;
+      background: linear-gradient(180deg, #f8fafc 0%, #ffffff 400px);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+    .container { max-width: 1440px; margin: 0 auto; padding: 32px 24px; }
+    .card { background: #ffffff; border-radius: 16px; border: 1px solid var(--border-color); box-shadow: 0 4px 20px rgba(15, 23, 42, 0.03); }
+
+    
+
+    /* 선별 기사 섹션 */
+    .left-panel, .archive-panel { padding: 32px; margin-bottom: 24px; }
+    .section-head h2, .archive-header h2 { margin: 0; font-size: 22px; font-weight: 700; position: relative; padding-left: 12px; }
+    .section-head h2::before, .archive-header h2::before { content: ''; position: absolute; left: 0; top: 4px; bottom: 4px; width: 4px; background: var(--accent-color); border-radius: 2px; }
+    .section-head, .archive-header { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
+    .archive-desc { margin-top: 6px; font-size: 13px; color: var(--text-muted); }
+
+    /* 필터 및 조작계 */
+    .filters, .archive-controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .archive-controls { background: #f8fafc; padding: 16px; border-radius: 12px; margin-bottom: 20px; gap: 12px; }
+    
+    .pill, select, input {
+      border-radius: 8px; padding: 9px 16px; font-size: 13px; font-weight: 600;
+      border: 1px solid var(--border-color); background: #ffffff; color: #475569; transition: all 0.15s ease;
+    }
+    .pill { cursor: pointer; background: #f1f5f9; border-color: transparent; }
+    .pill:hover { background: #e2e8f0; color: var(--primary-color); }
+    .pill.active { background: var(--primary-color); color: #ffffff; }
+    
+    select { padding-right: 32px; cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23475569'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; background-size: 14px; }
+    select:focus, input:focus { border-color: var(--accent-color); outline: none; box-shadow: 0 0 0 3px rgba(243, 112, 33, 0.1); }
+    input[type="text"] { min-width: 260px; color: var(--text-main); }
+
+    /* 오늘 선별 기사 Grid */
+    .today-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+    .news-item { border: 1px solid var(--border-color); border-radius: 14px; padding: 24px; background: #ffffff; transition: all 0.2s ease; display: flex; flex-direction: column; justify-content: space-between; }
+    .news-item:hover { transform: translateY(-2px); box-shadow: 0 12px 24px rgba(15, 23, 42, 0.06); border-color: #cbd5e1; }
+    
+    .meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; }
+    .badge { border-radius: 6px; padding: 4px 8px; font-size: 11px; font-weight: 700; border: 1px solid transparent; letter-spacing: -0.01em; }
+    
+    /* 중요도 배지 테마 고도화 */
+    .priority-important { background: #fef2f2; color: #ef4444; border-color: #fecaca; }
+    .priority-normal { background: #fffbeb; color: #d97706; border-color: #fef3c7; }
+    .priority-ref { background: #f8fafc; color: #64748b; border-color: #e2e8f0; }
+    
+    .category { font-weight: 700; font-size: 12px; color: var(--primary-color); background: rgba(12, 35, 64, 0.05); padding: 4px 8px; border-radius: 6px; }
+    .source, .time { font-size: 12px; color: var(--text-muted); }
+    .time::before { content: '•'; margin-right: 6px; color: #cbd5e1; }
+    
+    .news-title { margin: 0 0 12px; font-size: 18px; font-weight: 700; line-height: 1.45; color: #0f172a; }
+    .news-summary { margin: 0 0 16px; color: #475569; font-size: 13.5px; line-height: 1.65; text-align: justify; }
+    
+    /* 시사점 블록 가독성 개선 */
+    .news-impact { padding: 14px 16px; background: #f8fafc; border-left: 3px solid var(--accent-color); border-radius: 0 8px 8px 0; color: #334155; font-size: 13px; line-height: 1.6; margin-bottom: 16px; }
+    .impact-label { display: block; font-weight: 800; color: var(--accent-color); font-size: 11px; text-transform: uppercase; margin-bottom: 4px; letter-spacing: 0.05em; }
+    
+    .news-footer { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: auto; padding-top: 12px; border-top: 1px dashed var(--border-color); }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .tag { background: #f1f5f9; color: #64748b; border-radius: 4px; padding: 3px 8px; font-size: 11px; font-weight: 500; }
+    
+    .news-actions { display: flex; gap: 6px; flex-shrink: 0; }
+    .article-btn {
+      display: inline-flex; align-items: center; justify-content: center; text-decoration: none;
+      border: 1px solid var(--border-color); background: #ffffff; color: #475569; border-radius: 6px;
+      padding: 7px 12px; font-size: 12px; font-weight: 600; white-space: nowrap; cursor: pointer; transition: all 0.15s ease;
+    }
+    .article-btn { background: var(--primary-color); color: #ffffff; border-color: var(--primary-color); }
+    .article-btn:hover { background: #1e3a5f; border-color: #1e3a5f; }
+
+    /* 아카이브 아코디언 서식 */
+    .archive-scroll { max-height: 800px; overflow-y: auto; padding-right: 4px; }
+    .archive-scroll::-webkit-scrollbar { width: 6px; }
+    .archive-scroll::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 999px; }
+    .archive-grid { display: flex; flex-direction: column; gap: 10px; }
+    .archive-accordion { border: 1px solid var(--border-color); border-radius: 10px; background: #ffffff; overflow: hidden; }
+    .archive-accordion:hover { border-color: #cbd5e1; }
+    .archive-summary-row { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 14px 20px; background: #ffffff; }
+    .archive-summary-row::-webkit-details-marker { display: none; }
+    .archive-summary-left { display: flex; align-items: center; gap: 12px; min-width: 0; flex: 1; flex-wrap: wrap; }
+    .archive-headline { font-size: 14.5px; font-weight: 600; color: #0f172a; min-width: 0; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .archive-meta { display: flex; gap: 12px; flex-wrap: wrap; font-size: 12px; color: var(--text-muted); }
+    .archive-arrow { flex-shrink: 0; color: #94a3b8; font-size: 14px; transition: transform 0.2s ease; }
+    .archive-accordion[open] .archive-arrow { transform: rotate(180deg); color: var(--primary-color); }
+    
+    .archive-detail { border-top: 1px solid #f1f5f9; padding: 20px; background: #f8fafc; }
+    .archive-detail-inner { display: flex; flex-direction: column; gap: 12px; }
+    .archive-summary-text { margin: 0; color: #475569; font-size: 13.5px; line-height: 1.65; }
+    .archive-impact { margin: 0; padding: 12px 16px; border-radius: 8px; background: #ffffff; border-left: 3px solid var(--accent-color); color: #334155; font-size: 13px; }
+    .archive-impact strong { color: var(--accent-color); font-weight: 700; margin-right: 6px; }
+
+    .archive-empty { padding: 40px; text-align: center; color: var(--text-muted); font-size: 13.5px; border: 1px dashed var(--border-color); border-radius: 12px; background: #f8fafc; }
+    .loading { padding: 32px; color: var(--text-muted); font-size: 13.5px; text-align: center; }
+    /* 반응형 레이아웃 단락 조정 */
+    @media (max-width: 1200px) {
+      .today-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 768px) {
+      .container { padding: 16px; }
+      .hero-inner { padding: 24px; }
+      .left-panel, .archive-panel { padding: 20px; }
+      h1 { font-size: 24px; }
+      input[type="text"] { min-width: 100%; }
+      .archive-summary-left { align-items: flex-start; flex-direction: column; gap: 4px; }
+      .archive-headline { white-space: normal; }
+    }
+
+    /* 인쇄 및 PDF 다운로드 최적화 스타일 (사내 보고서 제출용) */
+    @media print {
+      body { background: #ffffff; color: #000000; font-size: 12pt; }
+      .container { max-width: 100%; padding: 0; }
+      .card { border: none; box-shadow: none; padding: 0 !important; margin-bottom: 30px; }
+      .hero, .filters, .archive-controls, .news-actions, .archive-arrow { display: none !important; }
+      .news-item { page-break-inside: avoid; border: 1px solid #000000; margin-bottom: 15px; padding: 15px; }
+      .archive-accordion { border: none; margin-bottom: 15px; display: block !important; }
+      .archive-detail { display: block !important; background: transparent; padding: 10px 0; border-top: 1px dashed #000000; }
+      .archive-summary-row { cursor: default; background: transparent; padding: 5px 0; }
+      .archive-headline { white-space: normal; font-size: 14pt; font-weight: bold; }
+    }
+  
+
+    
+
+    /* ── HERO HEADER ── */
+    .hero {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-left: 4px solid #f37021;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+      margin-bottom: 24px;
+      overflow: hidden;
+    }
+
+    .hero-inner {
+      padding: 22px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 1;
+      min-width: 0;
+    }
+
+    .hero-brand {
+      display: block;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #f37021;
+      margin-bottom: 5px;
+    }
+
+    .hero-title {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      color: #0c2340;
+    }
+
+    .hero-subtitle {
+      margin: 5px 0 0;
+      font-size: 13px;
+      color: #64748b;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+
+    .hero-meta {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .date-box {
+      display: inline-flex;
+      align-items: center;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 7px 14px;
+      font-size: 13px;
+      color: #475569;
+      white-space: nowrap;
+    }
+
+    .date-box strong {
+      color: #f37021;
+      font-weight: 700;
+      margin-left: 4px;
+    }
+
+    @media (max-width: 720px) {
+      .hero-inner { padding: 16px 18px; flex-direction: column; align-items: flex-start; gap: 12px; }
+      .hero-title { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1 class="hero-title">Daily News Clipping</h1>
+          <p class="hero-subtitle">금일 핵심 선별 기사를 우선 확인하고, 하단 아카이브를 통해 축적된 과거 이슈를 정밀 추적할 수 있습니다.</p>
+        </div>
+        <div class="hero-meta">
+          <div class="date-box">기준일 <strong id="baseDate">-</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="card left-panel">
+      <div class="section-head">
+        <h2>금일 선별 기사</h2>
+        <div class="filters">
+          <button class="pill active" data-today-filter="all">전체</button>
+          <button class="pill" data-today-filter="중요">중요</button>
+          <button class="pill" data-today-filter="정책·제도">정책·제도</button>
+          <button class="pill" data-today-filter="LNG·에너지안보">LNG</button>
+        </div>
+      </div>
+      <div class="today-grid" id="todayList"><div class="loading">데이터 로드 중...</div></div>
+    </div>
+
+    <div class="card archive-panel">
+      <div class="archive-header">
+        <div>
+          <h2>과거 뉴스 클리핑 아카이브</h2>
+          <div class="archive-desc">과거 이력 검색 및 중요도·키워드 연계 다차원 필터링 영역</div>
+        </div>
+      </div>
+
+      <div class="archive-controls">
+        <select id="priorityFilter">
+          <option value="all">중요도 전체</option>
+          <option value="중요">중요</option>
+          <option value="보통">보통</option>
+          <option value="참고">참고</option>
+        </select>
+
+        <select id="keywordFilter">
+          <option value="all">키워드 전체</option>
+        </select>
+
+        <select id="dateFilter">
+          <option value="all">날짜 전체</option>
+        </select>
+
+        <input type="text" id="titleSearch" placeholder="결과 내 제목 검색" />
+      </div>
+
+      <div class="archive-scroll">
+        <div class="archive-grid" id="archiveList"><div class="loading">데이터 로드 중...</div></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const DATA_PATHS = {
+      today: "./data/today_news.json",
+      archive: "./data/archive_news.json"
+    };
+
+    let todayNews = [];
+    let archiveNews = [];
+
+    const todayList = document.getElementById("todayList");
+    const archiveList = document.getElementById("archiveList");
+    const keywordFilter = document.getElementById("keywordFilter");
+    const dateFilter = document.getElementById("dateFilter");
+    const priorityFilter = document.getElementById("priorityFilter");
+    const titleSearch = document.getElementById("titleSearch");
+
+    function priorityClass(priority) {
+      if (priority === "중요") return "priority-important";
+      if (priority === "보통") return "priority-normal";
+      return "priority-ref";
+    }
+
+    function escapeHtml(str) {
+      return String(str ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#39;");
+    }
+    function createNewsCard(item) {
+      const tags = Array.isArray(item.tags) ? item.tags : [];
+      return `
+        <div class="news-item">
+          <div>
+            <div class="meta">
+              <span class="badge ${priorityClass(item.priority)}">${escapeHtml(item.priority)}</span>
+              <span class="category">${escapeHtml(item.category)}</span>
+              <span class="source">${escapeHtml(item.source)}</span>
+              <span class="time">${escapeHtml(item.datetime)}</span>
+            </div>
+            <h3 class="news-title">${escapeHtml(item.title)}</h3>
+            <p class="news-summary">${escapeHtml(item.summary)}</p>
+            <div class="news-impact">
+              <span class="impact-label">시사점</span>
+              ${escapeHtml(item.implication)}
+            </div>
+          </div>
+          <div class="news-footer">
+            <div class="tags">
+              ${tags.map(tag => `<span class="tag">#${escapeHtml(tag)}</span>`).join("")}
+            </div>
+            <div class="news-actions">
+              <a class="article-btn" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">기사 보기</a>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function createArchiveAccordion(item) {
+      const tags = Array.isArray(item.tags) ? item.tags : [];
+      return `
+        <details class="archive-accordion">
+          <summary class="archive-summary-row">
+            <div class="archive-summary-left">
+              <span class="badge ${priorityClass(item.priority)}">${escapeHtml(item.priority)}</span>
+              <div class="archive-headline">${escapeHtml(item.title)}</div>
+              <div class="archive-meta">
+                <span>${escapeHtml(item.category)}</span>
+                <span>${escapeHtml(item.source)}</span>
+                <span>${escapeHtml(item.datetime || item.date)}</span>
+              </div>
+            </div>
+            <span class="archive-arrow">⌄</span>
+          </summary>
+          <div class="archive-detail">
+            <div class="archive-detail-inner">
+              <p class="archive-summary-text">${escapeHtml(item.summary)}</p>
+              <p class="archive-impact"><strong>시사점</strong>${escapeHtml(item.implication)}</p>
+              <div class="archive-footer">
+                <div class="tags">
+                  ${tags.map(tag => `<span class="tag">#${escapeHtml(tag)}</span>`).join("")}
+                </div>
+                <div class="news-actions">
+                  <a class="article-btn" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">기사 보기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+      `;
+    }
+
+    function renderTodayList(filterValue = "all") {
+      let filtered = todayNews;
+      if (filterValue !== "all") {
+        filtered = todayNews.filter(item => item.priority === filterValue || item.category === filterValue);
+      }
+      if (!filtered.length) {
+        todayList.innerHTML = '<div class="archive-empty">표시할 금일 기사가 없습니다.</div>';
+        return;
+      }
+      todayList.innerHTML = filtered.map(createNewsCard).join("");
+    }
+
+    function formatBaseDateValue(value) {
+      if (!value) return "-";
+      const match = String(value).match(/^(\d{4})[-.](\d{1,2})[-.](\d{1,2})/);
+      if (match) return `${match[1]}.${String(Number(match[2])).padStart(2, "0")}.${String(Number(match[3])).padStart(2, "0")}`;
+      return String(value);
+    }
+
+    function getLatestDate(items) {
+      const dates = items.map(item => item.date).filter(Boolean).sort();
+      return dates.length ? dates[dates.length - 1] : "";
+    }
+
+    function populateSummary() {
+      const baseDate = getLatestDate(todayNews);
+      document.getElementById("baseDate").textContent = formatBaseDateValue(baseDate);
+    }
+
+    function populateArchiveFilters() {
+      const keywords = [...new Set(archiveNews.flatMap(item => item.tags || []))].sort();
+      const dates = [...new Set(archiveNews.map(item => item.date).filter(Boolean))].sort().reverse();
+
+      keywordFilter.innerHTML = '<option value="all">키워드 전체</option>' +
+        keywords.map(k => `<option value="${escapeHtml(k)}">${escapeHtml(k)}</option>`).join("");
+
+      dateFilter.innerHTML = '<option value="all">날짜 전체</option>' +
+        dates.map(d => `<option value="${escapeHtml(d)}">${escapeHtml(d)}</option>`).join("");
+    }
+
+    function renderArchiveList() {
+      const p = priorityFilter.value;
+      const k = keywordFilter.value;
+      const d = dateFilter.value;
+      const q = titleSearch.value.trim().toLowerCase();
+
+      const filtered = archiveNews.filter(item => {
+        const priorityOk = p === "all" || item.priority === p;
+        const keywordOk = k === "all" || (item.tags || []).includes(k);
+        const dateOk = d === "all" || item.date === d;
+        const searchOk = !q || (item.title || "").toLowerCase().includes(q);
+        return priorityOk && keywordOk && dateOk && searchOk;
+      });
+
+      if (!filtered.length) {
+        archiveList.innerHTML = '<div class="archive-empty">조건에 맞는 기사가 없습니다.</div>';
+        return;
+      }
+      archiveList.innerHTML = filtered.map(createArchiveAccordion).join("");
+    }
+
+    async function loadJson(path) {
+      const res = await fetch(path + "?v=" + Date.now());
+      if (!res.ok) {
+        throw new Error(`${path} 로드 실패`);
+      }
+      return await res.json();
+    }
+
+    async function init() {
+      try {
+        const [todayData, archiveData] = await Promise.all([
+          loadJson(DATA_PATHS.today),
+          loadJson(DATA_PATHS.archive),
+        ]);
+
+        todayNews = todayData;
+        archiveNews = archiveData;
+
+        populateSummary();
+        renderTodayList();
+        populateArchiveFilters();
+        renderArchiveList();
+
+        document.querySelectorAll("[data-today-filter]").forEach(btn => {
+          btn.addEventListener("click", () => {
+            document.querySelectorAll("[data-today-filter]").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            renderTodayList(btn.dataset.todayFilter);
+          });
+        });
+
+        [priorityFilter, keywordFilter, dateFilter].forEach(el => {
+          el.addEventListener("change", renderArchiveList);
+        });
+        titleSearch.addEventListener("input", renderArchiveList);
+
+      } catch (error) {
+        const msg = `<div class="archive-empty">데이터를 불러오지 못했습니다.<br>${escapeHtml(error.message)}</div>`;
+        todayList.innerHTML = msg;
+        archiveList.innerHTML = msg;
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

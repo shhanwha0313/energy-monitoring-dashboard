@@ -3,1448 +3,2254 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Index Dashboard - All Indicators · LNG</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <title>통합 에너지 모니터링 대시보드</title>
   <style>
     :root {
-      --navy: #062a68;
-      --blue: #0b69c7;
-      --orange: #f97316;
-      --panel: #eef4fb;
-      --section-card-h: clamp(320px, 25vw, 380px);
-      --section-chart-h: calc(var(--section-card-h) - 78px);
-      --section-table-foot-h: 32px;
+      --navy: #0c2340;
+      --navy-2: #1a365d;
+      --blue: #1e5fad;
+      --blue-soft: #e8f0fb;
+      --orange: #f37021;
+      --accent: #f37021;
+      --accent-hover: #d95d16;
+      --orange-soft: #fff4ee;
+      --green: #16a34a;
+      --red: #dc2626;
+      --text: #1e293b;
+      --muted: #64748b;
+      --line: #e2e8f0;
+      --surface: #f8fafc;
+      --panel: #ffffff;
+      --shadow-sm: 0 4px 20px rgba(15, 23, 42, 0.03);
+      --shadow-md: 0 4px 20px rgba(15, 23, 42, 0.06);
+      --radius: 16px;
     }
+
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
-      background: #f5efe4;
-      color: #0f172a;
-      font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Segoe UI", sans-serif;
+      font-family: "Pretendard Variable", "Pretendard", "Malgun Gothic", "Apple SD Gothic Neo", "Segoe UI", sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #f8fafc 0%, #ffffff 400px);
+      line-height: 1.6;
     }
 
-    .page-wrap {
-      max-width: 1480px;
+    .page {
+      max-width: 1440px;
       margin: 0 auto;
-      padding: 10px 14px 24px;
+      padding: 32px 24px 40px;
     }
 
+    /* Hero */
     .hero {
-      border-radius: 22px;
       overflow: hidden;
-      box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
+      border-radius: var(--radius);
+      margin-bottom: 24px;
+      box-shadow: var(--shadow-md);
     }
 
     .hero-inner {
-      background: linear-gradient(120deg, #163a63 0%, #214f84 55%, #2a67aa 100%);
+      background: linear-gradient(135deg, #0c2340 0%, #1a365d 100%);
+      padding: 28px 32px;
       color: #fff;
-      padding: 28px 34px 30px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .hero-inner::after {
+      content: '';
+      position: absolute;
+      right: 0; top: 0;
+      width: 300px; height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(243,112,33,0.05));
+      pointer-events: none;
     }
 
     .brand {
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 800;
-      letter-spacing: 0.18em;
+      letter-spacing: 0.2em;
       text-transform: uppercase;
-    }
-
-    .dashboard-title {
-      margin-top: 10px;
-      font-size: 34px;
-      font-weight: 800;
-      line-height: 1.15;
-    }
-
-    .dashboard-desc {
-      margin-top: 10px;
-      font-size: 15px;
-      color: #eff6ff;
-    }
-
-    .index-panel {
-      margin-top: 10px;
-      background: var(--panel);
-      border: 1.8px solid #1b4c93;
-      border-radius: 10px;
-      padding: 8px 14px 18px;
-      position: relative;
-    }
-
-    .section-top {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      margin-bottom: 12px;
-    }
-
-    .section-label {
-      width: 250px;
-      height: 34px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: var(--navy);
-      color: #fff;
-      font-size: 18px;
-      font-weight: 800;
-      letter-spacing: 0.01em;
-    }
-
-    .period-toggle {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-      justify-content: flex-end;
-      flex-wrap: wrap;
-    }
-
-    .period-btn {
-      min-width: 50px;
-      height: 25px;
-      padding: 0 12px;
-      border: 1.5px solid #0070c0;
-      border-radius: 4px;
-      background: #fff;
-      color: #0070c0;
-      font-size: 17px;
-      font-weight: 800;
-      line-height: 1;
-      cursor: pointer;
-      transition: all 0.15s ease;
-    }
-
-    .period-btn:hover,
-    .period-btn.active {
-      background: #0070c0;
-      color: #fff;
-    }
-
-    .section-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 2.15fr) minmax(300px, 0.85fr);
-      gap: clamp(10px, 1.1vw, 16px);
-      align-items: start;
-      min-width: 0;
-    }
-
-    .chart-box {
-      min-width: 0;
-      height: var(--section-card-h);
-      min-height: 0;
-      max-height: var(--section-card-h);
-      background: #fff;
-      border: 1px solid #e3e8ef;
-      display: flex;
-      flex-direction: column;
-      padding: clamp(8px, 0.8vw, 12px) clamp(9px, 1vw, 14px) 10px;
-      overflow: hidden;
-    }
-
-    .chart-title-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
+      color: var(--accent);
       margin-bottom: 6px;
     }
 
-    .chart-title-left {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
+    .hero h1 {
+      margin: 0;
+      font-size: 26px;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      font-weight: 700;
+      color: #fff;
     }
 
-    .expand-btn {
-      width: 30px;
-      height: 30px;
-      border-radius: 999px;
-      border: 1px solid #cbd5e1;
-      background: #fff;
-      color: #0f172a;
+    /* 탭 (hero 우측) */
+    .hero-tabs {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .tab-btn {
+      border: 1px solid rgba(255,255,255,0.15);
+      background: rgba(255,255,255,0.07);
+      color: rgba(255,255,255,0.65);
+      border-radius: 8px;
+      padding: 9px 18px;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: inherit;
       cursor: pointer;
+      transition: 0.15s ease;
+      white-space: nowrap;
+    }
+
+    .tab-btn:hover {
+      background: rgba(255,255,255,0.14);
+      color: #fff;
+      border-color: rgba(255,255,255,0.3);
+    }
+
+    .tab-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+      box-shadow: 0 2px 8px rgba(243,112,33,0.35);
+    }
+
+    .panel { display: none; }
+    .panel.active { display: block; }
+
+    .overview-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(360px, 0.75fr);
+      gap: 24px;
+      align-items: start;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+    }
+
+    .card-pad { padding: 18px; }
+
+    .section-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .section-title {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.01em;
+      position: relative;
+      padding-left: 12px;
+    }
+
+    .section-title::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 3px; bottom: 3px;
+      width: 4px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+
+    .section-desc {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .detail-link-btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      font-size: 16px;
-      font-weight: 800;
-      box-shadow: 0 2px 6px rgba(15, 23, 42, 0.10);
-      transition: all 0.15s ease;
-    }
-
-    .expand-btn:hover {
-      background: #eef6ff;
-      border-color: #0070c0;
-      color: #0070c0;
-    }
-
-    .chart-title {
-      font-size: 15px;
-      font-weight: 800;
-      color: #0f172a;
-    }
-
-    .chart-subtitle {
+      min-height: 32px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 0 12px;
+      background: var(--surface);
+      color: var(--navy);
       font-size: 12px;
-      font-weight: 600;
-      color: #64748b;
+      font-weight: 700;
+      font-family: inherit;
+      text-decoration: none;
+      cursor: pointer;
       white-space: nowrap;
+      transition: 0.15s ease;
     }
 
-    .chart-wrap {
-      flex: 0 0 var(--section-chart-h);
-      width: 100%;
-      height: var(--section-chart-h);
-      min-width: 0;
-      min-height: 0;
-      max-height: var(--section-chart-h);
-      position: relative;
-    }
-
-    .chart-wrap canvas,
-    .modal-chart-wrap canvas {
-      width: 100% !important;
-      height: 100% !important;
-    }
-
-    .table-box {
-      min-width: 0;
-      height: var(--section-card-h);
-      min-height: 0;
-      max-height: var(--section-card-h);
-      background: #fff;
-      border: 1px solid #475569;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .table-scroll {
-      height: calc(var(--section-card-h) - var(--section-table-foot-h));
-      overflow-y: auto;
-      overflow-x: hidden;
-      flex: 0 0 calc(var(--section-card-h) - var(--section-table-foot-h));
-    }
-
-    table.index-table {
-      width: 100%;
-      border-collapse: separate;
-      border-spacing: 0;
-      table-layout: fixed;
-      font-size: clamp(11px, 0.82vw, 13px);
-    }
-
-    .index-table th,
-    .index-table td {
-      padding: clamp(5px, 0.55vw, 8px) clamp(3px, 0.45vw, 7px);
-      border-right: 1px solid #555;
-      border-bottom: 1px solid #8b8b8b;
-      text-align: center;
-      white-space: nowrap;
-      background: #fff;
-    }
-
-    .index-table th:last-child,
-    .index-table td:last-child {
-      border-right: none;
-    }
-
-    .index-table thead th {
-      position: sticky;
-      top: 0;
-      z-index: 2;
+    .detail-link-btn:hover {
       background: var(--navy);
       color: #fff;
-      font-size: clamp(11px, 0.82vw, 13px);
-      font-weight: 800;
-      line-height: 1.25;
+      border-color: var(--navy);
     }
 
-    .index-table tbody td {
-      color: #111827;
-      font-weight: 500;
-    }
-
-    .index-table tbody tr:hover td {
-      background: #f8fbff;
-    }
-
-    .table-footnote {
-      height: var(--section-table-foot-h);
-      padding: 7px 10px;
-      border-top: 1px solid #d7dde6;
-      background: #f8fafc;
-      font-size: 12px;
-      color: #64748b;
-      text-align: right;
-    }
-
-    .modal-backdrop {
-      position: fixed;
-      inset: 0;
-      display: none;
-      background: rgba(15, 23, 42, 0.55);
-      z-index: 40;
-    }
-
-    .modal-backdrop.show { display: block; }
-
-    .chart-modal {
-      position: fixed;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      width: min(1180px, 94vw);
-      height: min(760px, 88vh);
-      display: none;
+    /* ── KPI 섹션 그룹 ── */
+    .kpi-overview {
+      display: flex;
       flex-direction: column;
-      background: #fff;
-      border-radius: 20px;
-      box-shadow: 0 24px 70px rgba(15, 23, 42, 0.30);
-      z-index: 50;
-      overflow: hidden;
+      gap: 18px;
+      width: 100%;
     }
 
-    .chart-modal.show { display: flex; }
+    .kpi-section {
+      width: 100%;
+      min-width: 0;
+    }
 
-    .modal-header {
+    .kpi-section-label {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 10px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    /* 국내 지표: 3열 카드 */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      width: 100%;
+    }
+
+    .kpi-card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 15px 16px;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .kpi-top {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 12px;
-      padding: 14px 18px;
-      border-bottom: 1px solid #e5e7eb;
-      background: #f8fafc;
+      gap: 8px;
+      min-height: 18px;
     }
 
-    .modal-title {
-      font-size: 18px;
+    .kpi-title {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      color: var(--text);
+      font-size: 13px;
       font-weight: 800;
-      color: #0f172a;
+      text-transform: none;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+      white-space: nowrap;
     }
 
-    .modal-close {
-      border: none;
-      background: transparent;
-      font-size: 22px;
+    .kpi-title::before {
+      content: '';
+      width: 3px;
+      height: 14px;
+      border-radius: 2px;
+      background: var(--accent);
+      flex: 0 0 auto;
+    }
+
+    .kpi-date {
+      color: #64748b;
+      font-size: 11px;
       font-weight: 800;
-      color: #475569;
-      cursor: pointer;
-      padding: 4px 8px;
-      border-radius: 8px;
+      white-space: nowrap;
+      padding: 2px 7px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #ffffff;
     }
 
-    .modal-close:hover {
-      background: #e2e8f0;
-      color: #0f172a;
+    .kpi-main {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      min-width: 0;
+      flex-wrap: wrap;
     }
 
-    .modal-chart-wrap {
-      flex: 1;
-      min-height: 0;
-      padding: 20px 24px 24px;
+    .kpi-value {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      line-height: 1.05;
+      color: var(--text);
     }
 
-    .error-text {
-      color: #b91c1c;
+    .kpi-unit {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .delta {
+      font-size: 12px;
       font-weight: 700;
+      line-height: 1.3;
+    }
+    .delta.up { color: var(--red); }
+    .delta.down { color: #2563eb; }
+    .delta.flat { color: #94a3b8; }
+
+
+    /* 국제 지표: 상품별 1행 + 3개 지표 균등 배열 */
+    .intl-list {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow: hidden;
+      background: #ffffff;
     }
 
-    @media (max-width: 1100px) {
-      .section-grid { grid-template-columns: minmax(0, 1fr); }
-      .section-label { width: 190px; }
-      :root {
-        --section-card-h: 340px;
-        --section-chart-h: 262px;
-      }
-      .table-scroll { overflow-x: auto; }
+    .intl-row {
+      display: grid;
+      grid-template-columns: 112px repeat(3, minmax(0, 1fr)) 54px;
+      align-items: center;
+      gap: 12px;
+      padding: 13px 14px;
+      border-bottom: 1px solid #f1f5f9;
+      transition: background 0.12s;
     }
 
-    @media (max-width: 720px) {
-      .page-wrap { padding: 8px; }
-      .hero-inner { padding: 22px 24px; }
-      .dashboard-title { font-size: 27px; }
-      .section-top {
-        align-items: flex-start;
-        flex-direction: column;
-      }
-      .section-label { width: 100%; }
-      .period-toggle {
-        width: 100%;
-        justify-content: flex-end;
-      }
-      .period-btn {
-        min-width: 46px;
-        font-size: 15px;
-      }
-      :root {
-        --section-card-h: 300px;
-        --section-chart-h: 222px;
-      }
+    .intl-row:last-child {
+      border-bottom: none;
     }
+
+    .intl-row:hover {
+      background: rgba(243,112,33,0.03);
+    }
+
+    .intl-row-label {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      min-width: 0;
+    }
+
+    .intl-row-label::before {
+      content: '';
+      width: 3px;
+      height: 14px;
+      border-radius: 2px;
+      background: var(--accent);
+      display: inline-block;
+      flex-shrink: 0;
+      align-self: flex-start;
+      margin-top: 3px;
+    }
+
+    .intl-row-label-text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2px;
+      min-width: 0;
+    }
+
+    .intl-row-title {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.25;
+      white-space: nowrap;
+    }
+
+    .intl-row-unit {
+      font-size: 10.5px;
+      font-weight: 700;
+      color: #94a3b8;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .intl-cell {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 2px;
+      min-width: 0;
+    }
+
+    .intl-metric-name {
+      font-size: 10.5px;
+      color: #94a3b8;
+      font-weight: 800;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .intl-val {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .intl-sub {
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 1.25;
+      white-space: nowrap;
+    }
+    .intl-sub.up { color: var(--red); }
+    .intl-sub.down { color: #2563eb; }
+    .intl-sub.flat { color: #94a3b8; }
+
+    .intl-date {
+      color: #94a3b8;
+      font-size: 11px;
+      font-weight: 700;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .right-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .issue-list, .news-list, .policy-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .issue-item, .news-item, .policy-item {
+      border: 1px solid #e2e8f0;
+      border-radius: 13px;
+      padding: 13px 14px;
+      background: #ffffff;
+    }
+
+    .issue-item {
+      background: linear-gradient(180deg, #fff4ee 0%, #ffffff 100%);
+      border-color: #ffd0b0;
+    }
+
+    .item-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+      margin-bottom: 7px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 21px;
+      border-radius: 999px;
+      padding: 3px 8px;
+      font-size: 11px;
+      font-weight: 900;
+      border: 1px solid transparent;
+      white-space: nowrap;
+    }
+
+    .badge.important { color: #c2410c; background: #fff7ed; border-color: #fdba74; }
+    .badge.normal { color: #b45309; background: #fffbeb; border-color: #fde68a; }
+    .badge.ref { color: #475569; background: #f8fafc; border-color: #cbd5e1; }
+    .badge.status { color: var(--navy); background: rgba(12,35,64,0.06); border-color: rgba(12,35,64,0.15); }
+
+    .meta-text {
+      color: #64748b;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .item-title {
+      color: #0f172a;
+      font-size: 14px;
+      line-height: 1.45;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      margin: 0 0 6px;
+    }
+
+    .item-body {
+      color: #475569;
+      font-size: 12.5px;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .item-impact {
+      margin-top: 7px;
+      padding-top: 7px;
+      border-top: 1px solid #eef2f7;
+      color: #334155;
+      font-size: 12.5px;
+      line-height: 1.55;
+    }
+
+    .item-impact strong { color: var(--accent); margin-right: 5px; }
+
+    /* 금일 주요 기사 카드: 제목/요약 구분만 살짝 강화 */
+    .news-item .item-title {
+      margin-bottom: 8px;
+      color: #0b1324;
+    }
+
+    .news-item .item-body {
+      color: #64748b;
+      font-size: 12px;
+      line-height: 1.65;
+      padding-top: 6px;
+      border-top: 1px solid #eef2f7;
+    }
+
+    .policy-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .policy-title-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 7px;
+    }
+
+    .policy-title {
+      font-size: 14px;
+      line-height: 1.35;
+      font-weight: 900;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+
+    .policy-fields {
+      display: grid;
+      gap: 5px;
+      color: #475569;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .policy-fields b {
+      color: #0f172a;
+      font-weight: 900;
+    }
+
+
+
+    /* ── Overview 정책 타임라인: 3.policy.html 렌더링 기준 축약형 ── */
+    .overview-policy-scroll {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #ffffff;
+      max-height: none;
+    }
+
+    .overview-timeline-shell {
+      --left-col: 120px;
+      --policy-col: 185px;
+      --track-h: 62px;
+      display: grid;
+      grid-template-columns: var(--left-col) minmax(0, 1fr);
+      min-width: 100%;
+      position: relative;
+      background: #ffffff;
+    }
+
+    .overview-year-cell,
+    .overview-time-axis {
+      height: 56px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfdff;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .overview-year-cell { border-right: 0; }
+    .overview-time-axis { z-index: 19; overflow: hidden; }
+
+    .overview-axis-title-spacer {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: var(--policy-col);
+      border-right: 1px solid var(--line);
+      background: #fbfdff;
+      pointer-events: none;
+    }
+
+    .overview-axis-time-grid {
+      position: absolute;
+      left: var(--policy-col);
+      right: 10px;
+      top: 0;
+      bottom: 0;
+      overflow: hidden;
+    }
+
+    .overview-month-tick {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      color: #31405b;
+      font-size: 12.5px;
+      font-weight: 800;
+      padding-top: 19px;
+      text-align: center;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      min-width: 44px;
+      pointer-events: none;
+    }
+
+    .overview-month-boundary,
+    .overview-lane-month-boundary {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: rgba(226, 232, 240, .95);
+      pointer-events: none;
+    }
+    .overview-lane-month-boundary { z-index: 1; opacity: .72; }
+
+    .overview-today-line {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      border-left: 2px dashed rgba(243, 112, 33, .65);
+      z-index: 12;
+      pointer-events: none;
+    }
+
+    .overview-today-label {
+      position: absolute;
+      top: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--accent);
+      color: #ffffff;
+      padding: 5px 9px;
+      border-radius: 7px;
+      font-size: 12px;
+      font-weight: 800;
+      box-shadow: 0 6px 15px rgba(243, 112, 33, .28);
+    }
+
+    .overview-category-cell {
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: #fbfdff;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      padding: 18px 8px;
+      position: relative;
+    }
+
+    .overview-cat-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 900;
+      flex: 0 0 auto;
+      box-shadow: inset 0 -8px 14px rgba(2, 12, 32, .14), 0 7px 16px rgba(2, 12, 32, .13);
+    }
+    .overview-cat-icon.market { background: #2563eb; }
+    .overview-cat-icon.grid { background: #0f9488; }
+    .overview-cat-icon.carbon { background: #0F766E; }
+    .overview-cat-icon.lng { background: #6d3ac9; }
+    .overview-cat-icon.renew { background: #f97316; }
+    .overview-cat-icon.etc { background: #64748b; }
+    .overview-cat-icon.energy { background: #0ea5e9; position: relative; font-size: 0; }
+    .overview-cat-icon.energy::before {
+      content: "";
+      width: 11px;
+      height: 15px;
+      background: #ffffff;
+      border-radius: 50% 50% 50% 0;
+      transform: rotate(-45deg);
+      display: block;
+    }
+
+    .overview-cat-name {
+      font-size: 12.5px;
+      line-height: 1.25;
+      font-weight: 900;
+      color: #0f172a;
+      letter-spacing: -.03em;
+      margin-top: 6px;
+    }
+
+    .overview-cat-count {
+      position: absolute;
+      right: 8px;
+      bottom: 10px;
+      color: #64748b;
+      font-size: 11px;
+      font-weight: 800;
+      background: #eef2f7;
+      border-radius: 999px;
+      padding: 3px 8px;
+    }
+
+    .overview-lane-content {
+      position: relative;
+      border-bottom: 1px solid var(--line);
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    .overview-lane-title-col {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: var(--policy-col);
+      border-right: 1px solid var(--line);
+      background: linear-gradient(90deg, #ffffff, #fbfdff);
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .overview-lane-time-grid {
+      position: absolute;
+      left: var(--policy-col);
+      right: 10px;
+      top: 0;
+      bottom: 0;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .overview-track {
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: var(--track-h);
+      border-radius: 11px;
+      transition: .16s ease;
+      z-index: 4;
+    }
+    .overview-track:hover { background: rgba(243, 112, 33, .04); }
+
+    .overview-track-time {
+      position: absolute;
+      left: var(--policy-col);
+      right: 10px;
+      top: 0;
+      bottom: 0;
+      z-index: 5;
+    }
+
+    .overview-policy-name {
+      position: absolute;
+      top: 30px;
+      left: 10px;
+      transform: translateY(-50%);
+      max-width: calc(var(--policy-col) - 20px);
+      color: #0f172a;
+      font-size: 12.5px;
+      font-weight: 950;
+      letter-spacing: -.03em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      z-index: 9;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, .9);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 1px 0 1px 9px;
+      background: transparent;
+    }
+    .overview-policy-name::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 1px;
+      bottom: 1px;
+      width: 3px;
+      border-radius: 999px;
+      background: var(--accent);
+    }
+    .overview-policy-title-text {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .overview-status-badge {
+      display: inline-flex;
+      align-items: center;
+      font-size: 10.5px;
+      font-weight: 900;
+      padding: 2px 5px;
+      border-radius: 7px;
+      margin-left: 6px;
+      vertical-align: middle;
+      flex: 0 0 auto;
+    }
+    .overview-status-발표,
+    .overview-status-공개 { background: #dbeafe; color: #1d4ed8; }
+    .overview-status-검토중,
+    .overview-status-추진중,
+    .overview-status-후속\ 미정 { background: #fff4ee; color: #d97706; }
+    .overview-status-시행 { background: #dcfce7; color: #15803d; }
+    .overview-status-종료 { background: #e5e7eb; color: #475569; }
+
+    .overview-bar {
+      position: absolute;
+      top: 30px;
+      height: 3px;
+      border-radius: 999px;
+      z-index: 3;
+    }
+    .overview-bar.solid { background: linear-gradient(90deg, #2563eb, var(--orange) 48%, #16a34a); }
+    .overview-bar.history { background: #2563eb; }
+    .overview-bar.dashed {
+      height: 0;
+      border-top: 2px dashed var(--orange);
+      border-radius: 0;
+    }
+    .overview-bar.dashed::after {
+      content: "";
+      position: absolute;
+      right: -3px;
+      top: -5px;
+      width: 8px;
+      height: 8px;
+      border-top: 2px solid var(--orange);
+      border-right: 2px solid var(--orange);
+      transform: rotate(45deg);
+    }
+
+    .overview-marker {
+      position: absolute;
+      top: 24px;
+      width: 13px;
+      height: 13px;
+      border: 2px solid #ffffff;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, .18);
+      z-index: 6;
+    }
+    .overview-marker.announce { background: #2563eb; border-radius: 999px; transform: translateX(-50%); }
+    .overview-marker.review { background: var(--orange); border-radius: 2px; transform: translateX(-50%) rotate(45deg); }
+    .overview-marker.effective { background: #16a34a; border-radius: 999px; transform: translateX(-50%); }
+    .overview-marker.end { background: #64748b; border-radius: 999px; transform: translateX(-50%); }
+
+    .overview-event-label {
+      position: absolute;
+      top: 46px;
+      transform: translateX(-50%);
+      max-width: 100px;
+      color: #334155;
+      font-size: 10.5px;
+      font-weight: 900;
+      line-height: 1.15;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      z-index: 7;
+    }
+
+    .overview-end-pill-wrap {
+      position: absolute;
+      top: 3px;
+      right: 20px;
+      z-index: 8;
+    }
+    .overview-end-pill {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid #fed7aa;
+      background: #fff7ed;
+      color: #c2410c;
+      border-radius: 999px;
+      padding: 2px 7px;
+      font-size: 10px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 1180px) {
+      .overview-policy-scroll { overflow-x: auto; }
+      .overview-timeline-shell { min-width: calc(120px + 185px + 760px); }
+    }
+
+    .data-status-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .status-box {
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      background: #fbfdff;
+      padding: 11px 12px;
+    }
+
+    .status-label {
+      color: #64748b;
+      font-size: 11px;
+      font-weight: 800;
+      margin-bottom: 5px;
+    }
+
+    .status-value {
+      color: #0f172a;
+      font-size: 16px;
+      font-weight: 950;
+      line-height: 1.25;
+    }
+
+    .iframe-card {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+    }
+
+    .iframe-note {
+      padding: 11px 14px;
+      border-bottom: 1px solid var(--line);
+      background: var(--surface);
+      color: #64748b;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      min-height: 1260px;
+      border: 0;
+      background: #ffffff;
+    }
+
+    .empty, .error {
+      padding: 18px;
+      border: 1px dashed #cbd5e1;
+      border-radius: 13px;
+      background: #f8fafc;
+      color: #64748b;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .error { color: #b45309; border-color: #fdba74; background: #fff7ed; }
+
+    .footer-note {
+      margin-top: 14px;
+      color: #64748b;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 1180px) {
+      .overview-grid { grid-template-columns: 1fr; }
+      .policy-grid { grid-template-columns: 1fr; }
+  
+
+    /* ── Overview 정책 타임라인: 3.policy.html 렌더링 기준 축약형 ── */
+    .overview-policy-scroll {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #ffffff;
+      max-height: none;
+    }
+
+    .overview-timeline-shell {
+      --left-col: 120px;
+      --policy-col: 185px;
+      --track-h: 62px;
+      display: grid;
+      grid-template-columns: var(--left-col) minmax(0, 1fr);
+      min-width: 100%;
+      position: relative;
+      background: #ffffff;
+    }
+
+    .overview-year-cell,
+    .overview-time-axis {
+      height: 56px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfdff;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .overview-year-cell { border-right: 0; }
+    .overview-time-axis { z-index: 19; overflow: hidden; }
+
+    .overview-axis-title-spacer {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: var(--policy-col);
+      border-right: 1px solid var(--line);
+      background: #fbfdff;
+      pointer-events: none;
+    }
+
+    .overview-axis-time-grid {
+      position: absolute;
+      left: var(--policy-col);
+      right: 10px;
+      top: 0;
+      bottom: 0;
+      overflow: hidden;
+    }
+
+    .overview-month-tick {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      color: #31405b;
+      font-size: 12.5px;
+      font-weight: 800;
+      padding-top: 19px;
+      text-align: center;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      min-width: 44px;
+      pointer-events: none;
+    }
+
+    .overview-month-boundary,
+    .overview-lane-month-boundary {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: rgba(226, 232, 240, .95);
+      pointer-events: none;
+    }
+    .overview-lane-month-boundary { z-index: 1; opacity: .72; }
+
+    .overview-today-line {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      border-left: 2px dashed rgba(243, 112, 33, .65);
+      z-index: 12;
+      pointer-events: none;
+    }
+
+    .overview-today-label {
+      position: absolute;
+      top: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--accent);
+      color: #ffffff;
+      padding: 5px 9px;
+      border-radius: 7px;
+      font-size: 12px;
+      font-weight: 800;
+      box-shadow: 0 6px 15px rgba(243, 112, 33, .28);
+    }
+
+    .overview-category-cell {
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: #fbfdff;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      padding: 18px 8px;
+      position: relative;
+    }
+
+    .overview-cat-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 900;
+      flex: 0 0 auto;
+      box-shadow: inset 0 -8px 14px rgba(2, 12, 32, .14), 0 7px 16px rgba(2, 12, 32, .13);
+    }
+    .overview-cat-icon.market { background: #2563eb; }
+    .overview-cat-icon.grid { background: #0f9488; }
+    .overview-cat-icon.carbon { background: #0F766E; }
+    .overview-cat-icon.lng { background: #6d3ac9; }
+    .overview-cat-icon.renew { background: #f97316; }
+    .overview-cat-icon.etc { background: #64748b; }
+    .overview-cat-icon.energy { background: #0ea5e9; position: relative; font-size: 0; }
+    .overview-cat-icon.energy::before {
+      content: "";
+      width: 11px;
+      height: 15px;
+      background: #ffffff;
+      border-radius: 50% 50% 50% 0;
+      transform: rotate(-45deg);
+      display: block;
+    }
+
+    .overview-cat-name {
+      font-size: 12.5px;
+      line-height: 1.25;
+      font-weight: 900;
+      color: #0f172a;
+      letter-spacing: -.03em;
+      margin-top: 6px;
+    }
+
+    .overview-cat-count {
+      position: absolute;
+      right: 8px;
+      bottom: 10px;
+      color: #64748b;
+      font-size: 11px;
+      font-weight: 800;
+      background: #eef2f7;
+      border-radius: 999px;
+      padding: 3px 8px;
+    }
+
+    .overview-lane-content {
+      position: relative;
+      border-bottom: 1px solid var(--line);
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    .overview-lane-title-col {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: var(--policy-col);
+      border-right: 1px solid var(--line);
+      background: linear-gradient(90deg, #ffffff, #fbfdff);
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .overview-lane-time-grid {
+      position: absolute;
+      left: var(--policy-col);
+      right: 10px;
+      top: 0;
+      bottom: 0;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .overview-track {
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: var(--track-h);
+      border-radius: 11px;
+      transition: .16s ease;
+      z-index: 4;
+    }
+    .overview-track:hover { background: rgba(243, 112, 33, .04); }
+
+    .overview-track-time {
+      position: absolute;
+      left: var(--policy-col);
+      right: 10px;
+      top: 0;
+      bottom: 0;
+      z-index: 5;
+    }
+
+    .overview-policy-name {
+      position: absolute;
+      top: 30px;
+      left: 10px;
+      transform: translateY(-50%);
+      max-width: calc(var(--policy-col) - 20px);
+      color: #0f172a;
+      font-size: 12.5px;
+      font-weight: 950;
+      letter-spacing: -.03em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      z-index: 9;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, .9);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 1px 0 1px 9px;
+      background: transparent;
+    }
+    .overview-policy-name::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 1px;
+      bottom: 1px;
+      width: 3px;
+      border-radius: 999px;
+      background: var(--accent);
+    }
+    .overview-policy-title-text {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .overview-status-badge {
+      display: inline-flex;
+      align-items: center;
+      font-size: 10.5px;
+      font-weight: 900;
+      padding: 2px 5px;
+      border-radius: 7px;
+      margin-left: 6px;
+      vertical-align: middle;
+      flex: 0 0 auto;
+    }
+    .overview-status-발표,
+    .overview-status-공개 { background: #dbeafe; color: #1d4ed8; }
+    .overview-status-검토중,
+    .overview-status-추진중,
+    .overview-status-후속\ 미정 { background: #fff4ee; color: #d97706; }
+    .overview-status-시행 { background: #dcfce7; color: #15803d; }
+    .overview-status-종료 { background: #e5e7eb; color: #475569; }
+
+    .overview-bar {
+      position: absolute;
+      top: 30px;
+      height: 3px;
+      border-radius: 999px;
+      z-index: 3;
+    }
+    .overview-bar.solid { background: linear-gradient(90deg, #2563eb, var(--orange) 48%, #16a34a); }
+    .overview-bar.history { background: #2563eb; }
+    .overview-bar.dashed {
+      height: 0;
+      border-top: 2px dashed var(--orange);
+      border-radius: 0;
+    }
+    .overview-bar.dashed::after {
+      content: "";
+      position: absolute;
+      right: -3px;
+      top: -5px;
+      width: 8px;
+      height: 8px;
+      border-top: 2px solid var(--orange);
+      border-right: 2px solid var(--orange);
+      transform: rotate(45deg);
+    }
+
+    .overview-marker {
+      position: absolute;
+      top: 24px;
+      width: 13px;
+      height: 13px;
+      border: 2px solid #ffffff;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, .18);
+      z-index: 6;
+    }
+    .overview-marker.announce { background: #2563eb; border-radius: 999px; transform: translateX(-50%); }
+    .overview-marker.review { background: var(--orange); border-radius: 2px; transform: translateX(-50%) rotate(45deg); }
+    .overview-marker.effective { background: #16a34a; border-radius: 999px; transform: translateX(-50%); }
+    .overview-marker.end { background: #64748b; border-radius: 999px; transform: translateX(-50%); }
+
+    .overview-event-label {
+      position: absolute;
+      top: 46px;
+      transform: translateX(-50%);
+      max-width: 100px;
+      color: #334155;
+      font-size: 10.5px;
+      font-weight: 900;
+      line-height: 1.15;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      z-index: 7;
+    }
+
+    .overview-end-pill-wrap {
+      position: absolute;
+      top: 3px;
+      right: 20px;
+      z-index: 8;
+    }
+    .overview-end-pill {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid #fed7aa;
+      background: #fff7ed;
+      color: #c2410c;
+      border-radius: 999px;
+      padding: 2px 7px;
+      font-size: 10px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 1180px) {
+      .overview-policy-scroll { overflow-x: auto; }
+      .overview-timeline-shell { min-width: calc(120px + 185px + 760px); }
+    }
+
+    .data-status-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .intl-row { grid-template-columns: 100px repeat(3, minmax(0, 1fr)) 48px; gap: 10px; }
+    }
+
+    @media (max-width: 760px) {
+      .page { padding: 16px; }
+      .hero-inner { padding: 20px; flex-direction: column; align-items: flex-start; gap: 16px; }
+      .hero-tabs { flex-wrap: wrap; }
   </style>
 </head>
 <body>
-  <div class="page-wrap">
-    <section class="hero">
+  <div class="page">
+    <header class="hero">
       <div class="hero-inner">
-        <div class="brand">HANWHA ENERGY</div>
-        <h1 class="dashboard-title">Market Monitoring Dashboard</h1>
-        <p class="dashboard-desc">엑셀 Index 시트 기준 SMP, 배출권, REC 현황과 추이를 확인하는 화면입니다.</p>
-      </div>
-    </section>
-
-    <section class="index-panel" id="smpPanel">
-      <div class="section-top">
-        <div class="section-label">SMP</div>
-        <div class="period-toggle" aria-label="SMP 그래프 조회 기간 선택">
-          <button class="period-btn active" data-target="smp" data-period="1M" type="button">1M</button>
-          <button class="period-btn" data-target="smp" data-period="3M" type="button">3M</button>
-          <button class="period-btn" data-target="smp" data-period="6M" type="button">6M</button>
-          <button class="period-btn" data-target="smp" data-period="Y" type="button">Y</button>
+        <div>
+          <div class="brand">Hanwha Energy</div>
+          <h1>Energy Monitoring Dashboard</h1>
         </div>
+        <nav class="hero-tabs" aria-label="통합 대시보드 탭">
+          <button class="tab-btn active" data-panel="overview" type="button">Overview</button>
+          <button class="tab-btn" data-panel="index" type="button">Index</button>
+          <button class="tab-btn" data-panel="news" type="button">News</button>
+          <button class="tab-btn" data-panel="policy" type="button">Policy</button>
+        </nav>
       </div>
+    </header>
 
-      <div class="section-grid">
-        <div class="chart-box">
-          <div class="chart-title-row">
-            <div class="chart-title-left">
-              <div class="chart-title">SMP·예비력 추이</div>
-              <div id="smpChartSubtitle" class="chart-subtitle">최근 1개월</div>
+    <section id="panel-overview" class="panel active">
+      <div class="overview-grid">
+        <div class="left-stack">
+          <section class="card card-pad">
+            <div class="section-head">
+              <div>
+                <h2 class="section-title">주요 지표 현황</h2>
+              </div>
+              <button class="detail-link-btn" data-jump="index" type="button">Index 상세 →</button>
             </div>
-            <button class="expand-btn" data-expand="smp" type="button" title="그래프 확대">⤢</button>
-          </div>
-          <div class="chart-wrap"><canvas id="smpChart"></canvas></div>
-        </div>
-
-        <div class="table-box">
-          <div class="table-scroll" id="smpTableScroll">
-            <table class="index-table">
-              <thead>
-                <tr>
-                  <th>일자</th>
-                  <th>SMP<br>(원/kWh)</th>
-                  <th>예비력<br>(MW)</th>
-                  <th>최대전력<br>(MW)</th>
-                  <th>최소전력<br>(MW)</th>
-                </tr>
-              </thead>
-              <tbody id="smpTableBody"></tbody>
-            </table>
-          </div>
-          <div id="smpTableFootnote" class="table-footnote">데이터 로딩 중</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="index-panel" id="etsPanel">
-      <div class="section-top">
-        <div class="section-label">배출권</div>
-        <div class="period-toggle" aria-label="배출권 그래프 조회 기간 선택">
-          <button class="period-btn active" data-target="ets" data-period="1M" type="button">1M</button>
-          <button class="period-btn" data-target="ets" data-period="3M" type="button">3M</button>
-          <button class="period-btn" data-target="ets" data-period="6M" type="button">6M</button>
-          <button class="period-btn" data-target="ets" data-period="Y" type="button">Y</button>
-        </div>
-      </div>
-
-      <div class="section-grid">
-        <div class="chart-box">
-          <div class="chart-title-row">
-            <div class="chart-title-left">
-              <div class="chart-title">배출권 가격·거래량 추이</div>
-              <div id="etsChartSubtitle" class="chart-subtitle">최근 1개월</div>
+            <div class="kpi-overview" id="kpiGrid">
+              <div class="empty">지표 데이터를 불러오는 중입니다.</div>
             </div>
-            <button class="expand-btn" data-expand="ets" type="button" title="그래프 확대">⤢</button>
-          </div>
-          <div class="chart-wrap"><canvas id="etsChart"></canvas></div>
-        </div>
+          </section>
 
-        <div class="table-box">
-          <div class="table-scroll" id="etsTableScroll">
-            <table class="index-table">
-              <thead>
-                <tr>
-                  <th>일자</th>
-                  <th>가격<br>(원/tCO2)</th>
-                  <th>대비</th>
-                  <th>등락률</th>
-                  <th>거래량</th>
-                </tr>
-              </thead>
-              <tbody id="etsTableBody"></tbody>
-            </table>
-          </div>
-          <div id="etsTableFootnote" class="table-footnote">데이터 로딩 중</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="index-panel" id="recPanel">
-      <div class="section-top">
-        <div class="section-label">REC</div>
-        <div class="period-toggle" aria-label="REC 그래프 조회 기간 선택">
-          <button class="period-btn active" data-target="rec" data-period="1M" type="button">1M</button>
-          <button class="period-btn" data-target="rec" data-period="3M" type="button">3M</button>
-          <button class="period-btn" data-target="rec" data-period="6M" type="button">6M</button>
-          <button class="period-btn" data-target="rec" data-period="Y" type="button">Y</button>
-        </div>
-      </div>
-
-      <div class="section-grid">
-        <div class="chart-box">
-          <div class="chart-title-row">
-            <div class="chart-title-left">
-              <div class="chart-title">REC 가격·거래량 추이</div>
-              <div id="recChartSubtitle" class="chart-subtitle">최근 1개월</div>
+          <section class="card card-pad" style="margin-top:24px;">
+            <div class="section-head">
+              <div>
+                <h2 class="section-title">정책·제도 주요 일정</h2>
+              </div>
+              <button class="detail-link-btn" data-jump="policy" type="button">Policy 상세 →</button>
             </div>
-            <button class="expand-btn" data-expand="rec" type="button" title="그래프 확대">⤢</button>
-          </div>
-          <div class="chart-wrap"><canvas id="recChart"></canvas></div>
-        </div>
-
-        <div class="table-box">
-          <div class="table-scroll" id="recTableScroll">
-            <table class="index-table">
-              <thead>
-                <tr>
-                  <th>일자</th>
-                  <th>가격<br>(원/REC)</th>
-                  <th>대비</th>
-                  <th>등락률</th>
-                  <th>거래량<br>(REC)</th>
-                </tr>
-              </thead>
-              <tbody id="recTableBody"></tbody>
-            </table>
-          </div>
-          <div id="recTableFootnote" class="table-footnote">데이터 로딩 중</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="index-panel" id="oilPanel">
-      <div class="section-top">
-        <div class="section-label">Oil</div>
-        <div class="period-toggle" aria-label="유가 그래프 조회 기간 선택">
-          <button class="period-btn active" data-target="oil" data-period="1M" type="button">1M</button>
-          <button class="period-btn" data-target="oil" data-period="3M" type="button">3M</button>
-          <button class="period-btn" data-target="oil" data-period="6M" type="button">6M</button>
-          <button class="period-btn" data-target="oil" data-period="Y" type="button">Y</button>
-        </div>
-      </div>
-
-      <div class="section-grid">
-        <div class="chart-box">
-          <div class="chart-title-row">
-            <div class="chart-title-left">
-              <div class="chart-title">국제유가 추이</div>
-              <div id="oilChartSubtitle" class="chart-subtitle">최근 1개월</div>
+            <div class="policy-timeline-wrap" id="policyList">
+              <div class="empty">정책 데이터를 불러오는 중입니다.</div>
             </div>
-            <button class="expand-btn" data-expand="oil" type="button" title="그래프 확대">⤢</button>
-          </div>
-          <div class="chart-wrap"><canvas id="oilChart"></canvas></div>
+          </section>
+
         </div>
 
-        <div class="table-box">
-          <div class="table-scroll" id="oilTableScroll">
-            <table class="index-table">
-              <thead>
-                <tr>
-                  <th>일자</th>
-                  <th>Dubai<br>($/bbl)</th>
-                  <th>Brent<br>($/bbl)</th>
-                  <th>WTI<br>($/bbl)</th>
-                </tr>
-              </thead>
-              <tbody id="oilTableBody"></tbody>
-            </table>
-          </div>
-          <div id="oilTableFootnote" class="table-footnote">데이터 로딩 중</div>
-        </div>
-      </div>
-    </section>
+        <aside class="right-stack">
 
-    <section class="index-panel" id="coalPanel">
-      <div class="section-top">
-        <div class="section-label">Coal</div>
-        <div class="period-toggle" aria-label="유연탄 그래프 조회 기간 선택">
-          <button class="period-btn active" data-target="coal" data-period="1M" type="button">1M</button>
-          <button class="period-btn" data-target="coal" data-period="3M" type="button">3M</button>
-          <button class="period-btn" data-target="coal" data-period="6M" type="button">6M</button>
-          <button class="period-btn" data-target="coal" data-period="Y" type="button">Y</button>
-        </div>
-      </div>
-
-      <div class="section-grid">
-        <div class="chart-box coal-chart-box">
-          <div class="chart-title-row">
-            <div class="chart-title-left">
-              <div class="chart-title">유연탄 가격 추이</div>
-              <div id="coalChartSubtitle" class="chart-subtitle">최근 1개월</div>
+          <section class="card card-pad">
+            <div class="section-head">
+              <div>
+                <h2 class="section-title">금일 주요 기사</h2>
+              </div>
+              <button class="detail-link-btn" data-jump="news" type="button">News 상세 →</button>
             </div>
-            <button class="expand-btn" data-expand="coal" type="button" title="그래프 확대">⤢</button>
-          </div>
-          <div class="chart-wrap"><canvas id="coalChart"></canvas></div>
-        </div>
-
-        <div class="table-box">
-          <div class="table-scroll" id="coalTableScroll">
-            <table class="index-table">
-              <thead>
-                <tr>
-                  <th>일자</th>
-                  <th>ICI3<br>($/t)</th>
-                  <th>ICI4<br>($/t)</th>
-                  <th>NEWC<br>($/t)</th>
-                </tr>
-              </thead>
-              <tbody id="coalTableBody"></tbody>
-            </table>
-          </div>
-          <div id="coalTableFootnote" class="table-footnote">데이터 로딩 중</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="index-panel" id="lngPanel">
-      <div class="section-top">
-        <div class="section-label">LNG</div>
-        <div class="period-toggle" aria-label="LNG 그래프 조회 기간 선택">
-          <button class="period-btn active" data-target="lng" data-period="1M" type="button">1M</button>
-          <button class="period-btn" data-target="lng" data-period="3M" type="button">3M</button>
-          <button class="period-btn" data-target="lng" data-period="6M" type="button">6M</button>
-          <button class="period-btn" data-target="lng" data-period="Y" type="button">Y</button>
-        </div>
-      </div>
-
-      <div class="section-grid">
-        <div class="chart-box lng-chart-box">
-          <div class="chart-title-row">
-            <div class="chart-title-left">
-              <div class="chart-title">LNG 벤치마크 가격 추이</div>
-              <div id="lngChartSubtitle" class="chart-subtitle">최근 1개월</div>
+            <div class="news-list" id="todayImportantList">
+              <div class="empty">금일 기사를 불러오는 중입니다.</div>
             </div>
-            <button class="expand-btn" data-expand="lng" type="button" title="그래프 확대">⤢</button>
-          </div>
-          <div class="chart-wrap"><canvas id="lngChart"></canvas></div>
-        </div>
-
-        <div class="table-box">
-          <div class="table-scroll" id="lngTableScroll">
-            <table class="index-table">
-              <thead>
-                <tr>
-                  <th>일자</th>
-                  <th>JKM<br>($/MMBtu)</th>
-                  <th>TTF<br>($/MMBtu)</th>
-                  <th>HH<br>($/MMBtu)</th>
-                </tr>
-              </thead>
-              <tbody id="lngTableBody"></tbody>
-            </table>
-          </div>
-          <div id="lngTableFootnote" class="table-footnote">데이터 로딩 중</div>
-        </div>
+          </section>
+        </aside>
       </div>
     </section>
-  </div>
 
-  <div id="modalBackdrop" class="modal-backdrop"></div>
-  <div id="chartModal" class="chart-modal" role="dialog" aria-modal="true" aria-label="그래프 확대 보기">
-    <div class="modal-header">
-      <div>
-        <div id="modalTitle" class="modal-title">그래프 확대</div>
-        <div id="modalSubtitle" class="chart-subtitle">최근 1개월</div>
+    <section id="panel-index" class="panel">
+      <div class="iframe-card">
+        <iframe class="embed-frame" src="./1.index.html" title="Index Dashboard"></iframe>
       </div>
-      <button id="modalCloseBtn" class="modal-close" type="button" aria-label="닫기">×</button>
-    </div>
-    <div class="modal-chart-wrap"><canvas id="modalChartCanvas"></canvas></div>
+    </section>
+
+    <section id="panel-news" class="panel">
+      <div class="iframe-card">
+        <iframe class="embed-frame" src="./2.news.html" title="News Dashboard"></iframe>
+      </div>
+    </section>
+
+    <section id="panel-policy" class="panel">
+      <div class="iframe-card">
+        <iframe class="embed-frame" src="./3.policy.html" title="Policy Dashboard"></iframe>
+      </div>
+    </section>
   </div>
 
   <script>
-    const URLS = {
-      smp: ['./data/epsis_index_data.json', './epsis_index_data.json'],
-      ets: ['./data/ets_index_data.json', './ets_index_data.json'],
-      rec: ['./data/rec_index_data.json', './rec_index_data.json'],
-      oil: ['./data/oil_index_data.json', './oil_index_data.json'],
-      coal: ['./data/coal_index_data.json', './coal_index_data.json'],
-      lng: ['./data/lng_index_data.json', './lng_index_data.json']
+    const DATA_FILES = {
+      smp: ["./data/epsis_index_data.json", "./epsis_index_data.json"],
+      ets: ["./data/ets_index_data.json", "./ets_index_data.json"],
+      rec: ["./data/rec_index_data.json", "./rec_index_data.json"],
+      oil: ["./data/oil_index_data.json", "./oil_index_data.json"],
+      coal: ["./data/coal_index_data.json", "./coal_index_data.json"],
+      lng: ["./data/lng_index_data.json", "./lng_index_data.json"],
+      todayNews: ["./data/today_news.json", "./today_news.json"],
+      archiveNews: ["./data/archive_news.json", "./archive_news.json"],
+      newsSummary: ["./data/news_summary.json", "./news_summary.json"],
+      policy: ["./data/policy_dashboard_data.json", "./policy_dashboard_data.json"]
     };
-    const MAX_DAYS = 365;
-    const PERIOD_DAYS = { '1M': 30, '3M': 90, '6M': 180, 'Y': 365 };
 
     const state = {
-      smp: { rows: [], chart: null, period: '1M' },
-      ets: { rows: [], chart: null, period: '1M' },
-      rec: { rows: [], chart: null, period: '1M' },
-      oil: { rows: [], chart: null, period: '1M' },
-      coal: { rows: [], chart: null, period: '1M' },
-      lng: { rows: [], chart: null, period: '1M' },
-      modalChart: null,
-      modalType: null
+      datasets: {},
+      errors: {}
     };
 
     function escapeHtml(value) {
-      return String(value ?? '')
-        .replaceAll('&', '&amp;')
-        .replaceAll('<', '&lt;')
-        .replaceAll('>', '&gt;')
-        .replaceAll('"', '&quot;')
-        .replaceAll("'", '&#39;');
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
     }
 
     function isValidNumber(value) {
-      return value !== null && value !== undefined && value !== '' && Number.isFinite(Number(value));
+      return value !== null && value !== undefined && value !== "" && Number.isFinite(Number(value));
+    }
+
+    function toNumber(value) {
+      return isValidNumber(value) ? Number(value) : null;
     }
 
     function formatNumber(value, digits = 0) {
-      if (!isValidNumber(value)) return '-';
-      return Number(value).toLocaleString('ko-KR', {
+      if (!isValidNumber(value)) return "-";
+      return Number(value).toLocaleString("ko-KR", {
         minimumFractionDigits: digits,
         maximumFractionDigits: digits
       });
     }
 
-    function formatPercent(value) {
-      if (!isValidNumber(value)) return '-';
-      return `${formatNumber(value, 2)}%`;
-    }
-
-    function formatShortDate(dateStr) {
-      if (!dateStr) return '';
-      const parts = String(dateStr).split('-');
-      if (parts.length === 3) return `${Number(parts[1])}/${Number(parts[2])}`;
-      return String(dateStr);
-    }
-
-    function parseDate(dateStr) {
-      const [y, m, d] = String(dateStr).split('-').map(Number);
-      return new Date(y, m - 1, d);
-    }
-
-    function addDays(date, days) {
-      const next = new Date(date);
-      next.setDate(next.getDate() + days);
-      return next;
-    }
-
-    function getLatestDate(rows) {
-      if (!rows.length) return null;
-      return parseDate(rows[rows.length - 1].date);
-    }
-
-    function filterLastDays(rows, days) {
-      const latest = getLatestDate(rows);
-      if (!latest) return [];
-      const startDate = addDays(latest, -(days - 1));
-      return rows.filter(row => parseDate(row.date) >= startDate && parseDate(row.date) <= latest);
-    }
-
-    function getPeriodLabel(period) {
-      if (period === '1M') return '최근 1개월';
-      if (period === '3M') return '최근 3개월';
-      if (period === '6M') return '최근 6개월';
-      return '최근 1년';
-    }
-
-    async function fetchTextWithFallback(urlList) {
-      for (const url of urlList) {
-        const response = await fetch(url + '?v=' + Date.now());
-        if (response.ok) return response.text();
+    function formatDate(value) {
+      if (!value) return "-";
+      const str = String(value);
+      if (str.includes("-")) {
+        const parts = str.split("-");
+        if (parts.length === 3) return `${Number(parts[1])}/${Number(parts[2])}`;
       }
-      throw new Error(`${urlList.join(' 또는 ')} 파일을 불러오지 못했습니다.`);
-    }
-
-    function normalizeSmpRows(rawRows) {
-      return rawRows
-        .filter(row => row && row.date)
-        .map(row => ({
-          date: row.date,
-          smp: isValidNumber(row.smp) ? Number(row.smp) : null,
-          reserve_power: isValidNumber(row.reserve_power) ? Number(row.reserve_power) : null,
-          reserve_ratio: isValidNumber(row.reserve_ratio) ? Number(row.reserve_ratio) : null,
-          max_power: isValidNumber(row.max_power) ? Number(row.max_power) : null,
-          min_power: isValidNumber(row.min_power) ? Number(row.min_power) : null
-        }))
-        .sort((a, b) => parseDate(a.date) - parseDate(b.date));
-    }
-
-    function normalizeMarketRows(rawRows) {
-      return rawRows
-        .filter(row => row && row.date)
-        .map(row => ({
-          date: row.date,
-          price: isValidNumber(row.price) ? Number(row.price) : null,
-          change: isValidNumber(row.change) ? Number(row.change) : null,
-          change_rate: isValidNumber(row.change_rate) ? Number(row.change_rate) : null,
-          volume: isValidNumber(row.volume) ? Number(row.volume) : null
-        }))
-        .sort((a, b) => parseDate(a.date) - parseDate(b.date));
-    }
-
-    async function loadJson(type) {
-      const text = await fetchTextWithFallback(URLS[type]);
-      const cleanText = text.replace(/\bNaN\b/g, 'null');
-      return JSON.parse(cleanText);
-    }
-
-    async function loadSmpData() {
-      const rawRows = await loadJson('smp');
-      state.smp.rows = filterLastDays(normalizeSmpRows(rawRows), MAX_DAYS);
-      if (!state.smp.rows.length) throw new Error('표시할 SMP 데이터가 없습니다.');
-      renderSmpTable();
-      renderChart('smp', state.smp.period);
-    }
-
-    async function loadEtsData() {
-      const rawRows = await loadJson('ets');
-      state.ets.rows = filterLastDays(normalizeMarketRows(rawRows), MAX_DAYS);
-      if (!state.ets.rows.length) throw new Error('표시할 배출권 데이터가 없습니다.');
-      renderEtsTable();
-      renderChart('ets', state.ets.period);
-    }
-
-
-    async function loadRecData() {
-      const rawRows = await loadJson('rec');
-      state.rec.rows = filterLastDays(normalizeMarketRows(rawRows), MAX_DAYS);
-      if (!state.rec.rows.length) throw new Error('표시할 REC 데이터가 없습니다.');
-      renderMarketTable('rec');
-      renderChart('rec', state.rec.period);
-    }
-
-
-    function normalizeOilRows(rawRows) {
-      return rawRows
-        .filter(row => row && row.date)
-        .map(row => ({
-          date: row.date,
-          dubai: isValidNumber(row.dubai) ? Number(row.dubai) : null,
-          brent: isValidNumber(row.brent) ? Number(row.brent) : null,
-          wti: isValidNumber(row.wti) ? Number(row.wti) : null
-        }))
-        .sort((a, b) => parseDate(a.date) - parseDate(b.date));
-    }
-
-    async function loadOilData() {
-      const rawRows = await loadJson('oil');
-      state.oil.rows = filterLastDays(normalizeOilRows(rawRows), MAX_DAYS);
-      if (!state.oil.rows.length) throw new Error('표시할 유가 데이터가 없습니다.');
-      renderOilTable();
-      renderOilChart('oil', state.oil.period);
-    }
-
-    function renderOilTable() {
-      const tbody = document.getElementById('oilTableBody');
-      const displayRows = [...state.oil.rows].reverse();
-      tbody.innerHTML = displayRows.map(row => `
-        <tr>
-          <td>${escapeHtml(formatShortDate(row.date))}</td>
-          <td>${formatNumber(row.dubai, 2)}</td>
-          <td>${formatNumber(row.brent, 2)}</td>
-          <td>${formatNumber(row.wti, 2)}</td>
-        </tr>
-      `).join('');
-      document.getElementById('oilTableScroll').scrollTop = 0;
-      updateFootnote('oil');
-    }
-
-    function makeOilChartConfig(rows, maxTicksLimit = 8) {
-      const labels = rows.map(row => row.date);
-      return {
-        type: 'line',
-        data: {
-          labels,
-          datasets: [
-            {
-              label: 'Dubai',
-              data: rows.map(row => row.dubai),
-              borderColor: '#f97316',
-              backgroundColor: 'rgba(249, 115, 22, 0.08)',
-              borderWidth: 2,
-              fill: false,
-              tension: 0,
-              spanGaps: true,
-              pointRadius: 0,
-              pointHoverRadius: 4,
-              hitRadius: 12
-            },
-            {
-              label: 'Brent',
-              data: rows.map(row => row.brent),
-              borderColor: '#2563eb',
-              backgroundColor: 'rgba(37, 99, 235, 0.08)',
-              borderWidth: 2,
-              fill: false,
-              tension: 0,
-              spanGaps: true,
-              pointRadius: 0,
-              pointHoverRadius: 4,
-              hitRadius: 12
-            },
-            {
-              label: 'WTI',
-              data: rows.map(row => row.wti),
-              borderColor: '#64748b',
-              backgroundColor: 'rgba(100, 116, 139, 0.08)',
-              borderWidth: 2,
-              fill: false,
-              tension: 0,
-              spanGaps: true,
-              pointRadius: 0,
-              pointHoverRadius: 4,
-              hitRadius: 12
-            }
-          ]
-        },
-        options: {
-          maintainAspectRatio: false,
-          responsive: true,
-          interaction: { mode: 'index', intersect: false },
-          plugins: {
-            legend: {
-              display: true,
-              position: 'top',
-              labels: { boxWidth: 14, boxHeight: 8, font: { size: 12, weight: '700' } }
-            },
-            tooltip: {
-              enabled: true,
-              mode: 'index',
-              intersect: false,
-              callbacks: {
-                title: context => formatShortDate(context[0]?.label ?? ''),
-                label: context => `${context.dataset.label}: ${formatNumber(context.raw, 2)} $/bbl`
-              }
-            }
-          },
-          scales: {
-            y: {
-              type: 'linear',
-              position: 'left',
-              beginAtZero: false,
-              title: { display: true, text: '가격 ($/bbl)', font: { size: 12, weight: '700' } },
-              ticks: { callback: value => Number(value).toLocaleString('ko-KR') },
-              grid: { color: 'rgba(148, 163, 184, 0.24)' }
-            },
-            x: {
-              grid: { display: false },
-              ticks: {
-                maxTicksLimit,
-                callback: function(value) { return formatShortDate(this.getLabelForValue(value)); }
-              }
-            }
-          }
-        }
-      };
-    }
-
-    function renderOilChart(period) {
-      state.oil.period = period;
-      const rows = filterLastDays(state.oil.rows, PERIOD_DAYS[period] || 365);
-      const label = getPeriodLabel(period);
-      document.getElementById('oilChartSubtitle').textContent = label;
-      if (state.oil.chart) state.oil.chart.destroy();
-      state.oil.chart = new Chart(document.getElementById('oilChart'), makeOilChartConfig(rows, 8));
-      if (state.modalType === 'oil' && state.modalChart) {
-        document.getElementById('modalSubtitle').textContent = label;
-        state.modalChart.destroy();
-        state.modalChart = new Chart(document.getElementById('modalChartCanvas'), makeOilChartConfig(rows, 14));
+      if (str.includes(".")) {
+        const parts = str.split(".");
+        if (parts.length >= 3) return `${Number(parts[1])}/${Number(parts[2])}`;
       }
+      return str;
     }
 
-
-    function normalizeCoalRows(rawRows) {
-      return rawRows
-        .map(row => ({
-          date: row.date,
-          ici3: isValidNumber(row.ici3) ? Number(row.ici3) : null,
-          ici4: isValidNumber(row.ici4) ? Number(row.ici4) : null,
-          newc: isValidNumber(row.newc) ? Number(row.newc) : null
-        }))
-        .filter(row => row.date)
-        .sort((a, b) => a.date.localeCompare(b.date));
+    function parseDate(value) {
+      if (!value) return null;
+      const str = String(value).trim().replaceAll(".", "-");
+      const parts = str.split("-").map(Number);
+      if (parts.length < 3 || parts.some(n => !Number.isFinite(n))) return null;
+      const d = new Date(parts[0], parts[1] - 1, parts[2]);
+      return Number.isNaN(d.getTime()) ? null : d;
     }
 
-    async function loadCoalData() {
-      const rawRows = await loadJson('coal');
-      state.coal.rows = filterLastDays(normalizeCoalRows(rawRows), MAX_DAYS);
-      if (!state.coal.rows.length) throw new Error('표시할 유연탄 데이터가 없습니다.');
-      renderCoalTable();
-      renderCoalChart(state.coal.period);
-    }
-
-    function renderCoalTable() {
-      const tbody = document.getElementById('coalTableBody');
-      const displayRows = [...state.coal.rows].reverse();
-      tbody.innerHTML = displayRows.map(row => `
-        <tr>
-          <td>${escapeHtml(formatShortDate(row.date))}</td>
-          <td>${formatNumber(row.ici3, 2)}</td>
-          <td>${formatNumber(row.ici4, 2)}</td>
-          <td>${formatNumber(row.newc, 2)}</td>
-        </tr>
-      `).join('');
-      document.getElementById('coalTableScroll').scrollTop = 0;
-      updateFootnote('coal');
-    }
-
-    function makeCoalChartConfigForRows(rows, maxTicksLimit = 8) {
-      const labels = rows.map(row => row.date);
-
-      return {
-        type: 'line',
-        data: {
-          labels,
-          datasets: [
-            {
-              label: 'ICI3',
-              data: rows.map(row => row.ici3),
-              borderColor: '#F97316',
-              backgroundColor: 'rgba(249, 115, 22, 0.08)',
-              yAxisID: 'y',
-              tension: 0,
-              spanGaps: true,
-              pointRadius: 0,
-              pointHoverRadius: 4,
-              hitRadius: 12
-            },
-            {
-              label: 'ICI4',
-              data: rows.map(row => row.ici4),
-              borderColor: '#2563EB',
-              backgroundColor: 'rgba(37, 99, 235, 0.08)',
-              yAxisID: 'y',
-              tension: 0,
-              spanGaps: true,
-              pointRadius: 0,
-              pointHoverRadius: 4,
-              hitRadius: 12
-            },
-            {
-              label: 'NEWC',
-              data: rows.map(row => row.newc),
-              borderColor: '#64748B',
-              backgroundColor: 'rgba(100, 116, 139, 0.08)',
-              yAxisID: 'y',
-              tension: 0,
-              spanGaps: true,
-              pointRadius: 0,
-              pointHoverRadius: 4,
-              hitRadius: 12
-            }
-          ]
-        },
-        options: {
-          maintainAspectRatio: false,
-          responsive: true,
-          interaction: {
-            mode: 'index',
-            intersect: false
-          },
-          plugins: {
-            legend: {
-              display: true,
-              position: 'top',
-              align: 'end',
-              labels: {
-                boxWidth: 10,
-                boxHeight: 10,
-                usePointStyle: true,
-                pointStyle: 'line',
-                color: '#334155',
-                font: { size: 11, weight: '600' }
-              }
-            },
-            tooltip: {
-              callbacks: {
-                title: context => formatShortDate(context[0]?.label || ''),
-                label: context => `${context.dataset.label}: ${formatNumber(context.raw, 2)} $/t`
-              }
-            }
-          },
-          scales: {
-            x: {
-              grid: { display: false },
-              ticks: {
-                maxTicksLimit,
-                callback: function(value) {
-                  return formatShortDate(this.getLabelForValue(value));
-                }
-              }
-            },
-            y: {
-              beginAtZero: false,
-              title: {
-                display: true,
-                text: '가격 ($/t)'
-              },
-              ticks: {
-                callback: value => Number(value).toLocaleString('ko-KR')
-              }
-            }
-          }
-        }
-      };
-    }
-
-    function makeCoalChartConfig(period) {
-      const rows = getRowsByPeriod(state.coal.rows, period);
-      return makeCoalChartConfigForRows(rows, period === 'Y' ? 10 : 7);
-    }
-
-    function renderCoalChart(period) {
-      state.coal.period = period;
-      const label = getPeriodLabel ? getPeriodLabel(period) : getPeriodLabel(period);
-      document.getElementById('coalChartSubtitle').textContent = label;
-      if (state.coal.chart) state.coal.chart.destroy();
-      const rows = filterLastDays(state.coal.rows, PERIOD_DAYS[period] || 365);
-      state.coal.chart = new Chart(document.getElementById('coalChart'), makeCoalChartConfigForRows(rows, 8));
-      if (state.modalType === 'coal' && state.modalChart) {
-        document.getElementById('modalSubtitle').textContent = label;
-        state.modalChart.destroy();
-        state.modalChart = new Chart(document.getElementById('modalChartCanvas'), makeCoalChartConfigForRows(rows, 14));
-      }
-    }
-
-
-    function normalizeLngRows(rawRows) {
-      return rawRows
-        .map(row => ({
-          date: row.date,
-          jkm: isValidNumber(row.jkm) ? Number(row.jkm) : null,
-          ttf: isValidNumber(row.ttf) ? Number(row.ttf) : null,
-          hh: isValidNumber(row.hh) ? Number(row.hh) : null
-        }))
-        .filter(row => row.date)
-        .sort((a, b) => a.date.localeCompare(b.date));
-    }
-
-    async function loadLngData() {
-      const rawRows = await loadJson('lng');
-      state.lng.rows = filterLastDays(normalizeLngRows(rawRows), MAX_DAYS);
-      if (!state.lng.rows.length) throw new Error('표시할 LNG 데이터가 없습니다.');
-      renderLngTable();
-      renderLngChart(state.lng.period);
-    }
-
-    function renderLngTable() {
-      const tbody = document.getElementById('lngTableBody');
-      const displayRows = [...state.lng.rows].reverse();
-      tbody.innerHTML = displayRows.map(row => `
-        <tr>
-          <td>${escapeHtml(formatShortDate(row.date))}</td>
-          <td>${formatNumber(row.jkm, 2)}</td>
-          <td>${formatNumber(row.ttf, 2)}</td>
-          <td>${formatNumber(row.hh, 2)}</td>
-        </tr>
-      `).join('');
-      document.getElementById('lngTableScroll').scrollTop = 0;
-      updateFootnote('lng');
-    }
-
-    function makeLngChartConfigForRows(rows, maxTicksLimit = 8) {
-      const labels = rows.map(row => row.date);
-      return {
-        type: 'line',
-        data: {
-          labels,
-          datasets: [
-            { label: 'JKM', data: rows.map(row => row.jkm), borderColor: '#F97316', backgroundColor: 'rgba(249, 115, 22, 0.08)', yAxisID: 'y', tension: 0, spanGaps: true, pointRadius: 0, pointHoverRadius: 4, hitRadius: 12 },
-            { label: 'TTF', data: rows.map(row => row.ttf), borderColor: '#2563EB', backgroundColor: 'rgba(37, 99, 235, 0.08)', yAxisID: 'y', tension: 0, spanGaps: true, pointRadius: 0, pointHoverRadius: 4, hitRadius: 12 },
-            { label: 'HH', data: rows.map(row => row.hh), borderColor: '#64748B', backgroundColor: 'rgba(100, 116, 139, 0.08)', yAxisID: 'y', tension: 0, spanGaps: true, pointRadius: 0, pointHoverRadius: 4, hitRadius: 12 }
-          ]
-        },
-        options: {
-          maintainAspectRatio: false,
-          responsive: true,
-          interaction: { mode: 'index', intersect: false },
-          plugins: {
-            legend: {
-              display: true,
-              position: 'top',
-              align: 'end',
-              labels: { boxWidth: 10, boxHeight: 10, usePointStyle: true, pointStyle: 'line', color: '#334155', font: { size: 11, weight: '600' } }
-            },
-            tooltip: {
-              callbacks: {
-                title: context => formatShortDate(context[0]?.label || ''),
-                label: context => `${context.dataset.label}: ${formatNumber(context.raw, 2)} $/MMBtu`
-              }
-            }
-          },
-          scales: {
-            x: {
-              grid: { display: false },
-              ticks: { maxTicksLimit, callback: function(value) { return formatShortDate(this.getLabelForValue(value)); } }
-            },
-            y: {
-              beginAtZero: false,
-              title: { display: true, text: '가격 ($/MMBtu)' },
-              ticks: { callback: value => Number(value).toLocaleString('ko-KR') }
-            }
-          }
-        }
-      };
-    }
-
-    function renderLngChart(period) {
-      state.lng.period = period;
-      const label = getPeriodLabel(period);
-      document.getElementById('lngChartSubtitle').textContent = label;
-      if (state.lng.chart) state.lng.chart.destroy();
-      const rows = filterLastDays(state.lng.rows, PERIOD_DAYS[period] || 365);
-      state.lng.chart = new Chart(document.getElementById('lngChart'), makeLngChartConfigForRows(rows, 8));
-      if (state.modalType === 'lng' && state.modalChart) {
-        document.getElementById('modalSubtitle').textContent = label;
-        state.modalChart.destroy();
-        state.modalChart = new Chart(document.getElementById('modalChartCanvas'), makeLngChartConfigForRows(rows, 14));
-      }
-    }
-
-    function renderSmpTable() {
-      const tbody = document.getElementById('smpTableBody');
-      const displayRows = [...state.smp.rows].reverse();
-      tbody.innerHTML = displayRows.map(row => `
-        <tr>
-          <td>${escapeHtml(formatShortDate(row.date))}</td>
-          <td>${formatNumber(row.smp, 2)}</td>
-          <td>${formatNumber(row.reserve_power, 0)}</td>
-          <td>${formatNumber(row.max_power, 0)}</td>
-          <td>${formatNumber(row.min_power, 0)}</td>
-        </tr>
-      `).join('');
-      document.getElementById('smpTableScroll').scrollTop = 0;
-      updateFootnote('smp');
-    }
-
-    function renderMarketTable(type) {
-      const tbody = document.getElementById(type + 'TableBody');
-      const displayRows = [...state[type].rows].reverse();
-      tbody.innerHTML = displayRows.map(row => `
-        <tr>
-          <td>${escapeHtml(formatShortDate(row.date))}</td>
-          <td>${formatNumber(row.price, 0)}</td>
-          <td>${formatNumber(row.change, 0)}</td>
-          <td>${formatPercent(row.change_rate)}</td>
-          <td>${formatNumber(row.volume, 0)}</td>
-        </tr>
-      `).join('');
-      document.getElementById(type + 'TableScroll').scrollTop = 0;
-      updateFootnote(type);
-    }
-
-    function renderEtsTable() {
-      renderMarketTable('ets');
-    }
-
-    function updateFootnote(type) {
-      const rows = state[type].rows;
-      const first = rows[0]?.date;
-      const last = rows[rows.length - 1]?.date;
-      const el = document.getElementById(type + 'TableFootnote');
-      el.textContent = first && last ? `${first} ~ ${last} / 총 ${rows.length}일` : '데이터 없음';
-    }
-
-    function commonOptions(type, maxTicksLimit = 8) {
-      const isSmp = type === 'smp';
-      const isRec = type === 'rec';
-      return {
-        maintainAspectRatio: false,
-        responsive: true,
-        plugins: {
-          legend: {
-            display: true,
-            position: 'top',
-            labels: { boxWidth: 14, boxHeight: 8, font: { size: 12, weight: '700' } }
-          },
-          tooltip: {
-            enabled: true,
-            mode: 'index',
-            intersect: false,
-            callbacks: {
-              title: context => formatShortDate(context[0]?.label ?? ''),
-              label: context => {
-                if (isSmp) {
-                  return context.dataset.yAxisID === 'y1'
-                    ? `예비력: ${formatNumber(context.raw, 0)} MW`
-                    : `SMP: ${formatNumber(context.raw, 2)} 원/kWh`;
-                }
-                return context.dataset.yAxisID === 'y1'
-                  ? `거래량: ${formatNumber(context.raw, 0)}`
-                  : (isRec ? `가격: ${formatNumber(context.raw, 0)} 원/REC` : `가격: ${formatNumber(context.raw, 0)} 원/tCO2`);
-              }
-            }
-          }
-        },
-        interaction: { mode: 'index', intersect: false },
-        scales: {
-          y: {
-            type: 'linear',
-            position: 'left',
-            beginAtZero: false,
-            title: {
-              display: true,
-              text: isSmp ? 'SMP (원/kWh)' : (isRec ? '가격 (원/REC)' : '가격 (원/tCO2)'),
-              font: { size: 12, weight: '700' }
-            },
-            ticks: { callback: value => Number(value).toLocaleString('ko-KR') },
-            grid: { color: 'rgba(148, 163, 184, 0.24)' }
-          },
-          y1: {
-            type: 'linear',
-            position: 'right',
-            beginAtZero: true,
-            title: {
-              display: true,
-              text: isSmp ? '예비력 (MW)' : (isRec ? '거래량 (REC)' : '거래량'),
-              font: { size: 12, weight: '700' }
-            },
-            ticks: { callback: value => Number(value).toLocaleString('ko-KR') },
-            grid: { drawOnChartArea: false }
-          },
-          x: {
-            grid: { display: false },
-            ticks: {
-              maxTicksLimit,
-              callback: function(value) { return formatShortDate(this.getLabelForValue(value)); }
-            }
-          }
-        }
-      };
-    }
-
-    function makeChartConfig(type, rows, maxTicksLimit = 8) {
-      const isSmp = type === 'smp';
-      const isRec = type === 'rec';
-      const labels = rows.map(row => row.date);
-      const barData = isSmp ? rows.map(row => row.reserve_power) : rows.map(row => row.volume);
-      const lineData = isSmp ? rows.map(row => row.smp) : rows.map(row => row.price);
-      return {
-        type: 'bar',
-        data: {
-          labels,
-          datasets: [
-            {
-              type: 'bar',
-              label: isSmp ? '예비력 (MW)' : (isRec ? '거래량 (REC)' : '거래량'),
-              data: barData,
-              yAxisID: 'y1',
-              backgroundColor: 'rgba(47, 95, 149, 0.24)',
-              borderColor: 'rgba(47, 95, 149, 0.56)',
-              borderWidth: 1,
-              order: 2,
-              barPercentage: 0.86,
-              categoryPercentage: 0.92
-            },
-            {
-              type: 'line',
-              label: isSmp ? 'SMP (원/kWh)' : (isRec ? '가격 (원/REC)' : '가격 (원/tCO2)'),
-              data: lineData,
-              yAxisID: 'y',
-              borderColor: '#f97316',
-              backgroundColor: 'rgba(249, 115, 22, 0.12)',
-              borderWidth: 2,
-              fill: false,
-              tension: 0,
-              spanGaps: true,
-              pointRadius: 0,
-              pointHoverRadius: 4,
-              hitRadius: 12,
-              order: 1
-            }
-          ]
-        },
-        options: commonOptions(type, maxTicksLimit)
-      };
-    }
-
-    function renderChart(type, period) {
-      state[type].period = period;
-      const rows = filterLastDays(state[type].rows, PERIOD_DAYS[period] || 365);
-      const label = getPeriodLabel(period);
-      document.getElementById(type + 'ChartSubtitle').textContent = label;
-      if (state[type].chart) state[type].chart.destroy();
-      state[type].chart = new Chart(document.getElementById(type + 'Chart'), makeChartConfig(type, rows, 8));
-      if (state.modalType === type && state.modalChart) {
-        document.getElementById('modalSubtitle').textContent = label;
-        state.modalChart.destroy();
-        state.modalChart = new Chart(document.getElementById('modalChartCanvas'), type === 'oil' ? makeOilChartConfig(rows, 14) : (type === 'coal' ? makeCoalChartConfigForRows(rows, 14) : (type === 'lng' ? makeLngChartConfigForRows(rows, 14) : makeChartConfig(type, rows, 14))));
-      }
-    }
-
-    function openChartModal(type) {
-      state.modalType = type;
-      const period = state[type].period;
-      const rows = filterLastDays(state[type].rows, PERIOD_DAYS[period] || 365);
-      document.getElementById('modalTitle').textContent = type === 'smp' ? 'SMP·예비력 추이 확대' : (type === 'rec' ? 'REC 가격·거래량 추이 확대' : (type === 'oil' ? '국제유가 추이 확대' : (type === 'coal' ? '유연탄 가격 추이 확대' : (type === 'lng' ? 'LNG 벤치마크 가격 추이 확대' : '배출권 가격·거래량 추이 확대'))));
-      document.getElementById('modalSubtitle').textContent = getPeriodLabel(period);
-      document.getElementById('modalBackdrop').classList.add('show');
-      document.getElementById('chartModal').classList.add('show');
-      if (state.modalChart) state.modalChart.destroy();
-      state.modalChart = new Chart(document.getElementById('modalChartCanvas'), type === 'oil' ? makeOilChartConfig(rows, 14) : (type === 'coal' ? makeCoalChartConfigForRows(rows, 14) : (type === 'lng' ? makeLngChartConfigForRows(rows, 14) : makeChartConfig(type, rows, 14))));
-    }
-
-    function closeChartModal() {
-      document.getElementById('modalBackdrop').classList.remove('show');
-      document.getElementById('chartModal').classList.remove('show');
-      if (state.modalChart) {
-        state.modalChart.destroy();
-        state.modalChart = null;
-      }
-      state.modalType = null;
-    }
-
-    function bindButtons() {
-      document.querySelectorAll('.period-btn').forEach(button => {
-        button.addEventListener('click', () => {
-          const type = button.dataset.target;
-          const parent = button.closest('.period-toggle');
-          parent.querySelectorAll('.period-btn').forEach(btn => btn.classList.remove('active'));
-          button.classList.add('active');
-          if (state[type].rows.length) {
-            if (type === 'oil') renderOilChart(button.dataset.period);
-            else if (type === 'coal') renderCoalChart(button.dataset.period);
-            else if (type === 'lng') renderLngChart(button.dataset.period);
-            else renderChart(type, button.dataset.period);
-          }
-        });
-      });
-      document.querySelectorAll('[data-expand]').forEach(button => {
-        button.addEventListener('click', () => {
-          const type = button.dataset.expand;
-          if (state[type].rows.length) openChartModal(type);
-        });
+    function sortRowsByDate(rows) {
+      return [...(rows || [])].filter(row => row && row.date).sort((a, b) => {
+        const da = parseDate(a.date);
+        const db = parseDate(b.date);
+        if (!da || !db) return String(a.date).localeCompare(String(b.date));
+        return da - db;
       });
     }
 
-    function showSectionError(type, error) {
-      console.error(error);
-      const foot = document.getElementById(type + 'TableFootnote');
-      foot.innerHTML = `<span class="error-text">${escapeHtml(error.message)}</span>`;
+    function latestPair(rows, key) {
+      const valid = sortRowsByDate(rows)
+        .map(row => ({ row, value: toNumber(row[key]) }))
+        .filter(item => item.value !== null);
+      return {
+        latest: valid.at(-1) || null,
+        previous: valid.at(-2) || null
+      };
     }
 
-    bindButtons();
-    document.getElementById('modalCloseBtn').addEventListener('click', closeChartModal);
-    document.getElementById('modalBackdrop').addEventListener('click', closeChartModal);
-    document.addEventListener('keydown', event => { if (event.key === 'Escape') closeChartModal(); });
-    window.addEventListener('resize', () => {
-      if (state.smp.chart) state.smp.chart.resize();
-      if (state.ets.chart) state.ets.chart.resize();
-      if (state.rec.chart) state.rec.chart.resize();
-      if (state.oil.chart) state.oil.chart.resize();
-      if (state.coal.chart) state.coal.chart.resize();
-      if (state.lng.chart) state.lng.chart.resize();
-      if (state.modalChart) state.modalChart.resize();
+    function deltaText(latest, previous, digits = 2) {
+      if (!latest || !previous) return { text: "비교값 없음", cls: "flat" };
+      const diff = latest.value - previous.value;
+      const pct = previous.value !== 0 ? diff / previous.value * 100 : 0;
+      const abs = Math.abs(diff);
+      const sign = diff > 0 ? "▲" : diff < 0 ? "▼" : "-";
+      const cls = diff > 0 ? "up" : diff < 0 ? "down" : "flat";
+      return {
+        text: `${sign} ${formatNumber(abs, digits)} (${formatNumber(Math.abs(pct), 2)}%)`,
+        cls
+      };
+    }
+
+    function parseLooseNumber(value) {
+      if (value === null || value === undefined || value === "") return null;
+      if (typeof value === "number") return Number.isFinite(value) ? value : null;
+
+      const cleaned = String(value)
+        .replaceAll(",", "")
+        .replaceAll("%", "")
+        .replaceAll("▲", "")
+        .replaceAll("▼", "")
+        .replaceAll("+", "")
+        .trim();
+
+      const num = Number(cleaned);
+      return Number.isFinite(num) ? num : null;
+    }
+
+    function pickRowNumber(row, keys) {
+      for (const key of keys) {
+        const num = parseLooseNumber(row?.[key]);
+        if (num !== null) return num;
+      }
+      return null;
+    }
+
+    function rawDeltaText(row, deltaKeys, rateKeys, digits = 0) {
+      const diff = pickRowNumber(row, deltaKeys);
+      const pct = pickRowNumber(row, rateKeys);
+
+      if (diff === null && pct === null) {
+        return { text: "비교값 없음", cls: "flat" };
+      }
+
+      const direction = diff !== null && diff !== 0 ? diff : (pct ?? 0);
+      const sign = direction > 0 ? "▲" : direction < 0 ? "▼" : "-";
+      const cls = direction > 0 ? "up" : direction < 0 ? "down" : "flat";
+      const diffText = diff === null ? "-" : formatNumber(Math.abs(diff), digits);
+      const pctText = pct === null ? "-" : formatNumber(Math.abs(pct), 2);
+
+      return {
+        text: `${sign} ${diffText} (${pctText}%)`,
+        cls
+      };
+    }
+
+    async function loadJson(paths) {
+      const errors = [];
+      for (const path of paths) {
+        try {
+          const res = await fetch(`${path}${path.includes("?") ? "&" : "?"}v=${Date.now()}`, { cache: "no-store" });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          let text = await res.text();
+          text = text.replace(/^\uFEFF/, "").replace(/\bNaN\b/g, "null");
+          return { data: JSON.parse(text), path };
+        } catch (err) {
+          errors.push(`${path}: ${err.message}`);
+        }
+      }
+      throw new Error(errors.join(" / "));
+    }
+
+    async function loadAllData() {
+      const entries = Object.entries(DATA_FILES);
+      await Promise.all(entries.map(async ([key, paths]) => {
+        try {
+          const result = await loadJson(paths);
+          state.datasets[key] = result.data;
+          state.datasets[`${key}Path`] = result.path;
+        } catch (err) {
+          state.errors[key] = err.message;
+        }
+      }));
+    }
+
+    function simpleKpiCard(def) {
+      const pair = latestPair(def.rows, def.mainKey);
+      const latest = pair.latest;
+      const previous = pair.previous;
+      const row = latest?.row || {};
+      const delta = def.useRawDelta
+        ? rawDeltaText(row, def.deltaKeys || [], def.rateKeys || [], def.digits)
+        : deltaText(latest, previous, def.digits);
+      return `
+        <div class="kpi-card">
+          <div class="kpi-top">
+            <div class="kpi-title">${escapeHtml(def.title)}</div>
+            <div class="kpi-date">${escapeHtml(formatDate(row.date))}</div>
+          </div>
+          <div class="kpi-main">
+            <div class="kpi-value">${formatNumber(latest?.value, def.digits)}</div>
+            <div class="kpi-unit">${escapeHtml(def.unit)}</div>
+          </div>
+          <div class="delta ${delta.cls}">${escapeHtml(delta.text)}</div>
+        </div>
+      `;
+    }
+
+    function intlTableRow(def) {
+      const rows = def.rows || [];
+      const pair = latestPair(rows, def.metrics[0].key);
+      const dateStr = formatDate(pair.latest?.row?.date);
+
+      const cells = def.metrics.map(metric => {
+        const p = latestPair(rows, metric.key);
+        const delta = deltaText(p.latest, p.previous, metric.digits);
+        const val = formatNumber(p.latest?.value, metric.digits);
+        return `
+          <div class="intl-cell">
+            <div class="intl-metric-name">${escapeHtml(metric.label)}</div>
+            <div class="intl-val">${val}</div>
+            <div class="intl-sub ${delta.cls}">${escapeHtml(delta.text)}</div>
+          </div>`;
+      }).join("");
+
+      const sharedUnit = def.metrics?.[0]?.unit || "";
+
+      return `
+        <div class="intl-row">
+          <div class="intl-row-label">
+            <div class="intl-row-label-text">
+              <div class="intl-row-title">${escapeHtml(def.title)}</div>
+              <div class="intl-row-unit">${escapeHtml(sharedUnit)}</div>
+            </div>
+          </div>
+          ${cells}
+          <div class="intl-date">${escapeHtml(dateStr)}</div>
+        </div>`;
+    }
+
+    function intlTable(multiDefs) {
+      const rows = multiDefs.map(def => intlTableRow(def)).join("");
+      return `<div class="intl-list">${rows}</div>`;
+    }
+
+    function renderKpis() {
+      const el = document.getElementById("kpiGrid");
+      const simpleDefs = [
+        {
+          title: "SMP",
+          rows: state.datasets.smp || [],
+          mainKey: "smp",
+          unit: "원/kWh",
+          digits: 2
+        },
+        {
+          title: "배출권",
+          rows: state.datasets.ets || [],
+          mainKey: "price",
+          unit: "원/tCO₂",
+          digits: 0,
+          useRawDelta: true,
+          deltaKeys: ["change", "diff", "price_change", "price_diff", "change_value", "전일대비", "전주대비", "대비"],
+          rateKeys: ["change_rate", "changeRate", "rate", "pct_change", "등락률", "등락률(%)", "변동률"]
+        },
+        {
+          title: "REC",
+          rows: state.datasets.rec || [],
+          mainKey: "price",
+          unit: "원/REC",
+          digits: 0,
+          useRawDelta: true,
+          deltaKeys: ["change", "diff", "price_change", "price_diff", "change_value", "전일대비", "전주대비", "대비"],
+          rateKeys: ["change_rate", "changeRate", "rate", "pct_change", "등락률", "등락률(%)", "변동률"]
+        }
+      ];
+
+      const multiDefs = [
+        {
+          title: "국제유가",
+          rows: state.datasets.oil || [],
+          metrics: [
+            { key: "dubai", label: "Dubai", unit: "$/bbl", digits: 2 },
+            { key: "brent", label: "Brent", unit: "$/bbl", digits: 2 },
+            { key: "wti", label: "WTI", unit: "$/bbl", digits: 2 }
+          ]
+        },
+        {
+          title: "유연탄",
+          rows: state.datasets.coal || [],
+          metrics: [
+            { key: "ici3", label: "ICI3", unit: "$/t", digits: 2 },
+            { key: "ici4", label: "ICI4", unit: "$/t", digits: 2 },
+            { key: "newc", label: "NEWC", unit: "$/t", digits: 2 }
+          ]
+        },
+        {
+          title: "LNG",
+          rows: state.datasets.lng || [],
+          metrics: [
+            { key: "jkm", label: "JKM", unit: "$/MMBtu", digits: 2 },
+            { key: "ttf", label: "TTF", unit: "$/MMBtu", digits: 2 },
+            { key: "hh", label: "HH", unit: "$/MMBtu", digits: 2 }
+          ]
+        }
+      ];
+
+      const allDefs = [...simpleDefs, ...multiDefs];
+      const hasAny = allDefs.some(def => Array.isArray(def.rows) && def.rows.length);
+      if (!hasAny) {
+        el.innerHTML = `<div class="error">지표 JSON을 불러오지 못했습니다. data 폴더 위치와 로컬 서버 실행 여부를 확인하세요.</div>`;
+        return;
+      }
+      el.innerHTML = `
+        <div class="kpi-section">
+          <div class="kpi-section-label">국내 지표</div>
+          <div class="kpi-grid">
+            ${simpleDefs.map(simpleKpiCard).join("")}
+          </div>
+        </div>
+        <div class="kpi-section">
+          <div class="kpi-section-label">국제 지표</div>
+          ${intlTable(multiDefs)}
+        </div>
+      `;
+    }
+
+    function priorityClass(priority) {
+      if (priority === "중요") return "important";
+      if (priority === "보통") return "normal";
+      return "ref";
+    }
+
+    function renderIssues() {
+      const el = document.getElementById("issueList");
+      if (!el) return;
+      const summary = state.datasets.newsSummary || {};
+      const today = Array.isArray(state.datasets.todayNews) ? state.datasets.todayNews : [];
+      let issues = [];
+
+      if (Array.isArray(summary.key_issues) && summary.key_issues.length) {
+        issues = [...summary.key_issues].sort((a, b) => Number(a.issue_order || 9999) - Number(b.issue_order || 9999));
+      }
+      if (!issues.length) {
+        issues = today.filter(item => String(item.is_key_issue || "").toUpperCase() === "Y")
+          .sort((a, b) => Number(a.issue_order || 9999) - Number(b.issue_order || 9999));
+      }
+      if (!issues.length) issues = today.slice(0, 3);
+
+      if (!issues.length) {
+        el.innerHTML = `<div class="empty">표시할 핵심 이슈가 없습니다.</div>`;
+        return;
+      }
+
+      el.innerHTML = issues.slice(0, 3).map((item, idx) => `
+        <div class="issue-item">
+          <div class="item-meta">
+            <span class="badge important">핵심 ${idx + 1}</span>
+            <span class="meta-text">${escapeHtml(item.category || "-")}</span>
+          </div>
+          <h3 class="item-title">${escapeHtml(item.title || item.issue || "핵심 이슈")}</h3>
+          <p class="item-body">${escapeHtml(item.summary || item.description || "")}</p>
+          ${item.implication ? `<div class="item-impact"><strong>시사점</strong>${escapeHtml(item.implication)}</div>` : ""}
+        </div>
+      `).join("");
+    }
+
+    function renderTodayImportant() {
+      const el = document.getElementById("todayImportantList");
+      const today = Array.isArray(state.datasets.todayNews) ? state.datasets.todayNews : [];
+      const rows = [...today].sort((a, b) => {
+        const pa = a.priority === "중요" ? 0 : a.priority === "보통" ? 1 : 2;
+        const pb = b.priority === "중요" ? 0 : b.priority === "보통" ? 1 : 2;
+        return pa - pb || Number(a.display_order || 9999) - Number(b.display_order || 9999);
+      }).slice(0, 5);
+
+      if (!rows.length) {
+        el.innerHTML = `<div class="empty">표시할 금일 기사가 없습니다.</div>`;
+        return;
+      }
+
+      el.innerHTML = rows.map(item => `
+        <div class="news-item">
+          <div class="item-meta">
+            <span class="badge ${priorityClass(item.priority)}">${escapeHtml(item.priority || "-")}</span>
+            <span class="meta-text">${escapeHtml(item.source || "-")}</span>
+            <span class="meta-text">${escapeHtml(item.datetime || item.date || "-")}</span>
+          </div>
+          <h3 class="item-title">${escapeHtml(item.title || "-")}</h3>
+          <p class="item-body">${escapeHtml(item.summary || "")}</p>
+        </div>
+      `).join("");
+    }
+
+    function parsePeriodToDate(value) {
+      if (!value || typeof value !== "string") return null;
+      const v = value.trim();
+      let m = v.match(/^(\d{4})-(\d{1,2})$/);
+      if (m) {
+        const d = new Date(Number(m[1]), Number(m[2]) - 1, 15);
+        return Number.isNaN(d.getTime()) ? null : d;
+      }
+      m = v.match(/^(\d{4})-?Q([1-4])$/i);
+      if (m) {
+        const q = Number(m[2]);
+        const middleMonth = (q - 1) * 3 + 1;
+        const d = new Date(Number(m[1]), middleMonth, 15);
+        return Number.isNaN(d.getTime()) ? null : d;
+      }
+      m = v.match(/^(\d{4})$/);
+      if (m) {
+        const d = new Date(Number(m[1]), 6, 1);
+        return Number.isNaN(d.getTime()) ? null : d;
+      }
+      return null;
+    }
+
+    function getTemporalDate(dateValue, periodValue) {
+      return parseDate(dateValue) || parsePeriodToDate(periodValue);
+    }
+
+    function fmtDate(value) {
+      const d = parseDate(value);
+      if (!d) return value || "-";
+      return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
+    }
+
+    function fmtPeriod(value, precision) {
+      if (!value) return "-";
+      const v = String(value).trim();
+      let m = v.match(/^(\d{4})-(\d{1,2})$/);
+      if (m) return `${m[1]}.${String(Number(m[2])).padStart(2, "0")}`;
+      m = v.match(/^(\d{4})-?Q([1-4])$/i);
+      if (m) return `${m[1]}년 ${m[2]}분기`;
+      m = v.match(/^(\d{4})$/);
+      if (m) return `${m[1]}년`;
+      return v;
+    }
+
+    function fmtTemporal(dateValue, periodValue, precision, label) {
+      if (label) return label;
+      if (dateValue) return fmtDate(dateValue);
+      if (periodValue) return fmtPeriod(periodValue, precision);
+      return "-";
+    }
+
+    function fmtShortTemporal(dateValue, periodValue, precision, label) {
+      if (dateValue) {
+        const d = parseDate(dateValue);
+        return d ? `${d.getMonth() + 1}/${d.getDate()}` : "";
+      }
+      if (label) return label;
+      if (periodValue) return fmtPeriod(periodValue, precision);
+      return "";
+    }
+
+    function validPolicy(p) {
+      return p && p.policy_id && p.policy_name && p.category && p.status;
+    }
+
+    function unique(arr) {
+      return [...new Set((arr || []).filter(Boolean))];
+    }
+
+    function policyDates(policy) {
+      const dates = [];
+      ["first_announce_date", "latest_event_date", "expected_date"].forEach(k => {
+        const d = parseDate(policy[k]);
+        if (d) dates.push(d);
+      });
+      const expectedPeriodDate = parsePeriodToDate(policy.expected_period);
+      if (expectedPeriodDate) dates.push(expectedPeriodDate);
+      (policy.events || []).forEach(e => {
+        const d = getTemporalDate(e.event_date, e.event_period);
+        if (d) dates.push(d);
+      });
+      return dates;
+    }
+
+    function detectBaseYear(policies) {
+      const years = unique(policies.flatMap(p => policyDates(p).map(d => d.getFullYear()))).sort();
+      const todayYear = new Date().getFullYear();
+      if (years.includes(todayYear)) return todayYear;
+      return years[0] || todayYear;
+    }
+
+    function computePolicyOverviewRange(policies) {
+      const baseYear = detectBaseYear(policies);
+      return { start: new Date(baseYear, 0, 1), end: new Date(baseYear, 11, 31), label: `${baseYear}년` };
+    }
+
+    function posPolicyPct(date, range) {
+      if (!date || !range) return null;
+      const total = range.end.getTime() - range.start.getTime();
+      if (total <= 0) return 0;
+      return ((date.getTime() - range.start.getTime()) / total) * 100;
+    }
+
+    function clampPct(x, min = 0, max = 100) {
+      if (x === null || Number.isNaN(x)) return null;
+      return Math.max(min, Math.min(max, x));
+    }
+
+    function eventMarkerClass(type) {
+      if (type === "공개" || type === "발표") return "announce";
+      if (type === "시행") return "effective";
+      if (type === "종료") return "end";
+      if (["이슈", "경과", "개정", "검토", "입법예고", "의견수렴", "확정"].includes(type)) return "review";
+      return "review";
+    }
+
+    function hasKnownEnd(policy) {
+      if (policy.expected_date || policy.expected_period) return true;
+      return (policy.events || []).some(e => e.event_type === "시행" && (e.event_date || e.event_period));
+    }
+
+    function isOpenEndedPolicy(policy) {
+      const endType = String(policy.timeline_end_type || "");
+      if (endType.includes("미정") || endType.includes("상시")) return true;
+      if (policy.open_ended === true) return true;
+      if (policy.timeline_style?.line_type === "dashed_arrow" && !hasKnownEnd(policy)) return true;
+      return false;
+    }
+
+    function statusBadge(status) {
+      const safeStatus = escapeHtml(status || "-");
+      return `<span class="overview-status-badge overview-status-${safeStatus}">${safeStatus}</span>`;
+    }
+
+    const POLICY_CATEGORY_ICONS = {
+      "전력": { icon: "⚡︎", cls: "market" },
+      "전력시장": { icon: "⚡︎", cls: "market" },
+      "에너지": { icon: "", cls: "energy" },
+      "계통·망": { icon: "▵", cls: "grid" },
+      "환경": { icon: "CO₂", cls: "carbon" },
+      "LNG·연료": { icon: "◆", cls: "lng" },
+      "재생·분산에너지": { icon: "☀", cls: "renew" },
+      "기타": { icon: "•", cls: "etc" },
+    };
+
+    function getPolicyCategories(rawData, policies) {
+      const fromData = rawData?.codes?.categories || [];
+      const fromPolicies = unique(policies.map(p => p.category));
+      return unique([...fromData, ...fromPolicies]).filter(c => policies.some(p => p.category === c));
+    }
+
+    function matchesPolicyOverviewPeriod(policy, range) {
+      const dates = policyDates(policy);
+      if (!dates.length) return true;
+      const min = new Date(Math.min(...dates.map(d => d.getTime())));
+      const max = new Date(Math.max(...dates.map(d => d.getTime())));
+      if (policy.open_ended || policy.timeline_style?.line_type === "dashed_arrow") return min <= range.end;
+      return max >= range.start && min <= range.end;
+    }
+
+    function monthTicks(range) {
+      const ticks = [];
+      let d = new Date(range.start.getFullYear(), range.start.getMonth(), 1);
+      while (d <= range.end) {
+        ticks.push(new Date(d));
+        d = new Date(d.getFullYear(), d.getMonth() + 1, 1);
+      }
+      return ticks;
+    }
+
+    function monthLabelPct(monthStart, range) {
+      const nextMonth = new Date(monthStart.getFullYear(), monthStart.getMonth() + 1, 1);
+      const left = clampPct(posPolicyPct(monthStart, range), 0, 100);
+      const right = clampPct(posPolicyPct(nextMonth, range), 0, 100);
+      if (left === null || right === null) return left;
+      return (left + right) / 2;
+    }
+
+    function renderOverviewMonthBoundaries(range) {
+      return monthTicks(range).map((d, i) => {
+        if (i === 0) return "";
+        const left = clampPct(posPolicyPct(d, range), 0, 100);
+        return `<div class="overview-lane-month-boundary" style="left:${left}%"></div>`;
+      }).join("");
+    }
+
+    function renderOverviewAxis(range) {
+      const ticks = monthTicks(range);
+      const todayPct = clampPct(posPolicyPct(new Date(), range));
+      const monthsHtml = ticks.map((d, i) => {
+        const labelLeft = monthLabelPct(d, range);
+        const boundary = i > 0 ? `<div class="overview-month-boundary" style="left:${clampPct(posPolicyPct(d, range), 0, 100)}%"></div>` : "";
+        return `
+          <div class="overview-month-tick" style="left:${labelLeft}%">${d.getMonth() + 1}월</div>
+          ${boundary}
+        `;
+      }).join("");
+      const todayHtml = todayPct !== null && todayPct >= 0 && todayPct <= 100
+        ? `<div class="overview-today-line" style="left:${todayPct}%"><span class="overview-today-label">Today</span></div>`
+        : "";
+
+      return `
+        <div class="overview-year-cell"></div>
+        <div class="overview-time-axis">
+          <div class="overview-axis-title-spacer"></div>
+          <div class="overview-axis-time-grid">
+            ${monthsHtml}
+            ${todayHtml}
+          </div>
+        </div>
+      `;
+    }
+
+    function renderOverviewPolicyTrack(policy, index, range) {
+      const top = 14 + index * 62;
+      const allEvents = (policy.events || [])
+        .filter(e => e.event_date || e.event_period)
+        .map(e => ({ ...e, _date: getTemporalDate(e.event_date, e.event_period) }))
+        .filter(e => e._date)
+        .sort((a, b) => a._date - b._date);
+      const visibleEvents = allEvents.filter(e => e._date >= range.start && e._date <= range.end);
+
+      const startDate = allEvents[0]?._date || parseDate(policy.first_announce_date) || parsePeriodToDate(policy.expected_period) || range.start;
+      const expectedEnd = getTemporalDate(policy.expected_date, policy.expected_period);
+      const eventEnd = allEvents.at(-1)?._date;
+      const endDate = expectedEnd || parseDate(policy.latest_event_date) || eventEnd || startDate;
+      const startPct = clampPct(posPolicyPct(startDate, range), 0, 100);
+      const open = isOpenEndedPolicy(policy);
+      const rawEndPct = expectedEnd ? clampPct(posPolicyPct(expectedEnd, range), 0, 100) : (open ? 96 : clampPct(posPolicyPct(endDate, range), 0, 100));
+      const endPct = Math.max(startPct ?? 0, rawEndPct ?? 96);
+      const width = Math.max(4, endPct - (startPct ?? 0));
+      const expectedInRange = expectedEnd && expectedEnd >= range.start && expectedEnd <= range.end;
+      const beforeRangeEvents = allEvents.filter(e => e._date <= range.end);
+      const lastEventDate = beforeRangeEvents.at(-1)?._date || startDate;
+      const lastEventPct = clampPct(posPolicyPct(lastEventDate, range), 0, 100);
+
+      let barHtml = "";
+      if (open && visibleEvents.length >= 2 && lastEventPct !== null && startPct !== null && lastEventPct > startPct) {
+        barHtml = `
+          <div class="overview-bar history" style="left:${startPct}%; width:${Math.max(2, lastEventPct - startPct)}%"></div>
+          <div class="overview-bar dashed" style="left:${lastEventPct}%; width:${Math.max(4, endPct - lastEventPct)}%"></div>
+        `;
+      } else {
+        barHtml = `<div class="overview-bar ${open ? "dashed" : "solid"}" style="left:${startPct}%; width:${width}%"></div>`;
+      }
+
+      const eventsHtml = visibleEvents.map(e => {
+        const left = clampPct(posPolicyPct(e._date, range), 0, 100);
+        const label = `${e.event_label || e.event_type} ${fmtShortTemporal(e.event_date, e.event_period, e.event_precision)}`.trim();
+        const title = `${e.event_label || e.event_type} ${fmtTemporal(e.event_date, e.event_period, e.event_precision)}
+${e.event_summary || ""}`;
+        return `
+          <div class="overview-marker ${eventMarkerClass(e.event_type)}" style="left:${left}%" title="${escapeHtml(title)}"></div>
+          <div class="overview-event-label" style="left:${left}%">${escapeHtml(label)}</div>
+        `;
+      }).join("");
+
+      const expectedLeft = expectedInRange ? clampPct(posPolicyPct(expectedEnd, range), 0, 100) : null;
+      const expectedHtml = expectedInRange && !visibleEvents.some(e => Math.abs(e._date - expectedEnd) < 86400000)
+        ? `
+          <div class="overview-marker effective" style="left:${expectedLeft}%" title="${escapeHtml(fmtTemporal(policy.expected_date, policy.expected_period, policy.expected_precision, policy.expected_label))}"></div>
+          <div class="overview-event-label" style="left:${expectedLeft}%">${escapeHtml(fmtShortTemporal(policy.expected_date, policy.expected_period, policy.expected_precision, policy.expected_label))}</div>
+        `
+        : "";
+
+      const undated = (policy.events || []).find(e => !e.event_date && !e.event_period && e.event_label);
+      const endLabelRaw = undated?.event_label || policy.timeline_style?.end_label || policy.timeline_end_type || (policy.status === "후속 미정" ? "후속 미정" : "시행시점 미정") || "시행시점 미정";
+      const endLabel = String(endLabelRaw).trim().toUpperCase() === "TBD" ? "시행시점 미정" : endLabelRaw;
+      const openPillHtml = open && !expectedEnd
+        ? `<div class="overview-end-pill-wrap"><span class="overview-end-pill">${escapeHtml(endLabel)}</span></div>`
+        : "";
+
+      return `
+        <div class="overview-track" style="top:${top}px" data-policy-id="${escapeHtml(policy.policy_id)}">
+          <div class="overview-policy-name">
+            <span class="overview-policy-title-text">${escapeHtml(policy.short_name || policy.policy_name)}</span>
+            ${statusBadge(policy.status)}
+          </div>
+          <div class="overview-track-time">
+            ${barHtml}
+            ${eventsHtml}
+            ${expectedHtml}
+            ${openPillHtml}
+          </div>
+        </div>
+      `;
+    }
+
+    function renderPolicies() {
+      const el = document.getElementById("policyList");
+      const payload = state.datasets.policy || {};
+      const policies = (Array.isArray(payload.policies) ? payload.policies : [])
+        .filter(validPolicy)
+        .map(p => ({
+          ...p,
+          keywords: Array.isArray(p.keywords) ? p.keywords : String(p.keywords || "").split(/[,;|/]/).map(x => x.trim()).filter(Boolean),
+          events: Array.isArray(p.events) ? p.events : [],
+        }));
+
+      if (!policies.length) {
+        el.innerHTML = `<div class="empty">표시할 정책 데이터가 없습니다.</div>`;
+        return;
+      }
+
+      const range = computePolicyOverviewRange(policies);
+      const filtered = policies.filter(p => matchesPolicyOverviewPeriod(p, range));
+      const categories = getPolicyCategories(payload, policies).filter(c => filtered.some(p => p.category === c));
+
+      if (!filtered.length || !categories.length) {
+        el.innerHTML = `<div class="empty">1년 기준 범위에 표시할 정책·제도가 없습니다.</div>`;
+        return;
+      }
+
+      const todayPct = clampPct(posPolicyPct(new Date(), range));
+      const todayLine = todayPct !== null && todayPct >= 0 && todayPct <= 100
+        ? `<div class="overview-today-line" style="left:${todayPct}%"></div>`
+        : "";
+      const monthBoundaryHtml = renderOverviewMonthBoundaries(range);
+      const groupsHtml = categories.map(category => {
+        const list = filtered.filter(p => p.category === category);
+        if (!list.length) return "";
+        const h = Math.max(94, 28 + list.length * 62);
+        const meta = POLICY_CATEGORY_ICONS[category] || POLICY_CATEGORY_ICONS["기타"];
+        const tracksHtml = list.map((p, i) => renderOverviewPolicyTrack(p, i, range)).join("");
+        return `
+          <div class="overview-category-cell" style="height:${h}px">
+            <div class="overview-cat-icon ${meta.cls}">${escapeHtml(meta.icon)}</div>
+            <div class="overview-cat-name">${escapeHtml(category)}</div>
+            <div class="overview-cat-count">${list.length}건</div>
+          </div>
+          <div class="overview-lane-content" style="height:${h}px">
+            <div class="overview-lane-title-col"></div>
+            <div class="overview-lane-time-grid">
+              ${monthBoundaryHtml}
+              ${todayLine}
+            </div>
+            ${tracksHtml}
+          </div>
+        `;
+      }).join("");
+
+      el.innerHTML = `
+        <div class="overview-policy-scroll">
+          <div class="overview-timeline-shell" style="--month-count:${Math.max(1, monthTicks(range).length)}">
+            ${renderOverviewAxis(range)}
+            ${groupsHtml}
+          </div>
+        </div>
+      `;
+    }
+
+    function latestDateFromRows(rows) {
+      const sorted = sortRowsByDate(rows || []);
+      return sorted.at(-1)?.date || "-";
+    }
+
+    function renderDataStatus() {
+      const baseEl = document.getElementById("dataBaseDate");
+      if (!baseEl) return;
+      const summary = state.datasets.newsSummary || {};
+      const baseDate = summary.base_date || latestDateFromRows(state.datasets.smp);
+      baseEl.textContent = `데이터 기준: ${baseDate || "-"}`;
+    }
+
+    function updateClock() {
+      const now = new Date();
+      const pad = n => String(n).padStart(2, "0");
+      const clockEl = document.getElementById("clock");
+      if (!clockEl) return;
+      clockEl.textContent = `${now.getFullYear()}.${pad(now.getMonth() + 1)}.${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}`;
+    }
+
+    function switchPanel(panel) {
+      document.querySelectorAll(".tab-btn").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.panel === panel);
+      });
+      document.querySelectorAll(".panel").forEach(sec => {
+        sec.classList.toggle("active", sec.id === `panel-${panel}`);
+      });
+      const frame = document.querySelector(`#panel-${panel} iframe`);
+      if (frame) setTimeout(() => resizeIframe(frame), 100);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function resizeIframe(iframe) {
+      try {
+        const doc = iframe.contentDocument || iframe.contentWindow.document;
+        if (!doc) return;
+        const body = doc.body;
+        const html = doc.documentElement;
+        const h = Math.max(
+          body?.scrollHeight || 0,
+          body?.offsetHeight || 0,
+          html?.clientHeight || 0,
+          html?.scrollHeight || 0,
+          html?.offsetHeight || 0
+        );
+        if (h) iframe.style.height = `${h + 20}px`;
+      } catch (err) {
+        // 다른 출처에서 열릴 때는 자동 높이 조정이 제한될 수 있습니다.
+      }
+    }
+
+    document.querySelectorAll(".tab-btn").forEach(btn => {
+      btn.addEventListener("click", () => switchPanel(btn.dataset.panel));
     });
 
-    loadSmpData().catch(error => showSectionError('smp', error));
-    loadEtsData().catch(error => showSectionError('ets', error));
-    loadRecData().catch(error => showSectionError('rec', error));
-    loadOilData().catch(error => showSectionError('oil', error));
-    loadCoalData().catch(error => showSectionError('coal', error));
-    loadLngData().catch(error => showSectionError('lng', error));
+    document.querySelectorAll("[data-jump]").forEach(btn => {
+      btn.addEventListener("click", () => switchPanel(btn.dataset.jump));
+    });
+
+    document.querySelectorAll("iframe").forEach(frame => {
+      frame.addEventListener("load", () => {
+        resizeIframe(frame);
+        setTimeout(() => resizeIframe(frame), 300);
+        setTimeout(() => resizeIframe(frame), 1000);
+      });
+    });
+
+    window.addEventListener("resize", () => {
+      document.querySelectorAll("iframe").forEach(resizeIframe);
+    });
+
+    updateClock();
+    setInterval(updateClock, 30000);
+
+    loadAllData().then(() => {
+      renderKpis();
+      renderTodayImportant();
+      renderPolicies();
+      renderDataStatus();
+    }).catch(err => {
+      console.error(err);
+      document.getElementById("kpiGrid").innerHTML = `<div class="error">통합 데이터 로드 중 오류가 발생했습니다.</div>`;
+    });
   </script>
 </body>
 </html>

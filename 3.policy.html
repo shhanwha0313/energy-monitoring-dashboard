@@ -1,0 +1,1810 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>주요 에너지 정책·제도 타임라인</title>
+  <style>
+    @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+    :root{
+      --navy:#0c2340;
+      --navy-2:#1a365d;
+      --blue:#2563eb;
+      --blue-soft:#dbeafe;
+      --orange:#f37021;
+      --orange-soft:#fff4ee;
+      --accent:#f37021;
+      --accent-hover:#d95d16;
+      --green:#16a34a;
+      --green-soft:#dcfce7;
+      --gray:#64748b;
+      --gray-soft:#f1f5f9;
+      --line:#e2e8f0;
+      --text:#1e293b;
+      --muted:#64748b;
+      --panel:#ffffff;
+      --bg:#f8fafc;
+      --left-col:120px;
+      --policy-col:185px;
+      --track-h:62px;
+      --lane-pad:14px;
+      --shadow:0 4px 20px rgba(15, 23, 42, .06);
+      --radius:16px;
+    }
+
+    *{box-sizing:border-box}
+    body {
+      margin: 0;
+      font-family: "Pretendard Variable", "Segoe UI", "Malgun Gothic", sans-serif;
+      background: linear-gradient(180deg, #f8fafc 0%, #ffffff 400px);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    .page{
+      min-height:100vh;
+      padding:32px 24px 40px;
+      max-width:1440px;
+      margin:0 auto;
+    }
+
+    
+    .icon-btn{
+      border:1px solid var(--line);
+      background:#fff;
+      color:var(--text);
+      border-radius:8px;
+      padding:9px 16px;
+      font-size:12.5px;
+      font-weight:600;
+      cursor:pointer;
+      transition:.15s ease;
+      font-family:inherit;
+    }
+    .icon-btn:hover{background:#f8fafc;border-color:#cbd5e1}
+
+    .controls{
+      display:flex;
+      flex-wrap:nowrap;
+      align-items:center;
+      gap:12px;
+      background:#ffffff;
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:14px 20px;
+      box-shadow:var(--shadow);
+      margin-bottom:24px;
+    }
+
+    .control-group{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      flex-wrap:nowrap;
+      flex:0 0 auto;
+    }
+
+
+    /* 기간 필터와 분야 필터 구분 간격 */
+    #periodFilter{
+      margin-right:18px;
+      padding-right:18px;
+      border-right:1px solid var(--line);
+    }
+
+    .control-label{
+      font-size:12.5px;
+      font-weight:800;
+      color:#0f172a;
+      margin-right:3px;
+    }
+
+    .chip{
+      border:1px solid transparent;
+      background:#f1f5f9;
+      color:#475569;
+      border-radius:8px;
+      min-height:34px;
+      padding:9px 16px;
+      font-size:12.5px;
+      font-weight:600;
+      cursor:pointer;
+      transition:.15s ease;
+      font-family:inherit;
+    }
+    .chip:hover{background:#e2e8f0;color:var(--navy)}
+    .chip.active{background:var(--navy);color:#fff;border-color:var(--navy);box-shadow:none}
+
+    .custom-period-wrap{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding-left:4px;
+    }
+    .month-input{
+      width:128px;
+      height:34px;
+      border:1px solid #dbe3ef;
+      border-radius:9px;
+      padding:0 8px;
+      color:#0f172a;
+      background:#fff;
+      font-size:12.5px;
+      font-weight:800;
+      font-family:inherit;
+      outline:none;
+    }
+    .month-input:focus{
+      border-color:var(--accent);
+      box-shadow:0 0 0 3px rgba(243,112,33,.10);
+    }
+    .month-separator{
+      color:#64748b;
+      font-size:12.5px;
+      font-weight:900;
+    }
+    .month-apply{
+      height:34px;
+      border:1px solid #dbe3ef;
+      background:#f8fafc;
+      color:#0f172a;
+      border-radius:9px;
+      padding:0 10px;
+      font-size:12px;
+      font-weight:900;
+      cursor:pointer;
+      font-family:inherit;
+      transition:.15s ease;
+    }
+    .month-apply:hover{
+      background:#eef2f7;
+      border-color:#aab9d0;
+    }
+    #periodFilter.custom-active .custom-period-wrap{
+      background:#f8fafc;
+      border:1px solid #e2e8f0;
+      border-radius:11px;
+      padding:4px 5px;
+    }
+
+    .chip .dot,
+    .legend-dot{
+      display:inline-block;
+      width:9px;height:9px;
+      border-radius:50%;
+      margin-right:6px;
+      vertical-align:middle;
+    }
+    .dot.blue,.legend-dot.blue{background:var(--blue)}
+    .dot.green,.legend-dot.green{background:var(--green)}
+    .dot.gray,.legend-dot.gray{background:#94a3b8}
+    .diamond,.legend-diamond{
+      display:inline-block;
+      width:9px;height:9px;
+      background:var(--orange);
+      transform:rotate(45deg);
+      margin-right:7px;
+      vertical-align:middle;
+    }
+
+    .search-wrap{
+      margin-left:auto;
+      width:220px;
+      min-width:220px;
+      flex:0 0 220px;
+      display:flex;
+      align-items:center;
+      gap:8px;
+      background:#fff;
+      border:1px solid #dbe3ef;
+      border-radius:10px;
+      padding:0 10px;
+      height:38px;
+    }
+    .search-wrap input{
+      width:100%;
+      border:0;
+      outline:0;
+      font-size:12.5px;
+      color:#0f172a;
+      background:transparent;
+    }
+
+    .json-load{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:6px;
+      height:38px;
+      border-radius:10px;
+      border:1px solid #dbe3ef;
+      padding:0 12px;
+      font-size:12.5px;
+      font-weight:800;
+      color:#0f172a;
+      background:#fff;
+      cursor:pointer;
+      white-space:nowrap;
+    }
+    .json-load:hover{background:#f8fafc}
+    #jsonFile{display:none}
+
+    .main-layout{
+      display:grid;
+      grid-template-columns:minmax(760px, 1fr) 310px;
+      gap:14px;
+      align-items:start;
+    }
+
+    .timeline-card,
+    .detail-shell{
+      background:var(--panel);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+
+    .timeline-topbar{
+      display:none;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      padding:13px 16px 12px;
+      border-bottom:1px solid var(--line);
+      background:linear-gradient(180deg,#fff,#fbfdff);
+    }
+    .timeline-title{
+      font-size:15px;
+      font-weight:900;
+      letter-spacing:-.03em;
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+    .data-status{
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.4;
+      text-align:right;
+    }
+    .data-status.warn{color:#b45309}
+
+    .timeline-scroll{
+      overflow:auto;
+      max-height:calc(100vh - 238px);
+      min-height:520px;
+      background:#fff;
+    }
+
+    .timeline-shell{
+      display:grid;
+      grid-template-columns:var(--left-col) minmax(0, 1fr);
+      min-width:100%;
+      position:relative;
+    }
+
+    .year-cell,
+    .time-axis{
+      height:56px;
+      border-bottom:1px solid var(--line);
+      background:#fbfdff;
+      position:sticky;
+      top:0;
+      z-index:20;
+    }
+    .year-cell{
+      display:flex;align-items:center;padding-left:18px;
+      font-weight:900;color:#0f172a;border-right:0;
+    }
+    .time-axis{position:sticky;top:0;z-index:19;overflow:hidden}
+    .axis-title-spacer{
+      position:absolute;
+      left:0;top:0;bottom:0;
+      width:var(--policy-col);
+      border-right:1px solid var(--line);
+      background:#fbfdff;
+      pointer-events:none;
+    }
+    .axis-time-grid{
+      position:absolute;
+      left:var(--policy-col);right:10px;top:0;bottom:0;
+      overflow:hidden;
+    }
+    .month-tick{
+      position:absolute;top:0;bottom:0;
+      color:#31405b;
+      font-size:12.5px;
+      font-weight:800;
+      padding-top:19px;
+      text-align:center;
+      transform:translateX(-50%);
+      white-space:nowrap;
+      min-width:44px;
+      pointer-events:none;
+    }
+    .month-tick.first{
+      transform:translateX(-50%);
+      text-align:center;
+      min-width:44px;
+    }
+    .month-boundary,
+    .lane-month-boundary{
+      position:absolute;top:0;bottom:0;
+      width:1px;background:rgba(226,232,240,.95);
+      pointer-events:none;
+    }
+    .lane-month-boundary{
+      z-index:1;
+      opacity:.72;
+    }
+
+    .today-line{
+      position:absolute;
+      top:0;bottom:0;
+      border-left:2px dashed rgba(243,112,33,.65);
+      z-index:12;
+      pointer-events:none;
+    }
+    .today-label{
+      position:absolute;
+      top:5px;
+      left:50%;
+      transform:translateX(-50%);
+      background:var(--accent);color:#fff;
+      padding:5px 9px;border-radius:7px;
+      font-size:12px;font-weight:800;
+      box-shadow:0 6px 15px rgba(243,112,33,.28);
+    }
+
+    .category-cell{
+      border-right:1px solid var(--line);
+      border-bottom:1px solid var(--line);
+      background:#fbfdff;
+      display:flex;
+      align-items:flex-start;
+      gap:8px;
+      padding:18px 8px;
+      position:relative;
+    }
+    .cat-icon{
+      width:30px;height:30px;border-radius:999px;
+      display:flex;align-items:center;justify-content:center;
+      color:#fff;font-size:14px;font-weight:900;
+      flex:0 0 auto;
+      box-shadow:inset 0 -8px 14px rgba(2,12,32,.14), 0 7px 16px rgba(2,12,32,.13);
+    }
+    .cat-icon.market{background:#2563eb}
+    .cat-icon.grid{background:#0f9488}
+    .cat-icon.carbon{background:#0F766E}
+    .cat-icon.lng{background:#6d3ac9}
+    .cat-icon.renew{background:#f97316}
+    .cat-icon.energy{
+      background:#0ea5e9;
+      position:relative;
+      font-size:0;
+    }
+    .cat-icon.energy::before{
+      content:"";
+      width:11px;
+      height:15px;
+      background:#fff;
+      border-radius:50% 50% 50% 0;
+      transform:rotate(-45deg);
+      display:block;
+    }
+    .cat-icon.etc{background:#64748b}
+    .cat-name{
+      font-size:12.5px;line-height:1.25;font-weight:900;color:#0f172a;letter-spacing:-.03em;
+      margin-top:6px;
+    }
+    .cat-count{
+      position:absolute;right:8px;bottom:10px;
+      color:#64748b;font-size:11px;font-weight:800;
+      background:#eef2f7;border-radius:999px;padding:3px 8px;
+    }
+
+    .lane-content{
+      position:relative;
+      border-bottom:1px solid var(--line);
+      overflow:hidden;
+      background:#fff;
+    }
+    .lane-title-col{
+      position:absolute;
+      left:0;top:0;bottom:0;
+      width:var(--policy-col);
+      border-right:1px solid var(--line);
+      background:linear-gradient(90deg,#fff,#fbfdff);
+      z-index:2;
+      pointer-events:none;
+    }
+    .lane-time-grid{
+      position:absolute;
+      left:var(--policy-col);right:10px;top:0;bottom:0;
+      z-index:1;
+      pointer-events:none;
+    }
+    .track{
+      position:absolute;
+      left:0;right:0;
+      height:var(--track-h);
+      cursor:pointer;
+      border-radius:11px;
+      transition:.16s ease;
+      z-index:4;
+    }
+    .track:hover{background:rgba(243,112,33,.04)}
+    .track.selected{background:rgba(243,112,33,.08)}
+    .track-time{
+      position:absolute;
+      left:var(--policy-col);right:10px;
+      top:0;bottom:0;
+      z-index:5;
+    }
+
+    .policy-name{
+      position:absolute;
+      top:30px;
+      left:10px;
+      transform:translateY(-50%);
+      max-width:calc(var(--policy-col) - 20px);
+      color:#0f172a;
+      font-size:12.5px;
+      font-weight:950;
+      letter-spacing:-.03em;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      z-index:9;
+      text-shadow:0 1px 0 rgba(255,255,255,.9);
+      display:inline-flex;
+      align-items:center;
+      gap:5px;
+      padding:1px 0 1px 9px;
+      background:transparent;
+      border-radius:0;
+      box-shadow:none;
+    }
+    .policy-name::before{
+      content:"";
+      position:absolute;
+      left:0;
+      top:1px;
+      bottom:1px;
+      width:3px;
+      border-radius:999px;
+      background:var(--accent);
+    }
+    .policy-title-text{
+      min-width:0;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+    }
+
+    .status-badge{
+      display:inline-flex;align-items:center;
+      font-size:10.5px;font-weight:900;
+      padding:2px 5px;border-radius:7px;
+      margin-left:6px;vertical-align:middle;
+    }
+    .status-발표,.status-공개{background:var(--blue-soft);color:#1d4ed8}
+    .status-검토중,.status-추진중,.status-후속\ 미정{background:var(--orange-soft);color:#d97706}
+    .status-시행{background:var(--green-soft);color:#15803d}
+    .status-종료{background:#e5e7eb;color:#475569}
+
+    .bar{
+      position:absolute;
+      top:30px;
+      height:3px;
+      border-radius:999px;
+      z-index:3;
+    }
+    .bar.solid{
+      background:linear-gradient(90deg, var(--blue), var(--orange) 48%, var(--green));
+    }
+    .bar.history{
+      background:var(--blue);
+    }
+    .bar.dashed{
+      height:0;
+      border-top:2px dashed var(--orange);
+      border-radius:0;
+    }
+    .bar.dashed::after{
+      content:"";
+      position:absolute;right:-3px;top:-5px;
+      width:8px;height:8px;
+      border-top:2px solid var(--orange);
+      border-right:2px solid var(--orange);
+      transform:rotate(45deg);
+    }
+
+    .marker{
+      position:absolute;
+      top:25px;
+      width:13px;height:13px;
+      transform:translateX(-50%);
+      border:2px solid #fff;
+      box-shadow:0 1px 4px rgba(15,23,42,.22);
+      z-index:6;
+    }
+    .marker.announce{border-radius:50%;background:var(--blue)}
+    .marker.review{background:var(--orange);transform:translateX(-50%) rotate(45deg);border-radius:2px}
+    .marker.effective{border-radius:50%;background:var(--green)}
+    .marker.end{background:#94a3b8;border-radius:3px}
+
+    .event-label{
+      position:absolute;
+      top:39px;
+      transform:translateX(-50%);
+      color:#263653;
+      font-size:11px;
+      font-weight:800;
+      white-space:nowrap;
+      z-index:7;
+    }
+
+    .end-pill-wrap{
+      position:absolute;
+      top:3px;
+      right:16px;
+      display:flex;
+      align-items:center;
+      z-index:10;
+      pointer-events:none;
+    }
+    .end-pill{
+      border:1px solid #d7e0ed;
+      background:rgba(255,255,255,.96);
+      color:#334155;
+      border-radius:7px;
+      font-size:11px;
+      font-weight:900;
+      padding:4px 7px;
+      white-space:nowrap;
+      box-shadow:0 1px 4px rgba(15,23,42,.06);
+    }
+
+    .empty-state{
+      grid-column:1 / span 2;
+      min-height:240px;
+      display:flex;align-items:center;justify-content:center;
+      color:#64748b;
+      font-weight:800;
+      background:#fff;
+      border-bottom:1px solid var(--line);
+    }
+
+    .legend{
+      position:sticky;
+      bottom:0;
+      z-index:20;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:18px;
+      padding:10px 12px;
+      background:rgba(255,255,255,.92);
+      border-top:1px solid var(--line);
+      backdrop-filter:blur(8px);
+      font-size:12px;
+      font-weight:900;
+      color:#334155;
+    }
+    .legend-item{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+    .legend-line{width:34px;height:0;border-top:2px solid var(--blue);display:inline-block}
+    .legend-dashed{width:38px;height:0;border-top:2px dashed var(--orange);display:inline-block;position:relative}
+    .legend-dashed::after{content:"";position:absolute;right:-2px;top:-5px;width:7px;height:7px;border-top:2px solid var(--orange);border-right:2px solid var(--orange);transform:rotate(45deg)}
+
+    .detail-shell{
+      background:var(--navy);
+      color:#fff;
+      position:sticky;
+      top:18px;
+    }
+    .detail-head{
+      display:flex;align-items:center;justify-content:space-between;
+      padding:16px 16px 12px;
+      font-size:15px;font-weight:900;
+      border-bottom:1px solid rgba(255,255,255,.12);
+    }
+    .detail-card{
+      margin:14px;
+      background:#fff;
+      color:#0f172a;
+      border-radius:13px;
+      overflow:hidden;
+      box-shadow:0 12px 30px rgba(0,0,0,.16);
+    }
+    .detail-card-body{padding:16px 16px 18px}
+    .detail-title-row{
+      display:flex;align-items:flex-start;justify-content:space-between;gap:10px;
+      margin-bottom:12px;
+    }
+    .detail-title{
+      font-size:19px;font-weight:950;letter-spacing:-.04em;line-height:1.2;
+    }
+    .field{
+      display:grid;
+      grid-template-columns:86px 1fr;
+      gap:10px;
+      padding:9px 0;
+      border-top:1px solid #eef2f7;
+      font-size:12.5px;
+      line-height:1.45;
+    }
+    .field:first-of-type{border-top:0}
+    .field-label{color:#475569;font-weight:900}
+    .field-value{color:#0f172a;font-weight:700;word-break:keep-all}
+    .keyword-list{display:flex;flex-wrap:wrap;gap:5px}
+    .keyword{
+      background:rgba(243,112,33,.08);color:var(--accent);border-radius:6px;padding:3px 8px;font-size:11px;font-weight:700;
+    }
+    .detail-content-value{
+      color:#334155;
+      font-weight:700;
+      line-height:1.55;
+    }
+
+
+    .event-history{
+      margin-top:12px;
+      border:1px solid #e2e8f0;
+      border-radius:12px;
+      overflow:hidden;
+      background:#fff;
+    }
+    .event-history-head{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      padding:10px 11px;
+      background:#f8fafc;
+      border-bottom:1px solid #e2e8f0;
+      color:#0f172a;
+      font-size:12.5px;
+      font-weight:950;
+      letter-spacing:-.02em;
+    }
+    .event-history-count{
+      color:#64748b;
+      font-size:11px;
+      font-weight:900;
+    }
+    .event-history-list{
+      max-height:250px;
+      overflow:auto;
+      background:#fff;
+    }
+    .event-item{
+      padding:10px 11px 11px;
+      border-top:1px solid #eef2f7;
+    }
+    .event-item:first-child{border-top:0}
+    .event-item-top{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:8px;
+      margin-bottom:6px;
+    }
+    .event-date{
+      color:#475569;
+      font-size:12px;
+      font-weight:950;
+      white-space:nowrap;
+    }
+    .event-type-pill{
+      display:inline-flex;
+      align-items:center;
+      min-height:20px;
+      padding:3px 6px;
+      border-radius:999px;
+      background:#f1f5f9;
+      color:#334155;
+      font-size:11px;
+      font-weight:950;
+      white-space:nowrap;
+    }
+    .event-title{
+      color:#0f172a;
+      font-size:12.5px;
+      font-weight:950;
+      line-height:1.35;
+      word-break:keep-all;
+    }
+    .event-summary{
+      margin-top:5px;
+      color:#475569;
+      font-size:12px;
+      line-height:1.48;
+      word-break:keep-all;
+    }
+    .event-item-bottom{
+      display:none;
+    }
+    .event-source-link{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      flex:0 0 auto;
+      min-height:23px;
+      border:1px solid var(--line);
+      border-radius:7px;
+      padding:3px 7px;
+      background:#f8fafc;
+      color:var(--navy);
+      text-decoration:none;
+      font-size:11px;
+      font-weight:700;
+      line-height:1.1;
+      white-space:nowrap;
+    }
+    .event-source-link.disabled{
+      border-color:#e2e8f0;
+      background:#f8fafc;
+      color:#94a3b8;
+      pointer-events:none;
+    }
+
+    .detail-actions{
+      display:flex;gap:8px;margin-top:13px;
+    }
+    .detail-link{
+      flex:1;
+      text-align:center;
+      border:1px solid var(--navy);
+      border-radius:10px;
+      color:#fff;
+      text-decoration:none;
+      padding:10px 8px;
+      font-size:12.5px;
+      font-weight:700;
+      background:var(--navy);
+    }
+    .detail-link.disabled{border-color:#cbd5e1;color:#94a3b8;pointer-events:none}
+
+    .panel-nav{
+      display:flex;align-items:center;justify-content:center;gap:22px;
+      padding:8px 14px 18px;
+    }
+    .panel-nav button{
+      width:42px;height:42px;border-radius:10px;border:1px solid rgba(255,255,255,.15);
+      background:rgba(255,255,255,.1);color:#fff;font-size:24px;cursor:pointer;
+    }
+    .panel-count{font-weight:900;color:rgba(255,255,255,.82)}
+
+    .footer-note{
+      margin-top:12px;
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.5;
+      opacity:.72;
+    }
+
+    @media (max-width:1120px){
+      .main-layout{grid-template-columns:1fr}
+      .detail-shell{position:static}
+      .timeline-scroll{max-height:none}
+      .controls{flex-wrap:wrap}
+      .control-group{flex-wrap:wrap}
+      #periodFilter{margin-right:0;padding-right:0;border-right:0}
+      .search-wrap{margin-left:0;width:auto;min-width:240px;flex:1 1 240px}
+    }
+
+    @media (max-width:760px){
+      .page{padding:16px}
+      .hero-inner{padding:24px}
+      .hero{flex-direction:column}
+      .hero-title{font-size:24px}
+      .controls{gap:12px;padding:12px}
+      .chip{padding:7px 10px}
+      .timeline-shell{grid-template-columns:110px minmax(0,1fr);--left-col:110px;--policy-col:170px;min-width:100%;}
+      .category-cell{padding:18px 10px}.cat-name{font-size:13px}.cat-icon{width:34px;height:34px}
+    }
+  
+
+    
+
+    /* ── HERO HEADER ── */
+    .hero {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-left: 4px solid #f37021;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+      margin-bottom: 24px;
+      overflow: hidden;
+    }
+
+    .hero-inner {
+      padding: 22px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 1;
+      min-width: 0;
+    }
+
+    .hero-brand {
+      display: block;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #f37021;
+      margin-bottom: 5px;
+    }
+
+    .hero-title {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      color: #0c2340;
+    }
+
+    .hero-subtitle {
+      margin: 5px 0 0;
+      font-size: 13px;
+      color: #64748b;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+
+    .hero-meta {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .date-box {
+      display: inline-flex;
+      align-items: center;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 7px 14px;
+      font-size: 13px;
+      color: #475569;
+      white-space: nowrap;
+    }
+
+    .date-box strong {
+      color: #f37021;
+      font-weight: 700;
+      margin-left: 4px;
+    }
+
+    @media (max-width: 720px) {
+      .hero-inner { padding: 16px 18px; flex-direction: column; align-items: flex-start; gap: 12px; }
+      .hero-title { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1 class="hero-title">Energy Policy Timeline</h1>
+          <p class="hero-subtitle">주요 에너지 정책·제도 변화 흐름과 향후 일정을 한눈에 확인할 수 있습니다.</p>
+        </div>
+        <div class="hero-meta">
+          <div class="date-box">기준일 <strong id="baseDate">-</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="정책 타임라인 필터">
+      <div class="control-group" id="periodFilter">
+        <span class="control-label">기간</span>
+        <button class="chip" data-period="3m">3개월</button>
+        <button class="chip" data-period="6m">6개월</button>
+        <button class="chip active" data-period="1y">1년</button>
+        <button class="chip" data-period="all">전체</button>
+        <span class="custom-period-wrap" aria-label="사용자 지정 기간">
+          <input id="customStartMonth" class="month-input" type="month" aria-label="시작월" />
+          <span class="month-separator">~</span>
+          <input id="customEndMonth" class="month-input" type="month" aria-label="종료월" />
+          <button id="customPeriodApply" class="month-apply" type="button">적용</button>
+        </span>
+      </div>
+      <div class="control-group" id="categoryFilter">
+        <span class="control-label">분야</span>
+      </div>
+      <div class="search-wrap">
+        <input id="searchInput" type="search" placeholder="정책명·키워드 검색" />
+        <span aria-hidden="true">⌕</span>
+      </div>
+    </section>
+
+    <main class="main-layout">
+      <section class="timeline-card">
+        <div class="timeline-topbar">
+          <div class="timeline-title">정책 타임라인 보드 <span id="visibleCount" style="color:var(--accent);font-size:12px"></span></div>
+        </div>
+        <div class="timeline-scroll">
+          <div id="timelineShell" class="timeline-shell" aria-live="polite"></div>
+
+        </div>
+      </section>
+
+      <aside class="detail-shell" aria-label="선택 정책 상세정보">
+        <div class="detail-head">
+          <span>선택 정책</span>
+          <span id="detailClose" style="cursor:pointer;opacity:.7">×</span>
+        </div>
+        <div id="detailPanel" class="detail-card"></div>
+        <div class="panel-nav">
+          <button id="prevPolicy" type="button" aria-label="이전 정책">‹</button>
+          <span id="panelCount" class="panel-count">0 / 0</span>
+          <button id="nextPolicy" type="button" aria-label="다음 정책">›</button>
+        </div>
+      </aside>
+    </main>
+
+    <div class="footer-note">
+      데이터 경로: <strong>data/policy_dashboard_data.json</strong>을 우선 읽고, 없으면 <strong>policy_dashboard_data.json</strong>도 확인합니다. HTML 내부 샘플 데이터 없이 외부 JSON만 읽습니다. 로컬에서 더블클릭으로 열면 자동 로드가 차단될 수 있으므로, 로컬 서버로 실행하세요.
+    </div>
+  </div>
+
+  <script>
+    const DATA_PATHS = ["data/policy_dashboard_data.json", "policy_dashboard_data.json"];
+
+    const state = {
+      rawData: null,
+      policies: [],
+      filtered: [],
+      activePeriod: "1y",
+      customStartMonth: "",
+      customEndMonth: "",
+      activeCategory: "전체",
+      search: "",
+      selectedId: null,
+      range: null,
+      loadError: null,
+      loadedDataPath: null,
+    };
+
+    const CATEGORY_ICONS = {
+      "전력": { icon: "⚡︎", cls: "market" },
+      "전력시장": { icon: "⚡︎", cls: "market" },
+      "에너지": { icon: "", cls: "energy" },
+      "계통·망": { icon: "▵", cls: "grid" },
+      "환경": { icon: "CO₂", cls: "carbon" },
+      "LNG·연료": { icon: "◆", cls: "lng" },
+      "재생·분산에너지": { icon: "☀", cls: "renew" },
+      "기타": { icon: "•", cls: "etc" },
+    };
+
+    function parseDate(value){
+      if(!value || typeof value !== "string") return null;
+      const m = value.trim().match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+      if(!m) return null;
+      const d = new Date(Number(m[1]), Number(m[2])-1, Number(m[3]));
+      return Number.isNaN(d.getTime()) ? null : d;
+    }
+
+    function parsePeriodToDate(value){
+      if(!value || typeof value !== "string") return null;
+      const v = value.trim();
+      let m = v.match(/^(\d{4})-(\d{1,2})$/);
+      if(m){
+        const d = new Date(Number(m[1]), Number(m[2])-1, 15);
+        return Number.isNaN(d.getTime()) ? null : d;
+      }
+      m = v.match(/^(\d{4})-?Q([1-4])$/i);
+      if(m){
+        const q = Number(m[2]);
+        const middleMonth = (q - 1) * 3 + 1;
+        const d = new Date(Number(m[1]), middleMonth, 15);
+        return Number.isNaN(d.getTime()) ? null : d;
+      }
+      m = v.match(/^(\d{4})$/);
+      if(m){
+        const d = new Date(Number(m[1]), 6, 1);
+        return Number.isNaN(d.getTime()) ? null : d;
+      }
+      return null;
+    }
+
+    function getTemporalDate(dateValue, periodValue){
+      return parseDate(dateValue) || parsePeriodToDate(periodValue);
+    }
+
+    function fmtDate(value){
+      const d = parseDate(value);
+      if(!d) return "-";
+      return `${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,"0")}.${String(d.getDate()).padStart(2,"0")}`;
+    }
+
+    function formatBaseDateValue(value){
+      if(!value) return "-";
+      if(value instanceof Date && !Number.isNaN(value.getTime())){
+        return `${value.getFullYear()}.${String(value.getMonth()+1).padStart(2,"0")}.${String(value.getDate()).padStart(2,"0")}`;
+      }
+      const match = String(value).match(/^(\d{4})[-.](\d{1,2})[-.](\d{1,2})/);
+      if(match) return `${match[1]}.${String(Number(match[2])).padStart(2,"0")}.${String(Number(match[3])).padStart(2,"0")}`;
+      return String(value);
+    }
+
+    function updateHeaderBaseDate(data){
+      const baseDateEl = document.getElementById("baseDate");
+      if(!baseDateEl) return;
+      const meta = data?.meta || state.rawData?.meta || {};
+      const candidates = [meta.base_date, meta.as_of_date, meta.generated_date, meta.generated_at].filter(Boolean);
+      let base = candidates[0];
+      if(!base && state.policies?.length){
+        const dates = state.policies.flatMap(policyDates);
+        if(dates.length) base = new Date(Math.max(...dates.map(d => d.getTime())));
+      }
+      if(!base) base = new Date();
+      baseDateEl.textContent = formatBaseDateValue(base);
+    }
+
+    function fmtPeriod(value, precision){
+      if(!value) return "-";
+      const v = String(value).trim();
+      let m = v.match(/^(\d{4})-(\d{1,2})$/);
+      if(m) return `${m[1]}.${String(Number(m[2])).padStart(2,"0")}`;
+      m = v.match(/^(\d{4})-?Q([1-4])$/i);
+      if(m) return `${m[1]}년 ${m[2]}분기`;
+      m = v.match(/^(\d{4})$/);
+      if(m) return `${m[1]}년`;
+      return v;
+    }
+
+    function fmtTemporal(dateValue, periodValue, precision, label){
+      if(label) return label;
+      if(dateValue) return fmtDate(dateValue);
+      if(periodValue) return fmtPeriod(periodValue, precision);
+      return "-";
+    }
+
+    function fmtShortTemporal(dateValue, periodValue, precision, label){
+      if(dateValue){
+        const d = parseDate(dateValue);
+        return d ? `${d.getMonth()+1}/${d.getDate()}` : "";
+      }
+      if(label) return label;
+      if(periodValue) return fmtPeriod(periodValue, precision);
+      return "";
+    }
+
+    function escapeHtml(value){
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function validPolicy(p){
+      return p && p.policy_id && p.policy_name && p.category && p.status;
+    }
+
+    function policyDates(policy){
+      const dates = [];
+      ["first_announce_date", "latest_event_date", "expected_date"].forEach(k => {
+        const d = parseDate(policy[k]);
+        if(d) dates.push(d);
+      });
+      const expectedPeriodDate = parsePeriodToDate(policy.expected_period);
+      if(expectedPeriodDate) dates.push(expectedPeriodDate);
+      (policy.events || []).forEach(e => {
+        const d = getTemporalDate(e.event_date, e.event_period);
+        if(d) dates.push(d);
+      });
+      return dates;
+    }
+
+    function unique(arr){ return [...new Set(arr.filter(Boolean))]; }
+
+    function detectBaseYear(policies){
+      const years = unique(policies.flatMap(p => policyDates(p).map(d => d.getFullYear()))).sort();
+      const todayYear = new Date().getFullYear();
+      if(years.includes(todayYear)) return todayYear;
+      return years[0] || todayYear;
+    }
+
+    function addMonths(date, months){
+      return new Date(date.getFullYear(), date.getMonth() + months, date.getDate());
+    }
+
+    function monthInputValue(date){
+      if(!date) return "";
+      return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,"0")}`;
+    }
+
+    function parseMonthInput(value){
+      const m = String(value || "").trim().match(/^(\d{4})-(\d{2})$/);
+      if(!m) return null;
+      const d = new Date(Number(m[1]), Number(m[2]) - 1, 1);
+      return Number.isNaN(d.getTime()) ? null : d;
+    }
+
+    function endOfMonth(date){
+      return new Date(date.getFullYear(), date.getMonth()+1, 0);
+    }
+
+    function fmtRangeMonthLabel(start, end){
+      const sYear = String(start.getFullYear()).slice(2);
+      const eYear = String(end.getFullYear()).slice(2);
+      const sMonth = String(start.getMonth()+1).padStart(2,"0");
+      const eMonth = String(end.getMonth()+1).padStart(2,"0");
+      return `${sYear}.${sMonth}~${eYear}.${eMonth}`;
+    }
+
+    function setCustomRangeDefaults(){
+      const baseYear = detectBaseYear(state.policies);
+      if(!state.customStartMonth) state.customStartMonth = `${baseYear}-01`;
+      if(!state.customEndMonth) state.customEndMonth = `${baseYear}-12`;
+    }
+
+    function syncCustomInputs(){
+      const startInput = document.getElementById("customStartMonth");
+      const endInput = document.getElementById("customEndMonth");
+      if(startInput && startInput.value !== state.customStartMonth) startInput.value = state.customStartMonth;
+      if(endInput && endInput.value !== state.customEndMonth) endInput.value = state.customEndMonth;
+    }
+
+    function computeRange(){
+      const dates = state.policies.flatMap(policyDates);
+      const today = new Date();
+      const baseYear = detectBaseYear(state.policies);
+      const todayInBaseYear = today.getFullYear() === baseYear;
+      const center = todayInBaseYear ? today : new Date(baseYear, 5, 30);
+
+      if(state.activePeriod === "3m"){
+        return { start: new Date(center.getFullYear(), center.getMonth()-1, 1), end: new Date(center.getFullYear(), center.getMonth()+2, 0), label: "3개월" };
+      }
+      if(state.activePeriod === "6m"){
+        return { start: new Date(center.getFullYear(), center.getMonth()-2, 1), end: new Date(center.getFullYear(), center.getMonth()+4, 0), label: "6개월" };
+      }
+      if(state.activePeriod === "custom"){
+        let startMonth = parseMonthInput(state.customStartMonth);
+        let endMonth = parseMonthInput(state.customEndMonth);
+        if(!startMonth || !endMonth){
+          setCustomRangeDefaults();
+          startMonth = parseMonthInput(state.customStartMonth);
+          endMonth = parseMonthInput(state.customEndMonth);
+        }
+        if(startMonth && endMonth){
+          if(startMonth > endMonth){
+            const tmp = startMonth;
+            startMonth = endMonth;
+            endMonth = tmp;
+            state.customStartMonth = monthInputValue(startMonth);
+            state.customEndMonth = monthInputValue(endMonth);
+          }
+          const start = new Date(startMonth.getFullYear(), startMonth.getMonth(), 1);
+          const end = endOfMonth(endMonth);
+          return { start, end, label: fmtRangeMonthLabel(start, end) };
+        }
+      }
+      if(state.activePeriod === "all" && dates.length){
+        const min = new Date(Math.min(...dates.map(d => d.getTime())));
+        const max = new Date(Math.max(...dates.map(d => d.getTime())));
+        return { start: new Date(min.getFullYear(), min.getMonth(), 1), end: new Date(max.getFullYear(), max.getMonth()+1, 0), label: "전체" };
+      }
+      return { start: new Date(baseYear, 0, 1), end: new Date(baseYear, 11, 31), label: `${baseYear}년` };
+    }
+
+    function posPct(date){
+      if(!date || !state.range) return null;
+      const {start, end} = state.range;
+      const total = end.getTime() - start.getTime();
+      if(total <= 0) return 0;
+      return ((date.getTime() - start.getTime()) / total) * 100;
+    }
+
+    function clampPct(x, min=0, max=100){
+      if(x === null || Number.isNaN(x)) return null;
+      return Math.max(min, Math.min(max, x));
+    }
+
+	function eventMarkerClass(type){
+	  if(type === "공개" || type === "발표") return "announce";
+	  if(type === "시행") return "effective";
+	  if(type === "종료") return "end";
+
+	  if(["이슈", "경과", "개정", "검토", "입법예고", "의견수렴", "확정"].includes(type)) return "review";
+
+	  return "review";
+	}
+
+    function hasKnownEnd(policy){
+      if(policy.expected_date || policy.expected_period) return true;
+      return (policy.events || []).some(e => e.event_type === "시행" && (e.event_date || e.event_period));
+    }
+
+    function isOpenEndedPolicy(policy){
+      const endType = String(policy.timeline_end_type || "");
+      if(endType.includes("미정") || endType.includes("상시")) return true;
+      if(policy.open_ended === true) return true;
+      if(policy.timeline_style?.line_type === "dashed_arrow" && !hasKnownEnd(policy)) return true;
+      return false;
+    }
+
+    function scheduleStatusText(policy){
+      if(isOpenEndedPolicy(policy)) return policy.timeline_end_type || "미정";
+      if(policy.expected_precision && policy.expected_precision !== "일") return `${policy.expected_precision} 단위 일정`;
+      if(policy.schedule_confirmed) return "확정";
+      if(policy.expected_date || policy.expected_period) return "일정 있음";
+      return "미정";
+    }
+
+    function statusBadge(status){
+      const safeStatus = escapeHtml(status || "-");
+      return `<span class="status-badge status-${safeStatus}">${safeStatus}</span>`;
+    }
+
+    function getCategories(){
+      const fromData = state.rawData?.codes?.categories || [];
+      const fromPolicies = unique(state.policies.map(p => p.category));
+      return unique([...fromData, ...fromPolicies]).filter(c => state.policies.some(p => p.category === c));
+    }
+
+    function buildFilterButtons(){
+      const catBox = document.getElementById("categoryFilter");
+      catBox.querySelectorAll("button").forEach(b => b.remove());
+      ["전체", ...getCategories()].forEach(cat => {
+        const btn = document.createElement("button");
+        btn.className = `chip${cat === state.activeCategory ? " active" : ""}`;
+        btn.textContent = cat;
+        btn.dataset.category = cat;
+        btn.addEventListener("click", () => { state.activeCategory = cat; render(); });
+        catBox.appendChild(btn);
+      });
+    }
+
+    function matchesPeriod(policy){
+      const dates = policyDates(policy);
+      if(!dates.length) return true;
+      const {start, end} = state.range;
+      const min = new Date(Math.min(...dates.map(d => d.getTime())));
+      const max = new Date(Math.max(...dates.map(d => d.getTime())));
+      if(policy.open_ended || policy.timeline_style?.line_type === "dashed_arrow"){
+        return min <= end;
+      }
+      return max >= start && min <= end;
+    }
+
+    function applyFilters(){
+      state.range = computeRange();
+      const q = state.search.trim().toLowerCase();
+      state.filtered = state.policies.filter(p => {
+        if(state.activeCategory !== "전체" && p.category !== state.activeCategory) return false;
+        if(!matchesPeriod(p)) return false;
+        if(q){
+          const hay = [p.policy_name, p.short_name, p.category, p.status, p.summary, p.detail, p.next_check_point, ...(p.keywords || [])]
+            .filter(Boolean).join(" ").toLowerCase();
+          if(!hay.includes(q)) return false;
+        }
+        return true;
+      });
+      if(!state.filtered.some(p => p.policy_id === state.selectedId)){
+        state.selectedId = state.filtered[0]?.policy_id || null;
+      }
+    }
+
+    function monthTicks(){
+      const {start, end} = state.range;
+      const ticks = [];
+      let d = new Date(start.getFullYear(), start.getMonth(), 1);
+      while(d <= end){
+        ticks.push(new Date(d));
+        d = new Date(d.getFullYear(), d.getMonth()+1, 1);
+      }
+      return ticks;
+    }
+
+    function monthLabelPct(monthStart){
+      const nextMonth = new Date(monthStart.getFullYear(), monthStart.getMonth()+1, 1);
+      const left = clampPct(posPct(monthStart), 0, 100);
+      const right = clampPct(posPct(nextMonth), 0, 100);
+      if(left === null || right === null) return left;
+      return (left + right) / 2;
+    }
+
+    function renderMonthBoundaries(container){
+      monthTicks().forEach((d, i) => {
+        if(i === 0) return; // 좌측 테두리와 중복 방지
+        const left = clampPct(posPct(d), 0, 100);
+        const line = document.createElement("div");
+        line.className = "lane-month-boundary";
+        line.style.left = `${left}%`;
+        container.appendChild(line);
+      });
+    }
+
+    function renderAxis(shell){
+      const yearCell = document.createElement("div");
+      yearCell.className = "year-cell";
+      yearCell.textContent = "";
+      shell.appendChild(yearCell);
+
+      const axis = document.createElement("div");
+      axis.className = "time-axis";
+
+      const titleSpacer = document.createElement("div");
+      titleSpacer.className = "axis-title-spacer";
+      axis.appendChild(titleSpacer);
+
+      const axisTimeGrid = document.createElement("div");
+      axisTimeGrid.className = "axis-time-grid";
+      const ticks = monthTicks();
+      ticks.forEach((d, i) => {
+        const labelLeft = monthLabelPct(d);
+        const label = document.createElement("div");
+        label.className = `month-tick${i === 0 ? " first" : ""}`;
+        label.style.left = `${labelLeft}%`;
+        label.textContent = `${d.getMonth()+1}월`;
+        axisTimeGrid.appendChild(label);
+
+        if(i > 0){
+          const left = clampPct(posPct(d), 0, 100);
+          const line = document.createElement("div");
+          line.className = "month-boundary";
+          line.style.left = `${left}%`;
+          axisTimeGrid.appendChild(line);
+        }
+      });
+
+      const todayPct = clampPct(posPct(new Date()));
+      if(todayPct !== null && todayPct >= 0 && todayPct <= 100){
+        const today = document.createElement("div");
+        today.className = "today-line";
+        today.style.left = `${todayPct}%`;
+        today.innerHTML = `<span class="today-label">Today</span>`;
+        axisTimeGrid.appendChild(today);
+      }
+      axis.appendChild(axisTimeGrid);
+      shell.appendChild(axis);
+    }
+
+    function renderPolicyTrack(policy, index, laneContent){
+      const track = document.createElement("div");
+      track.className = `track${policy.policy_id === state.selectedId ? " selected" : ""}`;
+      track.style.top = `${14 + index * 62}px`;
+      track.dataset.policyId = policy.policy_id;
+      track.addEventListener("click", () => { state.selectedId = policy.policy_id; render(); });
+
+      const allEvents = (policy.events || [])
+        .filter(e => e.event_date || e.event_period)
+        .map(e => ({...e, _date: getTemporalDate(e.event_date, e.event_period)}))
+        .filter(e => e._date)
+        .sort((a,b) => a._date - b._date);
+
+      const visibleEvents = allEvents.filter(e => e._date >= state.range.start && e._date <= state.range.end);
+      const startDate = allEvents[0]?._date || parseDate(policy.first_announce_date) || parsePeriodToDate(policy.expected_period) || state.range.start;
+      const expectedEnd = getTemporalDate(policy.expected_date, policy.expected_period);
+      const expectedInRange = expectedEnd && expectedEnd >= state.range.start && expectedEnd <= state.range.end;
+      const eventEnd = allEvents.at(-1)?._date;
+      const endDate = expectedEnd || parseDate(policy.latest_event_date) || eventEnd || startDate;
+      const startPct = clampPct(posPct(startDate), 0, 100);
+      const open = isOpenEndedPolicy(policy);
+      const rawEndPct = expectedEnd ? clampPct(posPct(expectedEnd), 0, 100) : (open ? 96 : clampPct(posPct(endDate), 0, 100));
+      const endPct = Math.max(startPct ?? 0, rawEndPct ?? 96);
+      const width = Math.max(4, endPct - (startPct ?? 0));
+
+      const label = document.createElement("div");
+      label.className = "policy-name";
+      const policyTitle = escapeHtml(policy.short_name || policy.policy_name);
+      label.innerHTML = `<span class="policy-title-text">${policyTitle}</span> ${statusBadge(policy.status)}`;
+      track.appendChild(label);
+
+      const timeLayer = document.createElement("div");
+      timeLayer.className = "track-time";
+      track.appendChild(timeLayer);
+
+      const lastEventDate = visibleEvents.at(-1)?._date || startDate;
+      const lastEventPct = clampPct(posPct(lastEventDate), 0, 100);
+      if(open && visibleEvents.length >= 2 && lastEventPct !== null && startPct !== null && lastEventPct > startPct){
+        const historyBar = document.createElement("div");
+        historyBar.className = "bar history";
+        historyBar.style.left = `${startPct}%`;
+        historyBar.style.width = `${Math.max(2, lastEventPct - startPct)}%`;
+        timeLayer.appendChild(historyBar);
+
+        const futureBar = document.createElement("div");
+        futureBar.className = "bar dashed";
+        futureBar.style.left = `${lastEventPct}%`;
+        futureBar.style.width = `${Math.max(4, endPct - lastEventPct)}%`;
+        timeLayer.appendChild(futureBar);
+      }else{
+        const bar = document.createElement("div");
+        bar.className = `bar ${open ? "dashed" : "solid"}`;
+        bar.style.left = `${startPct}%`;
+        bar.style.width = `${width}%`;
+        timeLayer.appendChild(bar);
+      }
+
+      visibleEvents.forEach(e => {
+        const left = clampPct(posPct(e._date), 0, 100);
+        const marker = document.createElement("div");
+        marker.className = `marker ${eventMarkerClass(e.event_type)}`;
+        marker.style.left = `${left}%`;
+        marker.title = `${e.event_label || e.event_type} ${fmtTemporal(e.event_date, e.event_period, e.event_precision)}
+${e.event_summary || ""}`;
+        timeLayer.appendChild(marker);
+
+        const evLabel = document.createElement("div");
+        evLabel.className = "event-label";
+        evLabel.style.left = `${left}%`;
+        evLabel.textContent = `${e.event_label || e.event_type} ${fmtShortTemporal(e.event_date, e.event_period, e.event_precision)}`;
+        timeLayer.appendChild(evLabel);
+      });
+
+      if(expectedInRange && !visibleEvents.some(e => Math.abs(e._date - expectedEnd) < 86400000)){
+        const left = clampPct(posPct(expectedEnd), 0, 100);
+        const marker = document.createElement("div");
+		
+		marker.className = "marker effective";
+
+        marker.style.left = `${left}%`;
+        marker.title = fmtTemporal(policy.expected_date, policy.expected_period, policy.expected_precision, policy.expected_label);
+        timeLayer.appendChild(marker);
+
+        const evLabel = document.createElement("div");
+        evLabel.className = "event-label";
+        evLabel.style.left = `${left}%`;
+        evLabel.textContent = fmtShortTemporal(policy.expected_date, policy.expected_period, policy.expected_precision, policy.expected_label);
+        timeLayer.appendChild(evLabel);
+      }
+
+      const undated = (policy.events || []).find(e => !e.event_date && !e.event_period && e.event_label);
+      if(open && !expectedEnd){
+        const pillWrap = document.createElement("div");
+        pillWrap.className = "end-pill-wrap";
+        const endLabel = policy.timeline_style?.end_label || policy.timeline_end_type || (policy.status === "후속 미정" ? "후속 미정" : "시행시점 미정");
+        const candidate = (undated?.event_label || endLabel || "시행시점 미정").trim();
+        const cleanLabel = candidate.toUpperCase() === "TBD" ? "시행시점 미정" : candidate;
+        pillWrap.innerHTML = `<span class="end-pill">${escapeHtml(cleanLabel)}</span>`;
+        timeLayer.appendChild(pillWrap);
+      }
+
+      laneContent.appendChild(track);
+    }
+
+    function renderTimeline(){
+      applyFilters();
+      const shell = document.getElementById("timelineShell");
+      shell.innerHTML = "";
+      renderAxis(shell);
+
+      const categories = getCategories();
+      let any = false;
+      const monthCount = Math.max(1, monthTicks().length);
+      shell.style.setProperty("--month-count", monthCount);
+      if(state.activePeriod === "all"){
+        shell.style.minWidth = `calc(var(--left-col) + var(--policy-col) + ${monthCount * 68}px)`;
+      }else{
+        shell.style.minWidth = "100%";
+      }
+
+      categories.forEach(category => {
+        const list = state.filtered.filter(p => p.category === category);
+        if(!list.length) return;
+        any = true;
+        const h = Math.max(94, 28 + list.length * 62);
+        const meta = CATEGORY_ICONS[category] || CATEGORY_ICONS["기타"];
+
+        const cat = document.createElement("div");
+        cat.className = "category-cell";
+        cat.style.height = `${h}px`;
+        cat.innerHTML = `
+          <div class="cat-icon ${meta.cls}">${escapeHtml(meta.icon)}</div>
+          <div class="cat-name">${escapeHtml(category)}</div>
+          <div class="cat-count">${list.length}건</div>
+        `;
+        shell.appendChild(cat);
+
+        const lane = document.createElement("div");
+        lane.className = "lane-content";
+        lane.style.height = `${h}px`;
+
+        const titleCol = document.createElement("div");
+        titleCol.className = "lane-title-col";
+        lane.appendChild(titleCol);
+
+        const timeGrid = document.createElement("div");
+        timeGrid.className = "lane-time-grid";
+        renderMonthBoundaries(timeGrid);
+        const todayPct = clampPct(posPct(new Date()));
+        if(todayPct !== null && todayPct >= 0 && todayPct <= 100){
+          const today = document.createElement("div");
+          today.className = "today-line";
+          today.style.left = `${todayPct}%`;
+          timeGrid.appendChild(today);
+        }
+        lane.appendChild(timeGrid);
+
+        list.forEach((p, i) => renderPolicyTrack(p, i, lane));
+        shell.appendChild(lane);
+      });
+
+      if(!any){
+        const empty = document.createElement("div");
+        empty.className = "empty-state";
+        empty.textContent = state.loadError ? "JSON 데이터를 불러오지 못했습니다. data/policy_dashboard_data.json 또는 policy_dashboard_data.json 경로와 로컬 서버 실행 여부를 확인하세요." : "조건에 맞는 정책·제도가 없습니다.";
+        shell.appendChild(empty);
+      }
+
+      document.getElementById("visibleCount").textContent = `${state.filtered.length}건 표시`;
+    }
+
+    function eventSourceUrl(event){
+      return event?.source?.url || event?.source_url || event?.url || event?.link || event?.article_url || "";
+    }
+
+    function eventSourceLabel(event){
+      return event?.source?.title || event?.source_title || event?.source_name || event?.media || "원문 보기";
+    }
+
+    function renderEventHistory(policy){
+      const events = (policy.events || [])
+        .map((e, idx) => ({
+          ...e,
+          _idx: idx,
+          _date: getTemporalDate(e.event_date, e.event_period),
+        }))
+        .sort((a, b) => {
+          if(a._date && b._date) return a._date - b._date;
+          if(a._date) return -1;
+          if(b._date) return 1;
+          return a._idx - b._idx;
+        });
+
+      if(!events.length){
+        return `
+          <div class="event-history">
+            <div class="event-history-head">이벤트 이력 <span class="event-history-count">0건</span></div>
+            <div class="event-item">
+              <div class="event-summary">등록된 과거 이벤트가 없습니다.</div>
+            </div>
+          </div>
+        `;
+      }
+
+      const rows = events.map(e => {
+        const url = eventSourceUrl(e);
+        const sourceLabel = eventSourceLabel(e);
+        const temporal = fmtTemporal(e.event_date, e.event_period, e.event_precision, e.event_label && !e.event_date && !e.event_period ? e.event_label : null);
+        const summary = e.event_summary || e.event_label || e.event_type || "이벤트";
+        const sourceButton = url
+          ? `<a class="event-source-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(sourceLabel)} ↗</a>`
+          : `<a class="event-source-link disabled" href="#">원문 없음</a>`;
+        return `
+          <div class="event-item">
+            <div class="event-item-top">
+              <span class="event-date">${escapeHtml(temporal)}</span>
+              ${sourceButton}
+            </div>
+            <div class="event-title">${escapeHtml(summary)}</div>
+          </div>
+        `;
+      }).join("");
+
+      return `
+        <div class="event-history">
+          <div class="event-history-head">이벤트 이력 <span class="event-history-count">${events.length}건 · 과거→최근</span></div>
+          <div class="event-history-list">${rows}</div>
+        </div>
+      `;
+    }
+
+    function renderDetail(){
+      const panel = document.getElementById("detailPanel");
+      const selected = state.filtered.find(p => p.policy_id === state.selectedId) || state.filtered[0];
+      if(!selected){
+        panel.innerHTML = `<div class="detail-card-body"><div class="detail-title">선택된 정책이 없습니다.</div></div>`;
+        document.getElementById("panelCount").textContent = `0 / 0`;
+        return;
+      }
+      state.selectedId = selected.policy_id;
+      const idx = state.filtered.findIndex(p => p.policy_id === selected.policy_id) + 1;
+      document.getElementById("panelCount").textContent = `${idx} / ${state.filtered.length}`;
+      const sourceUrl = selected.source?.url || selected.source_url;
+      const keywords = (selected.keywords || []).map(k => `<span class="keyword">${escapeHtml(k)}</span>`).join("") || `<span style="color:#94a3b8">-</span>`;
+      const datedEvents = (selected.events || [])
+        .filter(e => e.event_date || e.event_period)
+        .map(e => ({...e, _date: getTemporalDate(e.event_date, e.event_period)}))
+        .filter(e => e._date)
+        .sort((a,b) => a._date - b._date);
+      const recentEvent = datedEvents.at(-1);
+      const recentText = recentEvent ? `${fmtTemporal(recentEvent.event_date, recentEvent.event_period, recentEvent.event_precision)}<br>${escapeHtml(recentEvent.event_summary || recentEvent.event_label || recentEvent.event_type)}` : fmtDate(selected.latest_event_date);
+      const expectedText = fmtTemporal(selected.expected_date, selected.expected_period, selected.expected_precision, selected.expected_label);
+      const eventHistory = renderEventHistory(selected);
+
+      panel.innerHTML = `
+        <div class="detail-card-body">
+          <div class="detail-title-row">
+            <div class="detail-title">${escapeHtml(selected.policy_name)}</div>
+            ${statusBadge(selected.status)}
+          </div>
+          <div class="field"><div class="field-label">내용</div><div class="field-value detail-content-value">${escapeHtml(selected.summary || selected.detail || "요약 정보가 없습니다.")}</div></div>
+          <div class="field"><div class="field-label">최초 공개일</div><div class="field-value">${fmtDate(selected.first_announce_date)}</div></div>
+          <div class="field"><div class="field-label">최근 이벤트</div><div class="field-value">${recentText || "-"}</div></div>
+          <div class="field"><div class="field-label">시행예정</div><div class="field-value">${expectedText}</div></div>
+          <div class="field"><div class="field-label">확인 포인트</div><div class="field-value">${escapeHtml(selected.next_check_point || "-")}</div></div>
+          <div class="field"><div class="field-label">주관부처</div><div class="field-value">${escapeHtml(selected.lead_ministry || "-")}</div></div>
+          <div class="field"><div class="field-label">키워드</div><div class="field-value keyword-list">${keywords}</div></div>
+          ${eventHistory}
+        </div>
+      `;
+    }
+
+    function renderDataStatus(){
+      const el = document.getElementById("dataStatus");
+      if(!el) return;
+      if(state.loadError){
+        el.classList.add("warn");
+        el.innerHTML = `JSON 로드 실패<br>${escapeHtml(state.loadError)}`;
+        return;
+      }
+      const meta = state.rawData?.meta || {};
+      const warnings = state.rawData?.warnings || [];
+      el.classList.toggle("warn", warnings.length > 0);
+      el.innerHTML = `JSON 데이터 · 정책 ${state.policies.length}건${state.loadedDataPath ? `<br>경로: ${escapeHtml(state.loadedDataPath)}` : ""}${meta.generated_at ? `<br>생성: ${escapeHtml(meta.generated_at)}` : ""}${warnings.length ? `<br>경고 ${warnings.length}건` : ""}`;
+    }
+
+    function render(){
+      buildFilterButtons();
+      syncCustomInputs();
+      const periodFilter = document.getElementById("periodFilter");
+      periodFilter.classList.toggle("custom-active", state.activePeriod === "custom");
+      document.querySelectorAll("#periodFilter .chip").forEach(btn => btn.classList.toggle("active", btn.dataset.period === state.activePeriod));
+      renderTimeline();
+      renderDetail();
+      renderDataStatus();
+    }
+
+    function loadData(data, loadedPath=null){
+      state.rawData = data;
+      state.loadError = null;
+      state.loadedDataPath = loadedPath;
+      state.policies = (data?.policies || [])
+        .filter(validPolicy)
+        .map(p => ({
+          ...p,
+          keywords: Array.isArray(p.keywords) ? p.keywords : String(p.keywords || "").split(/[,;|/]/).map(x => x.trim()).filter(Boolean),
+          events: Array.isArray(p.events) ? p.events : [],
+        }));
+      state.selectedId = state.policies[0]?.policy_id || null;
+      updateHeaderBaseDate(data);
+      setCustomRangeDefaults();
+      render();
+    }
+
+    async function init(){
+      const errors = [];
+      for(const path of DATA_PATHS){
+        try{
+          const fetchPath = `${path}${path.includes("?") ? "&" : "?"}v=${Date.now()}`;
+        const res = await fetch(fetchPath, {cache:"no-store"});
+          if(!res.ok) throw new Error(`HTTP ${res.status}`);
+          const data = await res.json();
+          loadData(data, path);
+          return;
+        }catch(err){
+          errors.push(`${path}: ${err.message}`);
+        }
+      }
+      console.error("JSON 자동 로드 실패:", errors);
+      state.rawData = {meta:{}, warnings:[]};
+      state.policies = [];
+      state.selectedId = null;
+      state.loadedDataPath = null;
+      state.loadError = `${DATA_PATHS.join(" 또는 ")} 파일을 불러오지 못했습니다. 로컬 서버 실행 여부와 JSON 파일 경로를 확인하세요.`;
+      updateHeaderBaseDate();
+      setCustomRangeDefaults();
+      render();
+    }
+
+    document.getElementById("periodFilter").addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-period]");
+      if(!btn) return;
+      state.activePeriod = btn.dataset.period;
+      render();
+    });
+
+    document.getElementById("customPeriodApply").addEventListener("click", () => {
+      state.customStartMonth = document.getElementById("customStartMonth").value;
+      state.customEndMonth = document.getElementById("customEndMonth").value;
+      state.activePeriod = "custom";
+      render();
+    });
+
+    ["customStartMonth", "customEndMonth"].forEach(id => {
+      document.getElementById(id).addEventListener("change", () => {
+        state.customStartMonth = document.getElementById("customStartMonth").value;
+        state.customEndMonth = document.getElementById("customEndMonth").value;
+        if(state.customStartMonth && state.customEndMonth){
+          state.activePeriod = "custom";
+          render();
+        }
+      });
+    });
+
+    document.getElementById("searchInput").addEventListener("input", (e) => {
+      state.search = e.target.value;
+      render();
+    });
+
+    document.getElementById("prevPolicy").addEventListener("click", () => {
+      if(!state.filtered.length) return;
+      const i = state.filtered.findIndex(p => p.policy_id === state.selectedId);
+      const next = (i <= 0 ? state.filtered.length - 1 : i - 1);
+      state.selectedId = state.filtered[next].policy_id;
+      render();
+    });
+
+    document.getElementById("nextPolicy").addEventListener("click", () => {
+      if(!state.filtered.length) return;
+      const i = state.filtered.findIndex(p => p.policy_id === state.selectedId);
+      const next = (i < 0 || i >= state.filtered.length - 1 ? 0 : i + 1);
+      state.selectedId = state.filtered[next].policy_id;
+      render();
+    });
+
+    document.getElementById("detailClose").addEventListener("click", () => {
+      state.selectedId = null;
+      renderDetail();
+    });
+
+    const resetBtn = document.getElementById("resetBtn");
+    if(resetBtn){
+      resetBtn.addEventListener("click", () => {
+        state.activePeriod = "1y";
+        state.activeCategory = "전체";
+        state.search = "";
+        state.customStartMonth = "";
+        state.customEndMonth = "";
+        setCustomRangeDefaults();
+        document.getElementById("searchInput").value = "";
+        render();
+      });
+    }
+
+    const exportBtn = document.getElementById("exportBtn");
+    if(exportBtn){
+      exportBtn.addEventListener("click", () => {
+        const rows = state.filtered.map(p => ({
+          policy_id:p.policy_id,
+          policy_name:p.policy_name,
+          category:p.category,
+          status:p.status,
+          first_announce_date:p.first_announce_date || "",
+          latest_event_date:p.latest_event_date || "",
+          expected_date:p.expected_date || "",
+          schedule_confirmed:p.schedule_confirmed ? "Y" : "N",
+          open_ended:p.open_ended ? "Y" : "N",
+          next_check_point:p.next_check_point || "",
+          summary:p.summary || "",
+        }));
+        const blob = new Blob([JSON.stringify(rows, null, 2)], {type:"application/json;charset=utf-8"});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "policy_timeline_filtered.json";
+        a.click();
+        URL.revokeObjectURL(url);
+      });
+    }
+
+    init();
+  </script>
+</body>
+</html>
