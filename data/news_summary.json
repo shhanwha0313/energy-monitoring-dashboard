@@ -1,0 +1,60 @@
+﻿{
+  "generated_at": "2026.06.05 13:44:30",
+  "base_date": "2026.06.05",
+  "total_articles": 59,
+  "today_articles": 18,
+  "archive_articles": 41,
+  "important_articles": 5,
+  "normal_articles": 8,
+  "reference_articles": 5,
+  "top_keywords": [
+    "ESS",
+    "LNG",
+    "전력시장",
+    "12차 전기본",
+    "HVDC"
+  ],
+  "priority_counts": {
+    "중요": 5,
+    "보통": 8,
+    "참고": 5
+  },
+  "category_counts": {
+    "전력시장": 1,
+    "LNG·에너지안보": 4,
+    "AI·데이터센터": 3,
+    "산업·고객": 1,
+    "탄소·ESG": 2,
+    "계통·인프라": 6,
+    "정책·제도": 1
+  },
+  "key_issues": [
+    {
+      "id": "N20260604-001",
+      "issue_order": 1,
+      "title": "기후장관 \"산업 전기요금 하향 필요…지역별 요금제 곧 공개\"",
+      "summary": "기후장관이 산업용 전기요금 하향 안정화 필요성과 지역별 전기요금제 공개 계획을 밝혔다.",
+      "implication": "산업단지·대규모 전력수요 입지의 요금 조건이 달라질 수 있어 고객사 전력비와 입지 경쟁력 점검이 필요하다.",
+      "category": "전력시장",
+      "url": "https://www.yna.co.kr/view/AKR20260604155500530?input=1195m"
+    },
+    {
+      "id": "N20260604-002",
+      "issue_order": 2,
+      "title": "중동 사태 촉발 SMP 상승세 …한전 재무 정상화 '비상'",
+      "summary": "중동 사태 영향으로 국제유가와 LNG 가격이 오를 경우 SMP 상승과 한전 전력구입비 부담이 커질 수 있다는 분석이 제기됐다.",
+      "implication": "LNG 연료비와 SMP의 동행성이 높은 만큼 하반기 전력구입비·전기요금 압력에 대한 사전 검토가 필요하다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=298609"
+    },
+    {
+      "id": "N20260605-001",
+      "issue_order": 3,
+      "title": "AIDC특별법·GPU 확보 긍정적…부처간 협업...",
+      "summary": "AIDC 특별법과 GPU 확보는 긍정적으로 평가됐으나 비수도권 AIDC 전력계통영향평가 면제와 PPA 특례 범위가 쟁점으로 언급됐다.",
+      "implication": "AI 데이터센터 전력공급은 계통영향평가, PPA, 입지정책이 함께 움직이는 제도 이슈로 봐야 한다.",
+      "category": "AI·데이터센터",
+      "url": "https://view.asiae.co.kr/article/2026060200033076950"
+    }
+  ]
+}

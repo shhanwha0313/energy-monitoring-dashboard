@@ -1,0 +1,362 @@
+﻿[
+  {
+    "id": "N20260604-001",
+    "date": "2026.06.04",
+    "datetime": "2026.06.04 16:00",
+    "title": "기후장관 \"산업 전기요금 하향 필요…지역별 요금제 곧 공개\"",
+    "source": "연합뉴스",
+    "priority": "중요",
+    "category": "전력시장",
+    "detail_category": "전기요금/지역별 요금",
+    "summary": "기후장관이 산업용 전기요금 하향 안정화 필요성과 지역별 전기요금제 공개 계획을 밝혔다.",
+    "implication": "산업단지·대규모 전력수요 입지의 요금 조건이 달라질 수 있어 고객사 전력비와 입지 경쟁력 점검이 필요하다.",
+    "tags": [
+      "12차 전기본"
+    ],
+    "url": "https://www.yna.co.kr/view/AKR20260604155500530?input=1195m",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
+    "id": "N20260604-002",
+    "date": "2026.06.04",
+    "datetime": "2026.06.04 13:04",
+    "title": "중동 사태 촉발 SMP 상승세 …한전 재무 정상화 '비상'",
+    "source": "투데이에너지",
+    "priority": "중요",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG/SMP/한전 재무",
+    "summary": "중동 사태 영향으로 국제유가와 LNG 가격이 오를 경우 SMP 상승과 한전 전력구입비 부담이 커질 수 있다는 분석이 제기됐다.",
+    "implication": "LNG 연료비와 SMP의 동행성이 높은 만큼 하반기 전력구입비·전기요금 압력에 대한 사전 검토가 필요하다.",
+    "tags": [
+      "LNG"
+    ],
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=298609",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20260605-001",
+    "date": "2026.06.05",
+    "datetime": "2026.06.05 06:41",
+    "title": "AIDC특별법·GPU 확보 긍정적…부처간 협업...",
+    "source": "아시아경제",
+    "priority": "중요",
+    "category": "AI·데이터센터",
+    "detail_category": "AI 데이터센터/계통",
+    "summary": "AIDC 특별법과 GPU 확보는 긍정적으로 평가됐으나 비수도권 AIDC 전력계통영향평가 면제와 PPA 특례 범위가 쟁점으로 언급됐다.",
+    "implication": "AI 데이터센터 전력공급은 계통영향평가, PPA, 입지정책이 함께 움직이는 제도 이슈로 봐야 한다.",
+    "tags": [
+      "계통"
+    ],
+    "url": "https://view.asiae.co.kr/article/2026060200033076950",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20260604-003",
+    "date": "2026.06.04",
+    "datetime": "2026.06.04 16:26",
+    "title": "석유화학 구조조정 지연 지속…업황 변수에 사업재편 셈법 복잡",
+    "source": "메트로신문",
+    "priority": "중요",
+    "category": "산업·고객",
+    "detail_category": "석유화학/사업재편",
+    "summary": "석유화학 업계 구조조정이 지연되고 있으며 산단별 사업재편과 감산 판단이 업황 변수로 복잡해지고 있다는 내용이다.",
+    "implication": "여수산단 고객사의 가동률·연료비·열수요 변화 가능성을 함께 점검할 필요가 있다.",
+    "tags": [
+      "석유화학"
+    ],
+    "url": "http://www.metroseoul.co.kr/article/20260604500366",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260604-004",
+    "date": "2026.06.04",
+    "datetime": "2026.06.04 16:35",
+    "title": "김성환 기후장관 “탄소중립법 개정, 가장 강력한 감축 목표치 제안돼야...",
+    "source": "세계일보",
+    "priority": "중요",
+    "category": "탄소·ESG",
+    "detail_category": "탄소규제/탄소중립법",
+    "summary": "탄소중립기본법 개정과 관련해 온실가스 감축목표 이행 책임과 강한 목표치 제안 필요성이 언급됐다.",
+    "implication": "NDC·탄소중립법 개정 방향은 발전·산업 부문의 감축 부담과 배출권 제도 강화로 이어질 수 있다.",
+    "tags": [
+      "탄소중립법"
+    ],
+    "url": "https://www.segye.com/newsView/20260604517934?OutUrl=naver",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260604-005",
+    "date": "2026.06.04",
+    "datetime": "2026.06.04 20:30",
+    "title": "햇빛소득마을 ESS 비용, 민간 VPP가 맡는다…주민 부담 완화 기대",
+    "source": "이데일리",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "ESS/VPP/재생에너지",
+    "summary": "햇빛소득마을 ESS 설치·운영 부담을 민간 VPP 사업자가 맡는 방안이 검토되고 있다.",
+    "implication": "소규모 재생에너지와 ESS를 시장참여형 자원으로 묶는 제도 설계가 확대될 가능성이 있다.",
+    "tags": [
+      "ESS"
+    ],
+    "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=06284486645478440",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260605-002",
+    "date": "2026.06.05",
+    "datetime": "2026.06.05 06:06",
+    "title": "히트펌프 통한 온실가스 감축분, 배출권거래제 활용된다",
+    "source": "기계설비신문",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "배출권/히트펌프",
+    "summary": "히트펌프를 통한 온실가스 감축분이 배출권거래제 외부사업으로 활용될 수 있다는 내용이다.",
+    "implication": "열 부문 전기화·히트펌프 사업의 경제성에 배출권 가치가 추가될 수 있어 청정열 사업 검토에 참고할 만하다.",
+    "tags": [
+      "배출권"
+    ],
+    "url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=50097",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260605-003",
+    "date": "2026.06.05",
+    "datetime": "2026.06.05 06:22",
+    "title": "전력망ㆍ해상풍력ㆍESS 인프라 구축 속도… 건설ㆍ에너지시장 ‘새 먹거...",
+    "source": "대한경제",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "전력망/ESS/해상풍력",
+    "summary": "전력망, 해상풍력, ESS 인프라 구축이 확대되며 건설·에너지 시장의 신규 발주 축으로 부상한다는 분석이다.",
+    "implication": "재생에너지 확대가 단순 발전설비가 아니라 HVDC·ESS·계통투자 패키지로 전개될 가능성이 크다.",
+    "tags": [
+      "HVDC"
+    ],
+    "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606041508062370117",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260604-006",
+    "date": "2026.06.04",
+    "datetime": "2026.06.04 20:26",
+    "title": "AI 전력수요 폭증 속 LNG 조달 변수…韓, 캐나다서 '전력 안보' 우회로 ...",
+    "source": "이코노믹리뷰",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG/에너지안보",
+    "summary": "AI 데이터센터와 반도체 클러스터 전력수요 증가 속에서 LNG 조달 안정성이 전력안보 변수로 부각되고 있다.",
+    "implication": "중동 리스크 장기화 시 LNG 조달선 다변화와 연료비 리스크 관리가 전력공급 전략의 핵심이 될 수 있다.",
+    "tags": [
+      "에너지안보"
+    ],
+    "url": "https://www.econovill.com/news/articleView.html?idxno=741585",
+    "is_today": "Y",
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260605-004",
+    "date": "2026.06.05",
+    "datetime": "2026.06.05 06:00",
+    "title": "호르무즈 봉쇄에 놀란 산유국들…바닷길 대신 송유관·철도 늘린다",
+    "source": "뉴시스",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG/공급망",
+    "summary": "호르무즈 해협 리스크에 대응해 산유국들이 송유관·철도 등 대체 운송망을 확대하고 있다는 내용이다.",
+    "implication": "LNG는 여전히 선박 운송 의존도가 높아 호르무즈 리스크가 국내 가스·전력시장에 전이될 가능성을 봐야 한다.",
+    "tags": [
+      "LNG"
+    ],
+    "url": "https://www.newsis.com/view/NISX20260605_0003657081",
+    "is_today": "Y",
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260604-007",
+    "date": "2026.06.04",
+    "datetime": "2026.06.04 08:54",
+    "title": "중동 리스크 재점화, 유가 100달러 근접…산업계 비용 압박 확대",
+    "source": "직썰",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "연료비/산업원가",
+    "summary": "중동 리스크 재점화로 유가가 상승하고 정유·석유화학·물류 등 산업계 비용 압박이 커질 수 있다는 내용이다.",
+    "implication": "유가·LNG·환율 변동은 SMP와 산업단지 고객사의 원가 부담에 동시에 영향을 줄 수 있다.",
+    "tags": [
+      "LNG"
+    ],
+    "url": "https://www.ziksir.com/news/articleView.html?idxno=135732",
+    "is_today": "Y",
+    "display_order": 11,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260605-005",
+    "date": "2026.06.05",
+    "datetime": "2026.06.05 08:00",
+    "title": "전남 장성 AI 데이터센터 조성 탄력…정부, 투자심사 간소화",
+    "source": "이투데이",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "AI 데이터센터/지역입지",
+    "summary": "전남 장성 AI 데이터센터 조성 사업이 정부 투자심사 간소화 대상으로 언급됐고, 수전용량 26MW 규모로 보도됐다.",
+    "implication": "데이터센터 지방 분산과 전력공급 패키지 정책이 지역 산업단지 유치 전략과 연결될 수 있다.",
+    "tags": [
+      "분산특구"
+    ],
+    "url": "https://www.etoday.co.kr/news/view/2590551",
+    "is_today": "Y",
+    "display_order": 12,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260604-008",
+    "date": "2026.06.04",
+    "datetime": "2026.06.04 18:22",
+    "title": "기후에너지환경부 출범 1년… 재생에너지·ESS 중심 에너지 대전환 속도",
+    "source": "인더스트리뉴스",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "재생에너지/계통안정",
+    "summary": "기후에너지환경부 출범 1년 성과로 재생에너지 확대, ESS·전력망 확충, RPS 개편 등이 정리됐다.",
+    "implication": "재생에너지 확대 정책은 ESS·전력망·시장제도 개편과 함께 추진될 가능성이 높다.",
+    "tags": [
+      "ESS"
+    ],
+    "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=81801",
+    "is_today": "Y",
+    "display_order": 13,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260604-009",
+    "date": "2026.06.04",
+    "datetime": "2026.06.04 10:21",
+    "title": "가온전선, 美 AI 데이터센터 전력망에 350억원 규모 송전용 케이블 공급",
+    "source": "전자신문",
+    "priority": "참고",
+    "category": "AI·데이터센터",
+    "detail_category": "AI 데이터센터/전력기기",
+    "summary": "가온전선이 미국 AI 데이터센터 전력망 시장에 송전용 케이블을 공급하는 첫 사례를 확보했다.",
+    "implication": "AI 데이터센터 확산이 전력기기·케이블 수요 확대로 이어지는 해외 시장 흐름을 보여준다.",
+    "tags": [
+      "전력시장"
+    ],
+    "url": "https://www.etnews.com/20260604000121",
+    "is_today": "Y",
+    "display_order": 14,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260605-006",
+    "date": "2026.06.05",
+    "datetime": "2026.06.05 07:46",
+    "title": "발전소 없는 '가상발전소'...AI 시대 핵심 인프라로 급부상",
+    "source": "ESG경제",
+    "priority": "참고",
+    "category": "계통·인프라",
+    "detail_category": "VPP/분산자원",
+    "summary": "VPP가 분산형 전력자원을 하나로 묶어 AI 시대 전력수요 대응 인프라로 부상하고 있다는 내용이다.",
+    "implication": "분산자원·ESS·수요반응을 활용한 전력시장 참여 모델 검토에 참고할 만하다.",
+    "tags": [
+      "전력시장"
+    ],
+    "url": "https://www.esgeconomy.com/news/articleView.html?idxno=15674",
+    "is_today": "Y",
+    "display_order": 15,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260605-007",
+    "date": "2026.06.05",
+    "datetime": "2026.06.05 07:44",
+    "title": "SK온, 美서 ESS '그리드온 2세대' 공개…내년 양산 목표",
+    "source": "아이뉴스24",
+    "priority": "참고",
+    "category": "계통·인프라",
+    "detail_category": "ESS/배터리",
+    "summary": "SK온이 미국에서 차세대 ESS 제품을 공개하고 2027년 양산 목표를 제시했다.",
+    "implication": "AI 데이터센터와 재생에너지 확산에 따른 ESS 시장 확대 흐름을 보여주는 사례다.",
+    "tags": [
+      "ESS"
+    ],
+    "url": "http://www.inews24.com/view/1974070",
+    "is_today": "Y",
+    "display_order": 16,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260605-008",
+    "date": "2026.06.05",
+    "datetime": "2026.06.05 07:02",
+    "title": "日, 원전 최대 14기 교체 로드맵… 2040년대 1차 5기 발주 시동",
+    "source": "글로벌이코노믹",
+    "priority": "참고",
+    "category": "정책·제도",
+    "detail_category": "해외 원전/전력수급",
+    "summary": "일본이 전력수요 증가와 에너지안보 대응 차원에서 원전 교체 로드맵을 추진하는 것으로 보도됐다.",
+    "implication": "AI·반도체 전력수요 증가가 해외에서도 원전·무탄소 전원 논의와 결합되는 흐름을 확인할 수 있다.",
+    "tags": [
+      "원전"
+    ],
+    "url": "https://www.g-enews.com/view.php?ud=202606050640424986fbbec65dfb_1",
+    "is_today": "Y",
+    "display_order": 17,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260604-010",
+    "date": "2026.06.04",
+    "datetime": "2026.06.04 18:08",
+    "title": "대한전선, 英 초고압 전력망 사업 수주…상반기 영국서 1000억원 확보",
+    "source": "이코노믹리뷰",
+    "priority": "참고",
+    "category": "계통·인프라",
+    "detail_category": "해외 전력망/케이블",
+    "summary": "대한전선이 영국 초고압 전력망 사업을 수주하며 유럽 송전망 확충 시장에 참여했다.",
+    "implication": "재생에너지 확대와 노후 전력망 교체가 글로벌 송전망 투자 수요로 이어지고 있음을 보여준다.",
+    "tags": [
+      "송전망"
+    ],
+    "url": "https://www.econovill.com/news/articleView.html?idxno=741558",
+    "is_today": "Y",
+    "display_order": 18,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  }
+]

@@ -1,11 +1,251 @@
 [
   {
-    "date": "2026-05-06",
-    "smp": 124.81,
+    "date": "2026-06-05",
+    "smp": 127.13,
     "max_power": NaN,
     "min_power": NaN,
     "reserve_power": NaN,
     "reserve_ratio": NaN
+  },
+  {
+    "date": "2026-06-04",
+    "smp": 127.85,
+    "max_power": 73724.0,
+    "min_power": 54036.0,
+    "reserve_power": 13611.0,
+    "reserve_ratio": 18.5
+  },
+  {
+    "date": "2026-06-03",
+    "smp": 120.49,
+    "max_power": 69614.0,
+    "min_power": 53406.0,
+    "reserve_power": 17327.0,
+    "reserve_ratio": 24.9
+  },
+  {
+    "date": "2026-06-02",
+    "smp": 126.62,
+    "max_power": 73697.0,
+    "min_power": 54687.0,
+    "reserve_power": 13944.0,
+    "reserve_ratio": 18.9
+  },
+  {
+    "date": "2026-06-01",
+    "smp": 127.8,
+    "max_power": 71780.0,
+    "min_power": 48730.0,
+    "reserve_power": 18008.0,
+    "reserve_ratio": 25.1
+  },
+  {
+    "date": "2026-05-31",
+    "smp": 105.36,
+    "max_power": 62633.0,
+    "min_power": 41969.0,
+    "reserve_power": 22419.0,
+    "reserve_ratio": 35.8
+  },
+  {
+    "date": "2026-05-30",
+    "smp": 111.22,
+    "max_power": 62852.0,
+    "min_power": 45312.0,
+    "reserve_power": 21181.0,
+    "reserve_ratio": 33.7
+  },
+  {
+    "date": "2026-05-29",
+    "smp": 126.96,
+    "max_power": 68817.0,
+    "min_power": 54648.0,
+    "reserve_power": 18030.0,
+    "reserve_ratio": 26.2
+  },
+  {
+    "date": "2026-05-28",
+    "smp": 120.97,
+    "max_power": 72735.0,
+    "min_power": 55582.0,
+    "reserve_power": 12680.0,
+    "reserve_ratio": 17.4
+  },
+  {
+    "date": "2026-05-27",
+    "smp": 125.58,
+    "max_power": 74957.0,
+    "min_power": 55629.0,
+    "reserve_power": 11504.0,
+    "reserve_ratio": 15.3
+  },
+  {
+    "date": "2026-05-26",
+    "smp": 125.47,
+    "max_power": 76629.0,
+    "min_power": 51393.0,
+    "reserve_power": 7698.0,
+    "reserve_ratio": 10.0
+  },
+  {
+    "date": "2026-05-25",
+    "smp": 118.32,
+    "max_power": 66379.0,
+    "min_power": 48527.0,
+    "reserve_power": 15554.0,
+    "reserve_ratio": 23.4
+  },
+  {
+    "date": "2026-05-24",
+    "smp": 111.57,
+    "max_power": 60570.0,
+    "min_power": 39173.0,
+    "reserve_power": 21530.0,
+    "reserve_ratio": 35.5
+  },
+  {
+    "date": "2026-05-23",
+    "smp": 111.8800497,
+    "max_power": 60439.0,
+    "min_power": 47391.0,
+    "reserve_power": 20072.0,
+    "reserve_ratio": 33.2
+  },
+  {
+    "date": "2026-05-22",
+    "smp": 124.3,
+    "max_power": 67830.0,
+    "min_power": 54067.0,
+    "reserve_power": 17452.0,
+    "reserve_ratio": 25.7
+  },
+  {
+    "date": "2026-05-21",
+    "smp": 127.03,
+    "max_power": 69829.0,
+    "min_power": 54436.0,
+    "reserve_power": 15909.0,
+    "reserve_ratio": 22.8
+  },
+  {
+    "date": "2026-05-20",
+    "smp": 127.88,
+    "max_power": 73130.0,
+    "min_power": 55051.0,
+    "reserve_power": 13828.0,
+    "reserve_ratio": 18.9
+  },
+  {
+    "date": "2026-05-19",
+    "smp": 121.64,
+    "max_power": 71560.0,
+    "min_power": 54726.0,
+    "reserve_power": 13030.0,
+    "reserve_ratio": 18.2
+  },
+  {
+    "date": "2026-05-18",
+    "smp": 120.92,
+    "max_power": 71667.0,
+    "min_power": 49148.0,
+    "reserve_power": 11116.0,
+    "reserve_ratio": 15.5
+  },
+  {
+    "date": "2026-05-17",
+    "smp": 116.43,
+    "max_power": 62081.0,
+    "min_power": 41389.0,
+    "reserve_power": 16693.0,
+    "reserve_ratio": 26.9
+  },
+  {
+    "date": "2026-05-16",
+    "smp": 125.76,
+    "max_power": 62271.0,
+    "min_power": 44916.0,
+    "reserve_power": 16703.0,
+    "reserve_ratio": 26.8
+  },
+  {
+    "date": "2026-05-15",
+    "smp": 126.46,
+    "max_power": 69412.0,
+    "min_power": 52770.0,
+    "reserve_power": 12281.0,
+    "reserve_ratio": 17.7
+  },
+  {
+    "date": "2026-05-14",
+    "smp": 126.07,
+    "max_power": 70811.0,
+    "min_power": 53267.0,
+    "reserve_power": 11664.0,
+    "reserve_ratio": 16.5
+  },
+  {
+    "date": "2026-05-13",
+    "smp": 124.64,
+    "max_power": 69017.0,
+    "min_power": 50561.0,
+    "reserve_power": 12224.0,
+    "reserve_ratio": 17.7
+  },
+  {
+    "date": "2026-05-12",
+    "smp": 124.8,
+    "max_power": 69103.0,
+    "min_power": 53968.0,
+    "reserve_power": 11208.0,
+    "reserve_ratio": 16.2
+  },
+  {
+    "date": "2026-05-11",
+    "smp": 120.0,
+    "max_power": 68276.0,
+    "min_power": 48068.0,
+    "reserve_power": 12237.0,
+    "reserve_ratio": 17.9
+  },
+  {
+    "date": "2026-05-10",
+    "smp": 108.15,
+    "max_power": 58885.0,
+    "min_power": 38474.0,
+    "reserve_power": 18013.0,
+    "reserve_ratio": 30.6
+  },
+  {
+    "date": "2026-05-09",
+    "smp": 119.28,
+    "max_power": 58905.0,
+    "min_power": 39608.0,
+    "reserve_power": 17166.0,
+    "reserve_ratio": 29.1
+  },
+  {
+    "date": "2026-05-08",
+    "smp": 129.96,
+    "max_power": 65237.0,
+    "min_power": 46495.0,
+    "reserve_power": 15527.0,
+    "reserve_ratio": 23.8
+  },
+  {
+    "date": "2026-05-07",
+    "smp": 128.08,
+    "max_power": 68320.0,
+    "min_power": 51637.0,
+    "reserve_power": 12665.0,
+    "reserve_ratio": 18.5
+  },
+  {
+    "date": "2026-05-06",
+    "smp": 124.81,
+    "max_power": 67262.0,
+    "min_power": 47712.0,
+    "reserve_power": 13449.0,
+    "reserve_ratio": 20.0
   },
   {
     "date": "2026-05-05",
@@ -2686,253 +2926,5 @@
     "min_power": 0.0,
     "reserve_power": 21055.0,
     "reserve_ratio": 30.9
-  },
-  {
-    "date": "2025-06-04",
-    "smp": 117.08,
-    "max_power": 68127.0,
-    "min_power": 0.0,
-    "reserve_power": 19390.0,
-    "reserve_ratio": 28.5
-  },
-  {
-    "date": "2025-06-03",
-    "smp": 116.71,
-    "max_power": 62134.0,
-    "min_power": 0.0,
-    "reserve_power": 23176.0,
-    "reserve_ratio": 37.3
-  },
-  {
-    "date": "2025-06-02",
-    "smp": 115.11,
-    "max_power": 69209.0,
-    "min_power": 0.0,
-    "reserve_power": 16151.0,
-    "reserve_ratio": 23.3
-  },
-  {
-    "date": "2025-06-01",
-    "smp": 107.33,
-    "max_power": 60283.0,
-    "min_power": 0.0,
-    "reserve_power": 23022.0,
-    "reserve_ratio": 38.2
-  },
-  {
-    "date": "2025-05-31",
-    "smp": 116.69,
-    "max_power": 59788.0,
-    "min_power": 0.0,
-    "reserve_power": 23806.0,
-    "reserve_ratio": 39.8
-  },
-  {
-    "date": "2025-05-30",
-    "smp": 128.71,
-    "max_power": 67178.0,
-    "min_power": 0.0,
-    "reserve_power": 17491.0,
-    "reserve_ratio": 26.0
-  },
-  {
-    "date": "2025-05-29",
-    "smp": 127.76,
-    "max_power": 69244.0,
-    "min_power": 0.0,
-    "reserve_power": 16252.0,
-    "reserve_ratio": 23.5
-  },
-  {
-    "date": "2025-05-28",
-    "smp": 131.93,
-    "max_power": 68575.0,
-    "min_power": 0.0,
-    "reserve_power": 15159.0,
-    "reserve_ratio": 22.1
-  },
-  {
-    "date": "2025-05-27",
-    "smp": 131.31,
-    "max_power": 69448.0,
-    "min_power": 0.0,
-    "reserve_power": 14075.0,
-    "reserve_ratio": 20.3
-  },
-  {
-    "date": "2025-05-26",
-    "smp": 128.2,
-    "max_power": 68026.0,
-    "min_power": 0.0,
-    "reserve_power": 14156.0,
-    "reserve_ratio": 20.8
-  },
-  {
-    "date": "2025-05-25",
-    "smp": 125.39,
-    "max_power": 58337.0,
-    "min_power": 0.0,
-    "reserve_power": 23274.0,
-    "reserve_ratio": 39.9
-  },
-  {
-    "date": "2025-05-24",
-    "smp": 128.19,
-    "max_power": 58828.0,
-    "min_power": 0.0,
-    "reserve_power": 20233.0,
-    "reserve_ratio": 34.4
-  },
-  {
-    "date": "2025-05-23",
-    "smp": 133.82,
-    "max_power": 67177.0,
-    "min_power": 0.0,
-    "reserve_power": 16623.0,
-    "reserve_ratio": 24.7
-  },
-  {
-    "date": "2025-05-22",
-    "smp": 139.54,
-    "max_power": 71622.0,
-    "min_power": 0.0,
-    "reserve_power": 11869.0,
-    "reserve_ratio": 16.6
-  },
-  {
-    "date": "2025-05-21",
-    "smp": 134.22,
-    "max_power": 74239.0,
-    "min_power": 0.0,
-    "reserve_power": 8579.0,
-    "reserve_ratio": 11.6
-  },
-  {
-    "date": "2025-05-20",
-    "smp": 130.49,
-    "max_power": 72893.0,
-    "min_power": 0.0,
-    "reserve_power": 10152.0,
-    "reserve_ratio": 13.9
-  },
-  {
-    "date": "2025-05-19",
-    "smp": 123.81,
-    "max_power": 68353.0,
-    "min_power": 0.0,
-    "reserve_power": 14210.0,
-    "reserve_ratio": 20.8
-  },
-  {
-    "date": "2025-05-18",
-    "smp": 113.16,
-    "max_power": 58594.0,
-    "min_power": 0.0,
-    "reserve_power": 24299.0,
-    "reserve_ratio": 41.5
-  },
-  {
-    "date": "2025-05-17",
-    "smp": 119.18,
-    "max_power": 61203.0,
-    "min_power": 0.0,
-    "reserve_power": 21351.0,
-    "reserve_ratio": 34.9
-  },
-  {
-    "date": "2025-05-16",
-    "smp": 132.35,
-    "max_power": 72857.0,
-    "min_power": 0.0,
-    "reserve_power": 10664.0,
-    "reserve_ratio": 14.6
-  },
-  {
-    "date": "2025-05-15",
-    "smp": 125.64,
-    "max_power": 69998.0,
-    "min_power": 0.0,
-    "reserve_power": 13123.0,
-    "reserve_ratio": 18.7
-  },
-  {
-    "date": "2025-05-14",
-    "smp": 127.96,
-    "max_power": 68653.0,
-    "min_power": 0.0,
-    "reserve_power": 16121.0,
-    "reserve_ratio": 23.5
-  },
-  {
-    "date": "2025-05-13",
-    "smp": 126.32,
-    "max_power": 68714.0,
-    "min_power": 0.0,
-    "reserve_power": 16118.0,
-    "reserve_ratio": 23.5
-  },
-  {
-    "date": "2025-05-12",
-    "smp": 124.45,
-    "max_power": 67736.0,
-    "min_power": 0.0,
-    "reserve_power": 17414.0,
-    "reserve_ratio": 25.7
-  },
-  {
-    "date": "2025-05-11",
-    "smp": 107.53,
-    "max_power": 58905.0,
-    "min_power": 0.0,
-    "reserve_power": 25206.0,
-    "reserve_ratio": 42.8
-  },
-  {
-    "date": "2025-05-10",
-    "smp": 122.89,
-    "max_power": 59775.0,
-    "min_power": 0.0,
-    "reserve_power": 26825.0,
-    "reserve_ratio": 44.9
-  },
-  {
-    "date": "2025-05-09",
-    "smp": 122.04,
-    "max_power": 69578.0,
-    "min_power": 0.0,
-    "reserve_power": 18612.0,
-    "reserve_ratio": 26.7
-  },
-  {
-    "date": "2025-05-08",
-    "smp": 124.99,
-    "max_power": 66515.0,
-    "min_power": 0.0,
-    "reserve_power": 22897.0,
-    "reserve_ratio": 34.4
-  },
-  {
-    "date": "2025-05-07",
-    "smp": 122.31,
-    "max_power": 65492.0,
-    "min_power": 0.0,
-    "reserve_power": 23799.0,
-    "reserve_ratio": 36.3
-  },
-  {
-    "date": "2025-05-06",
-    "smp": 121.3,
-    "max_power": 59717.0,
-    "min_power": 0.0,
-    "reserve_power": 25590.0,
-    "reserve_ratio": 42.9
-  },
-  {
-    "date": "2025-05-05",
-    "smp": NaN,
-    "max_power": 57374.0,
-    "min_power": 0.0,
-    "reserve_power": 27465.0,
-    "reserve_ratio": 47.9
   }
 ]
