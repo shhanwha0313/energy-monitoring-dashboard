@@ -957,7 +957,7 @@
       state.oil.rows = filterLastDays(normalizeOilRows(rawRows), MAX_DAYS);
       if (!state.oil.rows.length) throw new Error('표시할 유가 데이터가 없습니다.');
       renderOilTable();
-      renderOilChart('oil', state.oil.period);
+      renderOilChart(state.oil.period);
     }
 
     function renderOilTable() {

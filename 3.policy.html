@@ -649,6 +649,89 @@
     }
 
 
+
+    .timeline-event-panel{
+      border-top:1px solid var(--line);
+      background:#ffffff;
+      padding:14px 16px 16px;
+    }
+    .timeline-event-panel .event-history{
+      margin-top:0;
+      border-radius:13px;
+      box-shadow:none;
+    }
+    .timeline-event-panel .event-history-head{
+      padding:11px 13px;
+    }
+    .event-history-title{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      min-width:0;
+    }
+    .event-history-policy{
+      color:var(--accent);
+      font-weight:950;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      max-width:520px;
+    }
+    .timeline-event-panel .event-history-list{
+      max-height:210px;
+    }
+    .timeline-event-panel .event-item{
+      display:grid;
+      grid-template-columns:92px minmax(0, 1fr) auto;
+      align-items:start;
+      gap:12px;
+      padding:11px 12px;
+      min-height:58px;
+    }
+    .timeline-event-panel .event-date{
+      color:#334155;
+      font-size:12px;
+      font-weight:950;
+      padding-top:2px;
+    }
+    .timeline-event-panel .event-text{
+      min-width:0;
+      display:flex;
+      flex-direction:column;
+      gap:3px;
+    }
+    .timeline-event-panel .event-title{
+      min-width:0;
+      color:#0f172a;
+      font-size:12.8px;
+      font-weight:950;
+      line-height:1.35;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    .timeline-event-panel .event-memo{
+      min-width:0;
+      color:#475569;
+      font-size:12.2px;
+      font-weight:650;
+      line-height:1.45;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      word-break:keep-all;
+    }
+    .timeline-event-panel .event-source-link{
+      margin-top:1px;
+    }
+    .event-history-empty{
+      padding:14px 13px;
+      color:#64748b;
+      font-size:12.5px;
+      font-weight:750;
+      background:#fff;
+    }
+
     .event-history{
       margin-top:12px;
       border:1px solid #e2e8f0;
@@ -937,6 +1020,7 @@
           <div id="timelineShell" class="timeline-shell" aria-live="polite"></div>
 
         </div>
+        <div id="timelineEventPanel" class="timeline-event-panel" aria-live="polite"></div>
       </section>
 
       <aside class="detail-shell" aria-label="선택 정책 상세정보">
@@ -1554,6 +1638,18 @@ ${e.event_summary || ""}`;
     }
 
     function renderEventHistory(policy){
+      if(!policy){
+        return `
+          <div class="event-history">
+            <div class="event-history-head">
+              <div class="event-history-title"><span>이벤트 이력</span></div>
+              <span class="event-history-count">정책을 선택하면 이력이 표시됩니다.</span>
+            </div>
+            <div class="event-history-empty">타임라인에서 정책을 선택하세요.</div>
+          </div>
+        `;
+      }
+
       const events = (policy.events || [])
         .map((e, idx) => ({
           ...e,
@@ -1570,10 +1666,14 @@ ${e.event_summary || ""}`;
       if(!events.length){
         return `
           <div class="event-history">
-            <div class="event-history-head">이벤트 이력 <span class="event-history-count">0건</span></div>
-            <div class="event-item">
-              <div class="event-summary">등록된 과거 이벤트가 없습니다.</div>
+            <div class="event-history-head">
+              <div class="event-history-title">
+                <span>이벤트 이력</span>
+                <span class="event-history-policy">${escapeHtml(policy.policy_name)}</span>
+              </div>
+              <span class="event-history-count">0건</span>
             </div>
+            <div class="event-history-empty">등록된 과거 이벤트가 없습니다.</div>
           </div>
         `;
       }
@@ -1581,28 +1681,48 @@ ${e.event_summary || ""}`;
       const rows = events.map(e => {
         const url = eventSourceUrl(e);
         const sourceLabel = eventSourceLabel(e);
-        const temporal = fmtTemporal(e.event_date, e.event_period, e.event_precision, e.event_label && !e.event_date && !e.event_period ? e.event_label : null);
-        const summary = e.event_summary || e.event_label || e.event_type || "이벤트";
+        const temporal = fmtTemporal(
+          e.event_date,
+          e.event_period,
+          e.event_precision,
+          e.event_label && !e.event_date && !e.event_period ? e.event_label : null
+        );
+        const summary = e.event_summary || e.summary || e.event_title || e.event_label || e.event_type || "이벤트";
+        const memo = e.event_memo || e.memo || e.event_detail || e.detail || "메모 정보가 없습니다.";
         const sourceButton = url
           ? `<a class="event-source-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(sourceLabel)} ↗</a>`
           : `<a class="event-source-link disabled" href="#">원문 없음</a>`;
         return `
-          <div class="event-item">
-            <div class="event-item-top">
-              <span class="event-date">${escapeHtml(temporal)}</span>
-              ${sourceButton}
+          <div class="event-item" title="${escapeHtml(summary)}\n${escapeHtml(memo)}">
+            <span class="event-date">${escapeHtml(temporal)}</span>
+            <div class="event-text">
+              <div class="event-title">${escapeHtml(summary)}</div>
+              <div class="event-memo">${escapeHtml(memo)}</div>
             </div>
-            <div class="event-title">${escapeHtml(summary)}</div>
+            ${sourceButton}
           </div>
         `;
       }).join("");
 
       return `
         <div class="event-history">
-          <div class="event-history-head">이벤트 이력 <span class="event-history-count">${events.length}건 · 과거→최근</span></div>
+          <div class="event-history-head">
+            <div class="event-history-title">
+              <span>이벤트 이력</span>
+              <span class="event-history-policy">${escapeHtml(policy.policy_name)}</span>
+            </div>
+            <span class="event-history-count">${events.length}건 · 과거→최근</span>
+          </div>
           <div class="event-history-list">${rows}</div>
         </div>
       `;
+    }
+
+    function renderTimelineEventHistory(){
+      const panel = document.getElementById("timelineEventPanel");
+      if(!panel) return;
+      const selected = state.filtered.find(p => p.policy_id === state.selectedId) || state.filtered[0] || null;
+      panel.innerHTML = renderEventHistory(selected);
     }
 
     function renderDetail(){
@@ -1626,7 +1746,6 @@ ${e.event_summary || ""}`;
       const recentEvent = datedEvents.at(-1);
       const recentText = recentEvent ? `${fmtTemporal(recentEvent.event_date, recentEvent.event_period, recentEvent.event_precision)}<br>${escapeHtml(recentEvent.event_summary || recentEvent.event_label || recentEvent.event_type)}` : fmtDate(selected.latest_event_date);
       const expectedText = fmtTemporal(selected.expected_date, selected.expected_period, selected.expected_precision, selected.expected_label);
-      const eventHistory = renderEventHistory(selected);
 
       panel.innerHTML = `
         <div class="detail-card-body">
@@ -1641,7 +1760,6 @@ ${e.event_summary || ""}`;
           <div class="field"><div class="field-label">확인 포인트</div><div class="field-value">${escapeHtml(selected.next_check_point || "-")}</div></div>
           <div class="field"><div class="field-label">주관부처</div><div class="field-value">${escapeHtml(selected.lead_ministry || "-")}</div></div>
           <div class="field"><div class="field-label">키워드</div><div class="field-value keyword-list">${keywords}</div></div>
-          ${eventHistory}
         </div>
       `;
     }
@@ -1668,6 +1786,7 @@ ${e.event_summary || ""}`;
       document.querySelectorAll("#periodFilter .chip").forEach(btn => btn.classList.toggle("active", btn.dataset.period === state.activePeriod));
       renderTimeline();
       renderDetail();
+      renderTimelineEventHistory();
       renderDataStatus();
     }
 
@@ -1762,6 +1881,7 @@ ${e.event_summary || ""}`;
     document.getElementById("detailClose").addEventListener("click", () => {
       state.selectedId = null;
       renderDetail();
+      renderTimelineEventHistory();
     });
 
     const resetBtn = document.getElementById("resetBtn");
