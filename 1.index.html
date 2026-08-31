@@ -322,10 +322,10 @@
     .modal-backdrop.show { display: block; }
 
     .chart-modal {
-      position: fixed;
+      position: absolute;
       left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
+      top: 0;
+      transform: translateX(-50%);
       width: min(1180px, 94vw);
       height: min(760px, 88vh);
       display: none;
@@ -807,7 +807,8 @@
       coal: { rows: [], chart: null, period: '1M' },
       lng: { rows: [], chart: null, period: '1M' },
       modalChart: null,
-      modalType: null
+      modalType: null,
+      modalTrigger: null
     };
 
     function escapeHtml(value) {
@@ -1499,13 +1500,24 @@
       }
     }
 
-    function openChartModal(type) {
+    function positionChartModal(triggerButton) {
+      const modal = document.getElementById('chartModal');
+      const chartBox = triggerButton?.closest('.chart-box');
+      if (!chartBox) return;
+
+      const chartRect = chartBox.getBoundingClientRect();
+      modal.style.top = `${Math.max(12, window.scrollY + chartRect.top - 8)}px`;
+    }
+
+    function openChartModal(type, triggerButton) {
       state.modalType = type;
+      state.modalTrigger = triggerButton;
       const period = state[type].period;
       const rows = filterLastDays(state[type].rows, PERIOD_DAYS[period] || 365);
       document.getElementById('modalTitle').textContent = type === 'smp' ? 'SMP·예비력 추이 확대' : (type === 'rec' ? 'REC 가격·거래량 추이 확대' : (type === 'oil' ? '국제유가 추이 확대' : (type === 'coal' ? '유연탄 가격 추이 확대' : (type === 'lng' ? 'LNG 벤치마크 가격 추이 확대' : '배출권 가격·거래량 추이 확대'))));
       document.getElementById('modalSubtitle').textContent = getPeriodLabel(period);
       document.getElementById('modalBackdrop').classList.add('show');
+      positionChartModal(triggerButton);
       document.getElementById('chartModal').classList.add('show');
       if (state.modalChart) state.modalChart.destroy();
       state.modalChart = new Chart(document.getElementById('modalChartCanvas'), type === 'oil' ? makeOilChartConfig(rows, 14) : (type === 'coal' ? makeCoalChartConfigForRows(rows, 14) : (type === 'lng' ? makeLngChartConfigForRows(rows, 14) : makeChartConfig(type, rows, 14))));
@@ -1519,6 +1531,7 @@
         state.modalChart = null;
       }
       state.modalType = null;
+      state.modalTrigger = null;
     }
 
     function bindButtons() {
@@ -1539,7 +1552,7 @@
       document.querySelectorAll('[data-expand]').forEach(button => {
         button.addEventListener('click', () => {
           const type = button.dataset.expand;
-          if (state[type].rows.length) openChartModal(type);
+          if (state[type].rows.length) openChartModal(type, button);
         });
       });
     }
@@ -1585,7 +1598,10 @@
       if (state.oil.chart) state.oil.chart.resize();
       if (state.coal.chart) state.coal.chart.resize();
       if (state.lng.chart) state.lng.chart.resize();
-      if (state.modalChart) state.modalChart.resize();
+      if (state.modalChart) {
+        positionChartModal(state.modalTrigger);
+        state.modalChart.resize();
+      }
     });
 
     loadSmpData().catch(error => showSectionError('smp', error));
