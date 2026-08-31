@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-02T10:45:25",
+    "generated_at": "2026-07-07T16:27:38",
     "source_file": "C:\\dashboard\\policy_dashboard_master.xlsx",
     "policy_count": 6,
     "event_count": 11,
@@ -23,10 +23,10 @@
     "event_types": [
       "공개",
       "경과",
+      "제정",
       "개정",
       "검토",
       "입법예고",
-      "의견수렴",
       "확정",
       "시행",
       "종료"
@@ -107,7 +107,8 @@
           "timeline_marker": null,
           "source_name": "전기신문",
           "source_url": "https://www.electimes.com/news/articleView.html?idxno=362726",
-          "memo": null
+          "memo": "12차 전기본 수립 절차가 시작된 것으로, 향후 수요전망·전원믹스 변경 방향을 지속 확인할 필요가 있음.",
+          "event_memo": "12차 전기본 수립 절차가 시작된 것으로, 향후 수요전망·전원믹스 변경 방향을 지속 확인할 필요가 있음."
         },
         {
           "event_id": "E-2026-002",
@@ -125,7 +126,8 @@
           "timeline_marker": null,
           "source_name": "경향신문",
           "source_url": "https://www.khan.co.kr/article/202601261656001",
-          "memo": null
+          "memo": "원전 확대 방향이 공식화되며 장기 전원믹스와 전력시장 가격 전망에 영향을 줄 수 있음.",
+          "event_memo": "원전 확대 방향이 공식화되며 장기 전원믹스와 전력시장 가격 전망에 영향을 줄 수 있음."
         },
         {
           "event_id": "E-2026-003",
@@ -143,7 +145,8 @@
           "timeline_marker": null,
           "source_name": "기후부 공지",
           "source_url": "https://www.mcee.go.kr/home/web/board/read.do;jsessionid=IvM-bhF6pYJTPbxuc6dxICtJ-9v03ITqKxMCtFik.mehome1?pagerOffset=0&maxPageItems=10&maxIndexPages=10&searchKey=&searchValue=&menuId=10598&orgCd=&boardId=1858100&boardMasterId=939&boardCategoryId=&decorator=",
-          "memo": null
+          "memo": "이해관계자 논의가 본격화된 단계로, 최종안에 반영될 주요 쟁점과 공표 일정을 확인할 필요가 있음.",
+          "event_memo": "이해관계자 논의가 본격화된 단계로, 최종안에 반영될 주요 쟁점과 공표 일정을 확인할 필요가 있음."
         }
       ],
       "source": {
@@ -201,7 +204,8 @@
           "timeline_marker": null,
           "source_name": null,
           "source_url": null,
-          "memo": null
+          "memo": "RPS 폐지·전환 논의가 제도화될 가능성이 있어 REC 수급과 기존 재생에너지 계약가치에 영향을 줄 수 있음.",
+          "event_memo": "RPS 폐지·전환 논의가 제도화될 가능성이 있어 REC 수급과 기존 재생에너지 계약가치에 영향을 줄 수 있음."
         },
         {
           "event_id": "E-2026-005",
@@ -219,7 +223,8 @@
           "timeline_marker": null,
           "source_name": "법률신문",
           "source_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=217995",
-          "memo": null
+          "memo": "기존 REC 처리와 의무제도 전환 방식이 쟁점화되어 향후 REC 가격·정산 구조 확인이 필요함.",
+          "event_memo": "기존 REC 처리와 의무제도 전환 방식이 쟁점화되어 향후 REC 가격·정산 구조 확인이 필요함."
         }
       ],
       "source": {
@@ -276,7 +281,8 @@
           "timeline_marker": null,
           "source_name": "국제신문",
           "source_url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260322.99099006631",
-          "memo": null
+          "memo": "지역별 가격신호 도입 가능성이 커지며 발전소 입지별 수익성 차이가 확대될 수 있음.",
+          "event_memo": "지역별 가격신호 도입 가능성이 커지며 발전소 입지별 수익성 차이가 확대될 수 있음."
         }
       ],
       "source": {
@@ -335,7 +341,8 @@
           "timeline_marker": null,
           "source_name": "국회기후변화포럼",
           "source_url": "https://www.climateforum.or.kr/notice/459",
-          "memo": null
+          "memo": "열 부문 저탄소 의무·인센티브 신설 가능성이 있어 집단에너지 사업의 기회와 규제 영향을 함께 검토할 필요가 있음.",
+          "event_memo": "열 부문 저탄소 의무·인센티브 신설 가능성이 있어 집단에너지 사업의 기회와 규제 영향을 함께 검토할 필요가 있음."
         },
         {
           "event_id": "E-2026-008",
@@ -353,7 +360,8 @@
           "timeline_marker": null,
           "source_name": "기후부 보도자료",
           "source_url": "https://mcee.go.kr/home/web/board/read.do;jsessionid=3rZObPwDvrmckm4NJdh21hwit3cxWSCUOWNhEAws.mehome2?menuId=10598&boardMasterId=939&boardId=1857620",
-          "memo": null
+          "memo": "재생열·청정열 정책 방향이 구체화되는 단계로, 열 공급 포트폴리오 전환 전략과 연계해 볼 필요가 있음.",
+          "event_memo": "재생열·청정열 정책 방향이 구체화되는 단계로, 열 공급 포트폴리오 전환 전략과 연계해 볼 필요가 있음."
         }
       ],
       "source": {
@@ -403,14 +411,15 @@
           "event_date": "2023-06-13",
           "event_period": null,
           "event_precision": "일",
-          "event_label": "공개",
+          "event_label": "제정",
           "event_summary": "「분산에너지 활성화 특별법」 제정",
           "is_confirmed": true,
           "show_on_timeline": true,
           "timeline_marker": null,
           "source_name": "전기신문",
           "source_url": "https://www.electimes.com/news/articleView.html?idxno=336104",
-          "memo": null
+          "memo": "분산형 전원과 지역 에너지 사업의 제도 기반이 마련되어 신규 사업모델 검토 필요성이 커짐.",
+          "event_memo": "분산형 전원과 지역 에너지 사업의 제도 기반이 마련되어 신규 사업모델 검토 필요성이 커짐."
         },
         {
           "event_id": "E-2026-010",
@@ -421,14 +430,15 @@
           "event_date": "2024-06-14",
           "event_period": null,
           "event_precision": "일",
-          "event_label": "공개",
+          "event_label": "제정",
           "event_summary": "시행령·시행규칙 제정 완료 및 시행",
           "is_confirmed": true,
           "show_on_timeline": true,
           "timeline_marker": null,
           "source_name": "에너지데일리",
           "source_url": "https://www.energydaily.co.kr/news/articleView.html?idxno=147200",
-          "memo": null
+          "memo": "세부 제도가 확정되어 분산자원·특구 활용 요건을 실제 사업 기준으로 점검할 필요가 있음.",
+          "event_memo": "세부 제도가 확정되어 분산자원·특구 활용 요건을 실제 사업 기준으로 점검할 필요가 있음."
         },
         {
           "event_id": "E-2026-011",
@@ -439,14 +449,15 @@
           "event_date": "2025-12-25",
           "event_period": null,
           "event_precision": "일",
-          "event_label": "확정",
+          "event_label": "공개",
           "event_summary": "분산특구 추가 지정(경북, 울산, 충남)",
           "is_confirmed": true,
           "show_on_timeline": true,
           "timeline_marker": null,
           "source_name": "KDI",
           "source_url": "https://eiec.kdi.re.kr/policy/materialView.do?num=275332",
-          "memo": null
+          "memo": "특구 중심 실증·지원 확대 가능성이 있어 사업지 입지와 연계 가능한 기회를 검토할 필요가 있음.",
+          "event_memo": "특구 중심 실증·지원 확대 가능성이 있어 사업지 입지와 연계 가능한 기회를 검토할 필요가 있음."
         }
       ],
       "source": {
