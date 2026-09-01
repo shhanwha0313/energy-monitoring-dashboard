@@ -1,55 +1,58 @@
 ﻿{
-  "generated_at": "2026.08.31 14:05:35",
-  "base_date": "2026.08.28",
-  "total_articles": 211,
+  "generated_at": "2026.09.01 16:29:50",
+  "base_date": "2026.08.31",
+  "total_articles": 223,
   "today_articles": 12,
-  "archive_articles": 199,
+  "archive_articles": 211,
   "important_articles": 8,
-  "normal_articles": 0,
-  "reference_articles": 4,
+  "normal_articles": 2,
+  "reference_articles": 2,
   "top_keywords": [
     "ESS",
-    "12차 전기본",
-    "LMP",
+    "AI 데이터센터",
     "LNG",
-    "SMP"
+    "SMR",
+    "반도체"
   ],
   "priority_counts": {
     "중요": 8,
-    "참고": 4
+    "보통": 2,
+    "참고": 2
   },
   "category_counts": {
-    "LNG·에너지안보": 6,
-    "전력시장": 2,
-    "계통·인프라": 4
+    "LNG·에너지안보": 3,
+    "계통·인프라": 4,
+    "전력시장": 1,
+    "AI·데이터센터": 3,
+    "기타": 1
   },
   "key_issues": [
     {
-      "id": "N20260828-001",
+      "id": "N20260831-001",
       "issue_order": 1,
-      "title": "반도체 팹 수요에 12차 전기본 대수술 ‘갑론을박...",
-      "summary": "12차 전기본 확정 과정에서 반도체·AIDC 전력수요가 크게 반영되며 2040년 전력수요 전망 상향과 전원구성 조정을 둘러싼 논쟁이 부각된 기사",
-      "implication": "반도체·AI 데이터센터 수요가 전력수급계획의 핵심 변수로 편입되고 있어, 신규 LNG·ESS·전력망 투자 필요성과 수요 가정의 변화를 계속 확인할 필요",
+      "title": "전력수요 폭증에 2040 석탄폐지까지…신규 원전 공론화 개시",
+      "summary": "12차 전기본 논의에서 전력수요 증가, 2040년 석탄폐지, 대체 전원 확보와 신규 원전 공론화가 맞물려 제시된 기사",
+      "implication": "탈석탄 로드맵과 수요 증가가 동시에 반영될 경우 LNG·원전·ESS 등 대체 전원 조합과 확보 시점이 핵심 검토변수가 될 수 있음",
       "category": "LNG·에너지안보",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608261503074760108737"
+      "url": "https://www.newsis.com/view/NISX20260828_0003766340"
     },
     {
-      "id": "N20260827-001",
+      "id": "N20260830-001",
       "issue_order": 2,
-      "title": "송전길 막혔는데 도매가격마저 '뚝'…발전사들, LMP에 초비상",
-      "summary": "송전망 부족으로 출력제약을 받는 비수도권 민간 발전사가 지역별 도매가격제(LMP) 도입 시 가격 하락까지 겹칠 수 있다는 우려를 다룬 기사",
-      "implication": "LMP 시행은 발전량 제약과 정산단가 하락이 동시에 발생할 수 있어, 비수도권 발전자산의 매출 민감도와 CP·SMP 보완장치 검토가 필요",
-      "category": "LNG·에너지안보",
-      "url": "https://www.electimes.com/news/articleView.html?idxno=371658"
+      "title": "재생에너지 6배 늘려 220GW로…전력망·ESS 확충이 관건",
+      "summary": "12차 전기본에 반영될 재생에너지 보급 전망에서 2040년 220GW 확대와 전력망·ESS 확충 필요성이 함께 제기된 기사",
+      "implication": "재생에너지 보급 목표가 커질수록 송전망·ESS·출력제어 비용이 병목으로 부상할 가능성이 높아 후속 전력망 계획 확인이 필요",
+      "category": "계통·인프라",
+      "url": "https://www.newsis.com/view/NISX20260828_0003767233"
     },
     {
-      "id": "N20260827-002",
+      "id": "N20260831-002",
       "issue_order": 3,
-      "title": "지역별 산업용 전기요금 도입 본격화…\"여수산단 등 산업위기지역 추가...",
-      "summary": "산업용 지역 전기요금제 설계가 구체화되면서 여수국가산단 등 산업위기지역을 추가 지원해야 한다는 요구가 제기된 기사",
-      "implication": "여수산단 전력비 부담 완화는 석유화학 고객사의 원가·가동률에 영향을 줄 수 있어, 실제 할인폭·적용대상·전력비 절감효과를 추적할 필요",
-      "category": "전력시장",
-      "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=202618"
+      "title": "호남 반도체 산단 전력공급 논란",
+      "summary": "호남 반도체 산단 전력공급 논란과 관련해 재생에너지 보급 경로별 ESS 필요 규모가 언급된 기사",
+      "implication": "반도체·AI 데이터센터 전력수요가 지역 계통·ESS 수요를 동반할 수 있어 산단 입지와 전력공급 방식의 연계 검토가 필요",
+      "category": "계통·인프라",
+      "url": "http://www.e2news.com/news/articleView.html?idxno=333719"
     }
   ]
 }
