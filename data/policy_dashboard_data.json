@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-08-31T18:22:33",
+    "generated_at": "2026-09-01T16:39:33",
     "source_file": "C:\\dashboard\\policy_dashboard_master.xlsx",
     "policy_count": 6,
-    "event_count": 16,
+    "event_count": 19,
     "note": "Dates are normalized to yyyy-mm-dd. Empty or unknown dates are exported as null. Policy order follows the 1_policy_master sheet order."
   },
   "codes": {
@@ -206,7 +206,7 @@
       "importance": "중요",
       "lead_ministry": "기후에너지환경부",
       "first_announce_date": "2026-01-01",
-      "latest_event_date": "2026-03-12",
+      "latest_event_date": "2026-08-20",
       "next_check_point": "기존 사업자 REC 거래 방안",
       "schedule_confirmed": true,
       "expected_date": null,
@@ -263,6 +263,25 @@
           "source_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=217995",
           "memo": "기존 REC 처리와 의무제도 전환 방식이 쟁점화되어 향후 REC 가격·정산 구조 확인이 필요함.",
           "event_memo": "기존 REC 처리와 의무제도 전환 방식이 쟁점화되어 향후 REC 가격·정산 구조 확인이 필요함."
+        },
+        {
+          "event_id": "E-2026-017",
+          "policy_id": "P-2026-002",
+          "policy_name": "RPS",
+          "event_order": 3,
+          "event_type": null,
+          "event_date": "2026-08-20",
+          "event_period": null,
+          "event_precision": "일",
+          "event_label": "경과",
+          "event_summary": "신재생e법 개정안 국회 본회의 통과",
+          "is_confirmed": true,
+          "show_on_timeline": true,
+          "timeline_marker": null,
+          "source_name": "부산일보",
+          "source_url": "https://www.busan.com/view/busan/view.php?code=2026082020561397826",
+          "memo": "RPS폐지관련 내용이 담긴 신재생e법 개정안이 국회 본회의 통과",
+          "event_memo": "RPS폐지관련 내용이 담긴 신재생e법 개정안이 국회 본회의 통과"
         }
       ],
       "source": {
@@ -399,7 +418,7 @@
       "importance": "중요",
       "lead_ministry": "기후에너지환경부",
       "first_announce_date": "2026-01-01",
-      "latest_event_date": "2026-04-15",
+      "latest_event_date": "2026-06-05",
       "next_check_point": "제도 설계방향",
       "schedule_confirmed": false,
       "expected_date": null,
@@ -457,6 +476,25 @@
           "source_url": "https://mcee.go.kr/home/web/board/read.do;jsessionid=3rZObPwDvrmckm4NJdh21hwit3cxWSCUOWNhEAws.mehome2?menuId=10598&boardMasterId=939&boardId=1857620",
           "memo": "재생열·청정열 정책 방향이 구체화되는 단계로, 열 공급 포트폴리오 전환 전략과 연계해 볼 필요가 있음.",
           "event_memo": "재생열·청정열 정책 방향이 구체화되는 단계로, 열 공급 포트폴리오 전환 전략과 연계해 볼 필요가 있음."
+        },
+        {
+          "event_id": "E-2026-018",
+          "policy_id": "P-2026-004",
+          "policy_name": "재생열 제도",
+          "event_order": 3,
+          "event_type": null,
+          "event_date": "2026-06-05",
+          "event_period": null,
+          "event_precision": "일",
+          "event_label": "경과",
+          "event_summary": "열에너지 관리 및 탈탄소화 촉진법안(김주영의원 등 11인) 발의",
+          "is_confirmed": true,
+          "show_on_timeline": true,
+          "timeline_marker": null,
+          "source_name": "투데이에너지",
+          "source_url": "https://www.todayenergy.kr/news/articleView.html?idxno=299048",
+          "memo": "25년에 발의된 기존 청정열법과 내용 유사",
+          "event_memo": "25년에 발의된 기존 청정열법과 내용 유사"
         }
       ],
       "source": {
@@ -478,7 +516,7 @@
       "importance": "보통",
       "lead_ministry": "기후에너지환경부",
       "first_announce_date": "2026-01-01",
-      "latest_event_date": "2025-12-25",
+      "latest_event_date": "2026-06-19",
       "next_check_point": "제도 변화",
       "schedule_confirmed": false,
       "expected_date": null,
@@ -553,6 +591,25 @@
           "source_url": "https://eiec.kdi.re.kr/policy/materialView.do?num=275332",
           "memo": "특구 중심 실증·지원 확대 가능성이 있어 사업지 입지와 연계 가능한 기회를 검토할 필요가 있음.",
           "event_memo": "특구 중심 실증·지원 확대 가능성이 있어 사업지 입지와 연계 가능한 기회를 검토할 필요가 있음."
+        },
+        {
+          "event_id": "E-2026-019",
+          "policy_id": "P-2026-005",
+          "policy_name": "분산에너지법",
+          "event_order": 4,
+          "event_type": null,
+          "event_date": "2026-06-19",
+          "event_period": null,
+          "event_precision": "일",
+          "event_label": "경과",
+          "event_summary": "기후에너지환경부가 ‘커뮤니티형 마이크로그리드’를 별도 유형으로 신설",
+          "is_confirmed": true,
+          "show_on_timeline": true,
+          "timeline_marker": null,
+          "source_name": "전기신문",
+          "source_url": "https://www.electimes.com/news/articleView.html?idxno=369249",
+          "memo": "동일 변전소 구역 내 재생에너지를 활용하는 모델",
+          "event_memo": "동일 변전소 구역 내 재생에너지를 활용하는 모델"
         }
       ],
       "source": {
@@ -793,9 +850,6 @@
     "[1_policy_master row 203] policy_id가 비어 있어 해당 행을 제외했습니다.",
     "[1_policy_master row 204] policy_id가 비어 있어 해당 행을 제외했습니다.",
     "[1_policy_master row 205] policy_id가 비어 있어 해당 행을 제외했습니다.",
-    "[2_policy_events row 18] policy_id가 비어 있어 해당 이벤트 행을 제외했습니다.",
-    "[2_policy_events row 19] policy_id가 비어 있어 해당 이벤트 행을 제외했습니다.",
-    "[2_policy_events row 20] policy_id가 비어 있어 해당 이벤트 행을 제외했습니다.",
     "[2_policy_events row 21] policy_id가 비어 있어 해당 이벤트 행을 제외했습니다.",
     "[2_policy_events row 22] policy_id가 비어 있어 해당 이벤트 행을 제외했습니다.",
     "[2_policy_events row 23] policy_id가 비어 있어 해당 이벤트 행을 제외했습니다.",
