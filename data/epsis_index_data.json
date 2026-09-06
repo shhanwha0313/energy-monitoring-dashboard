@@ -1,11 +1,35 @@
 [
   {
-    "date": "2026-09-04",
-    "smp": 160.39,
+    "date": "2026-09-07",
+    "smp": 150.38,
     "max_power": NaN,
     "min_power": NaN,
     "reserve_power": NaN,
     "reserve_ratio": NaN
+  },
+  {
+    "date": "2026-09-06",
+    "smp": 97.56,
+    "max_power": 68394.0,
+    "min_power": 49054.0,
+    "reserve_power": 29799.0,
+    "reserve_ratio": 43.6
+  },
+  {
+    "date": "2026-09-05",
+    "smp": 105.62,
+    "max_power": 69312.0,
+    "min_power": 53997.0,
+    "reserve_power": 27871.0,
+    "reserve_ratio": 40.2
+  },
+  {
+    "date": "2026-09-04",
+    "smp": 160.39,
+    "max_power": 79148.0,
+    "min_power": 60361.0,
+    "reserve_power": 25865.0,
+    "reserve_ratio": 32.7
   },
   {
     "date": "2026-09-03",
@@ -2902,29 +2926,5 @@
     "min_power": 0.0,
     "reserve_power": 24778.0,
     "reserve_ratio": 33.9
-  },
-  {
-    "date": "2025-09-06",
-    "smp": 122.33,
-    "max_power": 77341.0,
-    "min_power": 0.0,
-    "reserve_power": 19928.0,
-    "reserve_ratio": 25.8
-  },
-  {
-    "date": "2025-09-05",
-    "smp": 126.17,
-    "max_power": 88196.0,
-    "min_power": 0.0,
-    "reserve_power": 12774.0,
-    "reserve_ratio": 14.5
-  },
-  {
-    "date": "2025-09-04",
-    "smp": 123.92,
-    "max_power": 88135.0,
-    "min_power": 0.0,
-    "reserve_power": 12982.0,
-    "reserve_ratio": 14.7
   }
 ]
