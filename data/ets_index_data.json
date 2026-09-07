@@ -1,17 +1,31 @@
 [
   {
+    "date": "2026-09-04",
+    "price": 29950,
+    "change": 150,
+    "change_rate": 0.5,
+    "volume": 41001
+  },
+  {
+    "date": "2026-09-03",
+    "price": 29800,
+    "change": -200,
+    "change_rate": -0.67,
+    "volume": 133945
+  },
+  {
     "date": "2026-09-02",
-    "price": 29450,
-    "change": 0,
-    "change_rate": 0.0,
-    "volume": 0
+    "price": 30000,
+    "change": 600,
+    "change_rate": 2.04,
+    "volume": 61700
   },
   {
     "date": "2026-09-01",
-    "price": 29450,
-    "change": 0,
-    "change_rate": 0.0,
-    "volume": 0
+    "price": 29400,
+    "change": 500,
+    "change_rate": 1.73,
+    "volume": 160551
   },
   {
     "date": "2026-08-31",
