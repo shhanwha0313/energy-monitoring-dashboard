@@ -2,10 +2,10 @@
   {
     "date": "2026-09-10",
     "smp": 116.28,
-    "max_power": NaN,
-    "min_power": NaN,
-    "reserve_power": NaN,
-    "reserve_ratio": NaN
+    "max_power": null,
+    "min_power": null,
+    "reserve_power": null,
+    "reserve_ratio": null
   },
   {
     "date": "2026-09-09",
