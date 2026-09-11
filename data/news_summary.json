@@ -1,61 +1,59 @@
 ﻿{
-  "generated_at": "2026.09.10 15:50:31",
-  "base_date": "2026.09.10",
-  "total_articles": 340,
+  "generated_at": "2026.09.11 13:18:58",
+  "base_date": "2026.09.11",
+  "total_articles": 357,
   "today_articles": 17,
-  "archive_articles": 323,
-  "important_articles": 11,
-  "normal_articles": 4,
+  "archive_articles": 340,
+  "important_articles": 10,
+  "normal_articles": 5,
   "reference_articles": 2,
   "top_keywords": [
-    "12차 전기본",
+    "ESS",
     "LNG",
-    "NCC",
-    "SMR",
-    "미국"
+    "송전망",
+    "AI 데이터센터",
+    "SMP"
   ],
   "priority_counts": {
-    "중요": 11,
-    "보통": 4,
+    "중요": 10,
+    "보통": 5,
     "참고": 2
   },
   "category_counts": {
-    "정책·제도": 1,
-    "LNG·에너지안보": 7,
+    "LNG·에너지안보": 5,
     "전력시장": 1,
-    "기타": 2,
-    "AI·데이터센터": 2,
-    "산업·고객": 1,
-    "탄소·ESG": 1,
-    "계통·인프라": 2
+    "계통·인프라": 3,
+    "AI·데이터센터": 5,
+    "산업·고객": 2,
+    "탄소·ESG": 1
   },
   "key_issues": [
     {
-      "id": "N20260909-009",
+      "id": "N20260910-012",
       "issue_order": 1,
-      "title": "석탄 21기 더 닫을까…2040 '탈석탄' 대체전원 확보가 관건",
-      "summary": "정부가 제12차 전력수급기본계획에 반영할 2040년 석탄발전 조기폐지 방안을 논의하며, 대체전원 확보와 전력수급 안정이 핵심 쟁점으로 부상했다는 기사.",
-      "implication": "석탄 감축 일정이 구체화되면 LNG 백업전원·열병합·ESS의 필요 용량과 수익 구조가 함께 달라질 수 있어 전기본 논의와 대체전원 배분을 추적할 필요가 있음.",
-      "category": "정책·제도",
-      "url": "https://www.newsis.com/view/NISX20260909_0003782573"
+      "title": "서남권 반도체 전력 해법, 12차 전기본 시험대 오른다",
+      "summary": "서남권 반도체 클러스터의 전력공급을 12차 전기본에 반영하면서 단기에는 기존 원전·LNG·열병합·연료전지·재생에너지와 ESS, 장기에는 신규 원전·SMR·무탄소 가스발전과 송전망을 함께 검토해야 한다는 논의다.",
+      "implication": "여수권 신규 전력·열 사업은 수요 반영 여부, 계통 접속 시점, LNG·CHP·ESS 조합을 하나의 사업성 시나리오로 점검할 필요가 있음.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=228088"
     },
     {
-      "id": "N20260909-010",
+      "id": "N20260910-013",
       "issue_order": 2,
-      "title": "LNG값·폭염에 치솟은 SMP<계통한계가격>…누가 비용 떠안나",
-      "summary": "에너지 공급 불안에 따른 LNG 가격 상승과 폭염으로 계통한계가격이 급등하면서 발전비용 부담의 귀속과 전기요금 조정 문제가 커졌다는 기사.",
-      "implication": "SMP 상승은 LNG 발전의 매출에는 우호적일 수 있지만 한전의 구입비와 산업용 요금 압력을 높이므로 연료비·SMP·소매요금 간 시차를 함께 점검해야 함.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.naeil.com/news/read/601668?ref=naver"
+      "title": "kWh당 18원의 무게; 지역별 전기요금제, 전남광주의 셈법",
+      "summary": "산업용 지역 전기요금제에서 남부권 요금을 최대 kWh당 18원 낮추는 안이 제시됐으며, 기사에서는 여수 석유화학의 연간 절감 효과를 1,700억~2,355억 원으로 추산했다.",
+      "implication": "지역별 요금이 시행되면 산단 고객의 에너지비와 자가발전·열병합의 비교 경제성이 달라질 수 있어 고객별 원가 효과를 다시 계산할 필요가 있음.",
+      "category": "전력시장",
+      "url": "https://www.namdonews.com/news/articleView.html?idxno=922963"
     },
     {
-      "id": "N20260909-011",
+      "id": "N20260910-014",
       "issue_order": 3,
-      "title": "기후부, ‘LNG·LPG는 청정연료’ 시행령 삭제 검토",
-      "summary": "기후에너지환경부가 시행령의 LNG·LPG 청정연료 표현 삭제를 검토하고, 늘어날 수 있는 가스발전의 온실가스 저감 방안도 논의하겠다고 밝힌 기사.",
-      "implication": "연료 분류가 바뀌면 LNG 발전·열병합의 정책 명분과 지원 조건이 약화될 수 있어 고효율·열회수·CCUS 등 감축수단을 사업성에 선반영할 필요가 있음.",
+      "title": "전력망 병목비용 두 달 연속 증가…부담 더 커지나",
+      "summary": "전력망 제약에 따른 병목비용이 두 달 연속 늘어난 가운데 SMP와 국제유가도 상승해 비용 부담 확대 우려가 제기됐다. 재생에너지 100GW 보급 목표에 맞춘 송전망·ESS 확충이 과제로 꼽혔다.",
+      "implication": "계통 제약과 변동비보전 증가는 발전사업 수익과 계통 보강비에 동시에 영향을 주므로 지역별 제약비용과 ESS 회피가치를 추적할 필요가 있음.",
       "category": "LNG·에너지안보",
-      "url": "https://www.ekn.kr/web/view.php?key=20260909029572508"
+      "url": "https://www.dailian.co.kr/news/view/1688972/?sc=Naver"
     }
   ]
 }
