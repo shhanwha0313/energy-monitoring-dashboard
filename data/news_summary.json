@@ -1,59 +1,60 @@
 ﻿{
-  "generated_at": "2026.09.11 13:18:58",
-  "base_date": "2026.09.11",
-  "total_articles": 357,
-  "today_articles": 17,
-  "archive_articles": 340,
-  "important_articles": 10,
+  "generated_at": "2026.09.14 08:53:51",
+  "base_date": "2026.09.14",
+  "total_articles": 375,
+  "today_articles": 18,
+  "archive_articles": 357,
+  "important_articles": 11,
   "normal_articles": 5,
   "reference_articles": 2,
   "top_keywords": [
-    "ESS",
-    "LNG",
     "송전망",
-    "AI 데이터센터",
-    "SMP"
+    "12차 전기본",
+    "석유화학",
+    "실증",
+    "전력망"
   ],
   "priority_counts": {
-    "중요": 10,
+    "중요": 11,
     "보통": 5,
     "참고": 2
   },
   "category_counts": {
-    "LNG·에너지안보": 5,
-    "전력시장": 1,
+    "LNG·에너지안보": 3,
+    "AI·데이터센터": 6,
     "계통·인프라": 3,
-    "AI·데이터센터": 5,
+    "기타": 2,
+    "전력시장": 1,
     "산업·고객": 2,
     "탄소·ESG": 1
   },
   "key_issues": [
     {
-      "id": "N20260910-012",
+      "id": "N20260913-001",
       "issue_order": 1,
-      "title": "서남권 반도체 전력 해법, 12차 전기본 시험대 오른다",
-      "summary": "서남권 반도체 클러스터의 전력공급을 12차 전기본에 반영하면서 단기에는 기존 원전·LNG·열병합·연료전지·재생에너지와 ESS, 장기에는 신규 원전·SMR·무탄소 가스발전과 송전망을 함께 검토해야 한다는 논의다.",
-      "implication": "여수권 신규 전력·열 사업은 수요 반영 여부, 계통 접속 시점, LNG·CHP·ESS 조합을 하나의 사업성 시나리오로 점검할 필요가 있음.",
+      "title": "원전 1기급 'LNG 용량시장' 다시 연다 …\"탄소저감 위해 히트펌프...",
+      "summary": "기후부가 LNG 용량시장 재개설과 평가기준 재설계를 추진한다는 보도다. 기존 계획 중 남은 입찰 물량은 약 1.3GW이며, 재생열·히트펌프 평가와 호남권 반도체 추가 물량은 각각 검토·논의 단계로 제시됐다.",
+      "implication": "열병합 입찰 조건이 바뀌면 LNG 발전·열 공급 사업의 경쟁력에 영향이 있으므로 공고 물량, 재생열 평가기준, 호남 추가 수요의 확정 여부를 추적할 필요가 있음.",
       "category": "LNG·에너지안보",
-      "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=228088"
+      "url": "https://www.mk.co.kr/article/12151470"
     },
     {
-      "id": "N20260910-013",
+      "id": "N20260914-001",
       "issue_order": 2,
-      "title": "kWh당 18원의 무게; 지역별 전기요금제, 전남광주의 셈법",
-      "summary": "산업용 지역 전기요금제에서 남부권 요금을 최대 kWh당 18원 낮추는 안이 제시됐으며, 기사에서는 여수 석유화학의 연간 절감 효과를 1,700억~2,355억 원으로 추산했다.",
-      "implication": "지역별 요금이 시행되면 산단 고객의 에너지비와 자가발전·열병합의 비교 경제성이 달라질 수 있어 고객별 원가 효과를 다시 계산할 필요가 있음.",
-      "category": "전력시장",
-      "url": "https://www.namdonews.com/news/articleView.html?idxno=922963"
+      "title": "기후부 장관 \"반도체·AI혁명, 원전 검토 불가피… 데이터센터엔 별도 ...",
+      "summary": "기후부 장관은 반도체·AI 전력수요에 대응한 원전 검토 필요성을 언급했다. AIDC에 적용되는 일반용 요금의 특성을 고려해 전용 요금체계를 설계 중이라고 설명했다.",
+      "implication": "데이터센터 입지·전력조달 사업성은 향후 별도 요금과 계약조건에 영향을 받을 수 있으므로 산업용 요금과 동일하게 가정하지 말고 제도안을 확인할 필요가 있음.",
+      "category": "AI·데이터센터",
+      "url": "https://www.hankookilbo.com/news/article/A2026091314430000525?did=NA"
     },
     {
-      "id": "N20260910-014",
+      "id": "N20260911-004",
       "issue_order": 3,
-      "title": "전력망 병목비용 두 달 연속 증가…부담 더 커지나",
-      "summary": "전력망 제약에 따른 병목비용이 두 달 연속 늘어난 가운데 SMP와 국제유가도 상승해 비용 부담 확대 우려가 제기됐다. 재생에너지 100GW 보급 목표에 맞춘 송전망·ESS 확충이 과제로 꼽혔다.",
-      "implication": "계통 제약과 변동비보전 증가는 발전사업 수익과 계통 보강비에 동시에 영향을 주므로 지역별 제약비용과 ESS 회피가치를 추적할 필요가 있음.",
+      "title": "SGC에너지, 사모투자합자회사(PEF) 설립…“AI 데이터센터용 자금 조달 ...",
+      "summary": "SGC에너지가 AI 데이터센터용 자금조달을 위해 PEF를 설립했다. 2030년까지 240MW 데이터센터 상업운전을 목표로 계통영향평가를 신청했고, 이후 LNG 발전소와 데이터센터를 결합하는 구상이다.",
+      "implication": "발전·부지·데이터센터를 묶은 온사이트 사업모델의 국내 추진 사례로, 계통 심의 일정, 투자구조와 전력·열 수익 배분을 비교할 필요가 있음.",
       "category": "LNG·에너지안보",
-      "url": "https://www.dailian.co.kr/news/view/1688972/?sc=Naver"
+      "url": "https://biz.chosun.com/industry/company/2026/09/11/UU64HBWWV5GOJPLEUAR3X4HITM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
     }
   ]
 }
