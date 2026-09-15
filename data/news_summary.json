@@ -1,31 +1,31 @@
 ﻿{
-  "generated_at": "2026.09.14 23:55:04",
+  "generated_at": "2026.09.15 00:17:58",
   "base_date": "2026.09.15",
-  "total_articles": 398,
-  "today_articles": 23,
+  "total_articles": 391,
+  "today_articles": 16,
   "archive_articles": 375,
-  "important_articles": 14,
-  "normal_articles": 9,
-  "reference_articles": 0,
+  "important_articles": 7,
+  "normal_articles": 5,
+  "reference_articles": 4,
   "top_keywords": [
-    "AI",
+    "한전",
     "데이터센터",
+    "AI",
     "ESS",
-    "LNG",
-    "한전"
+    "LNG"
   ],
   "priority_counts": {
-    "중요": 14,
-    "보통": 9
+    "중요": 7,
+    "보통": 5,
+    "참고": 4
   },
   "category_counts": {
-    "정책·제도": 4,
-    "계통·인프라": 5,
+    "정책·제도": 3,
+    "계통·인프라": 3,
+    "LNG·에너지안보": 2,
     "전력시장": 3,
-    "AI·데이터센터": 4,
     "탄소·ESG": 2,
-    "LNG·에너지안보": 3,
-    "산업·고객": 2
+    "AI·데이터센터": 3
   },
   "key_issues": [
     {
