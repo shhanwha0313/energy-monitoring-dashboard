@@ -1,61 +1,61 @@
 ﻿{
-  "generated_at": "2026.09.16 01:19:19",
+  "generated_at": "2026.09.16 10:02:44",
   "base_date": "2026.09.16",
-  "total_articles": 407,
-  "today_articles": 22,
+  "total_articles": 416,
+  "today_articles": 31,
   "archive_articles": 385,
-  "important_articles": 4,
-  "normal_articles": 10,
-  "reference_articles": 8,
+  "important_articles": 8,
+  "normal_articles": 12,
+  "reference_articles": 11,
   "top_keywords": [
-    "AI 데이터센터",
-    "LNG",
     "데이터센터",
+    "LNG",
+    "AI 데이터센터",
     "재생에너지",
-    "AIDC"
+    "산업단지"
   ],
   "priority_counts": {
-    "중요": 4,
-    "보통": 10,
-    "참고": 8
+    "중요": 8,
+    "보통": 12,
+    "참고": 11
   },
   "category_counts": {
-    "LNG·에너지안보": 4,
-    "전력시장": 2,
-    "정책·제도": 1,
+    "전력시장": 3,
+    "AI·데이터센터": 9,
+    "계통·인프라": 4,
+    "LNG·에너지안보": 5,
+    "정책·제도": 2,
     "탄소·ESG": 3,
-    "계통·인프라": 2,
-    "AI·데이터센터": 7,
-    "산업·고객": 2,
-    "기타": 1
+    "산업·고객": 3,
+    "기타": 2
   },
   "key_issues": [
     {
-      "id": "N20260915-409",
+      "id": "N20260916-418",
       "issue_order": 1,
-      "title": "국제유가 오르면 가스값도 오른다…한전에 가스회사까지 줄줄이 ‘비명...",
-      "summary": "국제유가 상승이 시차를 두고 LNG 가격과 한전의 전력구입비를 끌어올릴 수 있으나, 민수용 가스요금과 전기요금에는 비용 상승분을 즉시 반영하기 어렵다는 내용이다. 기사에서는 가스공사와 한전 등 에너지 공기업의 비용 부담 확대 가능성을 짚었다.",
-      "implication": "LNG 연료비 상승과 요금 반영 지연이 동시에 발생할 경우 발전·열공급 사업의 마진과 운전자금 부담이 커질 수 있어 유가 연동 시나리오를 점검할 필요가 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://n.news.naver.com/mnews/article/366/0001192527?sid=101"
-    },
-    {
-      "id": "N20260915-408",
-      "issue_order": 2,
-      "title": "[단독] 한전, 수도권 전력한도 14→17GW 확대…전력구입비 줄인다",
-      "summary": "기사에 따르면 한전은 수도권으로 보낼 수 있는 전력 한도를 14GW에서 17GW로 확대하는 방안을 추진한다. 송전한도가 3GW 늘면 수도권 LNG 발전기의 제약발전 물량과 전력구입비가 줄어들 수 있다는 내용이다.",
-      "implication": "보도 내용대로 시행되면 수도권 LNG 발전기의 가동·SMP·제약비용에 영향을 줄 수 있어 적용 시점과 실제 운영기준을 확인할 필요가 있다.",
+      "title": "LNG 용량시장 드디어 열리나…1.3GW 유력",
+      "summary": "기후에너지환경부가 LNG 용량시장 개설을 위한 논의를 진행 중이며, 우선 1.3GW 규모로 개설하는 방안이 거론됨. 시장 개설 시점과 필요 물량을 12차 전기본과 연계할지를 두고 정부 내부 논의가 이어지는 것으로 전해짐.",
+      "implication": "LNG 발전·열병합 설비의 수익구조와 신규 투자 판단에 영향을 줄 수 있어, 참여요건·보상체계·개설 시점을 우선 확인할 필요.",
       "category": "전력시장",
-      "url": "https://www.newspim.com/news/view/20260915000654"
+      "url": "https://www.electimes.com/news/articleView.html?idxno=372481"
     },
     {
-      "id": "N20260915-402",
+      "id": "N20260916-421",
+      "issue_order": 2,
+      "title": "네이버, 거린에너지와 216MW 규모 데이터센터 재생에너지 공급 협력 MOU",
+      "summary": "네이버가 거린에너지와 216MW 규모의 데이터센터 재생에너지 공급 협력을 위한 MOU를 체결했으며, 재생에너지 발전법인 지분투자와 PPA 등 조달 방식을 병행하고 있다고 설명함.",
+      "implication": "데이터센터 고객의 재생에너지 조달 요구가 구체화되고 있어, 전력공급과 재생에너지 조달을 결합한 제안구조 검토가 필요.",
+      "category": "AI·데이터센터",
+      "url": "https://biz.chosun.com/it-science/ict/2026/09/16/DPVOQ6OJBVDAZPUIKMIXI3XQXA/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+    },
+    {
+      "id": "N20260916-420",
       "issue_order": 3,
-      "title": "송전망 급한 정부…송전탑 덜 짓고 주거지 주변은 지중화",
-      "summary": "기후부가 송전망 건설 수용성 제고 방안을 내놓고, 주민 반발이 큰 주거지 주변의 지중화 확대와 송전탑 수 감축 방침을 제시했다. 제12차 전력수급기본계획 수립 과정에서는 전력계통 토론회를 열고, 이후 장기송변전설비계획에도 전문가 참여를 확대할 계획이다.",
-      "implication": "대규모 송전망 사업의 공기·비용·노선이 주민수용성 대책에 좌우될 수 있어, 발전·산업단지 신규사업의 계통연계 일정과 비용을 함께 점검할 필요가 있다.",
-      "category": "정책·제도",
-      "url": "https://n.news.naver.com/mnews/article/001/0016311186?sid=101"
+      "title": "SK이노베이션, 'WCE 2026' 참가…AI 데이터센터 맞춤형 전력 해법 공개",
+      "summary": "SK이노베이션이 재생에너지·BESS·SMR·LNG 열병합발전을 고객 수요에 맞춰 조합하는 AI 데이터센터용 통합 에너지 솔루션을 제시함.",
+      "implication": "대규모 전력수요처를 대상으로 한 LNG 열병합 기반 통합 공급모델이 경쟁사 사업전략으로 제시돼, 당사 데이터센터 전력·열 공급 모델의 차별화 검토가 필요.",
+      "category": "AI·데이터센터",
+      "url": "https://www.newsis.com/view/NISX20260916_0003791271"
     }
   ]
 }
