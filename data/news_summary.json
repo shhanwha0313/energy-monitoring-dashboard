@@ -1,60 +1,61 @@
 ﻿{
-  "generated_at": "2026.09.17 00:09:31",
+  "generated_at": "2026.09.17 07:53:21",
   "base_date": "2026.09.17",
-  "total_articles": 429,
-  "today_articles": 24,
+  "total_articles": 444,
+  "today_articles": 39,
   "archive_articles": 405,
-  "important_articles": 9,
-  "normal_articles": 7,
-  "reference_articles": 8,
+  "important_articles": 16,
+  "normal_articles": 14,
+  "reference_articles": 9,
   "top_keywords": [
     "데이터센터",
     "ESS",
-    "LNG",
+    "전력망",
     "재생에너지",
-    "전력망"
+    "HVDC"
   ],
   "priority_counts": {
-    "중요": 9,
-    "보통": 7,
-    "참고": 8
+    "중요": 16,
+    "보통": 14,
+    "참고": 9
   },
   "category_counts": {
-    "LNG·에너지안보": 5,
-    "전력시장": 4,
-    "AI·데이터센터": 6,
-    "계통·인프라": 4,
-    "정책·제도": 1,
+    "LNG·에너지안보": 8,
+    "계통·인프라": 7,
+    "전력시장": 5,
+    "AI·데이터센터": 11,
+    "정책·제도": 2,
+    "탄소·ESG": 2,
     "산업·고객": 3,
     "기타": 1
   },
   "key_issues": [
     {
-      "id": "N20260917-427",
+      "id": "N20260917-441",
       "issue_order": 1,
-      "title": "구미 천연가스발전소 가동… 전력 자립률 6→30%로 ‘껑충’",
-      "summary": "서부발전의 구미 천연가스발전소 가동으로 구미 전력자립률이 6%에서 30%로 높아졌다는 내용이다. 연간 약 275만MWh 생산 전망이 언급됐다.",
-      "implication": "석탄 대체 LNG 발전이 산업단지 인근의 안정적 전력공급 기반을 강화하는 사례다.",
+      "title": "한미 에너지 안보 동맹 강화… ‘전력·SMR’로 넓힌다",
+      "summary": "한미 에너지안보 협력이 전력망 현대화와 SMR 분야로 확대되고, 한국 전력기자재·ESS 기업의 협력 가능성이 언급됐다.",
+      "implication": "전력망·SMR 협력은 관련 공급망과 해외 사업기회에 영향을 줄 수 있다.",
       "category": "LNG·에너지안보",
-      "url": "https://n.news.naver.com/mnews/article/020/0003748810?sid=102"
+      "url": "https://www.viva100.com/article/20260917500764"
     },
     {
-      "id": "N20260917-428",
+      "id": "N20260917-445",
       "issue_order": 2,
-      "title": "美 “알래스카 LNG 투자 추진 명시” 韓 “가능성 모색” 주장 맞서",
-      "summary": "알래스카 LNG 사업 투자 추진을 MOU에 명시하는 문제를 두고 한미 간 입장이 엇갈리며 발표가 연기됐다는 보도다.",
-      "implication": "대외 에너지 프로젝트 참여 조건과 사업성 검토가 에너지안보·투자 리스크에 영향을 줄 수 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://n.news.naver.com/mnews/article/020/0003748820?sid=100"
+      "title": "충남도의회 \"수도권 전력공급 위해 충남 희생 안 된다\"… 초고압 송전선...",
+      "summary": "충남도의회가 초고압 송전선로 계획에 대해 주민 의견수렴과 지역수용성 확보, 해저 HVDC 등 대안 검토를 요구했다.",
+      "implication": "송전망 확충은 지역수용성이 사업 일정과 비용을 좌우하는 핵심 변수임을 보여준다.",
+      "category": "계통·인프라",
+      "url": "https://cc.newdaily.co.kr/site/data/html/2026/09/17/2026091700144.html"
     },
     {
-      "id": "N20260917-439",
+      "id": "N20260917-454",
       "issue_order": 3,
-      "title": "LNG마저 반년 새 72% 껑충…올겨울 난방비가 겁난다",
-      "summary": "LNG 가격이 반년 새 72% 상승해 겨울철 난방비 부담 우려가 제기됐다는 보도다.",
-      "implication": "연료가격 상승은 열·전력 원가와 고객 비용 부담으로 이어질 수 있어 모니터링이 필요하다.",
-      "category": "LNG·에너지안보",
-      "url": "https://n.news.naver.com/mnews/article/025/0003551918?sid=101"
+      "title": "美하원, 데이터센터로 인한 전기료 인상 막는 법안 처리",
+      "summary": "미국 하원이 데이터센터 건설로 인한 일반 가정 전기요금 상승을 억제하기 위한 법안을 처리했다는 보도다.",
+      "implication": "대규모 전력수요처의 비용 분담은 전력요금·입지 규제 논의로 확산될 가능성이 있다.",
+      "category": "전력시장",
+      "url": "https://n.news.naver.com/mnews/article/001/0016317113?sid=101"
     }
   ]
 }

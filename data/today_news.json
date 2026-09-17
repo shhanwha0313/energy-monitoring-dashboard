@@ -1,5 +1,163 @@
 ﻿[
   {
+    "id": "N20260917-441",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 11:36",
+    "title": "한미 에너지 안보 동맹 강화… ‘전력·SMR’로 넓힌다",
+    "source": "브릿지경제",
+    "priority": "중요",
+    "category": "LNG·에너지안보",
+    "detail_category": "한미 전력·SMR 협력",
+    "summary": "한미 에너지안보 협력이 전력망 현대화와 SMR 분야로 확대되고, 한국 전력기자재·ESS 기업의 협력 가능성이 언급됐다.",
+    "implication": "전력망·SMR 협력은 관련 공급망과 해외 사업기회에 영향을 줄 수 있다.",
+    "tags": [
+      "한미 에너지협력",
+      "전력망",
+      "SMR",
+      "ESS"
+    ],
+    "url": "https://www.viva100.com/article/20260917500764",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
+    "id": "N20260917-445",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 11:30",
+    "title": "충남도의회 \"수도권 전력공급 위해 충남 희생 안 된다\"… 초고압 송전선...",
+    "source": "뉴데일리 충청",
+    "priority": "중요",
+    "category": "계통·인프라",
+    "detail_category": "송전선로 수용성",
+    "summary": "충남도의회가 초고압 송전선로 계획에 대해 주민 의견수렴과 지역수용성 확보, 해저 HVDC 등 대안 검토를 요구했다.",
+    "implication": "송전망 확충은 지역수용성이 사업 일정과 비용을 좌우하는 핵심 변수임을 보여준다.",
+    "tags": [
+      "송전선로",
+      "주민수용성",
+      "해저 HVDC"
+    ],
+    "url": "https://cc.newdaily.co.kr/site/data/html/2026/09/17/2026091700144.html",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20260917-454",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 10:53",
+    "title": "美하원, 데이터센터로 인한 전기료 인상 막는 법안 처리",
+    "source": "연합뉴스",
+    "priority": "중요",
+    "category": "전력시장",
+    "detail_category": "데이터센터 전기요금",
+    "summary": "미국 하원이 데이터센터 건설로 인한 일반 가정 전기요금 상승을 억제하기 위한 법안을 처리했다는 보도다.",
+    "implication": "대규모 전력수요처의 비용 분담은 전력요금·입지 규제 논의로 확산될 가능성이 있다.",
+    "tags": [
+      "미국 하원",
+      "데이터센터",
+      "전기요금"
+    ],
+    "url": "https://n.news.naver.com/mnews/article/001/0016317113?sid=101",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20260917-446",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 10:48",
+    "title": "폭증하는 AI 전력 수요에 멈춰 선 전력망…2030년 268GW 공급 절벽 온다",
+    "source": "글로벌이코노믹",
+    "priority": "중요",
+    "category": "AI·데이터센터",
+    "detail_category": "AI 전력망 공급부족",
+    "summary": "AI 전력수요 증가에 따라 2030년 전력망 공급 부족 가능성이 제기됐으며 데이터센터 내부 HVDC 도입 계획이 언급됐다.",
+    "implication": "데이터센터 전력 접속과 계통 보강 지연은 대규모 수요처 사업의 주요 위험 요인이다.",
+    "tags": [
+      "AI 전력수요",
+      "전력망",
+      "HVDC"
+    ],
+    "url": "https://www.g-enews.com/view.php?ud=202609171038346482fbbec65dfb_1",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260917-440",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 10:02",
+    "title": "그린피스 \"재생에너지 확보 목표 달성해도 탄소중립 어려워, 메가 프로...",
+    "source": "비즈니스포스트",
+    "priority": "중요",
+    "category": "정책·제도",
+    "detail_category": "12차 전기본·탄소중립",
+    "summary": "그린피스가 제12차 전력수급기본계획의 수요 상향과 재생에너지 목표를 두고 탄소중립 달성에 한계가 있다고 지적한 내용이다.",
+    "implication": "전력수요 증가와 탄소중립 목표를 동시에 충족하기 위한 발전원·계통 투자 논의가 이어질 수 있다.",
+    "tags": [
+      "12차 전기본",
+      "재생에너지",
+      "탄소중립"
+    ],
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=447419",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260917-451",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 09:14",
+    "title": "데이터센터 완공 이후가 문제…美 AI 산업 덮친 전력 공급난",
+    "source": "디지털투데이",
+    "priority": "중요",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 전력공급",
+    "summary": "미국에서 데이터센터 건설 속도에 비해 발전소·송전망 확충이 지연돼 전력공급 문제가 커지고 있다는 내용이다.",
+    "implication": "대규모 데이터센터 수요 대응에는 발전·송전 인프라의 선제적 확보가 필요하다.",
+    "tags": [
+      "미국",
+      "데이터센터",
+      "발전소",
+      "송전망"
+    ],
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=701208",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260917-443",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 07:30",
+    "title": "3만원 탄소값, 석탄 퇴출 재촉…대체비용은 숙제",
+    "source": "한스경제",
+    "priority": "중요",
+    "category": "탄소·ESG",
+    "detail_category": "탄소가격·석탄전환",
+    "summary": "탄소가격 상승이 석탄발전 감축 신호를 주지만 LNG 가격과 ESS·송변전망 확보 비용이 과제로 지적됐다.",
+    "implication": "석탄 감축 과정에서는 LNG 연료비와 유연성·계통 투자비의 동시 관리가 필요하다.",
+    "tags": [
+      "탄소가격",
+      "석탄",
+      "LNG",
+      "ESS",
+      "송전망"
+    ],
+    "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=865704",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20260917-427",
     "date": "2026.09.17",
     "datetime": "2026.09.17 04:36",
@@ -17,9 +175,9 @@
     ],
     "url": "https://n.news.naver.com/mnews/article/020/0003748810?sid=102",
     "is_today": "Y",
-    "display_order": 1,
-    "is_key_issue": "Y",
-    "issue_order": 1
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20260917-428",
@@ -39,9 +197,9 @@
     ],
     "url": "https://n.news.naver.com/mnews/article/020/0003748820?sid=100",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20260917-439",
@@ -61,9 +219,9 @@
     ],
     "url": "https://n.news.naver.com/mnews/article/025/0003551918?sid=101",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20260916-434",
@@ -83,7 +241,7 @@
     ],
     "url": "https://www.dkilbo.com/news/articleView.html?idxno=554687",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -106,7 +264,7 @@
     ],
     "url": "http://www.press9.kr/news/articleView.html?idxno=82876",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -129,7 +287,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=372481",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -153,7 +311,7 @@
     ],
     "url": "https://biz.chosun.com/it-science/ict/2026/09/16/DPVOQ6OJBVDAZPUIKMIXI3XQXA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -177,7 +335,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20260916_0003791271",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -201,7 +359,166 @@
     ],
     "url": "https://www.polinews.co.kr/news/articleView.html?idxno=743178",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 16,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260917-444",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 11:54",
+    "title": "효성중공업, 국산 HVDC 핵심기술 공개…한전 실증사업 참여 본격화",
+    "source": "아시아N",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "HVDC 국산화",
+    "summary": "효성중공업이 한전의 대용량 전압형 HVDC 국산화·실증사업에서 밸브·제어기 분야 참여기업으로 선정됐다는 내용이다.",
+    "implication": "HVDC 핵심기자재 국산화는 장거리·대용량 전력망 구축의 공급망 기반과 관련된다.",
+    "tags": [
+      "HVDC",
+      "한전",
+      "밸브",
+      "제어기"
+    ],
+    "url": "http://kor.theasian.asia/archives/415839",
+    "is_today": "Y",
+    "display_order": 17,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260917-448",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 11:24",
+    "title": "동서발전, LNG 직수입 공급망 다변화…에너지 안보 강화",
+    "source": "디스커버리뉴스",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG 직수입 공급망",
+    "summary": "동서발전이 글로벌 천연가스 공급기업과 협력해 LNG 직수입 공급망을 다변화하고 있다는 보도다.",
+    "implication": "LNG 조달선 다변화는 연료 조달 안정성과 가격·계약 조건 관리 측면에서 참고할 사안이다.",
+    "tags": [
+      "동서발전",
+      "LNG 직수입",
+      "공급망"
+    ],
+    "url": "https://www.discoverynews.kr/news/articleView.html?idxno=1101898",
+    "is_today": "Y",
+    "display_order": 18,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260917-442",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 11:07",
+    "title": "AI 데이터센터 50조달러…돈은 '전력·장비'로",
+    "source": "파이낸셜뉴스",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "AI 데이터센터 인프라",
+    "summary": "AI 데이터센터 투자 확대에 따라 전력기기·UPS·ESS·액체냉각·운영관리 등 주변 인프라의 성장 기회가 제기됐다.",
+    "implication": "데이터센터 전력·냉각·저장 설비는 신규 사업 및 기자재 수요 확대와 연결된다.",
+    "tags": [
+      "AI 데이터센터",
+      "ESS",
+      "UPS",
+      "액체냉각"
+    ],
+    "url": "https://n.news.naver.com/mnews/article/014/0005577265?sid=101",
+    "is_today": "Y",
+    "display_order": 19,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260917-449",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 10:46",
+    "title": "UNIST, AI데이터센터 폐열로 전기 생산…울산 GPU 6만장 시대 냉각비 줄...",
+    "source": "글로벌이코노믹",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 폐열활용",
+    "summary": "UNIST 연구진이 AI 데이터센터 폐열을 활용한 전기 생산과 냉각비·탄소비용 절감 가능성을 제시했다.",
+    "implication": "데이터센터 폐열의 회수·활용은 열수요처 연계와 에너지효율 사업기회 검토에 활용될 수 있다.",
+    "tags": [
+      "UNIST",
+      "데이터센터 폐열",
+      "탄소비용"
+    ],
+    "url": "https://www.g-enews.com/view.php?ud=202609170855196138f7ba87f45b_1",
+    "is_today": "Y",
+    "display_order": 20,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260917-450",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 10:16",
+    "title": "법무법인 로앤에이 “AI 데이터센터 지방 유치, 인센티브보다 계약 설계...",
+    "source": "이코노미스트",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 지방입지",
+    "summary": "전력망과 부지 여건을 이유로 데이터센터 입지가 비수도권으로 분산되는 흐름과 지방세 감면·계약 설계 쟁점이 소개됐다.",
+    "implication": "지역 데이터센터 유치 시 전력·부지 조건과 장기 계약구조를 함께 검토할 필요가 있다.",
+    "tags": [
+      "데이터센터",
+      "지방유치",
+      "전력망",
+      "계약"
+    ],
+    "url": "https://n.news.naver.com/mnews/article/243/0000103182?sid=101",
+    "is_today": "Y",
+    "display_order": 21,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260917-452",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 07:39",
+    "title": "“송전선로 지중화에 지원금도”…반발 사라질까?",
+    "source": "KBS",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "송전망 지중화·보상",
+    "summary": "송전선로 지중화와 주민 지원 방안이 소개됐으며 반도체 산단·데이터센터 신설에 따른 송전망 확충 필요성이 언급됐다.",
+    "implication": "수용성 확보를 위한 보상·지중화 비용은 송전망 프로젝트의 경제성 및 일정에 영향을 준다.",
+    "tags": [
+      "송전선로",
+      "지중화",
+      "주민지원",
+      "데이터센터"
+    ],
+    "url": "https://n.news.naver.com/mnews/article/056/0012259113?sid=102",
+    "is_today": "Y",
+    "display_order": 22,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260917-453",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 06:03",
+    "title": "제주 잉여 재생전력, 그린수소로 바꿔 저장 [밀착취재]",
+    "source": "세계일보",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "재생전력·그린수소 저장",
+    "summary": "제주에서 잉여 재생전력을 그린수소로 전환·저장하는 사례와 출력제어, 송전망 제약 문제가 다뤄졌다.",
+    "implication": "잉여전력 활용과 수소 저장은 계통 유연성 및 재생에너지 수용성 제고 방안으로 검토할 수 있다.",
+    "tags": [
+      "제주",
+      "재생에너지",
+      "출력제어",
+      "그린수소"
+    ],
+    "url": "https://n.news.naver.com/mnews/article/022/0004159687?sid=102",
+    "is_today": "Y",
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -224,7 +541,7 @@
     ],
     "url": "https://n.news.naver.com/mnews/article/023/0003998848?sid=101",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -247,7 +564,7 @@
     ],
     "url": "https://www.viva100.com/article/20260916501551",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -269,7 +586,7 @@
     ],
     "url": "https://www.etoday.co.kr/news/view/2626272",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -291,7 +608,7 @@
     ],
     "url": "https://www.sentv.co.kr/article/view/sentv202609160199",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -313,7 +630,7 @@
     ],
     "url": "https://n.news.naver.com/mnews/article/003/0014195058?sid=101",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -336,7 +653,7 @@
     ],
     "url": "https://view.asiae.co.kr/article/2026091611133379991",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -359,7 +676,29 @@
     ],
     "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202609151439135390147",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 30,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260917-447",
+    "date": "2026.09.17",
+    "datetime": "2026.09.17 11:56",
+    "title": "KR-한화오션, LNG 벙커링선 공동개발 추진",
+    "source": "투데이에너지",
+    "priority": "참고",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG 벙커링",
+    "summary": "KR과 한화오션이 IMO 온실가스 규제 강화에 대응한 LNG 벙커링선 공동개발을 추진한다는 내용이다.",
+    "implication": "LNG 연료공급 인프라는 해운 전환 수요와 연계된 사업기회로 볼 수 있다.",
+    "tags": [
+      "LNG 벙커링선",
+      "IMO",
+      "한화오션"
+    ],
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=303199",
+    "is_today": "Y",
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -381,7 +720,7 @@
     ],
     "url": "https://www.safetynews.co.kr/news/articleView.html?idxno=250610",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -404,7 +743,7 @@
     ],
     "url": "http://www.thefirstmedia.net/news/articleView.html?idxno=208735",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -426,7 +765,7 @@
     ],
     "url": "https://www.thepowernews.co.kr/view.php?ud=202609161609139175de3f0aa1be_7",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -449,7 +788,7 @@
     ],
     "url": "https://www.yna.co.kr/view/AKR20260916078600061?input=1195m",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 35,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -473,7 +812,7 @@
     ],
     "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700908",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 36,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -496,7 +835,7 @@
     ],
     "url": "https://www.handmk.com/news/articleView.html?idxno=43225",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 37,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -520,7 +859,7 @@
     ],
     "url": "https://www.g-enews.com/view.php?ud=202609152318461772bd56fbc3c_1",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 38,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -544,7 +883,7 @@
     ],
     "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=228218",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 39,
     "is_key_issue": "N",
     "issue_order": 9999
   }
