@@ -1,61 +1,60 @@
 ﻿{
-  "generated_at": "2026.09.17 08:51:14",
-  "base_date": "2026.09.17",
-  "total_articles": 444,
-  "today_articles": 39,
-  "archive_articles": 405,
+  "generated_at": "2026.09.17 23:06:39",
+  "base_date": "2026.09.18",
+  "total_articles": 460,
+  "today_articles": 35,
+  "archive_articles": 425,
   "important_articles": 16,
-  "normal_articles": 14,
-  "reference_articles": 9,
+  "normal_articles": 15,
+  "reference_articles": 4,
   "top_keywords": [
-    "데이터센터",
     "ESS",
+    "데이터센터",
+    "AI 데이터센터",
     "전력망",
-    "재생에너지",
     "HVDC"
   ],
   "priority_counts": {
     "중요": 16,
-    "보통": 14,
-    "참고": 9
+    "보통": 15,
+    "참고": 4
   },
   "category_counts": {
+    "정책·제도": 3,
+    "전력시장": 3,
+    "산업·고객": 2,
     "LNG·에너지안보": 8,
-    "계통·인프라": 7,
-    "전력시장": 5,
+    "계통·인프라": 5,
     "AI·데이터센터": 11,
-    "정책·제도": 2,
-    "탄소·ESG": 2,
-    "산업·고객": 3,
-    "기타": 1
+    "탄소·ESG": 3
   },
   "key_issues": [
     {
-      "id": "N20260917-441",
+      "id": "N20260918-455",
       "issue_order": 1,
-      "title": "한미 에너지 안보 동맹 강화… ‘전력·SMR’로 넓힌다",
-      "summary": "한미 에너지안보 협력이 전력망 현대화와 SMR 분야로 확대되고, 한국 전력기자재·ESS 기업의 협력 가능성이 언급됐다.",
-      "implication": "전력망·SMR 협력은 관련 공급망과 해외 사업기회에 영향을 줄 수 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.viva100.com/article/20260917500764"
+      "title": "당진화력 5·6호기, ‘석탄→LNG’ 전환해 호남 간다",
+      "summary": "정부가 2040년 전력수요 재전망을 공개했으나, 전원별 설비 규모를 논의하는 제12차 전기본 설비계획 소위원회는 이후 한 차례만 열렸다고 보도했다.",
+      "implication": "석탄 전환 및 신규 LNG 설비계획이 전기본 논의와 연동될 수 있어 전원구성·지역계통 영향을 지속 확인할 필요가 있다.",
+      "category": "정책·제도",
+      "url": "https://www.chosun.com/economy/industry-company/2026/09/18/7GKDYCXALNAUPKSDQI2D44OTN4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
     },
     {
-      "id": "N20260917-445",
+      "id": "N20260917-463",
       "issue_order": 2,
-      "title": "충남도의회 \"수도권 전력공급 위해 충남 희생 안 된다\"… 초고압 송전선...",
-      "summary": "충남도의회가 초고압 송전선로 계획에 대해 주민 의견수렴과 지역수용성 확보, 해저 HVDC 등 대안 검토를 요구했다.",
-      "implication": "송전망 확충은 지역수용성이 사업 일정과 비용을 좌우하는 핵심 변수임을 보여준다.",
-      "category": "계통·인프라",
-      "url": "https://cc.newdaily.co.kr/site/data/html/2026/09/17/2026091700144.html"
+      "title": "재생에너지 100GW, '범정부 TF'로 부지·계통 병목 푼다",
+      "summary": "기후에너지환경부와 한전이 계통·인허가·주민수용성 문제를 부처 공동으로 해결하고 계통 여유지역 중심의 대형 프로젝트를 발굴하는 구상을 보도했다.",
+      "implication": "계통 여유지역과 인허가 개선 방향은 발전·분산에너지·산업단지 연계 사업의 입지 판단에 영향을 줄 수 있다.",
+      "category": "정책·제도",
+      "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=228309"
     },
     {
-      "id": "N20260917-454",
+      "id": "N20260917-465",
       "issue_order": 3,
-      "title": "美하원, 데이터센터로 인한 전기료 인상 막는 법안 처리",
-      "summary": "미국 하원이 데이터센터 건설로 인한 일반 가정 전기요금 상승을 억제하기 위한 법안을 처리했다는 보도다.",
-      "implication": "대규모 전력수요처의 비용 분담은 전력요금·입지 규제 논의로 확산될 가능성이 있다.",
+      "title": "계통 돕고도 정산금 깎여…열병합 AGC 정산체계 손질되나",
+      "summary": "재생에너지 확대에 따라 열병합발전기를 계통 유연성 자원으로 활용할 필요성이 커졌지만, AGC 참여 시 정산상 불리할 수 있어 제도 개선 요구가 제기됐다고 보도했다.",
+      "implication": "열병합의 계통 기여에 대한 보상체계는 운전전략과 수익성에 직접 영향을 줄 수 있어 제도 논의를 모니터링할 필요가 있다.",
       "category": "전력시장",
-      "url": "https://n.news.naver.com/mnews/article/001/0016317113?sid=101"
+      "url": "https://www.electimes.com/news/articleView.html?idxno=372567"
     }
   ]
 }
