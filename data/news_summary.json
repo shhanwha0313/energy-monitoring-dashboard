@@ -1,12 +1,12 @@
 ﻿{
-  "generated_at": "2026.09.18 03:57:53",
+  "generated_at": "2026.09.18 07:51:45",
   "base_date": "2026.09.18",
-  "total_articles": 477,
-  "today_articles": 52,
+  "total_articles": 494,
+  "today_articles": 69,
   "archive_articles": 425,
-  "important_articles": 22,
-  "normal_articles": 23,
-  "reference_articles": 7,
+  "important_articles": 27,
+  "normal_articles": 32,
+  "reference_articles": 10,
   "top_keywords": [
     "ESS",
     "데이터센터",
@@ -15,46 +15,46 @@
     "HVDC"
   ],
   "priority_counts": {
-    "중요": 22,
-    "보통": 23,
-    "참고": 7
+    "중요": 27,
+    "보통": 32,
+    "참고": 10
   },
   "category_counts": {
-    "계통·인프라": 9,
-    "정책·제도": 4,
-    "산업·고객": 6,
-    "LNG·에너지안보": 11,
-    "AI·데이터센터": 14,
-    "전력시장": 3,
-    "탄소·ESG": 5
+    "LNG·에너지안보": 14,
+    "AI·데이터센터": 17,
+    "산업·고객": 7,
+    "계통·인프라": 14,
+    "정책·제도": 5,
+    "전력시장": 5,
+    "탄소·ESG": 7
   },
   "key_issues": [
     {
-      "id": "N20260918-476",
+      "id": "N20260918-491",
       "issue_order": 1,
-      "title": "겨울엔 송전량 늘린다… 진안·금산 시범사업",
-      "summary": "진안·금산 지역에서 기온 등 계절 조건을 반영해 겨울철 송전용량을 확대하는 시범사업이 추진되며, 해당 지역은 설비 고장 가정 시 과부하 우려가 있는 곳으로 선정됐다고 보도했다.",
-      "implication": "기존 송전선로의 계절별 활용도를 높이는 운영방식은 계통제약 완화와 발전자원 접속 여력에 영향을 줄 수 있어 실증 결과를 주목할 필요가 있다.",
-      "category": "계통·인프라",
-      "url": "https://www.munhwa.com/article/11618083?ref=naver"
+      "title": "\"영업이익 28% 뛰어도 웃지 못한다…13조 미수금 늪에 빠진 한국가스공...",
+      "summary": "한국가스공사는 LNG 도입단가 하락과 해외사업 개선으로 영업이익이 증가했지만 약 13조원 규모의 미수금 부담이 지속되고 있다고 보도했다.",
+      "implication": "미수금 회수 정책은 향후 가스요금과 발전·열생산 연료비에 영향을 줄 수 있어 요금조정과 재무개선 방향을 지켜볼 필요가 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=301284"
     },
     {
-      "id": "N20260918-471",
+      "id": "N20260918-490",
       "issue_order": 2,
-      "title": "'2040 탈석탄' 로드맵…27기 LNG·12기 양수 전환, 최대 10기 비상대기",
-      "summary": "제12차 전력수급기본계획 공개토론회에서 석탄발전 27기의 LNG 전환, 12기의 양수발전 전환과 최대 10기의 안보전원 활용 방향이 제시됐으며, 세부 확정은 차기 계획에서 순차적으로 이뤄질 전망이라고 보도했다.",
-      "implication": "LNG 발전의 역할과 전환 물량, 안보전원 운영 방향이 집단에너지·발전사업의 중장기 설비 및 연료 수요에 영향을 줄 수 있어 후속 확정안을 점검할 필요가 있다.",
-      "category": "정책·제도",
-      "url": "https://www.newsis.com/view/NISX20260918_0003795361"
+      "title": "한국가스공사 참여 'LNG 캐나다' 2단계 투자 임박…생산량 2800만톤으로...",
+      "summary": "한국가스공사가 지분 투자한 LNG 캐나다 프로젝트가 이르면 10월 2단계 최종투자결정을 통해 생산능력을 연 1400만톤에서 2800만톤으로 확대할 수 있다고 보도했다.",
+      "implication": "북미 LNG 공급 확대는 중장기 조달선 다변화와 국제 LNG 수급에 영향을 줄 수 있어 FID와 생산개시 일정을 점검할 필요가 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.theguru.co.kr/news/article.html?no=107291"
     },
     {
-      "id": "N20260918-472",
+      "id": "N20260918-488",
       "issue_order": 3,
-      "title": "한국지역난방공사, ‘AX위원회’ 신설…집단에너지 인공지능 전환 가속",
-      "summary": "한국지역난방공사가 AX위원회를 신설하고 열병합발전소와 장거리 지역난방 배관망 자율운전을 위한 AI 알고리즘 등 중장기 과제를 추진한다고 보도했다.",
-      "implication": "집단에너지 설비·배관망의 AI 기반 최적운전은 효율 향상과 운영 리스크 저감 기회로 이어질 수 있어 기술 적용 동향을 살필 필요가 있다.",
-      "category": "산업·고객",
-      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065577218362083"
+      "title": "‘15兆 AI데이터센터’ 판 벌인 GS… 자금 조달 관건은 ‘빅테크 고객’",
+      "summary": "GS가 GS동해전력·GS건설 등과 협업해 강원 동해시에 1.2GW 규모 AI 데이터센터를 단계적으로 조성하는 계획을 추진하며, 자금조달과 빅테크 고객 확보가 관건이라고 보도했다.",
+      "implication": "발전 자산과 대규모 데이터센터를 결합하는 사업모델로, 전력공급·부지·열 활용을 묶은 신규사업 관점에서 추진 구조를 살필 필요가 있다.",
+      "category": "AI·데이터센터",
+      "url": "https://biz.chosun.com/industry/company/2026/09/18/AR2ISQW3N5EFNIY2APW3CBASEY/?utm_source=naver&utm_medium=original&utm_campaign=biz"
     }
   ]
 }
