@@ -1,60 +1,60 @@
 ﻿{
-  "generated_at": "2026.09.18 07:51:45",
-  "base_date": "2026.09.18",
-  "total_articles": 494,
-  "today_articles": 69,
-  "archive_articles": 425,
-  "important_articles": 27,
-  "normal_articles": 32,
-  "reference_articles": 10,
+  "generated_at": "2026.09.18 21:56:04",
+  "base_date": "2026.09.19",
+  "total_articles": 511,
+  "today_articles": 57,
+  "archive_articles": 454,
+  "important_articles": 25,
+  "normal_articles": 23,
+  "reference_articles": 9,
   "top_keywords": [
     "ESS",
+    "LNG",
     "데이터센터",
     "AI 데이터센터",
-    "LNG",
     "HVDC"
   ],
   "priority_counts": {
-    "중요": 27,
-    "보통": 32,
-    "참고": 10
+    "중요": 25,
+    "보통": 23,
+    "참고": 9
   },
   "category_counts": {
-    "LNG·에너지안보": 14,
-    "AI·데이터센터": 17,
-    "산업·고객": 7,
-    "계통·인프라": 14,
+    "LNG·에너지안보": 12,
+    "산업·고객": 10,
     "정책·제도": 5,
-    "전력시장": 5,
-    "탄소·ESG": 7
+    "전력시장": 4,
+    "AI·데이터센터": 11,
+    "계통·인프라": 11,
+    "탄소·ESG": 4
   },
   "key_issues": [
     {
-      "id": "N20260918-491",
+      "id": "N20260919-511",
       "issue_order": 1,
-      "title": "\"영업이익 28% 뛰어도 웃지 못한다…13조 미수금 늪에 빠진 한국가스공...",
-      "summary": "한국가스공사는 LNG 도입단가 하락과 해외사업 개선으로 영업이익이 증가했지만 약 13조원 규모의 미수금 부담이 지속되고 있다고 보도했다.",
-      "implication": "미수금 회수 정책은 향후 가스요금과 발전·열생산 연료비에 영향을 줄 수 있어 요금조정과 재무개선 방향을 지켜볼 필요가 있다.",
+      "title": "마크롱, 에너지 가격 급등에 G7 소집…비축유 방출 검토",
+      "summary": "프랑스가 에너지가격 급등 대응을 위해 G7 협의를 추진하고 비축유 방출을 검토하며, UAE·캐나다와 석유 및 LNG 공급 문제를 논의한다고 보도했다.",
+      "implication": "주요국의 비축유 방출과 공급협의는 국제 연료가격 변동성을 완화할 수 있어 정책 결정과 시장 반응을 모니터링할 필요가 있다.",
       "category": "LNG·에너지안보",
-      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=301284"
+      "url": "https://www.newsis.com/view/NISX20260919_0003796410"
     },
     {
-      "id": "N20260918-490",
+      "id": "N20260919-515",
       "issue_order": 2,
-      "title": "한국가스공사 참여 'LNG 캐나다' 2단계 투자 임박…생산량 2800만톤으로...",
-      "summary": "한국가스공사가 지분 투자한 LNG 캐나다 프로젝트가 이르면 10월 2단계 최종투자결정을 통해 생산능력을 연 1400만톤에서 2800만톤으로 확대할 수 있다고 보도했다.",
-      "implication": "북미 LNG 공급 확대는 중장기 조달선 다변화와 국제 LNG 수급에 영향을 줄 수 있어 FID와 생산개시 일정을 점검할 필요가 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.theguru.co.kr/news/article.html?no=107291"
+      "title": "중동전쟁 틈타 '15조 원' 석유화학 담합...2명 구속",
+      "summary": "15조원 규모 석유화학제품 가격담합 의혹을 받는 전·현직 경영진 8명 중 2명이 구속되고 나머지 6명의 영장은 기각됐다고 보도했다.",
+      "implication": "주요 산업고객의 규제·경영 리스크가 투자와 가동계획에 영향을 줄 수 있어 수사 확대와 후속 제재를 점검할 필요가 있다.",
+      "category": "산업·고객",
+      "url": "https://www.ytn.co.kr/_ln/0103_202609190515335225"
     },
     {
-      "id": "N20260918-488",
+      "id": "N20260918-506",
       "issue_order": 3,
-      "title": "‘15兆 AI데이터센터’ 판 벌인 GS… 자금 조달 관건은 ‘빅테크 고객’",
-      "summary": "GS가 GS동해전력·GS건설 등과 협업해 강원 동해시에 1.2GW 규모 AI 데이터센터를 단계적으로 조성하는 계획을 추진하며, 자금조달과 빅테크 고객 확보가 관건이라고 보도했다.",
-      "implication": "발전 자산과 대규모 데이터센터를 결합하는 사업모델로, 전력공급·부지·열 활용을 묶은 신규사업 관점에서 추진 구조를 살필 필요가 있다.",
-      "category": "AI·데이터센터",
-      "url": "https://biz.chosun.com/industry/company/2026/09/18/AR2ISQW3N5EFNIY2APW3CBASEY/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+      "title": "이상휘 의원, \"이제는 전기다!\"… '산업용 지역 전기요금제 도입' 논제로...",
+      "summary": "국회철강포럼에서 국회·정부·한국전력·철강업계·학계 관계자들이 산업용 전기요금 개편과 지역별 요금제 도입을 논의했다고 보도했다.",
+      "implication": "지역별 산업용 요금제는 비수도권 산업고객의 전력비와 자가발전·직접전력공급 경쟁력에 영향을 줄 수 있어 제도 설계 방향을 주시할 필요가 있다.",
+      "category": "정책·제도",
+      "url": "https://www.polinews.co.kr/news/articleView.html?idxno=743596"
     }
   ]
 }
