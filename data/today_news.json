@@ -1,5 +1,143 @@
 ﻿[
   {
+    "id": "N20260926-683",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 15:54",
+    "title": "미·중 국제수로 통행료 반대 선언에…이란 호르무즈 통제 수위 낮출까",
+    "source": "아시아경제",
+    "priority": "중요",
+    "category": "LNG·에너지안보",
+    "detail_category": "호르무즈 해상수송",
+    "summary": "미국과 중국이 국제수로 통행료 부과에 반대한다는 입장을 내면서, 이란의 호르무즈 해협 통제 수위와 운항비용에 미칠 영향이 주목됐다.",
+    "implication": "호르무즈 통제 완화 여부는 LNG 가격과 수송비의 핵심 변수다. 선언 이후 실제 통항 정상화와 카타르발 공급 재개 시점을 별도로 확인해야 한다.",
+    "tags": [
+      "미중 정상회담",
+      "호르무즈",
+      "국제수로",
+      "에너지안보"
+    ],
+    "url": "https://view.asiae.co.kr/article/2026092615540495862",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
+    "id": "N20260926-684",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 15:52",
+    "title": "반도체·AI 키우는 전남광주…석유화학 줄이고 철강은 저탄소로",
+    "source": "EBN",
+    "priority": "중요",
+    "category": "산업·고객",
+    "detail_category": "전남광주 산업구조 전환",
+    "summary": "전남광주통합특별시가 반도체·AI·데이터센터·미래차 중심으로 산업구조를 재편하는 한편, 기존 석유화학 산업의 비중 축소와 철강 저탄소화를 추진하는 흐름이 소개됐다.",
+    "implication": "여수 석유화학 고객의 구조조정은 기존 열·전력 수요에 하방 요인이다. 반면 AI·데이터센터 등 신규 수요 유치는 지역 내 대체 수요원 확보 기회가 될 수 있다.",
+    "tags": [
+      "전남광주",
+      "석유화학",
+      "AI",
+      "데이터센터"
+    ],
+    "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1725688",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20260926-685",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 14:06",
+    "title": "엔비디아, '베라 루빈' 성능 공개·DSX 전력망 혁신 \"전력망과 호흡하는...",
+    "source": "이코노믹리뷰",
+    "priority": "중요",
+    "category": "계통·인프라",
+    "detail_category": "데이터센터 유연부하",
+    "summary": "AI 인프라 확대가 송전망 부족에 직면한 가운데, 데이터센터를 단순 대규모 부하가 아니라 전력망 안정에 기여하는 유연부하 자원으로 활용하는 방향이 제시됐다.",
+    "implication": "데이터센터 부하를 조정 가능한 자원으로 운영하면 계통접속과 전력조달의 제약을 줄일 수 있다. 발전·ESS·수요반응을 결합한 계통기여형 공급모델 검토가 필요하다.",
+    "tags": [
+      "엔비디아",
+      "데이터센터",
+      "유연부하",
+      "송전망"
+    ],
+    "url": "https://www.econovill.com/news/articleView.html?idxno=751929",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20260926-686",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 13:45",
+    "title": "호남 반도체 클러스터, 2027년 상반기 첫 삽 뜬다",
+    "source": "세계일보",
+    "priority": "중요",
+    "category": "산업·고객",
+    "detail_category": "호남 반도체 클러스터",
+    "summary": "호남 반도체 클러스터가 2027년 상반기 착공을 추진하며, 1단계 팹에 필요한 전력·용수 인프라는 2028년 12월까지 구축할 계획이라고 보도됐다.",
+    "implication": "호남권 첨단산업 전력수요가 구체적인 일정으로 가시화되고 있다. 계통 연계와 전력·열 공급 참여 가능성을 조기에 검토할 필요가 있다.",
+    "tags": [
+      "호남",
+      "반도체 클러스터",
+      "전력",
+      "용수"
+    ],
+    "url": "https://www.segye.com/newsView/20260926504815?OutUrl=naver",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-687",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 13:28",
+    "title": "AI가 똑똑해질수록 전기는 더 필요하다…데이터센터의 탄소 딜레마",
+    "source": "데일리T",
+    "priority": "중요",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 전력·탄소",
+    "summary": "정부가 데이터센터 인허가 단축과 비수도권 전력계통영향평가 등을 통해 AI 인프라 확충을 지원하는 가운데, 전력과 용수 확보 및 탄소배출 문제가 함께 제기됐다.",
+    "implication": "데이터센터 경쟁력은 부지보다 전력·용수·탄소 대응을 묶은 공급안에 좌우된다. 비수도권 사업기회 검토 시 계통영향평가와 저탄소 전원조달 방안을 동시에 설계해야 한다.",
+    "tags": [
+      "AI",
+      "데이터센터",
+      "전력계통영향평가",
+      "용수"
+    ],
+    "url": "https://www.dailyt.co.kr/newsView/dlt202609260009",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-688",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 13:01",
+    "title": "추석 연휴에 전력 수요 9월 들어 가장 낮아…명절에도 ‘비상 체제’",
+    "source": "서울경제",
+    "priority": "중요",
+    "category": "계통·인프라",
+    "detail_category": "경부하 계통운영",
+    "summary": "추석 연휴 전력수요가 9월 들어 가장 낮은 수준으로 떨어졌고, 흐린 날씨로 태양광 발전량도 낮아 전력당국이 명절 경부하 상황에 대응했다. 양수발전과 ESS의 전력 흡수량도 기사에 제시됐다.",
+    "implication": "수요 급감기에는 발전량 조정과 저장자원 운용이 계통 안정의 핵심이다. 열수요와 전력수요가 분리되는 휴일에 대비해 CHP 최소운전·출력조정 전략을 점검할 필요가 있다.",
+    "tags": [
+      "추석",
+      "전력수요",
+      "ESS",
+      "경부하"
+    ],
+    "url": "https://www.sedaily.com/article/20095021?ref=naver",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20260926-669",
     "date": "2026.09.26",
     "datetime": "2026.09.26 10:39",
@@ -18,9 +156,9 @@
     ],
     "url": "http://www.yonhapnewstv.co.kr/news/MYH20260926103858SOk",
     "is_today": "Y",
-    "display_order": 1,
-    "is_key_issue": "Y",
-    "issue_order": 1
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20260926-670",
@@ -41,9 +179,9 @@
     ],
     "url": "https://www.mt.co.kr/economy/2026/09/26/2026092317385355344",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20260926-671",
@@ -64,9 +202,9 @@
     ],
     "url": "https://www.todayenergy.kr/news/articleView.html?idxno=303497",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20260926-672",
@@ -87,7 +225,7 @@
     ],
     "url": "http://www.e-platform.net/news/articleView.html?idxno=105700",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 10,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -110,7 +248,7 @@
     ],
     "url": "https://www.mt.co.kr/economy/2026/09/26/2026092315060827391",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -133,7 +271,7 @@
     ],
     "url": "https://www.ajunews.com/view/20260923153443050",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -156,7 +294,76 @@
     ],
     "url": "https://www.ajunews.com/view/20260923150748948",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 13,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-689",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 14:42",
+    "title": "미국 셰일가스 품은 포스코인터내셔널…LNG 트레이딩 기업으로 변신",
+    "source": "핀포인트뉴스",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG 밸류체인·트레이딩",
+    "summary": "포스코인터내셔널이 미국 셰일가스 자산을 확보하고 LNG 생산부터 배관·액화·트레이딩까지 사업 범위를 확대하고 있다고 보도됐다.",
+    "implication": "상류 자산과 트레이딩을 연계한 LNG 조달 모델은 가격·물량 변동 대응력을 높일 수 있다. 장기계약 중심 조달과 포트폴리오형 조달의 경쟁력을 비교할 필요가 있다.",
+    "tags": [
+      "포스코인터내셔널",
+      "셰일가스",
+      "LNG",
+      "트레이딩"
+    ],
+    "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490400",
+    "is_today": "Y",
+    "display_order": 14,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-690",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 13:19",
+    "title": "삼성물산, 글로벌 원전기업 3곳과 유럽 SMR 사업 확대",
+    "source": "TV조선",
+    "priority": "보통",
+    "category": "기타",
+    "detail_category": "유럽 SMR 사업개발",
+    "summary": "삼성물산이 글로벌 원전기업 세 곳과 유럽 SMR의 시장 개발 및 상업기회 발굴을 위한 업무협약을 체결했다고 보도됐다.",
+    "implication": "국내 기업의 SMR 사업이 시공을 넘어 초기 시장개발 단계로 확대되고 있다. MMR·SMR 검토 시 기술개발뿐 아니라 사업권과 해외 파트너 구조를 함께 살펴볼 필요가 있다.",
+    "tags": [
+      "삼성물산",
+      "유럽",
+      "SMR",
+      "사업개발"
+    ],
+    "url": "https://news.tvchosun.com/site/data/html_dir/2026/09/26/2026092690043.html",
+    "is_today": "Y",
+    "display_order": 15,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-691",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 12:08",
+    "title": "통신3사 AIDC 증설에도…2029년 다시 공급부족",
+    "source": "딜사이트경제TV",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "국내 AIDC 수급",
+    "summary": "통신 3사가 AIDC 증설을 추진하고 있지만 2029년경 국내 공급이 다시 부족해질 수 있다는 전망이 제시됐다. 장기 계획에는 전력과 고객을 추가 확보해야 하는 전략적 파이프라인도 포함돼 있다고 보도됐다.",
+    "implication": "국내 AIDC 공급 부족 전망은 전력·부지 보유 사업자에게 개발 기회다. 다만 실제 사업화는 장기 전력확보와 확정 고객을 기준으로 구분해 평가해야 한다.",
+    "tags": [
+      "통신3사",
+      "AIDC",
+      "공급부족",
+      "전력확보"
+    ],
+    "url": "https://news.dealsitetv.com/articles/176329",
+    "is_today": "Y",
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -179,7 +386,7 @@
     ],
     "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=423863",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -202,7 +409,7 @@
     ],
     "url": "https://www.news1.kr/industry/general-industry/6301059",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -225,7 +432,7 @@
     ],
     "url": "https://www.theguru.co.kr/news/article.html?no=107458",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -248,7 +455,7 @@
     ],
     "url": "https://www.news1.kr/economy/env-policy/6300272",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -271,7 +478,7 @@
     ],
     "url": "https://www.newsway.co.kr/news/view?ud=2026092309451891621",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -294,7 +501,76 @@
     ],
     "url": "https://www.sidae.com/article/2026091814501160574",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 22,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-692",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 13:24",
+    "title": "DL이앤씨, 데이터센터 2조·플랜트 2.5조 수주 기대… 실적 반전 오나",
+    "source": "핀포인트뉴스",
+    "priority": "참고",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터·SMR 수주",
+    "summary": "DL이앤씨가 데이터센터와 SMR 등으로 수주 영역을 넓히면서 실적 개선을 추진하고 있으며, 데이터센터 2조원과 플랜트 2조5천억원 규모의 수주 기대가 제시됐다.",
+    "implication": "건설사가 데이터센터와 차세대 전원을 함께 성장 분야로 보고 있다. 전력·열·부지 제공 사업은 EPC·개발사와의 협업구조를 통해 확장할 수 있다.",
+    "tags": [
+      "DL이앤씨",
+      "데이터센터",
+      "SMR",
+      "EPC"
+    ],
+    "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490380",
+    "is_today": "Y",
+    "display_order": 23,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-693",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 12:30",
+    "title": "\"물 없으면 반도체도 없다\"…삼전닉스, 하루 46만톤 물 재활용",
+    "source": "머니투데이",
+    "priority": "참고",
+    "category": "산업·고객",
+    "detail_category": "산업용수 재활용",
+    "summary": "삼성전자와 SK하이닉스가 반도체 생산에 필요한 물을 재활용하고 있으며, SK하이닉스는 정화한 폐수를 대기오염 방지시설 등에 다시 공급하는 사례가 소개됐다.",
+    "implication": "첨단산업 유치에는 안정적인 전력뿐 아니라 대규모 용수와 재이용 설비가 필요하다. 산업단지 신규사업은 에너지·용수 통합 인프라 관점에서 검토할 필요가 있다.",
+    "tags": [
+      "반도체",
+      "산업용수",
+      "폐수 재활용",
+      "인프라"
+    ],
+    "url": "https://www.mt.co.kr/industry/2026/09/26/2026092311055075916",
+    "is_today": "Y",
+    "display_order": 24,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-694",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 12:05",
+    "title": "전력 부족·주민 반발 부딪힌 AI 데이터센터…육지 떠나 북극·바다·우...",
+    "source": "서울신문",
+    "priority": "참고",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 입지 다변화",
+    "summary": "전력 부족과 주민 반발에 직면한 데이터센터가 북극·해상·우주 등 새로운 입지를 모색하고 있으며, 수력·풍력·원전 등 안정적 전원 확보가 입지 선택의 요인으로 언급됐다.",
+    "implication": "데이터센터 입지는 전력 확보와 주민수용성에 의해 빠르게 다변화되고 있다. 국내 사업도 안정적 전원과 냉각·부지 조건을 묶은 차별화가 필요하다.",
+    "tags": [
+      "데이터센터",
+      "전력부족",
+      "주민수용성",
+      "원전"
+    ],
+    "url": "https://www.seoul.co.kr/news/economy/industry/2026/09/26/20260926500033?wlog_tag3=naver",
+    "is_today": "Y",
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -317,7 +593,7 @@
     ],
     "url": "https://www.koreadaily.com/article/20260925140148338",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   }
