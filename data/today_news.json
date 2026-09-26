@@ -1,5 +1,105 @@
 ﻿[
   {
+    "id": "N20260927-698",
+    "date": "2026.09.27",
+    "datetime": "2026.09.27 03:40",
+    "title": "호르무즈 뱃길 막혀 덜 채운 유럽 가스통…한국 겨울철 도입가 흔든다",
+    "source": "글로벌이코노믹",
+    "priority": "중요",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG 공급망·가격",
+    "summary": "호르무즈 해협 운항 차질로 중동발 LNG 공급이 위축되면서 유럽과 아시아 가스 가격이 위기 이후 최고 수준으로 올랐고, 한국의 겨울철 현물 도입 부담도 커질 수 있다는 분석이다.",
+    "implication": "LNG 발전 연료비와 조달 안정성에 직접 영향을 줄 수 있어 현물가격, 우회 물량 경쟁, 재고 상황을 지속 점검해야 한다.",
+    "tags": [
+      "호르무즈·LNG 운항·겨울 도입가"
+    ],
+    "url": "https://www.g-enews.com/view.php?ud=20260926164842147fbbec65dfb_1",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
+    "id": "N20260926-699",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 18:58",
+    "title": "발전5사 합친 '한국발전'…얼마나 큰 회사일까",
+    "source": "아시아경제",
+    "priority": "중요",
+    "category": "정책·제도",
+    "detail_category": "발전공기업 통합",
+    "summary": "발전 5사를 통합한 ‘한국발전’의 설비 규모가 약 53GW이며, 이 가운데 석탄 약 32GW와 LNG 약 19GW로 구성된다고 보도했다.",
+    "implication": "대형 통합 발전사의 연료 구매와 발전자산 운영 변화는 국내 LNG·전력시장 경쟁구조와 거래 관계에 영향을 줄 수 있다.",
+    "tags": [
+      "발전5사·한국발전·석탄·LNG"
+    ],
+    "url": "https://n.news.naver.com/mnews/article/277/0005821027?sid=101",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20260926-695",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 18:41",
+    "title": "월권·위원장 사퇴·반쪽 논란…원전 공론화, 이번엔 다를까 [기에사]",
+    "source": "세계일보",
+    "priority": "중요",
+    "category": "정책·제도",
+    "detail_category": "전력수급기본계획",
+    "summary": "12차 전력수급기본계획의 신규 원전 반영을 둘러싼 공론화 절차 논란으로 정부안 확정 일정이 10월에서 연말로 미뤄졌다는 내용이다.",
+    "implication": "전원구성 결정과 정책 일정 지연은 향후 발전·연료 수요 전망과 신규 투자 판단의 불확실성을 높일 수 있다.",
+    "tags": [
+      "12차 전기본·원전 공론화"
+    ],
+    "url": "https://n.news.naver.com/mnews/article/022/0004161950?sid=102",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20260926-708",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 18:02",
+    "title": "오라클 '불가항력' 통보에 오픈AI 투자 반토막...AI버블 경고음 잇따라",
+    "source": "아주경제",
+    "priority": "중요",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 전력 리스크",
+    "summary": "전력 공급 차질과 연계된 2.45GW 규모 데이터센터 프로젝트의 대금 지급 유예 가능성이 제기되며 관련 투자자산 가치가 하락했다.",
+    "implication": "대규모 데이터센터 사업에서 전력 확보 실패가 일정·금융 리스크로 바로 전이될 수 있어 공급계약과 계통확보 검증이 핵심이다.",
+    "tags": [
+      "오라클·오픈AI·2.45GW·전력차질"
+    ],
+    "url": "https://www.ajunews.com/view/20260926092621678",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-702",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 17:06",
+    "title": "RE100 한국 사업장 재생전력 조달 장벽 최다",
+    "source": "비건뉴스",
+    "priority": "중요",
+    "category": "전력시장",
+    "detail_category": "재생전력 조달",
+    "summary": "RE100 회원사들이 한국을 재생전력 조달 장벽이 가장 큰 시장으로 지목했으며, 장기 PPA 시장과 계약·정산·계통접속 불확실성 개선 필요성이 제기됐다.",
+    "implication": "산업고객의 RE100 이행 비용과 전력조달 선택지를 좌우하는 제도 개선 과제로, 직접 PPA와 분산전원 사업성에 중요하다.",
+    "tags": [
+      "RE100·PPA·계통접속·정산"
+    ],
+    "url": "https://www.vegannews.co.kr/news/article.html?no=388091",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20260926-683",
     "date": "2026.09.26",
     "datetime": "2026.09.26 15:54",
@@ -18,9 +118,9 @@
     ],
     "url": "https://view.asiae.co.kr/article/2026092615540495862",
     "is_today": "Y",
-    "display_order": 1,
-    "is_key_issue": "Y",
-    "issue_order": 1
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20260926-684",
@@ -41,9 +141,9 @@
     ],
     "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1725688",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20260926-685",
@@ -64,9 +164,9 @@
     ],
     "url": "https://www.econovill.com/news/articleView.html?idxno=751929",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20260926-686",
@@ -87,7 +187,7 @@
     ],
     "url": "https://www.segye.com/newsView/20260926504815?OutUrl=naver",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 9,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -110,7 +210,7 @@
     ],
     "url": "https://www.dailyt.co.kr/newsView/dlt202609260009",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 10,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -133,7 +233,7 @@
     ],
     "url": "https://www.sedaily.com/article/20095021?ref=naver",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -156,7 +256,7 @@
     ],
     "url": "http://www.yonhapnewstv.co.kr/news/MYH20260926103858SOk",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -179,7 +279,7 @@
     ],
     "url": "https://www.mt.co.kr/economy/2026/09/26/2026092317385355344",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -202,7 +302,7 @@
     ],
     "url": "https://www.todayenergy.kr/news/articleView.html?idxno=303497",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -225,7 +325,7 @@
     ],
     "url": "http://www.e-platform.net/news/articleView.html?idxno=105700",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -248,7 +348,7 @@
     ],
     "url": "https://www.mt.co.kr/economy/2026/09/26/2026092315060827391",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -271,7 +371,7 @@
     ],
     "url": "https://www.ajunews.com/view/20260923153443050",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -294,7 +394,187 @@
     ],
     "url": "https://www.ajunews.com/view/20260923150748948",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 18,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260927-706",
+    "date": "2026.09.27",
+    "datetime": "2026.09.27 03:19",
+    "title": "그린수소 비율 '0.1% 미만'...생산할수록 적자",
+    "source": "YTN",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "청정수소 경제성",
+    "summary": "국내 그린수소 비중이 0.1% 미만이고 생산 경제성이 부족한 상황에서 생산·유통·활용 전반에 대한 정책 지원의 법적 근거 강화가 논의되고 있다.",
+    "implication": "수소 혼소·산업용 수소 등 신규사업은 지원제도와 가격 보전 없이는 경제성 확보가 어려워 정책 설계를 주시해야 한다.",
+    "tags": [
+      "그린수소·생산비·정책지원"
+    ],
+    "url": "https://n.news.naver.com/mnews/article/052/0002411406?sid=102",
+    "is_today": "Y",
+    "display_order": 19,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-696",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 23:44",
+    "title": "엔비디아가 낙점한 'BESS 3곳'…LG엔솔, 韓 배터리사 유일",
+    "source": "데일리포스트",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 BESS",
+    "summary": "LG에너지솔루션이 엔비디아의 차세대 AI 데이터센터 관련 BESS 공급망에 국내 배터리사로 참여하고, 계통형성형 제어 기술과 북미 생산 기반을 강조했다.",
+    "implication": "데이터센터 전력 품질과 비상·유연성 자원 수요가 커지면서 BESS 연계 사업 기회가 확대되는 흐름을 보여준다.",
+    "tags": [
+      "AI 데이터센터·BESS·계통형성"
+    ],
+    "url": "https://www.thedailypost.kr/news/articleView.html?idxno=115827",
+    "is_today": "Y",
+    "display_order": 20,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-701",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 23:26",
+    "title": "정부 '메가프로젝트'따른 전력수요 급증, 원전이 해결책?",
+    "source": "굿모닝충청",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "대규모 전력수요 대응",
+    "summary": "정부의 대형 프로젝트로 늘어날 전력수요에 원전이 해법인지, 원전 비용을 금융·위험·계통비용까지 포함해 재평가하는 토론이 예고됐다.",
+    "implication": "대규모 신규 수요 대응 전원과 비용 산정 방식 논의는 향후 전원믹스 및 공급사업 경제성 판단에 영향을 줄 수 있다.",
+    "tags": [
+      "메가프로젝트·원전·계통비용"
+    ],
+    "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=452932",
+    "is_today": "Y",
+    "display_order": 21,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-700",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 21:24",
+    "title": "현대차 새만금 투자…전북, 피지컬AI·수소·AI데이터 산업 대전환",
+    "source": "아시아경제",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "산업단지 데이터센터",
+    "summary": "전북이 현대차 새만금 투자를 계기로 피지컬 AI·수소·AI 데이터 산업 전환을 추진하며, RE100 대응 데이터센터와 해저광케이블 연계 기반을 마련할 계획이다.",
+    "implication": "산업단지 내 데이터센터 전력수요와 재생에너지 조달을 결합한 전력·열 공급 사업 기회를 검토할 만하다.",
+    "tags": [
+      "새만금·RE100·AI 데이터센터·수소"
+    ],
+    "url": "https://n.news.naver.com/mnews/article/277/0005821038?sid=102",
+    "is_today": "Y",
+    "display_order": 22,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-703",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 21:06",
+    "title": "국제 탄소시장, 이제 '규칙 협상' 끝나고 국가 시스템 경쟁으로",
+    "source": "ESG경제",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "국제 탄소시장",
+    "summary": "국제 탄소시장이 세부 규칙 협상에서 국가별 이행 시스템 경쟁 단계로 이동하고 있으며, 국내 탄소가격과 해외 감축사업이 하나의 NDC 체계에서 연결된다는 분석이다.",
+    "implication": "배출권 비용과 해외 감축실적 활용 기준 변화는 발전·산업 고객의 감축전략과 탄소비용 관리에 영향을 준다.",
+    "tags": [
+      "파리협정 6조·배출권거래제·NDC"
+    ],
+    "url": "https://www.esgeconomy.com/news/articleView.html?idxno=16827",
+    "is_today": "Y",
+    "display_order": 23,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-707",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 17:26",
+    "title": "태양광 산업경쟁력 위원회 첫 회의 열어",
+    "source": "비건뉴스",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "재생에너지 산업정책",
+    "summary": "태양광 산업경쟁력 위원회가 첫 회의를 열었고, 제1차 재생에너지 기본계획은 2030년 전체 재생에너지 보급 목표를 100GW로 제시했다.",
+    "implication": "재생에너지 공급 확대와 산업 생태계 지원은 PPA, 분산에너지, 계통 투자 수요에 영향을 줄 수 있다.",
+    "tags": [
+      "재생에너지 기본계획·100GW·태양광"
+    ],
+    "url": "https://www.vegannews.co.kr/news/article.html?no=388102",
+    "is_today": "Y",
+    "display_order": 24,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-705",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 16:04",
+    "title": "AI 인프라 10조3000억달러 투자…2032년 매출 3조7000억달러 필요",
+    "source": "토큰포스트",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "AI 인프라 투자",
+    "summary": "글로벌 AI 인프라 투자 확대가 발전·송전망과 냉각 설비 투자로 이어질 수 있지만, 전력망과 인허가 지연 및 수익성 위험도 함께 제기됐다.",
+    "implication": "전력·냉각 공급 기회가 커지는 동시에 계통접속 지연과 수요·금융 리스크를 사업성 검토에 반영해야 한다.",
+    "tags": [
+      "데이터센터·송전망·냉각·인허가"
+    ],
+    "url": "https://www.tokenpost.kr/news/ai/414452",
+    "is_today": "Y",
+    "display_order": 25,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-697",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 16:02",
+    "title": "무안군, 분산에너지특화 국가산단 투자수요 확보 '구슬땀'",
+    "source": "중도일보",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "분산에너지 특화산단",
+    "summary": "무안군이 그린수소·화합물반도체·ESS를 연계한 RE100 기반 분산에너지 특화 국가산단의 기업 투자수요 확보를 추진하고 있다.",
+    "implication": "분산형 전원과 산업단지 에너지 공급을 결합한 지역 단위 사업모델 및 수요처 발굴 가능성을 살필 필요가 있다.",
+    "tags": [
+      "무안·RE100 산단·그린수소·ESS"
+    ],
+    "url": "https://www.joongdo.co.kr/web/view.php?key=20260923010007319",
+    "is_today": "Y",
+    "display_order": 26,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20260926-704",
+    "date": "2026.09.26",
+    "datetime": "2026.09.26 16:01",
+    "title": "공급망·주력산업 구조조정 집중 점검…첨단산업 인프라·지원책 도마 ...",
+    "source": "데일리안",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "주력산업 구조조정",
+    "summary": "산업부 국정감사에서 석유화학·철강 구조조정, 자원안보, 첨단산업 지원과 전력·용수 기반시설 확보가 핵심 쟁점으로 다뤄질 전망이다.",
+    "implication": "여수 산업단지 주요 고객 업종의 구조조정과 인프라 지원 방향은 열·전력 수요와 투자계획에 직접적인 변수가 될 수 있다.",
+    "tags": [
+      "석유화학·철강·전력 인프라·국정감사"
+    ],
+    "url": "https://n.news.naver.com/mnews/article/119/0003136464?sid=101",
+    "is_today": "Y",
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -317,7 +597,7 @@
     ],
     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490400",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -340,7 +620,7 @@
     ],
     "url": "https://news.tvchosun.com/site/data/html_dir/2026/09/26/2026092690043.html",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -363,7 +643,7 @@
     ],
     "url": "https://news.dealsitetv.com/articles/176329",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -386,7 +666,7 @@
     ],
     "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=423863",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -409,7 +689,7 @@
     ],
     "url": "https://www.news1.kr/industry/general-industry/6301059",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -432,7 +712,7 @@
     ],
     "url": "https://www.theguru.co.kr/news/article.html?no=107458",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -455,7 +735,7 @@
     ],
     "url": "https://www.news1.kr/economy/env-policy/6300272",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -478,7 +758,7 @@
     ],
     "url": "https://www.newsway.co.kr/news/view?ud=2026092309451891621",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 35,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -501,7 +781,7 @@
     ],
     "url": "https://www.sidae.com/article/2026091814501160574",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 36,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -524,7 +804,7 @@
     ],
     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490380",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 37,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -547,7 +827,7 @@
     ],
     "url": "https://www.mt.co.kr/industry/2026/09/26/2026092311055075916",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 38,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -570,7 +850,7 @@
     ],
     "url": "https://www.seoul.co.kr/news/economy/industry/2026/09/26/20260926500033?wlog_tag3=naver",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 39,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -593,7 +873,7 @@
     ],
     "url": "https://www.koreadaily.com/article/20260925140148338",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 40,
     "is_key_issue": "N",
     "issue_order": 9999
   }
