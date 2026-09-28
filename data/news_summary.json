@@ -1,12 +1,12 @@
 ﻿{
-  "generated_at": "2026.09.28 03:56:42",
+  "generated_at": "2026.09.28 07:51:24",
   "base_date": "2026.09.28",
-  "total_articles": 754,
-  "today_articles": 58,
+  "total_articles": 767,
+  "today_articles": 71,
   "archive_articles": 696,
-  "important_articles": 37,
-  "normal_articles": 19,
-  "reference_articles": 2,
+  "important_articles": 45,
+  "normal_articles": 23,
+  "reference_articles": 3,
   "top_keywords": [
     "데이터센터",
     "ESS",
@@ -15,47 +15,47 @@
     "AI"
   ],
   "priority_counts": {
-    "중요": 37,
-    "보통": 19,
-    "참고": 2
+    "중요": 45,
+    "보통": 23,
+    "참고": 3
   },
   "category_counts": {
-    "산업·고객": 4,
-    "AI·데이터센터": 14,
-    "LNG·에너지안보": 9,
-    "탄소·ESG": 2,
-    "계통·인프라": 12,
-    "전력시장": 9,
-    "정책·제도": 6,
+    "계통·인프라": 15,
+    "산업·고객": 7,
+    "탄소·ESG": 3,
+    "LNG·에너지안보": 10,
+    "정책·제도": 7,
+    "전력시장": 12,
+    "AI·데이터센터": 15,
     "기타": 2
   },
   "key_issues": [
     {
-      "id": "N20260928-762",
+      "id": "N20260928-771",
       "issue_order": 1,
-      "title": "전남광주시, 여수 석화·광양 철강에 388억원 투입…\"산업위기 대응\"",
-      "summary": "전남광주통합특별시가 여수 석유화학과 광양 철강산업의 경쟁력 강화와 고용안정을 위해 올해 388억원을 투입한다.",
-      "implication": "여수 산업단지 핵심 고객군의 가동률·투자 여건과 직결되는 지원책으로, 에너지 수요와 고객 신용위험 변화를 함께 점검해야 한다.",
-      "category": "산업·고객",
-      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1409912"
+      "title": "전기진흥회, 전력시스템 디지털 전환 대응 위한 국가표준 정비 속도낸다",
+      "summary": "전력 계통의 지능화·분산화에 대응해 이종 설비 간 상호운용성과 통신보안을 중심으로 국가표준 정비가 추진된다.",
+      "implication": "분산자원과 디지털 제어설비의 계통 연계 요건이 구체화될 수 있어 향후 그리드코드·설비 규격 변화에 대비해야 한다.",
+      "category": "계통·인프라",
+      "url": "https://www.electimes.com/news/articleView.html?idxno=372858"
     },
     {
-      "id": "N20260928-764",
+      "id": "N20260928-772",
       "issue_order": 2,
-      "title": "KT클라우드·SGC에너지, 군산에 최대 300㎿ AI 데이터센터(종합)",
-      "summary": "KT클라우드와 SGC에너지가 군산에 AI 데이터센터를 조성하고, 시장 수요에 따라 총 300MW 규모까지 단계적으로 확장할 계획이다.",
-      "implication": "SGC에너지의 발전·전력공급 역량과 데이터센터 개발이 직접 결합된 사업으로, 단계별 수요 확보와 전력·냉각 인프라 실행력이 핵심이다.",
-      "category": "AI·데이터센터",
-      "url": "https://n.news.naver.com/mnews/article/001/0016340135?sid=105"
+      "title": "한국 나프타 수입 ‘깜짝 1위’ 오른 대만…국내 석화업계에 주는 메시...",
+      "summary": "대만 석유화학업체들이 중국발 공급과잉으로 NCC 가동률을 낮추면서 대만이 한국 나프타의 최대 수입처로 부상했고, 국내 석유화학 구조조정 필요성이 제기됐다.",
+      "implication": "동북아 NCC 감산과 제품·원료 교역 변화는 여수 석유화학 고객의 가동률, 열·전력 수요와 구조조정 압력에 직접 연결된다.",
+      "category": "산업·고객",
+      "url": "https://n.news.naver.com/mnews/article/032/0003472833?sid=101"
     },
     {
-      "id": "N20260928-756",
+      "id": "N20260928-775",
       "issue_order": 3,
-      "title": "가스비 폭탄에 기업들 '시름' … 산업용 가스료 5개월 새 47%↑ [N-경제포...",
-      "summary": "국제 LNG 가격 상승으로 국내 산업용 가스요금이 5개월 사이 47% 올랐으며, LNG 자가발전을 추진한 기업들의 연료비 부담도 커지고 있다.",
-      "implication": "LNG 발전과 산업용 열 공급의 연료비 변동성이 수익성과 고객 원가에 직결되므로 조달·요금 전가 구조를 면밀히 관리해야 한다.",
-      "category": "LNG·에너지안보",
-      "url": "https://biz.newdaily.co.kr/site/data/html/2026/09/28/2026092800098.html"
+      "title": "정부가 만드는 자발적 탄소시장…‘감축 뻥튀기’ 걸러낼 수 있나",
+      "summary": "정부 주도의 자발적 탄소시장 출범을 앞두고 감축실적 과대계상과 부적격 크레딧을 걸러낼 품질관리 체계가 핵심 과제로 제기됐다.",
+      "implication": "탄소크레딧을 신규사업이나 고객 감축수단으로 활용하려면 방법론·검증·상응조정 여부 등 무결성 기준을 우선 확인해야 한다.",
+      "category": "탄소·ESG",
+      "url": "https://n.news.naver.com/mnews/article/032/0003472828?sid=102"
     }
   ]
 }
