@@ -1,61 +1,61 @@
 ﻿{
-  "generated_at": "2026.09.29 03:56:54",
+  "generated_at": "2026.09.29 07:57:05",
   "base_date": "2026.09.29",
-  "total_articles": 814,
-  "today_articles": 81,
+  "total_articles": 828,
+  "today_articles": 95,
   "archive_articles": 733,
-  "important_articles": 43,
-  "normal_articles": 28,
-  "reference_articles": 10,
+  "important_articles": 50,
+  "normal_articles": 34,
+  "reference_articles": 11,
   "top_keywords": [
     "ESS",
     "데이터센터",
+    "전기요금",
     "전력망",
-    "LNG",
-    "미국"
+    "LNG"
   ],
   "priority_counts": {
-    "중요": 43,
-    "보통": 28,
-    "참고": 10
+    "중요": 50,
+    "보통": 34,
+    "참고": 11
   },
   "category_counts": {
-    "전력시장": 10,
-    "탄소·ESG": 5,
-    "산업·고객": 10,
-    "계통·인프라": 19,
-    "정책·제도": 10,
-    "LNG·에너지안보": 7,
-    "AI·데이터센터": 19,
-    "기타": 1
+    "계통·인프라": 20,
+    "LNG·에너지안보": 8,
+    "정책·제도": 13,
+    "탄소·ESG": 6,
+    "산업·고객": 14,
+    "전력시장": 11,
+    "AI·데이터센터": 21,
+    "기타": 2
   },
   "key_issues": [
     {
-      "id": "N20260929-819",
+      "id": "N20260929-825",
       "issue_order": 1,
-      "title": "두 배 커진 정부 ESS 3차 수주전 … 가격 경쟁력이 승부 가른다",
-      "summary": "물량이 두 배로 늘어난 3차 ESS 중앙계약시장 입찰이 시작됐으며 가격경쟁력과 국산 LFP 조달이 주요 경쟁요인이라는 내용이다.",
-      "implication": "ESS 낙찰가격과 평가기준은 계통 유연성 투자비와 연계 사업의 수익성에 영향을 주므로 입찰 결과를 확인할 필요가 있다.",
-      "category": "전력시장",
-      "url": "https://biz.newdaily.co.kr/site/data/html/2026/09/29/2026092900115.html"
+      "title": "전력망 접속제 손질 송·배전망 재생e 수용력 78GW 확대",
+      "summary": "정부가 출력상한장치와 ESS를 활용한 초과설비 접속을 허용하는 방향으로 송·배전망 접속제도를 손질해 재생에너지 수용력을 확대한다는 내용이다.",
+      "implication": "호남권 계통 접속 확대와 접속권 관리 개편은 전남 지역 발전·산업 프로젝트의 계통 여건과 ESS 사업기회에 직접 영향을 줄 수 있다.",
+      "category": "계통·인프라",
+      "url": "http://www.e2news.com/news/articleView.html?idxno=334657"
     },
     {
-      "id": "N20260929-808",
+      "id": "N20260929-827",
       "issue_order": 2,
-      "title": "[단독]제주 2035 탄소중립 ‘큰 그림’ 나온다…‘통합 프로젝트’ 시동",
-      "summary": "제주도가 재생에너지 확대와 함께 ESS·V2G·히트펌프 등 유연성 자원을 통합한 2035 탄소중립 프로젝트를 추진한다는 내용이다.",
-      "implication": "재생에너지 잉여전력 관리와 열 부문 전기화를 결합하는 실증은 분산에너지·P2H·유연성 사업모델에 참고할 수 있다.",
-      "category": "탄소·ESG",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=03401366645585040&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+      "title": "가스공사–전력거래소, 가스·전력 수급정보 실시간 연계",
+      "summary": "가스공사와 전력거래소가 발전용 가스 수요예측, LNG 재고·배관망 운영과 발전기 급전계획의 정합성을 높이기 위해 수급정보를 실시간 연계한다는 내용이다.",
+      "implication": "가스와 전력 운영정보 연계가 강화되면 LNG 발전사의 연료조달·급전 대응과 계통 수급관리 방식에도 변화가 예상된다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=203655"
     },
     {
-      "id": "N20260929-821",
+      "id": "N20260929-826",
       "issue_order": 3,
-      "title": "지역난방공사, 기후부·세종시와 함께 하수열 활용 사업 모델 구축을 위...",
-      "summary": "한국지역난방공사가 기후부·세종시와 수질복원센터의 하수열을 활용한 지역난방 사업모델 구축을 추진한다는 내용이다.",
-      "implication": "미활용열을 집단에너지에 공급하는 모델은 무탄소 열원 전환과 청정열 신규사업 발굴에 직접 참고할 수 있다.",
-      "category": "산업·고객",
-      "url": "http://www.epj.co.kr/news/articleView.html?idxno=39472"
+      "title": "\"첨단산업 전력수요, 원전이 해답인가\"…신규 원전 경제성 재평가론 부...",
+      "summary": "AI 데이터센터·반도체 전력수요 증가와 2040년 석탄발전 퇴출에 대응할 전원 구성에서 신규 원전의 경제성을 재평가해야 한다는 논의다.",
+      "implication": "12차 전기본의 원전·LNG·재생에너지 구성은 석탄 전환과 신규 LNG 발전사업의 필요성·가동률 전망에 영향을 줄 수 있다.",
+      "category": "정책·제도",
+      "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=203651"
     }
   ]
 }
