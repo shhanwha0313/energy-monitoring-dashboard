@@ -46,6 +46,139 @@
     "issue_order": 2
   },
   {
+    "id": "N20261001-931",
+    "date": "2026.10.01",
+    "datetime": "2026.10.01 15:50",
+    "title": "2조 규모 3차 ESS 중앙 입찰 본격화…LG엔솔, 자존심 회복 배수진",
+    "source": "FN타임스",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "ESS 중앙계약시장",
+    "summary": "정부가 사업비 기준 약 2조 원 규모의 2026년 ESS 중앙계약시장 3차 입찰을 공고했고, 입찰은 11월 11일까지 진행되며 낙찰자는 같은 달 가려진다는 내용이다.",
+    "implication": "ESS 확대는 계통 혼잡과 SMR·LMP 가격 형성에 영향을 줄 수 있어 입찰 결과를 지켜볼 필요가 있다.",
+    "tags": [
+      "ESS",
+      "중앙계약시장",
+      "3차 입찰"
+    ],
+    "url": "https://www.fntimes.com/html/view.php?ud=2026100115404837007492587736_18",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261001-932",
+    "date": "2026.10.01",
+    "datetime": "2026.10.01 15:44",
+    "title": "'한국발전' 본사 어디로…정부, 5대 판단요소 첫 공개",
+    "source": "전기신문",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "발전 5사 통합",
+    "summary": "정부가 발전 5사 통합법인 '한국발전'의 본사 입지를 정할 5대 판단요소를 처음 공개했고, 기존 남동발전 본사와 반경 1시간 내 발전단지, 탈석탄 부지의 송전망 등이 거론됐다는 내용이다.",
+    "implication": "발전 공기업 통합은 발전 시장 구조와 연료·전력 거래 환경 변화로 이어질 수 있어 후속 일정을 확인할 필요가 있다.",
+    "tags": [
+      "한국발전",
+      "통합본사",
+      "발전공기업"
+    ],
+    "url": "https://www.electimes.com/news/articleView.html?idxno=373022",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261001-930",
+    "date": "2026.10.01",
+    "datetime": "2026.10.01 15:10",
+    "title": "화력발전 켜도 돈, 꺼도 돈 ‘줄줄’…6년8개월간 정산금 20조",
+    "source": "한겨레",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "정산금·계통유연성",
+    "summary": "6년 8개월간 화력발전 관련 정산금이 20조 원에 이르며, 석탄 등 화석연료 발전을 줄이는 과정에서 ESS 등 계통 유연성을 높이지 않으면 이런 비용 부담이 계속될 수 있다는 지적이 나왔다는 내용이다.",
+    "implication": "화력발전 정산금 구조와 계통 유연성 논의는 LMP·제약발전 비용 정산 방식 검토 시 참고할 자료다.",
+    "tags": [
+      "정산금",
+      "화력발전",
+      "ESS",
+      "계통유연성"
+    ],
+    "url": "https://www.hani.co.kr/arti/society/environment/1280416.html",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261001-934",
+    "date": "2026.10.01",
+    "datetime": "2026.10.01 15:04",
+    "title": "AI·반도체 전력수요 급증…\"천연가스, 적기 공급·계통안정 안전판 역...",
+    "source": "에너지데일리",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "12차 전기본·천연가스",
+    "summary": "제12차 전기본 재전망안에서 2040년 전력소비량이 기준 847.3TWh, 최대전력이 158.4GW로 이전 전망보다 늘었고, 천연가스가 적기 공급과 계통안정 역할을 맡아야 한다는 의견이 나왔다는 내용이다.",
+    "implication": "AI·반도체 수요 증가에 따른 LNG 발전의 역할 확대 논의는 당사 LNG 전환 사업 환경과 연결된다.",
+    "tags": [
+      "12차 전기본",
+      "천연가스",
+      "전력수요"
+    ],
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=203671",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261001-933",
+    "date": "2026.10.01",
+    "datetime": "2026.10.01 13:50",
+    "title": "'열에너지공사' 전환 포석?…보폭 넓히는 한난",
+    "source": "전기신문",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "재생열·집단에너지",
+    "summary": "정부가 LNG 중심의 열생산을 재생·미활용열과 전기 활용 방향으로 다변화하는 가운데, 한국지역난방공사가 새로운 열원 확보를 위해 사업 보폭을 넓히고 있다는 내용이다.",
+    "implication": "동종 집단에너지 사업자의 열원 다변화 사례로, 당사 재생열 활용 과제 검토 시 참고할 수 있다.",
+    "tags": [
+      "지역난방공사",
+      "재생열",
+      "미활용열"
+    ],
+    "url": "https://www.electimes.com/news/articleView.html?idxno=373015",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261001-935",
+    "date": "2026.10.01",
+    "datetime": "2026.10.01 13:34",
+    "title": "AI 데이터센터 늘리는데 … SKT 배출권 '35만t' 부족",
+    "source": "세이프타임즈",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "배출권",
+    "summary": "SK텔레콤이 AI 데이터센터 사업을 확대하는 가운데 올해 온실가스 배출권이 35만t 이상 부족할 것으로 예상했으며, 무상 배출권은 줄어드는 반면 데이터센터 확장은 이어진다는 내용이다.",
+    "implication": "데이터센터 확대에 따른 배출권 부담 증가 사례로, 배출권 시장 수급과 비용 전망을 볼 때 참고할 수 있다.",
+    "tags": [
+      "배출권",
+      "데이터센터",
+      "무상할당"
+    ],
+    "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=246158",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261001-923",
     "date": "2026.10.01",
     "datetime": "2026.10.01 11:28",
@@ -64,9 +197,9 @@
     ],
     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3710319",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261001-918",
@@ -87,7 +220,7 @@
     ],
     "url": "https://www.esgeconomy.com/news/articleView.html?idxno=16888",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 10,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -110,7 +243,7 @@
     ],
     "url": "https://www.yna.co.kr/view/AKR20261001075700004?input=1195m",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -132,7 +265,7 @@
     ],
     "url": "https://www.esgeconomy.com/news/articleView.html?idxno=16887",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -155,7 +288,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261001_0003810188",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -178,7 +311,7 @@
     ],
     "url": "http://www.epj.co.kr/news/articleView.html?idxno=39498",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -201,7 +334,7 @@
     ],
     "url": "https://kjmbc.co.kr/NewsArticle/1539166",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -224,7 +357,7 @@
     ],
     "url": "http://www.ferrotimes.com/news/articleView.html?idxno=50660",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -247,7 +380,7 @@
     ],
     "url": "https://www.pressian.com/pages/articles/2026093019361372711?utm_source=naver&utm_medium=search",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -269,7 +402,7 @@
     ],
     "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202609301408362190946",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -291,7 +424,7 @@
     ],
     "url": "https://www.edaily.co.kr/News/Read?newsId=01938486645608656&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -314,7 +447,7 @@
     ],
     "url": "https://ysmbc.co.kr/NewsArticle/1539113",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -337,7 +470,7 @@
     ],
     "url": "https://n.news.naver.com/mnews/article/016/0002703940?sid=102",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -359,7 +492,7 @@
     ],
     "url": "https://n.news.naver.com/mnews/article/011/0004667009?sid=101",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -381,7 +514,7 @@
     ],
     "url": "https://www.moneystorm.kr/news/articleView.html?idxno=6912",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -403,7 +536,7 @@
     ],
     "url": "https://www.chosun.com/politics/goverment/2026/09/30/IIHWKOAHRBBYPNN6YC74IFCARM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -425,7 +558,7 @@
     ],
     "url": "https://n.news.naver.com/mnews/article/003/0014224340?sid=102",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -447,7 +580,7 @@
     ],
     "url": "https://n.news.naver.com/mnews/article/001/0016347240?sid=101",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -469,7 +602,7 @@
     ],
     "url": "https://n.news.naver.com/mnews/article/003/0014223924?sid=101",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -491,7 +624,7 @@
     ],
     "url": "https://www.mt.co.kr/economy/2026/09/30/2026093010371657300",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -512,7 +645,7 @@
     ],
     "url": "http://www.gjdream.com/news/articleView.html?idxno=673079",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -534,7 +667,51 @@
     ],
     "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000018388&cp=nv",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 30,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261001-937",
+    "date": "2026.10.01",
+    "datetime": "2026.10.01 15:40",
+    "title": "GHG프로토콜, PPA·REC 배출량과 분리한다…탄소회계 개편 추진",
+    "source": "임팩트온",
+    "priority": "참고",
+    "category": "탄소·ESG",
+    "detail_category": "탄소회계·REC",
+    "summary": "GHG프로토콜이 Scope 1·2·3 배출량과 인증서·구매계약 등 시장기반 수단을 분리해 보고하는 체계로 개편을 추진한다는 내용이다.",
+    "implication": "PPA·REC의 탄소회계상 처리 방식이 바뀌면 RE100·REC 수요에 간접 영향을 줄 수 있어 동향을 지켜볼 만하다.",
+    "tags": [
+      "GHG프로토콜",
+      "PPA",
+      "REC"
+    ],
+    "url": "https://www.impacton.net/news/articleView.html?idxno=30101",
+    "is_today": "Y",
+    "display_order": 31,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261001-936",
+    "date": "2026.10.01",
+    "datetime": "2026.10.01 13:54",
+    "title": "한국전력, 부채비율 444% 무시 ‘성과급 잔치’",
+    "source": "이투데이",
+    "priority": "참고",
+    "category": "정책·제도",
+    "detail_category": "한전 재무",
+    "summary": "한국전력의 부채비율이 444%인 가운데 성과급 지급이 이뤄졌고, 계통 유연성 자원 구축 등 일부 재무 관련 지표가 2024년과 2025년 평가에서 영향을 받았다는 내용이다.",
+    "implication": "한전 재무 부담은 전기요금 결정 구조에 영향을 주는 배경으로 참고할 수 있다.",
+    "tags": [
+      "한전",
+      "부채비율",
+      "성과급"
+    ],
+    "url": "https://www.etoday.co.kr/news/view/2631495",
+    "is_today": "Y",
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -557,7 +734,7 @@
     ],
     "url": "https://www.newsway.co.kr/news/view?ud=2026100110271047950",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -579,7 +756,7 @@
     ],
     "url": "https://www.yna.co.kr/view/AKR20261001012100009?input=1195m",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   }
