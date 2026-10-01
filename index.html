@@ -1346,10 +1346,91 @@
       .intl-row { grid-template-columns: 100px repeat(3, minmax(0, 1fr)) 48px; gap: 10px; }
     }
 
+    /* ══ RESPONSIVE FIX (모바일 가로 넘침 해소) ══
+       원인: 1열 전환 시 'grid-template-columns: 1fr'의 최소폭이 auto(=콘텐츠 최소폭)로 잡혀,
+       정책 타임라인(min-width 1,065px)이 Overview 좌측 열 전체를 1,100px 이상으로 밀어냄.
+       → 그리드 열과 자식의 최소폭을 0으로 고정하고, 타임라인은 카드 내부에서만 가로 스크롤 */
+    .left-stack, .right-stack { min-width: 0; }
+
+    @media (max-width: 1180px) {
+      .overview-grid { grid-template-columns: minmax(0, 1fr); }
+      /* 1열 배치 순서: 주요 지표 → 금일 주요 기사 → 정책·제도 일정 */
+      .left-stack { display: contents; }
+      .left-stack > .card:first-child { order: 1; }
+      .right-stack { order: 2; }
+      .left-stack > .card:last-child { order: 3; margin-top: 0 !important; }
+    }
+
+    /* iOS Safari: iframe이 내부 콘텐츠 폭만큼 늘어나는 현상 방지 */
+    iframe { width: 1px; min-width: 100%; }
+
     @media (max-width: 760px) {
-      .page { padding: 16px; }
-      .hero-inner { padding: 20px; flex-direction: column; align-items: flex-start; gap: 16px; }
-      .hero-tabs { flex-wrap: wrap; }
+      .page { padding: 16px 12px 32px; }
+      .hero { margin-bottom: 16px; }
+      .hero-inner { padding: 20px 18px 18px; flex-direction: column; align-items: stretch; gap: 14px; }
+      .hero h1 { font-size: 20px; }
+      .brand { font-size: 11px; margin-bottom: 4px; }
+      .hero-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; width: 100%; }
+      .tab-btn { padding: 9px 0; font-size: 12.5px; text-align: center; }
+
+      .overview-grid { gap: 16px; }
+      .card-pad { padding: 16px 14px; }
+      .section-head { align-items: center; margin-bottom: 12px; }
+      .section-title { font-size: 17px; }
+      .detail-link-btn { min-height: 28px; padding: 0 10px; font-size: 11.5px; }
+
+      /* 국내 지표: 3열 카드 → 1열 가로형 행 (좌: 지표명·기준일 / 우: 값·등락) */
+      .kpi-overview { gap: 16px; }
+      .kpi-grid { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+      .kpi-card {
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr);
+        grid-template-areas: "top main" "top delta";
+        column-gap: 12px;
+        row-gap: 3px;
+        align-items: center;
+        padding: 12px 14px;
+      }
+      .kpi-top { grid-area: top; flex-direction: column; align-items: flex-start; gap: 6px; }
+      .kpi-main { grid-area: main; justify-content: flex-end; flex-wrap: nowrap; }
+      .kpi-value { font-size: 23px; }
+      .delta { grid-area: delta; text-align: right; font-size: 11.5px; }
+
+      /* 국제 지표: [품목명 · 단위 | 기준일] 1행 + 지표 3개 2행 */
+      .intl-row {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-areas: "label label date";
+        gap: 8px 8px;
+        padding: 12px;
+      }
+      .intl-row-label { grid-area: label; }
+      .intl-row-label-text { flex-direction: row; align-items: baseline; gap: 6px; }
+      .intl-date { grid-area: date; align-self: center; }
+      .intl-val { font-size: 17px; }
+      .intl-sub { font-size: 10.5px; letter-spacing: -0.02em; }
+
+      /* 정책 타임라인: 카드 안에서만 가로 스크롤 + 안내 문구 */
+      .overview-timeline-shell { --left-col: 76px; --policy-col: 150px; min-width: calc(76px + 150px + 600px); grid-template-columns: var(--left-col) minmax(0, 1fr); }
+      .overview-category-cell { flex-direction: column; gap: 4px; padding: 14px 6px; }
+      .overview-cat-icon { width: 24px; height: 24px; font-size: 11px; }
+      .overview-cat-name { font-size: 11px; margin-top: 0; word-break: keep-all; }
+      .overview-cat-count { position: static; font-size: 10px; padding: 2px 6px; }
+      .overview-policy-name { font-size: 11.5px; }
+      .overview-month-tick { font-size: 11px; min-width: 32px; }
+      .overview-policy-scroll { -webkit-overflow-scrolling: touch; }
+      .policy-timeline-wrap::before {
+        content: "← 좌우로 밀어서 전체 일정 확인 →";
+        display: block;
+        margin-bottom: 8px;
+        color: var(--muted);
+        font-size: 11px;
+        font-weight: 600;
+        text-align: right;
+      }
+
+      .news-item { padding: 12px; }
+      .item-title { font-size: 13.5px; }
+    }
   </style>
 </head>
 <body>
