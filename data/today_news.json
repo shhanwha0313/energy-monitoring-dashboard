@@ -1,5 +1,27 @@
 ﻿[
   {
+    "id": "N20260930-914",
+    "date": "2026.09.30",
+    "datetime": "2026.09.30 21:46",
+    "title": "신규 재생에너지 설비 경쟁입찰로 일원화",
+    "source": "전력산업정보",
+    "priority": "중요",
+    "category": "정책·제도",
+    "detail_category": "RPS 개편",
+    "summary": "기후에너지환경부와 한국에너지공단이 RPS 일몰과 계약시장제도 도입에 따른 재생에너지법 하위법령 개정안 마련에 앞서 공청회를 열었다는 내용이다. 신규 재생에너지 설비를 경쟁입찰로 일원화하는 방향이 제시됐다는 내용이다.",
+    "implication": "RPS가 계약시장으로 전환되면 REC 수익 구조가 바뀌므로, 군산 바이오매스 등 당사 재생에너지 설비의 수익성과 하위법령 세부안을 우선 검토할 필요가 있다.",
+    "tags": [
+      "RPS 일몰",
+      "계약시장",
+      "경쟁입찰"
+    ],
+    "url": "http://www.epj.co.kr/news/articleView.html?idxno=39495",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
     "id": "N20260930-900",
     "date": "2026.09.30",
     "datetime": "2026.09.30 19:13",
@@ -18,9 +40,9 @@
     ],
     "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2475838",
     "is_today": "Y",
-    "display_order": 1,
+    "display_order": 2,
     "is_key_issue": "Y",
-    "issue_order": 1
+    "issue_order": 2
   },
   {
     "id": "N20261001-913",
@@ -39,28 +61,6 @@
       "텍사스 가스발전"
     ],
     "url": "https://www.edaily.co.kr/News/Read?newsId=01938486645608656&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-    "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
-  },
-  {
-    "id": "N20260930-914",
-    "date": "2026.09.30",
-    "datetime": "2026.09.30 21:46",
-    "title": "신규 재생에너지 설비 경쟁입찰로 일원화",
-    "source": "전력산업정보",
-    "priority": "보통",
-    "category": "정책·제도",
-    "detail_category": "RPS 개편",
-    "summary": "기후에너지환경부와 한국에너지공단이 RPS 일몰과 계약시장제도 도입에 따른 재생에너지법 하위법령 개정안 마련에 앞서 공청회를 열었다는 내용이다. 신규 재생에너지 설비를 경쟁입찰로 일원화하는 방향이 제시됐다는 내용이다.",
-    "implication": "RPS 체계가 계약시장으로 바뀌면 REC 수익 구조와 재생에너지 조달 방식이 달라질 수 있어 군산 바이오매스 등 당사 설비에 미치는 영향을 검토할 필요가 있다.",
-    "tags": [
-      "RPS 일몰",
-      "계약시장",
-      "경쟁입찰"
-    ],
-    "url": "http://www.epj.co.kr/news/articleView.html?idxno=39495",
     "is_today": "Y",
     "display_order": 3,
     "is_key_issue": "Y",
