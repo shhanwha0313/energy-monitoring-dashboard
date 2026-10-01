@@ -1,60 +1,60 @@
 ﻿{
-  "generated_at": "2026.10.01 07:41:04",
+  "generated_at": "2026.10.01 21:42:48",
   "base_date": "2026.10.01",
-  "total_articles": 498,
-  "today_articles": 34,
-  "archive_articles": 464,
-  "important_articles": 2,
-  "normal_articles": 28,
-  "reference_articles": 4,
+  "total_articles": 509,
+  "today_articles": 33,
+  "archive_articles": 476,
+  "important_articles": 3,
+  "normal_articles": 25,
+  "reference_articles": 5,
   "top_keywords": [
     "ESS",
     "석유화학",
-    "12차 전기본",
     "데이터센터",
-    "여수산단"
+    "12차 전기본",
+    "RPS"
   ],
   "priority_counts": {
-    "중요": 2,
-    "보통": 28,
-    "참고": 4
+    "중요": 3,
+    "보통": 25,
+    "참고": 5
   },
   "category_counts": {
     "정책·제도": 7,
-    "계통·인프라": 4,
-    "전력시장": 4,
-    "LNG·에너지안보": 4,
-    "탄소·ESG": 5,
-    "산업·고객": 6,
+    "전력시장": 3,
+    "LNG·에너지안보": 5,
+    "산업·고객": 5,
+    "계통·인프라": 5,
+    "탄소·ESG": 4,
     "AI·데이터센터": 4
   },
   "key_issues": [
     {
-      "id": "N20261001-917",
+      "id": "N20261001-938",
       "issue_order": 1,
+      "title": "농어촌공사 ‘재생E 확대 의무화’…연 1GW 미보급땐 1.3조 과징금 위기",
+      "summary": "내년 1월 RPS를 경쟁입찰 기반 장기 고정가격 계약시장으로 바꾸는 개정법 시행에 맞춰 기후부가 세부 기준을 정하고 있으며, 농어촌공사가 의무 보급 대상에 포함되는 내용이 담겼다는 내용이다.",
+      "implication": "RPS 하위법령 세부 기준이 구체화되는 단계로, 바이오매스 발전 수익에 영향을 주는 의무자 구조와 계약시장 설계를 면밀히 확인할 필요가 있다.",
+      "category": "정책·제도",
+      "url": "https://www.sedaily.com/article/20097357?ref=naver"
+    },
+    {
+      "id": "N20261001-939",
+      "issue_order": 2,
+      "title": "한전, 4분기 전기요금 동결",
+      "summary": "한전이 연료비 조정단가를 반영한 4분기 전기요금을 동결했다는 내용이다.",
+      "implication": "4분기 전기요금이 확정되어 고객사 비용 전망과 열·전력 판매단가 검토의 기준으로 삼을 수 있다.",
+      "category": "전력시장",
+      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=303750"
+    },
+    {
+      "id": "N20261001-917",
+      "issue_order": 3,
       "title": "우대가격·양방향 CfD…재생에너지 제도, 이렇게 바뀐다",
       "summary": "기후에너지환경부가 9월 30일 RPS 개편 재생에너지법 하위법령 개정안 대국민 공청회를 열었고, 내년 1월 1일 시행되는 개정 재생에너지법에 따른 우대가격·양방향 CfD 등 제도 변화가 소개됐다는 내용이다.",
       "implication": "RPS 일몰과 계약시장 전환 세부안이 구체화되고 있어 군산 바이오매스 발전의 REC 수익과 입찰 참여 조건에 미치는 영향을 점검할 필요가 있다.",
       "category": "정책·제도",
       "url": "https://view.asiae.co.kr/article/2026093023564221496"
-    },
-    {
-      "id": "N20260930-900",
-      "issue_order": 2,
-      "title": "'2040 탈석탄' 좌초자산 19조원대···민간 발전업계, \"공기업이 지분 ...",
-      "summary": "제12차 전력수급기본계획 공개토론회에서 석탄발전 60기 중 39기를 LNG·양수 등으로 대체하는 방향과 민간발전사의 좌초자산 우려가 제기됐다.",
-      "implication": "석탄에서 LNG로의 전환 기회가 확대되는 동시에 민간설비의 보상·법적 처리 기준이 핵심 위험이므로 전환 대상과 지원제도 구체화를 주시해야 한다.",
-      "category": "정책·제도",
-      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2475838"
-    },
-    {
-      "id": "N20261001-931",
-      "issue_order": 3,
-      "title": "2조 규모 3차 ESS 중앙 입찰 본격화…LG엔솔, 자존심 회복 배수진",
-      "summary": "정부가 사업비 기준 약 2조 원 규모의 2026년 ESS 중앙계약시장 3차 입찰을 공고했고, 입찰은 11월 11일까지 진행되며 낙찰자는 같은 달 가려진다는 내용이다.",
-      "implication": "ESS 확대는 계통 혼잡과 SMR·LMP 가격 형성에 영향을 줄 수 있어 입찰 결과를 지켜볼 필요가 있다.",
-      "category": "계통·인프라",
-      "url": "https://www.fntimes.com/html/view.php?ud=2026100115404837007492587736_18"
     }
   ]
 }
