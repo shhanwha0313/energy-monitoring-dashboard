@@ -1,61 +1,58 @@
 ﻿{
-  "generated_at": "2026.09.30 22:00:02",
+  "generated_at": "2026.10.01 00:21:05",
   "base_date": "2026.10.01",
-  "total_articles": 902,
-  "today_articles": 59,
-  "archive_articles": 843,
-  "important_articles": 11,
-  "normal_articles": 41,
-  "reference_articles": 7,
+  "total_articles": 478,
+  "today_articles": 14,
+  "archive_articles": 464,
+  "important_articles": 1,
+  "normal_articles": 13,
+  "reference_articles": 0,
   "top_keywords": [
-    "AI 데이터센터",
+    "석유화학",
+    "여수산단",
     "12차 전기본",
-    "ESS",
-    "대미투자",
-    "알래스카 LNG"
+    "2040 탈석탄",
+    "LMP"
   ],
   "priority_counts": {
-    "중요": 11,
-    "보통": 41,
-    "참고": 7
+    "중요": 1,
+    "보통": 13
   },
   "category_counts": {
-    "LNG·에너지안보": 10,
-    "AI·데이터센터": 10,
-    "산업·고객": 8,
-    "정책·제도": 10,
-    "전력시장": 5,
-    "계통·인프라": 8,
-    "탄소·ESG": 7,
-    "기타": 1
+    "정책·제도": 3,
+    "LNG·에너지안보": 3,
+    "산업·고객": 4,
+    "AI·데이터센터": 1,
+    "탄소·ESG": 1,
+    "전력시장": 2
   },
   "key_issues": [
     {
-      "id": "N20261001-897",
+      "id": "N20260930-900",
       "issue_order": 1,
-      "title": "[대미투자] 관세협상서 텍사스 첫 사업까지…3500억 달러 협상 주요 변곡...",
-      "summary": "정부는 텍사스 엔시날 가스복합화력 사업을 대미투자 1호 프로젝트로 발표했으며, 미국 내 원전 8기와 알래스카 LNG 개발은 후속 검토 대상으로 남겼다.",
-      "implication": "미국 에너지 프로젝트는 LNG·발전 분야의 사업 기회가 될 수 있으나, 후속 사업은 상업성과 투자조건이 확정되지 않았으므로 발표 내용과 정부 확정사항을 구분해 모니터링할 필요가 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://n.news.naver.com/mnews/article/119/0003138232?sid=101"
+      "title": "'2040 탈석탄' 좌초자산 19조원대···민간 발전업계, \"공기업이 지분 ...",
+      "summary": "제12차 전력수급기본계획 공개토론회에서 석탄발전 60기 중 39기를 LNG·양수 등으로 대체하는 방향과 민간발전사의 좌초자산 우려가 제기됐다.",
+      "implication": "석탄에서 LNG로의 전환 기회가 확대되는 동시에 민간설비의 보상·법적 처리 기준이 핵심 위험이므로 전환 대상과 지원제도 구체화를 주시해야 한다.",
+      "category": "정책·제도",
+      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2475838"
     },
     {
-      "id": "N20261001-898",
+      "id": "N20261001-913",
       "issue_order": 2,
-      "title": "[최소라 직썰] AI 데이터센터 18.4GW 시대, '짓는 것'보다 중요한 것",
-      "summary": "AI 데이터센터 계획이 18.4GW 규모로 거론되는 가운데 고객·전력수요 확보, 계통 연계, 인허가가 실제 사업 추진의 핵심 조건으로 제시됐다.",
-      "implication": "데이터센터 사업은 부지보다 전력공급 가능 시점과 실수요 검증이 우선이며, 에너지·부지 패키지 제안 시 계통여건과 고객확약을 선행 점검해야 한다.",
-      "category": "AI·데이터센터",
-      "url": "https://www.ziksir.com/news/articleView.html?idxno=147879"
+      "title": "트럼프 \"韓대미투자, 텍사스 가스발전·대형 원전 8기\"…알래스카...",
+      "summary": "트럼프 대통령이 한국의 2000억달러 대미투자에 텍사스 가스발전, 대형 원전 8기, 알래스카 LNG 개발이 포함된다고 발표했다는 내용이다.",
+      "implication": "알래스카 LNG 참여 여부는 향후 LNG 도입선과 가격에 영향을 줄 수 있어 발전용 LNG 조달 전략 관점에서 추이를 볼 필요가 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01938486645608656&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
     },
     {
-      "id": "N20260930-899",
+      "id": "N20260930-914",
       "issue_order": 3,
-      "title": "노동차관, 여수산단 찾아 \"산업재편, 고용유지 최우선\"",
-      "summary": "고용노동부 차관이 여수를 방문해 석유화학 부진과 사업재편에 따른 현장 상황을 점검하고 여천NCC·롯데케미칼 등 기업 및 지역 관계자와 고용유지 방안을 논의했다.",
-      "implication": "여수산단 고객사의 가동·투자 변화가 열·전력 수요와 신용위험에 연결될 수 있어 사업재편 일정과 설비 운영계획을 고객별로 추적할 필요가 있다.",
-      "category": "산업·고객",
-      "url": "https://ysmbc.co.kr/NewsArticle/1539113"
+      "title": "신규 재생에너지 설비 경쟁입찰로 일원화",
+      "summary": "기후에너지환경부와 한국에너지공단이 RPS 일몰과 계약시장제도 도입에 따른 재생에너지법 하위법령 개정안 마련에 앞서 공청회를 열었다는 내용이다. 신규 재생에너지 설비를 경쟁입찰로 일원화하는 방향이 제시됐다는 내용이다.",
+      "implication": "RPS 체계가 계약시장으로 바뀌면 REC 수익 구조와 재생에너지 조달 방식이 달라질 수 있어 군산 바이오매스 등 당사 설비에 미치는 영향을 검토할 필요가 있다.",
+      "category": "정책·제도",
+      "url": "http://www.epj.co.kr/news/articleView.html?idxno=39495"
     }
   ]
 }
