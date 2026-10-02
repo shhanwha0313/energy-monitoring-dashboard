@@ -1,31 +1,31 @@
 ﻿{
-  "generated_at": "2026.10.02 02:39:36",
+  "generated_at": "2026.10.02 07:36:57",
   "base_date": "2026.10.02",
-  "total_articles": 520,
-  "today_articles": 44,
+  "total_articles": 531,
+  "today_articles": 55,
   "archive_articles": 476,
   "important_articles": 4,
-  "normal_articles": 33,
+  "normal_articles": 44,
   "reference_articles": 7,
   "top_keywords": [
     "ESS",
-    "데이터센터",
     "석유화학",
     "12차 전기본",
-    "RPS"
+    "데이터센터",
+    "LNG"
   ],
   "priority_counts": {
     "중요": 4,
-    "보통": 33,
+    "보통": 44,
     "참고": 7
   },
   "category_counts": {
-    "정책·제도": 10,
+    "정책·제도": 13,
     "전력시장": 4,
-    "LNG·에너지안보": 7,
+    "계통·인프라": 7,
+    "LNG·에너지안보": 11,
+    "산업·고객": 8,
     "탄소·ESG": 6,
-    "산업·고객": 6,
-    "계통·인프라": 5,
     "AI·데이터센터": 5,
     "기타": 1
   },
