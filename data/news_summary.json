@@ -1,33 +1,33 @@
 ﻿{
-  "generated_at": "2026.10.02 07:36:57",
+  "generated_at": "2026.10.02 21:37:26",
   "base_date": "2026.10.02",
-  "total_articles": 531,
-  "today_articles": 55,
-  "archive_articles": 476,
-  "important_articles": 4,
-  "normal_articles": 44,
-  "reference_articles": 7,
+  "total_articles": 541,
+  "today_articles": 32,
+  "archive_articles": 509,
+  "important_articles": 1,
+  "normal_articles": 28,
+  "reference_articles": 3,
   "top_keywords": [
-    "ESS",
-    "석유화학",
+    "여수",
+    "호르무즈",
     "12차 전기본",
-    "데이터센터",
+    "ESS",
     "LNG"
   ],
   "priority_counts": {
-    "중요": 4,
-    "보통": 44,
-    "참고": 7
+    "중요": 1,
+    "보통": 28,
+    "참고": 3
   },
   "category_counts": {
-    "정책·제도": 13,
-    "전력시장": 4,
-    "계통·인프라": 7,
-    "LNG·에너지안보": 11,
-    "산업·고객": 8,
-    "탄소·ESG": 6,
-    "AI·데이터센터": 5,
-    "기타": 1
+    "정책·제도": 7,
+    "탄소·ESG": 3,
+    "전력시장": 3,
+    "LNG·에너지안보": 8,
+    "계통·인프라": 4,
+    "산업·고객": 5,
+    "기타": 1,
+    "AI·데이터센터": 1
   },
   "key_issues": [
     {
@@ -40,22 +40,22 @@
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437541"
     },
     {
-      "id": "N20261001-938",
+      "id": "N20261002-971",
       "issue_order": 2,
-      "title": "농어촌공사 ‘재생E 확대 의무화’…연 1GW 미보급땐 1.3조 과징금 위기",
-      "summary": "내년 1월 RPS를 경쟁입찰 기반 장기 고정가격 계약시장으로 바꾸는 개정법 시행에 맞춰 기후부가 세부 기준을 정하고 있으며, 농어촌공사가 의무 보급 대상에 포함되는 내용이 담겼다는 내용이다.",
-      "implication": "RPS 하위법령 세부 기준이 구체화되는 단계로, 바이오매스 발전 수익에 영향을 주는 의무자 구조와 계약시장 설계를 면밀히 확인할 필요가 있다.",
-      "category": "정책·제도",
-      "url": "https://www.sedaily.com/article/20097357?ref=naver"
+      "title": "농어촌공사에 재생에너지 설비 보급의무 추진···현장 반발 확산",
+      "summary": "RPS 일몰에 따라 기후에너지환경부가 내년부터 발전량 기준 공급의무를 설비용량 기준으로 바꾸며 한국농어촌공사를 보급의무 대상에 포함하려 해 현장 반발이 커지고 있다는 내용이다.",
+      "implication": "RPS 개편의 의무 방식 전환이 구체화되는 사례로, 당사 바이오매스 REC 수익에 미칠 영향을 지속 점검할 필요가 있다.",
+      "category": "탄소·ESG",
+      "url": "https://www.agrinet.co.kr/news/articleView.html?idxno=407669"
     },
     {
-      "id": "N20261001-939",
+      "id": "N20261002-972",
       "issue_order": 3,
-      "title": "한전, 4분기 전기요금 동결",
-      "summary": "한전이 연료비 조정단가를 반영한 4분기 전기요금을 동결했다는 내용이다.",
-      "implication": "4분기 전기요금이 확정되어 고객사 비용 전망과 열·전력 판매단가 검토의 기준으로 삼을 수 있다.",
+      "title": "산업용 지역 전기요금제, 계통비용 빠지고 정책목표 뒤섞여…\"요금 설계...",
+      "summary": "정부가 추진하는 산업용 지역 전기요금제가 실제 계통비용보다 전력자급률·지방우대지수 등 정책 목표가 섞인 할인제도에 가깝다는 전문가 평가가 나왔다는 내용이다.",
+      "implication": "요금 설계가 계통비용 중심으로 정리되는지에 따라 여수 등 남부권 고객사의 요금 부담과 당사 수요 환경이 달라질 수 있다.",
       "category": "전력시장",
-      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=303750"
+      "url": "https://www.ddaily.co.kr/page/view/2026100218505624448"
     }
   ]
 }
