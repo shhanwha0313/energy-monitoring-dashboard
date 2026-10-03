@@ -22,6 +22,50 @@
     "issue_order": 1
   },
   {
+    "id": "N20261003-991",
+    "date": "2026.10.03",
+    "datetime": "2026.10.03 13:08",
+    "title": "산업 폐열 활용 온도·수요·배관망 맞춰야",
+    "source": "비건뉴스",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "재생열(폐열)",
+    "summary": "제3차 에너지기본계획이 발전소·소각장·산업단지의 폐열을 스마트팜이나 인근 주택단지 등과 연계하는 방안을 제시했으며, 열원과 수요처의 거리·시간·온도를 맞춰야 한다는 내용이다.",
+    "implication": "폐열 활용 확대 방향이 집단에너지 사업자의 열 공급 모델과 재생열 정책 검토에 연결될 수 있다.",
+    "tags": [
+      "폐열",
+      "에너지기본계획",
+      "열 연계"
+    ],
+    "url": "https://www.vegannews.co.kr/news/article.html?no=390987",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261003-990",
+    "date": "2026.10.03",
+    "datetime": "2026.10.03 12:50",
+    "title": "석유화학 6곳 '16조 담합' 기소…정부 지원금 논의 중에도 가격 맞췄다",
+    "source": "알티케이뉴스",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "석유화학 업황",
+    "summary": "검찰이 PVC·가성소다 등 기초소재 가격을 5년 넘게 담합한 혐의로 석유화학사 6곳과 전·현직 대표이사 등 임직원 37명을 재판에 넘겼다는 내용이다.",
+    "implication": "석유화학 업계가 구조조정 지원 논의와 함께 사법 리스크도 안게 되어, 주요 고객사의 경영·가동 여건을 점검할 필요가 있다.",
+    "tags": [
+      "석유화학",
+      "담합 기소",
+      "PVC"
+    ],
+    "url": "http://www.rightknow.co.kr/news/articleView.html?idxno=34885",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
     "id": "N20261003-987",
     "date": "2026.10.03",
     "datetime": "2026.10.03 09:02",
@@ -40,9 +84,9 @@
     ],
     "url": "https://www.thebigdata.co.kr/view.php?ud=202610011455281790a47484cf8_23",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261003-981",
@@ -62,9 +106,9 @@
     ],
     "url": "https://www.chosun.com/economy/industry-company/2026/10/03/5OK3I4NCFJAU7MCN2Y5IJA32KI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261003-986",
@@ -84,7 +128,7 @@
     ],
     "url": "https://www.g-enews.com/view.php?ud=202610021113037799fda4f5ab74_1",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 6,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -106,7 +150,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12167107",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 7,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -128,7 +172,7 @@
     ],
     "url": "http://www.e2news.com/news/articleView.html?idxno=334796",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 8,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -150,7 +194,7 @@
     ],
     "url": "https://www.mt.co.kr/world/2026/10/03/2026100306383782269",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 9,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -171,7 +215,7 @@
     ],
     "url": "https://www.news1.kr/local/gwangju-jeonnam/6308636",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 10,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -193,7 +237,7 @@
     ],
     "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1726614",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -215,7 +259,7 @@
     ],
     "url": "https://www.agrinet.co.kr/news/articleView.html?idxno=407669",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -237,7 +281,7 @@
     ],
     "url": "https://www.ddaily.co.kr/page/view/2026100218505624448",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -259,7 +303,7 @@
     ],
     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008781242&plink=ORI&cooper=NAVER",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -281,7 +325,7 @@
     ],
     "url": "http://www.srtimes.kr/news/articleView.html?idxno=213904",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -303,7 +347,7 @@
     ],
     "url": "http://www.newsmaker.or.kr/news/articleView.html?idxno=183559",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -324,7 +368,7 @@
     ],
     "url": "https://www.nocutnews.co.kr/news/6586708?utm_source=naver&utm_medium=article&utm_campaign=20261002051825",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -346,7 +390,7 @@
     ],
     "url": "https://www.todayenergy.kr/news/articleView.html?idxno=303805",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -369,7 +413,7 @@
     ],
     "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=86942",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -392,7 +436,7 @@
     ],
     "url": "https://thetracker.co.kr/View.aspx?No=4250551",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -414,7 +458,7 @@
     ],
     "url": "http://www.joseilbo.com/news/news_read.php?uid=576777&class=32&grp=",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -436,7 +480,7 @@
     ],
     "url": "https://www.yna.co.kr/view/AKR20261002028951009?input=1195m",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -459,7 +503,7 @@
     ],
     "url": "https://www.newspim.com/news/view/20261002000942",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -481,7 +525,7 @@
     ],
     "url": "https://www.seoul.co.kr/news/society/2026/10/02/20261002500160?wlog_tag3=naver",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -503,7 +547,7 @@
     ],
     "url": "https://www.nocutnews.co.kr/news/6586574?utm_source=naver&utm_medium=article&utm_campaign=20261002025224",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -525,7 +569,7 @@
     ],
     "url": "https://www.ekn.kr/web/view.php?key=20261002021091722",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -547,7 +591,7 @@
     ],
     "url": "https://news.tf.co.kr/read/national/2372567.htm",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -570,7 +614,7 @@
     ],
     "url": "https://ysmbc.co.kr/NewsArticle/1539395",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -592,7 +636,7 @@
     ],
     "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1726538",
     "is_today": "Y",
-    "display_order": 27,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -614,7 +658,7 @@
     ],
     "url": "https://www.fnnews.com/news/202610021323528145",
     "is_today": "Y",
-    "display_order": 28,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -636,7 +680,7 @@
     ],
     "url": "https://www.m-economynews.com/news/article.html?no=71281",
     "is_today": "Y",
-    "display_order": 29,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -657,7 +701,7 @@
     ],
     "url": "https://www.news1.kr/world/usa-canada/6308688",
     "is_today": "Y",
-    "display_order": 30,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -679,7 +723,7 @@
     ],
     "url": "https://www.esgeconomy.com/news/articleView.html?idxno=16900",
     "is_today": "Y",
-    "display_order": 31,
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -701,7 +745,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=373049",
     "is_today": "Y",
-    "display_order": 32,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -723,7 +767,7 @@
     ],
     "url": "https://www.m-i.kr/news/articleView.html?idxno=2002092",
     "is_today": "Y",
-    "display_order": 33,
+    "display_order": 35,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -745,7 +789,7 @@
     ],
     "url": "https://www.yna.co.kr/view/AKR20261002021600009?input=1195m",
     "is_today": "Y",
-    "display_order": 34,
+    "display_order": 36,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -767,7 +811,7 @@
     ],
     "url": "https://www.gasnews.com/news/articleView.html?idxno=127015",
     "is_today": "Y",
-    "display_order": 35,
+    "display_order": 37,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -789,7 +833,7 @@
     ],
     "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202609301654198250010",
     "is_today": "Y",
-    "display_order": 36,
+    "display_order": 38,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -810,7 +854,7 @@
     ],
     "url": "https://www.mt.co.kr/industry/2026/10/02/2026092917240442963",
     "is_today": "Y",
-    "display_order": 37,
+    "display_order": 39,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -832,7 +876,7 @@
     ],
     "url": "https://view.asiae.co.kr/article/2026100211503234095",
     "is_today": "Y",
-    "display_order": 38,
+    "display_order": 40,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -854,7 +898,7 @@
     ],
     "url": "https://www.sedaily.com/article/20097839?ref=naver",
     "is_today": "Y",
-    "display_order": 39,
+    "display_order": 41,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -875,7 +919,7 @@
     ],
     "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7187175",
     "is_today": "Y",
-    "display_order": 40,
+    "display_order": 42,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -897,7 +941,7 @@
     ],
     "url": "https://www.ajunews.com/view/20261002105044616",
     "is_today": "Y",
-    "display_order": 41,
+    "display_order": 43,
     "is_key_issue": "N",
     "issue_order": 9999
   }

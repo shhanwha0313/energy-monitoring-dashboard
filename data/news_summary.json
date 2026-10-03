@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.10.03 02:35:41",
+  "generated_at": "2026.10.03 07:33:06",
   "base_date": "2026.10.03",
-  "total_articles": 550,
-  "today_articles": 41,
+  "total_articles": 552,
+  "today_articles": 43,
   "archive_articles": 509,
   "important_articles": 1,
-  "normal_articles": 36,
+  "normal_articles": 38,
   "reference_articles": 4,
   "top_keywords": [
     "12차 전기본",
     "LNG",
+    "석유화학",
     "알래스카 LNG",
-    "여수",
-    "호르무즈"
+    "여수"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 36,
+    "보통": 38,
     "참고": 4
   },
   "category_counts": {
-    "정책·제도": 9,
+    "정책·제도": 10,
+    "산업·고객": 6,
     "LNG·에너지안보": 12,
     "계통·인프라": 5,
     "전력시장": 4,
     "AI·데이터센터": 2,
     "탄소·ESG": 3,
-    "산업·고객": 5,
     "기타": 1
   },
   "key_issues": [
@@ -40,22 +40,22 @@
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437541"
     },
     {
-      "id": "N20261003-987",
+      "id": "N20261003-991",
       "issue_order": 2,
-      "title": "중동 리스크에 LPG 가격도 '고공행진'…겨울 앞두고 부담 커지나",
-      "summary": "중동 수송로 불안이 장기화하며 LPG와 LNG 가격 변동성이 커지고, 카타르산 LNG 공급 차질로 아시아·유럽이 대체 물량 확보에 나서 동절기 수급이 변수라는 내용이다.",
-      "implication": "겨울철 LNG 수급 불안은 열·전력 공급 원가와 연료 조달 계획에 영향을 줄 수 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.thebigdata.co.kr/view.php?ud=202610011455281790a47484cf8_23"
+      "title": "산업 폐열 활용 온도·수요·배관망 맞춰야",
+      "summary": "제3차 에너지기본계획이 발전소·소각장·산업단지의 폐열을 스마트팜이나 인근 주택단지 등과 연계하는 방안을 제시했으며, 열원과 수요처의 거리·시간·온도를 맞춰야 한다는 내용이다.",
+      "implication": "폐열 활용 확대 방향이 집단에너지 사업자의 열 공급 모델과 재생열 정책 검토에 연결될 수 있다.",
+      "category": "정책·제도",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=390987"
     },
     {
-      "id": "N20261003-981",
+      "id": "N20261003-990",
       "issue_order": 3,
-      "title": "전력 모자라 석탄 대신 LNG 발전소 늘린다면서 탄소 규제도 강화?",
-      "summary": "정부가 12차 전력수급기본계획 수립 과정에서 석탄 대체 LNG 발전소의 발전량당 CO2 배출량에 기준을 설정하는 방안을 검토하고 있다는 내용이다.",
-      "implication": "여수 석탄발전의 LNG 전환과 YEE 복합발전 등 당사 LNG 설비에 배출 기준이 적용될 가능성을 점검할 필요가 있다.",
-      "category": "정책·제도",
-      "url": "https://www.chosun.com/economy/industry-company/2026/10/03/5OK3I4NCFJAU7MCN2Y5IJA32KI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+      "title": "석유화학 6곳 '16조 담합' 기소…정부 지원금 논의 중에도 가격 맞췄다",
+      "summary": "검찰이 PVC·가성소다 등 기초소재 가격을 5년 넘게 담합한 혐의로 석유화학사 6곳과 전·현직 대표이사 등 임직원 37명을 재판에 넘겼다는 내용이다.",
+      "implication": "석유화학 업계가 구조조정 지원 논의와 함께 사법 리스크도 안게 되어, 주요 고객사의 경영·가동 여건을 점검할 필요가 있다.",
+      "category": "산업·고객",
+      "url": "http://www.rightknow.co.kr/news/articleView.html?idxno=34885"
     }
   ]
 }
