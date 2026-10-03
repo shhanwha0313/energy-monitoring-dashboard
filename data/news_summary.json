@@ -1,33 +1,33 @@
 ﻿{
-  "generated_at": "2026.10.02 21:37:26",
-  "base_date": "2026.10.02",
-  "total_articles": 541,
-  "today_articles": 32,
+  "generated_at": "2026.10.03 02:35:41",
+  "base_date": "2026.10.03",
+  "total_articles": 550,
+  "today_articles": 41,
   "archive_articles": 509,
   "important_articles": 1,
-  "normal_articles": 28,
-  "reference_articles": 3,
+  "normal_articles": 36,
+  "reference_articles": 4,
   "top_keywords": [
-    "여수",
-    "호르무즈",
     "12차 전기본",
-    "ESS",
-    "LNG"
+    "LNG",
+    "알래스카 LNG",
+    "여수",
+    "호르무즈"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 28,
-    "참고": 3
+    "보통": 36,
+    "참고": 4
   },
   "category_counts": {
-    "정책·제도": 7,
+    "정책·제도": 9,
+    "LNG·에너지안보": 12,
+    "계통·인프라": 5,
+    "전력시장": 4,
+    "AI·데이터센터": 2,
     "탄소·ESG": 3,
-    "전력시장": 3,
-    "LNG·에너지안보": 8,
-    "계통·인프라": 4,
     "산업·고객": 5,
-    "기타": 1,
-    "AI·데이터센터": 1
+    "기타": 1
   },
   "key_issues": [
     {
@@ -40,22 +40,22 @@
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437541"
     },
     {
-      "id": "N20261002-971",
+      "id": "N20261003-987",
       "issue_order": 2,
-      "title": "농어촌공사에 재생에너지 설비 보급의무 추진···현장 반발 확산",
-      "summary": "RPS 일몰에 따라 기후에너지환경부가 내년부터 발전량 기준 공급의무를 설비용량 기준으로 바꾸며 한국농어촌공사를 보급의무 대상에 포함하려 해 현장 반발이 커지고 있다는 내용이다.",
-      "implication": "RPS 개편의 의무 방식 전환이 구체화되는 사례로, 당사 바이오매스 REC 수익에 미칠 영향을 지속 점검할 필요가 있다.",
-      "category": "탄소·ESG",
-      "url": "https://www.agrinet.co.kr/news/articleView.html?idxno=407669"
+      "title": "중동 리스크에 LPG 가격도 '고공행진'…겨울 앞두고 부담 커지나",
+      "summary": "중동 수송로 불안이 장기화하며 LPG와 LNG 가격 변동성이 커지고, 카타르산 LNG 공급 차질로 아시아·유럽이 대체 물량 확보에 나서 동절기 수급이 변수라는 내용이다.",
+      "implication": "겨울철 LNG 수급 불안은 열·전력 공급 원가와 연료 조달 계획에 영향을 줄 수 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.thebigdata.co.kr/view.php?ud=202610011455281790a47484cf8_23"
     },
     {
-      "id": "N20261002-972",
+      "id": "N20261003-981",
       "issue_order": 3,
-      "title": "산업용 지역 전기요금제, 계통비용 빠지고 정책목표 뒤섞여…\"요금 설계...",
-      "summary": "정부가 추진하는 산업용 지역 전기요금제가 실제 계통비용보다 전력자급률·지방우대지수 등 정책 목표가 섞인 할인제도에 가깝다는 전문가 평가가 나왔다는 내용이다.",
-      "implication": "요금 설계가 계통비용 중심으로 정리되는지에 따라 여수 등 남부권 고객사의 요금 부담과 당사 수요 환경이 달라질 수 있다.",
-      "category": "전력시장",
-      "url": "https://www.ddaily.co.kr/page/view/2026100218505624448"
+      "title": "전력 모자라 석탄 대신 LNG 발전소 늘린다면서 탄소 규제도 강화?",
+      "summary": "정부가 12차 전력수급기본계획 수립 과정에서 석탄 대체 LNG 발전소의 발전량당 CO2 배출량에 기준을 설정하는 방안을 검토하고 있다는 내용이다.",
+      "implication": "여수 석탄발전의 LNG 전환과 YEE 복합발전 등 당사 LNG 설비에 배출 기준이 적용될 가능성을 점검할 필요가 있다.",
+      "category": "정책·제도",
+      "url": "https://www.chosun.com/economy/industry-company/2026/10/03/5OK3I4NCFJAU7MCN2Y5IJA32KI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
     }
   ]
 }
