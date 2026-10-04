@@ -1,30 +1,31 @@
 ﻿{
-  "generated_at": "2026.10.04 02:34:02",
+  "generated_at": "2026.10.04 07:33:43",
   "base_date": "2026.10.04",
-  "total_articles": 565,
-  "today_articles": 24,
+  "total_articles": 570,
+  "today_articles": 29,
   "archive_articles": 541,
   "important_articles": 1,
-  "normal_articles": 18,
-  "reference_articles": 5,
+  "normal_articles": 22,
+  "reference_articles": 6,
   "top_keywords": [
     "12차 전기본",
     "데이터센터",
     "LNG",
-    "발전5사 통합",
-    "석유화학"
+    "계통접속",
+    "대미투자"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 18,
-    "참고": 5
+    "보통": 22,
+    "참고": 6
   },
   "category_counts": {
     "정책·제도": 6,
-    "LNG·에너지안보": 8,
+    "LNG·에너지안보": 10,
+    "탄소·ESG": 1,
+    "계통·인프라": 3,
     "전력시장": 2,
     "산업·고객": 4,
-    "계통·인프라": 1,
     "AI·데이터센터": 3
   },
   "key_issues": [
@@ -38,22 +39,22 @@
       "url": "http://www.djtimes.co.kr/news/articleView.html?idxno=113666"
     },
     {
-      "id": "N20261004-998",
+      "id": "N20261004-1006",
       "issue_order": 2,
-      "title": "12차 전기본 수립 앞두고 ‘원전 공론화’ 시작",
-      "summary": "정부가 원전 공론화위원회 출범식을 열고 공론 결과를 제12차 전력수급기본계획에 반영할 계획이라는 내용이다.",
-      "implication": "12차 전기본의 전원 구성 논의가 본격화되는 만큼 석탄 폐지·LNG 역할 관련 후속 논의를 함께 점검할 필요가 있다.",
-      "category": "정책·제도",
-      "url": "https://www.segye.com/newsView/20261004503517?OutUrl=naver"
+      "title": "“LNG 사업 최대 위험은 추가 비용 상승”···알래스카 주의회 보고서...",
+      "summary": "알래스카 주의회 보고서가 LNG 프로젝트의 가장 큰 위험으로 높은 자본비용과 추가 비용 상승을 꼽았다는 내용이다.",
+      "implication": "알래스카 LNG 도입 조건과 가격 경쟁력은 장기 발전용 LNG 조달 환경에 영향을 줄 수 있어 동향 확인이 필요하다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.khan.co.kr/article/202610041350001"
     },
     {
-      "id": "N20261004-1000",
+      "id": "N20261004-1007",
       "issue_order": 3,
-      "title": "9월 물가 2.9%…최고가격제 없었으면 3.5%",
-      "summary": "9월 물가 상승률이 2.9%로 최고가격제가 없었다면 3.5%였을 것이며, 정부는 연말까지 제도 유지 여부를 아직 확정하지 않았다는 내용이다.",
-      "implication": "에너지 가격 통제 정책의 지속 여부는 연료비와 전기·열 요금 환경에 영향을 줄 수 있어 향후 방향을 확인할 필요가 있다.",
-      "category": "LNG·에너지안보",
-      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=364152"
+      "title": "기후위기비상행동 \"탄소중립법 개정, 헌재 결정 취지 못 살려\"",
+      "summary": "기후위기비상행동이 탄소중립법 개정이 헌재 결정 취지를 살리지 못했다고 비판했으며, 감축목표 하한이 배출권거래제 규제목표와 연결된다는 점을 지적했다는 내용이다.",
+      "implication": "감축목표 상향 압력은 배출권 할당 및 비용 부담에 연결될 수 있어 제도 추이를 확인할 필요가 있다.",
+      "category": "탄소·ESG",
+      "url": "https://www.ngonews.kr/news/articleView.html?idxno=239831"
     }
   ]
 }
