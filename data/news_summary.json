@@ -1,60 +1,59 @@
 ﻿{
-  "generated_at": "2026.10.04 07:33:43",
-  "base_date": "2026.10.04",
-  "total_articles": 570,
-  "today_articles": 29,
-  "archive_articles": 541,
-  "important_articles": 1,
-  "normal_articles": 22,
-  "reference_articles": 6,
+  "generated_at": "2026.10.04 21:34:18",
+  "base_date": "2026.10.05",
+  "total_articles": 578,
+  "today_articles": 21,
+  "archive_articles": 557,
+  "important_articles": 0,
+  "normal_articles": 16,
+  "reference_articles": 5,
   "top_keywords": [
     "12차 전기본",
-    "데이터센터",
+    "ESS",
     "LNG",
-    "계통접속",
-    "대미투자"
+    "데이터센터",
+    "여수"
   ],
   "priority_counts": {
-    "중요": 1,
-    "보통": 22,
-    "참고": 6
+    "보통": 16,
+    "참고": 5
   },
   "category_counts": {
-    "정책·제도": 6,
-    "LNG·에너지안보": 10,
-    "탄소·ESG": 1,
-    "계통·인프라": 3,
+    "LNG·에너지안보": 5,
+    "정책·제도": 5,
+    "산업·고객": 3,
     "전력시장": 2,
-    "산업·고객": 4,
-    "AI·데이터센터": 3
+    "탄소·ESG": 2,
+    "AI·데이터센터": 2,
+    "계통·인프라": 2
   },
   "key_issues": [
     {
-      "id": "N20261003-992",
+      "id": "N20261005-1011",
       "issue_order": 1,
-      "title": "당진화력 5·6호기 대체 LNG, 호남 이전 추진",
-      "summary": "정부가 12차 전기본 논의에서 당진화력 5·6호기 대체 LNG 발전소를 호남으로 이전하는 방안을 제시했다는 내용이다. 다만 최종안은 아니며 공개토론과 업계 의견 수렴을 거쳐 폐지 시점, 대체 전원, 안보전원 규모를 정한다는 내용이다.",
-      "implication": "석탄 폐지·대체 LNG 입지 논의가 공식 절차에 들어간 만큼 여수 석탄발전의 LNG 전환 및 지역별 요금 검토에 미칠 영향을 지켜볼 필요가 있다.",
-      "category": "정책·제도",
-      "url": "http://www.djtimes.co.kr/news/articleView.html?idxno=113666"
-    },
-    {
-      "id": "N20261004-1006",
-      "issue_order": 2,
-      "title": "“LNG 사업 최대 위험은 추가 비용 상승”···알래스카 주의회 보고서...",
-      "summary": "알래스카 주의회 보고서가 LNG 프로젝트의 가장 큰 위험으로 높은 자본비용과 추가 비용 상승을 꼽았다는 내용이다.",
-      "implication": "알래스카 LNG 도입 조건과 가격 경쟁력은 장기 발전용 LNG 조달 환경에 영향을 줄 수 있어 동향 확인이 필요하다.",
+      "title": "중동 LNG ‘공급 0’… 더 꼬인 알래스카 셈법",
+      "summary": "중동전쟁 여파로 LNG 수입의 13%를 차지하던 카타르산 공급이 전면 중단되고 미국산 비중이 9.3%에서 22.9%로 급증했으며, 알래스카 개발비가 타 지역의 2배를 넘어 경제성 논란이 있다는 내용이다.",
+      "implication": "발전용 LNG 도입선 변화와 가격 변동은 여수 LNG 전환 및 복합발전의 연료비 부담 측면에서 확인이 필요하다.",
       "category": "LNG·에너지안보",
-      "url": "https://www.khan.co.kr/article/202610041350001"
+      "url": "https://www.seoul.co.kr/news/economy/industry/2026/10/05/20261005029004?wlog_tag3=naver"
     },
     {
-      "id": "N20261004-1007",
+      "id": "N20261005-1013",
+      "issue_order": 2,
+      "title": "'어차피 줄었을 전기'까지 성과로… 한전 절전 실적 부풀려졌나",
+      "summary": "12차 전력수급기본계획 수요전망 잠정안이 2040년 수요 986.3TWh 중 139TWh를 수요관리로 감축하는데, 감축 목표의 상당 부분이 어차피 줄었을 전기여서 한전 절전 실적이 부풀려졌다는 지적이 나왔다는 내용이다.",
+      "implication": "12차 전기본의 수요전망 신뢰성 논란은 향후 발전 설비 계획과 LNG 역할 논의에 영향을 줄 수 있다.",
+      "category": "정책·제도",
+      "url": "https://www.hankookilbo.com/news/article/A2026100412550002310?did=NA"
+    },
+    {
+      "id": "N20261004-1015",
       "issue_order": 3,
-      "title": "기후위기비상행동 \"탄소중립법 개정, 헌재 결정 취지 못 살려\"",
-      "summary": "기후위기비상행동이 탄소중립법 개정이 헌재 결정 취지를 살리지 못했다고 비판했으며, 감축목표 하한이 배출권거래제 규제목표와 연결된다는 점을 지적했다는 내용이다.",
-      "implication": "감축목표 상향 압력은 배출권 할당 및 비용 부담에 연결될 수 있어 제도 추이를 확인할 필요가 있다.",
-      "category": "탄소·ESG",
-      "url": "https://www.ngonews.kr/news/articleView.html?idxno=239831"
+      "title": "민형배 전남광주통합특별시장, 통합 100일 맞아 ‘반도체 트라이앵글’...",
+      "summary": "민형배 전남광주통합특별시장이 여수 미래산업 포럼에서 재생에너지로 전력을 지원하는 '반도체 트라이앵글' 구축 구상을 밝혔다는 내용이다.",
+      "implication": "남부권 산업단지 신규 투자 구상은 장기적으로 지역 열·전력 수요 요인이 될 수 있어 구체화 여부를 지켜볼 필요가 있다.",
+      "category": "산업·고객",
+      "url": "https://gj.newdaily.co.kr/site/data/html/2026/10/03/2026100300019.html"
     }
   ]
 }
