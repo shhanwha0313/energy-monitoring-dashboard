@@ -1,30 +1,30 @@
 ﻿{
-  "generated_at": "2026.10.03 21:33:32",
+  "generated_at": "2026.10.04 02:34:02",
   "base_date": "2026.10.04",
-  "total_articles": 558,
-  "today_articles": 17,
+  "total_articles": 565,
+  "today_articles": 24,
   "archive_articles": 541,
   "important_articles": 1,
-  "normal_articles": 13,
-  "reference_articles": 3,
+  "normal_articles": 18,
+  "reference_articles": 5,
   "top_keywords": [
-    "데이터센터",
     "12차 전기본",
-    "석유화학",
-    "BTM",
-    "G7"
+    "데이터센터",
+    "LNG",
+    "발전5사 통합",
+    "석유화학"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 13,
-    "참고": 3
+    "보통": 18,
+    "참고": 5
   },
   "category_counts": {
-    "정책·제도": 4,
-    "산업·고객": 2,
-    "LNG·에너지안보": 6,
+    "정책·제도": 6,
+    "LNG·에너지안보": 8,
+    "전력시장": 2,
+    "산업·고객": 4,
     "계통·인프라": 1,
-    "전력시장": 1,
     "AI·데이터센터": 3
   },
   "key_issues": [
@@ -38,22 +38,22 @@
       "url": "http://www.djtimes.co.kr/news/articleView.html?idxno=113666"
     },
     {
-      "id": "N20261003-993",
+      "id": "N20261004-998",
       "issue_order": 2,
-      "title": "로봇·방산·이차전지 ‘지역 거점’ 키운다 … 3개 특화단지에 민간 12...",
-      "summary": "전남의 석유화학·소재산업을 배터리 핵심원료와 소재산업으로 연결하는 특화단지를 포함해 3개 특화단지에 민간 투자가 이어질 계획이라는 내용이다.",
-      "implication": "전남권 산업단지의 신규 투자는 잠재적 열·전력 수요 요인이자 석유화학 고객사 업황 변화의 참고 지표가 될 수 있다.",
-      "category": "산업·고객",
-      "url": "https://www.dailyt.co.kr/newsView/dlt202610030006"
+      "title": "12차 전기본 수립 앞두고 ‘원전 공론화’ 시작",
+      "summary": "정부가 원전 공론화위원회 출범식을 열고 공론 결과를 제12차 전력수급기본계획에 반영할 계획이라는 내용이다.",
+      "implication": "12차 전기본의 전원 구성 논의가 본격화되는 만큼 석탄 폐지·LNG 역할 관련 후속 논의를 함께 점검할 필요가 있다.",
+      "category": "정책·제도",
+      "url": "https://www.segye.com/newsView/20261004503517?OutUrl=naver"
     },
     {
-      "id": "N20261003-995",
+      "id": "N20261004-1000",
       "issue_order": 3,
-      "title": "한국가스공사, 재무개선 속 통합 논의 본격화…에너지자원 시너지 주목",
-      "summary": "가스공사가 재무개선 속에 석유공사와의 통합 논의가 본격화되고 있으며, LNG 도입·공급망과 해외자원개발 기능의 결합 시너지가 거론된다는 내용이다.",
-      "implication": "가스공사 조직 개편은 발전용 LNG 도입과 요금 체계에 간접 영향을 줄 수 있어 추이를 볼 필요가 있다.",
+      "title": "9월 물가 2.9%…최고가격제 없었으면 3.5%",
+      "summary": "9월 물가 상승률이 2.9%로 최고가격제가 없었다면 3.5%였을 것이며, 정부는 연말까지 제도 유지 여부를 아직 확정하지 않았다는 내용이다.",
+      "implication": "에너지 가격 통제 정책의 지속 여부는 연료비와 전기·열 요금 환경에 영향을 줄 수 있어 향후 방향을 확인할 필요가 있다.",
       "category": "LNG·에너지안보",
-      "url": "https://sateconomy.co.kr/news/view/1065612595958497"
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=364152"
     }
   ]
 }
