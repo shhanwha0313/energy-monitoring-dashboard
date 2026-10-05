@@ -1,5 +1,160 @@
 ﻿[
   {
+    "id": "N20261005-1020",
+    "date": "2026.10.05",
+    "datetime": "2026.10.05 10:12",
+    "title": "“전기 넘치는데 송전선 막혀 공장 못 돌려”… ‘분산에너지 규제’에...",
+    "source": "브이이브이(뉴스)",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "분산에너지",
+    "summary": "대규모 발전소가 집중된 삼척에서 송전망이 막혀 생산 전력을 쓰지 못하고 있어, 송전 제약으로 버려지는 전력을 분산에너지로 인정해 기업 유치에 활용하자는 요구가 나온다는 내용이다.",
+    "implication": "송전 제약 지역의 분산에너지 인정 요구는 지역별 요금·LMP와 분산특구 제도 논의에 연결되는 사례다.",
+    "tags": [
+      "분산에너지",
+      "송전망 제약",
+      "삼척"
+    ],
+    "url": "https://www.viva100.com/article/20261005500245",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
+    "id": "N20261005-1023",
+    "date": "2026.10.05",
+    "datetime": "2026.10.05 09:30",
+    "title": "GS그룹, 동해에 100MW급 AI데이터센터 첫발… 2028년 완공 목표",
+    "source": "브이이브이(뉴스)",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 투자",
+    "summary": "GS그룹이 동해에 100MW급 AI 데이터센터를 2028년 완공 목표로 추진하며, 전력계통영향평가 등 사전 절차를 마쳤다는 내용이다.",
+    "implication": "계통영향평가 통과가 데이터센터 착공의 핵심 관문임을 보여주는 사례로, 지역 전력수요 증가 동향 파악에 참고된다.",
+    "tags": [
+      "GS그룹",
+      "동해",
+      "AI데이터센터",
+      "계통영향평가"
+    ],
+    "url": "https://www.viva100.com/article/20261005500131",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261005-1021",
+    "date": "2026.10.05",
+    "datetime": "2026.10.05 09:19",
+    "title": "데이터센터 포비아 퍼지는 미국…한국은?",
+    "source": "지디넷코리아",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "AIDC 특별법",
+    "summary": "AIDC 특별법이 비수도권 AI 데이터센터에 대해 일정 규모 이하는 전력계통영향평가를 면제하는 특례를 마련했으며, 지역사회 협력 조항의 현장 이행이 관건이라는 내용이다.",
+    "implication": "데이터센터 입지·계통 규제 변화는 산단 인근 전력공급 모델과 신규 전력수요 기회 검토에 참고가 된다.",
+    "tags": [
+      "AIDC 특별법",
+      "전력계통영향평가",
+      "데이터센터"
+    ],
+    "url": "https://zdnet.co.kr/view/?no=20261005073404",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261005-1022",
+    "date": "2026.10.05",
+    "datetime": "2026.10.05 07:01",
+    "title": "땅만 있다고 못 짓는다…전력 따라 달라지는 AIDC ‘명당’",
+    "source": "이코노미스트",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 입지",
+    "summary": "기업은 광역시 인근을 선호하지만 전력 당국은 발전소가 있는 해안·지방 외곽으로 분산되기를 원하며, 산업단지와 특구가 현실적 대안이라는 업계 관계자 발언을 전한 내용이다.",
+    "implication": "산업단지가 데이터센터 입지 대안으로 거론되고 있어 산단 기반 열·전력 공급 사업자로서 수요 유치 가능성을 검토할 만하다.",
+    "tags": [
+      "AIDC",
+      "입지",
+      "산업단지",
+      "특구"
+    ],
+    "url": "https://economist.co.kr/article/view/ecn202609220054",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261005-1019",
+    "date": "2026.10.05",
+    "datetime": "2026.10.05 07:00",
+    "title": "8월 전력도매가격 148원 1년 만에 26%↑…한전 부담 커지나",
+    "source": "뉴시스",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "SMP",
+    "summary": "8월 전력도매가격(SMP)이 148원으로 1년 만에 26% 올랐다는 내용이다. 중동 전쟁 영향으로 LNG와 석탄 열량 단가가 각각 38.0%, 31.4% 상승한 것이 SMP를 끌어올렸다는 설명이다.",
+    "implication": "연료비 상승이 SMP에 반영되고 있어 당사 LNG 발전 수익과 연료비 부담에 미치는 영향을 함께 점검할 필요가 있다.",
+    "tags": [
+      "SMP",
+      "LNG 열량단가",
+      "전력도매가격"
+    ],
+    "url": "https://www.newsis.com/view/NISX20261002_0003812752",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261005-1024",
+    "date": "2026.10.05",
+    "datetime": "2026.10.05 07:00",
+    "title": "RPS 폐지이후 제도적 허점 없어야",
+    "source": "이투뉴스",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "RPS 폐지",
+    "summary": "2012년 도입된 RPS가 15년 만에 올해 말 폐지될 예정이며, 폐지 이후 제도적 허점이 없어야 한다는 내용이다.",
+    "implication": "RPS 폐지와 후속 제도 설계는 당사 바이오매스 REC 수익과 직결되므로 후속 제도 윤곽을 계속 추적해야 한다.",
+    "tags": [
+      "RPS 폐지",
+      "재생에너지 제도"
+    ],
+    "url": "http://www.e2news.com/news/articleView.html?idxno=334823",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261005-1018",
+    "date": "2026.10.05",
+    "datetime": "2026.10.05 06:06",
+    "title": "멈춰 선 열병합 용량입찰, 신도시 열공급도 불안",
+    "source": "이투뉴스",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "열병합 용량입찰",
+    "summary": "12차 전기본이 미뤄지면서 열병합 용량입찰이 멈춰 서고 신도시 열공급도 불안하다는 내용이다. 열병합발전 좌초자산 가능성과 청정열 공급의무화 등 외부 요인도 겹쳐 기후부가 정책 결정을 내리지 못하고 있다는 분석이다.",
+    "implication": "집단에너지 열병합 신규 용량입찰과 전기본 반영 방향이 지연되고 있어 당사 제도·투자 환경의 불확실성을 점검할 필요가 있다.",
+    "tags": [
+      "열병합",
+      "용량입찰",
+      "12차 전기본"
+    ],
+    "url": "http://www.e2news.com/news/articleView.html?idxno=334820",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261005-1011",
     "date": "2026.10.05",
     "datetime": "2026.10.05 05:03",
@@ -18,9 +173,9 @@
     ],
     "url": "https://www.seoul.co.kr/news/economy/industry/2026/10/05/20261005029004?wlog_tag3=naver",
     "is_today": "Y",
-    "display_order": 1,
-    "is_key_issue": "Y",
-    "issue_order": 1
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261005-1013",
@@ -40,9 +195,9 @@
     ],
     "url": "https://www.hankookilbo.com/news/article/A2026100412550002310?did=NA",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261004-1015",
@@ -63,9 +218,9 @@
     ],
     "url": "https://gj.newdaily.co.kr/site/data/html/2026/10/03/2026100300019.html",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261004-1016",
@@ -86,7 +241,7 @@
     ],
     "url": "https://www.kyeongin.com/article/1771959",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -108,7 +263,7 @@
     ],
     "url": "https://www.busan.com/view/busan/view.php?code=2026100417453411575",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -130,7 +285,7 @@
     ],
     "url": "https://www.nongmin.com/article/20261002500608",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -152,7 +307,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12168068",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -174,7 +329,7 @@
     ],
     "url": "https://www.khan.co.kr/article/202610041350001",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -196,7 +351,7 @@
     ],
     "url": "https://www.ngonews.kr/news/articleView.html?idxno=239831",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -218,7 +373,7 @@
     ],
     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437719",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -240,7 +395,7 @@
     ],
     "url": "https://www.ddaily.co.kr/page/view/2026100223325276488",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -261,7 +416,7 @@
     ],
     "url": "https://www.segye.com/newsView/20261004503517?OutUrl=naver",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -283,7 +438,7 @@
     ],
     "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=364152",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -305,7 +460,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261002_0003812006",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -327,7 +482,7 @@
     ],
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=869991",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -349,7 +504,73 @@
     ],
     "url": "https://www.mt.co.kr/world/2026/10/04/2026100114291833454",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 23,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261005-1025",
+    "date": "2026.10.05",
+    "datetime": "2026.10.05 11:21",
+    "title": "전기 없어 AI 놀릴 판…빅테크, 177조 ‘자가발전’ 판 벌렸다",
+    "source": "중앙일보",
+    "priority": "참고",
+    "category": "AI·데이터센터",
+    "detail_category": "자가발전",
+    "summary": "전력 부족이 AI 투자 수익 회수 시점을 늦출 수 있다는 우려 속에 빅테크가 177조 원 규모의 자가발전 투자에 나섰다는 내용이다.",
+    "implication": "데이터센터의 현장 자체 발전 확대 흐름은 산단형 직접 전력공급 모델 검토에 참고할 만하다.",
+    "tags": [
+      "빅테크",
+      "자가발전",
+      "전력 부족"
+    ],
+    "url": "https://www.joongang.co.kr/article/25467169",
+    "is_today": "Y",
+    "display_order": 24,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261005-1026",
+    "date": "2026.10.05",
+    "datetime": "2026.10.05 11:00",
+    "title": "제도·기술 갖췄는데 저장할 곳 부족…한국 CCS의 과제",
+    "source": "한국일보",
+    "priority": "참고",
+    "category": "탄소·ESG",
+    "detail_category": "CCUS",
+    "summary": "정부가 2035 NDC에서 CCUS를 통해 연간 1120만~2030만 톤을 감축하는 목표를 제시했으나 저장 공간이 부족하다는 내용이다.",
+    "implication": "CCUS 감축 목표와 저장 인프라 한계는 군산 바이오매스 CCU 추진 시 정책 환경 점검에 참고된다.",
+    "tags": [
+      "CCS",
+      "CCUS",
+      "2035 NDC"
+    ],
+    "url": "https://daily.hankooki.com/news/articleView.html?idxno=1410433",
+    "is_today": "Y",
+    "display_order": 25,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261005-1027",
+    "date": "2026.10.05",
+    "datetime": "2026.10.05 07:00",
+    "title": "에너지수요관리의 진화, 절감을 넘어 유연성으로",
+    "source": "이투뉴스",
+    "priority": "참고",
+    "category": "계통·인프라",
+    "detail_category": "수요관리·유연성",
+    "summary": "에너지 수요관리가 절감을 넘어 계통에 기여하는 유연성 중심으로 진화해야 하며, 전기차·축열조 결합 히트펌프 등 자원의 계통 활용 방안을 설계해야 한다는 내용이다.",
+    "implication": "수요측 유연성 자원 논의는 12차 전기본과 계통 운영 변화 흐름을 파악하는 데 참고가 된다.",
+    "tags": [
+      "수요관리",
+      "유연성",
+      "12차 전기본"
+    ],
+    "url": "http://www.e2news.com/news/articleView.html?idxno=334585",
+    "is_today": "Y",
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -371,7 +592,7 @@
     ],
     "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7187404",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -393,7 +614,7 @@
     ],
     "url": "https://news.mtn.co.kr/news-detail/2026100216245231619",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -415,7 +636,7 @@
     ],
     "url": "https://www.vegannews.co.kr/news/article.html?no=391246",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -436,7 +657,7 @@
     ],
     "url": "https://www.sedaily.com/article/20097948?ref=naver",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -459,7 +680,7 @@
     ],
     "url": "https://www.g-enews.com/view.php?ud=2026100317375144450c8c1c064d_1",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   }
