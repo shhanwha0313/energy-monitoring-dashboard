@@ -1,11 +1,35 @@
 [
   {
-    "date": "2026-10-02",
-    "smp": 105.7,
+    "date": "2026-10-05",
+    "smp": 106.7,
     "max_power": null,
     "min_power": null,
     "reserve_power": null,
     "reserve_ratio": null
+  },
+  {
+    "date": "2026-10-04",
+    "smp": 104.33,
+    "max_power": 61713.0,
+    "min_power": 42326.0,
+    "reserve_power": 30275.0,
+    "reserve_ratio": 49.1
+  },
+  {
+    "date": "2026-10-03",
+    "smp": 107.03,
+    "max_power": 62349.0,
+    "min_power": 46208.0,
+    "reserve_power": 30765.0,
+    "reserve_ratio": 49.3
+  },
+  {
+    "date": "2026-10-02",
+    "smp": 105.7,
+    "max_power": 69435.0,
+    "min_power": 49377.0,
+    "reserve_power": 28467.0,
+    "reserve_ratio": 41.0
   },
   {
     "date": "2026-10-01",
@@ -2902,29 +2926,5 @@
     "min_power": 0.0,
     "reserve_power": 32694.0,
     "reserve_ratio": 57.4
-  },
-  {
-    "date": "2025-10-04",
-    "smp": 77.24,
-    "max_power": 60603.0,
-    "min_power": 0.0,
-    "reserve_power": 29035.0,
-    "reserve_ratio": 47.9
-  },
-  {
-    "date": "2025-10-03",
-    "smp": 105.42,
-    "max_power": 63924.0,
-    "min_power": 0.0,
-    "reserve_power": 27713.0,
-    "reserve_ratio": 43.4
-  },
-  {
-    "date": "2025-10-02",
-    "smp": 107.6,
-    "max_power": 70696.0,
-    "min_power": 0.0,
-    "reserve_power": 25086.0,
-    "reserve_ratio": 35.5
   }
 ]
