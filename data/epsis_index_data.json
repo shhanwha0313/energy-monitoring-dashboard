@@ -1,11 +1,19 @@
 [
   {
-    "date": "2026-10-05",
-    "smp": 106.7,
+    "date": "2026-10-06",
+    "smp": 107.81,
     "max_power": null,
     "min_power": null,
     "reserve_power": null,
     "reserve_ratio": null
+  },
+  {
+    "date": "2026-10-05",
+    "smp": 106.7,
+    "max_power": 64556.0,
+    "min_power": 48897.0,
+    "reserve_power": 28944.0,
+    "reserve_ratio": 44.8
   },
   {
     "date": "2026-10-04",
@@ -2918,13 +2926,5 @@
     "min_power": 0.0,
     "reserve_power": 36277.0,
     "reserve_ratio": 68.4
-  },
-  {
-    "date": "2025-10-05",
-    "smp": 70.19,
-    "max_power": 56927.0,
-    "min_power": 0.0,
-    "reserve_power": 32694.0,
-    "reserve_ratio": 57.4
   }
 ]
