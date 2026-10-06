@@ -1,31 +1,31 @@
 ﻿{
-  "generated_at": "2026.10.06 02:41:50",
+  "generated_at": "2026.10.06 07:39:48",
   "base_date": "2026.10.06",
-  "total_articles": 622,
-  "today_articles": 47,
+  "total_articles": 630,
+  "today_articles": 55,
   "archive_articles": 575,
   "important_articles": 3,
-  "normal_articles": 33,
-  "reference_articles": 11,
+  "normal_articles": 39,
+  "reference_articles": 13,
   "top_keywords": [
     "12차 전기본",
     "ESS",
-    "열병합",
-    "전력계통영향평가",
-    "한전"
+    "한전",
+    "대미투자",
+    "석유화학"
   ],
   "priority_counts": {
     "중요": 3,
-    "보통": 33,
-    "참고": 11
+    "보통": 39,
+    "참고": 13
   },
   "category_counts": {
-    "LNG·에너지안보": 8,
-    "정책·제도": 14,
+    "LNG·에너지안보": 10,
+    "정책·제도": 16,
     "전력시장": 5,
-    "AI·데이터센터": 6,
-    "계통·인프라": 6,
-    "산업·고객": 4,
+    "AI·데이터센터": 7,
+    "산업·고객": 5,
+    "계통·인프라": 8,
     "탄소·ESG": 3,
     "기타": 1
   },
