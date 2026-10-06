@@ -1,5 +1,51 @@
 ﻿[
   {
+    "id": "N20261006-1050",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 11:10",
+    "title": "가스公, LNG 수급안정 승부수…평균요금제 강화·비축의무 검토",
+    "source": "아시아경제",
+    "priority": "중요",
+    "category": "LNG·에너지안보",
+    "detail_category": "발전용 LNG 요금",
+    "summary": "한국가스공사가 발전사 LNG 직수입 확대로 국제가격 급등 시 현물 조달 부담이 커지자 발전용 평균요금제 경쟁력을 높이는 방안 마련에 착수했다는 내용이다. LNG 비축의무 부과도 검토 대상이라는 내용이다.",
+    "implication": "발전용 LNG 요금제와 비축의무 변화는 여수 LNG 전환 설비의 연료비 구조와 조달 전략에 직접 영향을 줄 수 있어 진행 상황을 추적할 필요가 있다.",
+    "tags": [
+      "가스공사",
+      "평균요금제",
+      "LNG 비축의무",
+      "직수입"
+    ],
+    "url": "https://view.asiae.co.kr/article/2026100610081432003",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
+    "id": "N20261006-1049",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 10:48",
+    "title": "기후부, 재생에너지 100GW·2040 탈석탄 추진…전력·물관리 체계 전면 ...",
+    "source": "에너지데일리",
+    "priority": "중요",
+    "category": "정책·제도",
+    "detail_category": "기후부 업무보고(12차 전기본·탈석탄)",
+    "summary": "기후부가 국감 업무보고에서 2030년까지 재생에너지 100GW 이상 확보, 2040년 석탄화력 폐지, 12차 전기본 전원구성 수립 방향을 제시했다는 내용이다. 지역 균형발전을 고려한 전기요금제 개편과 발전사 통합 추진도 함께 밝혔다는 내용이다.",
+    "implication": "석탄 폐지 시점과 지역별 요금제 개편 방향이 공식 계획으로 제시된 만큼 여수 LNG 전환·LMP 손익 검토에 반영할 필요가 있다.",
+    "tags": [
+      "12차 전기본",
+      "2040 탈석탄",
+      "재생에너지 100GW",
+      "전기요금제 개편"
+    ],
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=203824",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
     "id": "N20261005-1028",
     "date": "2026.10.05",
     "datetime": "2026.10.05 15:38",
@@ -17,9 +63,252 @@
     ],
     "url": "https://www.vegannews.co.kr/news/article.html?no=391386",
     "is_today": "Y",
-    "display_order": 1,
+    "display_order": 3,
     "is_key_issue": "Y",
-    "issue_order": 1
+    "issue_order": 3
+  },
+  {
+    "id": "N20261006-1051",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 11:32",
+    "title": "김성환 \"전기본 위원 비공개, 외부 잡음 때문…주요 쟁점은 공개\"",
+    "source": "뉴시스",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "12차 전기본 논의",
+    "summary": "김성환 기후부 장관이 12차 전기본 자문위원 명단을 외부 잡음 때문에 비공개한다면서 수요전망, 재생에너지 확대, 2040년까지 석탄발전 정리 방안 등 주요 쟁점은 공개하겠다고 밝혔다는 내용이다.",
+    "implication": "석탄발전 정리 방안이 쟁점으로 공개될 예정이어서 당사 석탄 설비의 LNG·바이오매스 전환 일정과 연계해 모니터링이 필요하다.",
+    "tags": [
+      "12차 전기본",
+      "자문위원",
+      "석탄발전 정리"
+    ],
+    "url": "https://www.newsis.com/view/NISX20261006_0003815384",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261006-1059",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 11:30",
+    "title": "이달부터 열수송관 등 에너지이용합리화자금 대출금리 0.5% 추가 인하",
+    "source": "한국에너지신문",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "열수송관 지원",
+    "summary": "이달부터 열수송관 등을 대상으로 한 에너지이용합리화자금 대출금리가 0.5%p 추가 인하된다는 내용이다.",
+    "implication": "열수송관 투자에 대한 정책융자 금리가 낮아져 당사 열배관 개보수 등 설비투자 재원 조달에 활용 가능성을 검토할 수 있다.",
+    "tags": [
+      "에너지이용합리화자금",
+      "열수송관",
+      "금리 인하"
+    ],
+    "url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=52140",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261006-1054",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 10:48",
+    "title": "1.2GW 동해 AI데이터센터 인허가 마치고 착공 단계 진입",
+    "source": "파이낸셜뉴스",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 전력수요",
+    "summary": "1.2GW 규모 동해 AI데이터센터가 산업단지 관리기본계획 변경과 한전 전력계통영향평가 등 인허가를 마치고 착공 단계에 진입했다는 내용이다.",
+    "implication": "지방 분산형 데이터센터가 계통영향평가를 거쳐 실제 착공에 들어가 데이터센터 전력공급 모델 검토의 사례로 참고할 수 있다.",
+    "tags": [
+      "동해 AI데이터센터",
+      "1.2GW",
+      "전력계통영향평가"
+    ],
+    "url": "https://www.fnnews.com/news/202610060934305665",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261006-1053",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 10:42",
+    "title": "김정관 \"자원안보 더 단단히\"…원유 非중동산 50%·핵심광물 3...",
+    "source": "아시아경제",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "자원안보·도입 다변화",
+    "summary": "산업부가 도입 다변화 인센티브 강화와 LNG 장기계약 확대를 추진하고 2035년까지 원유 비중동산 비중을 50%로 높이겠다고 밝혔다는 내용이다. 원유 비축시설 증설과 자원안보기금 신설도 검토한다는 내용이다.",
+    "implication": "중동 리스크 대응으로 LNG 장기계약 확대가 추진되면 발전용 LNG 수급·가격 안정성 판단에 참고할 수 있다.",
+    "tags": [
+      "원유 비중동산 50%",
+      "LNG 장기계약",
+      "자원안보기금"
+    ],
+    "url": "https://view.asiae.co.kr/article/2026100610422878543",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261006-1061",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 10:40",
+    "title": "지방 가라 했더니 '꼼수'…규제 비웃는 수도권 데이터센터",
+    "source": "한국경제",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 입지",
+    "summary": "데이터센터 수도권 집중을 완화하려는 전력계통영향평가 제도가 현장에서는 규제를 우회하는 방식으로 활용되고 있다는 내용이다.",
+    "implication": "데이터센터 입지 규제의 실효성 논란은 지방 산단 데이터센터 전력공급 모델 검토에 참고할 수 있다.",
+    "tags": [
+      "전력계통영향평가",
+      "수도권 데이터센터",
+      "분산에너지법"
+    ],
+    "url": "https://www.hankyung.com/article/202610064694i",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261006-1058",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 09:24",
+    "title": "수열에너지 대용량화 나선다… AI 운전제어 적용·대규모 실증 추진",
+    "source": "엔지니어링저널",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "재생열(수열)",
+    "summary": "수열에너지를 대용량화하기 위해 AI 운전제어를 적용하고 대규모 실증을 추진한다는 내용이다.",
+    "implication": "재생열 보급 확대 흐름 속에서 수열 대용량 실증은 집단에너지 사업자의 재생열 활용 검토에 참고할 수 있다.",
+    "tags": [
+      "수열에너지",
+      "대용량화",
+      "AI 운전제어"
+    ],
+    "url": "http://www.engjournal.co.kr/news/articleView.html?idxno=3995",
+    "is_today": "Y",
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261006-1056",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 08:48",
+    "title": "다시 열린 전력망, 늘어나는 출력제어…전남광주 재생에너지 '명'과 '암...",
+    "source": "뉴스웍스",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "출력제어·접속",
+    "summary": "호남 계통 접속이 다시 열렸지만 출력제어가 늘고 있으며, ESS와 접속권 재배분으로 기존 송배전망 수용 여력을 높이고 ESS 사업자에게 접속 한도의 2~3배 설비를 허용하는 자율접속을 내년부터 확대한다는 내용이다.",
+    "implication": "남부권 출력제어와 ESS 접속 확대는 SMP와 지역별 가격 형성에 영향을 줄 수 있어 LMP 손익 검토 시 참고할 수 있다.",
+    "tags": [
+      "출력제어",
+      "전남광주",
+      "ESS",
+      "자율접속"
+    ],
+    "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=855572",
+    "is_today": "Y",
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261006-1055",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 08:42",
+    "title": "美부통령 “알래스카 LNG, 한국과 세부 협의 필요”…트럼프 ‘위협’과...",
+    "source": "매일경제",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "알래스카 LNG",
+    "summary": "밴스 미 부통령이 알래스카 LNG 사업에 대해 한국과 세부 협의가 필요하다고 밝혀, 투자가 확정된 것처럼 말한 트럼프 대통령과 온도차를 보였다는 내용이다.",
+    "implication": "알래스카 LNG 참여 여부가 아직 협의 단계여서 향후 LNG 도입 포트폴리오와 가격 전망에 미칠 영향을 지켜볼 필요가 있다.",
+    "tags": [
+      "알래스카 LNG",
+      "밴스",
+      "대미투자"
+    ],
+    "url": "https://www.mk.co.kr/article/12168857",
+    "is_today": "Y",
+    "display_order": 11,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261006-1060",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 07:45",
+    "title": "광양만권 '이차전지 특화단지' 지정… 5조 원대 대전환 시동",
+    "source": "광주MBC",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "광양만권 특화단지",
+    "summary": "광양만권이 이차전지 특화단지로 지정되어 철강·석유화학 침체를 겪는 전남 동부권에 5조원대 민간 투자가 이어질 것으로 기대된다는 내용이다.",
+    "implication": "여수·광양권 신규 투자는 잠재 열·전력 수요이므로 당사 공급 가능성을 점검할 필요가 있다.",
+    "tags": [
+      "광양만권",
+      "이차전지 특화단지",
+      "5조원 투자"
+    ],
+    "url": "https://kjmbc.co.kr/NewsArticle/1539714",
+    "is_today": "Y",
+    "display_order": 12,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261006-1052",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 06:00",
+    "title": "\"석탄·암모니아 혼소발전 폐지에 민관 개발비 342억원 증발\"",
+    "source": "연합뉴스",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "석탄 혼소·청정수소발전",
+    "summary": "석탄·암모니아 혼소발전 폐지로 한전, 발전5사, 두산에너빌리티 등이 참여한 민관 원천기술 개발비 342억원이 증발했다는 지적이 나왔다는 내용이다.",
+    "implication": "석탄 혼소 경로가 정책에서 배제되는 흐름이어서 당사 석탄 설비는 LNG·바이오매스 전환 방향이 현실적이라는 점을 재확인할 수 있다.",
+    "tags": [
+      "석탄-암모니아 혼소",
+      "청정수소발전시장",
+      "R&D 중단"
+    ],
+    "url": "https://www.yna.co.kr/view/AKR20261005037100001?input=1195m",
+    "is_today": "Y",
+    "display_order": 13,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261006-1057",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 06:00",
+    "title": "수도권 분산형 열·전력망 확대…에너지 효율·산업 경쟁력 높인...",
+    "source": "에너지데일리",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "분산에너지·열병합",
+    "summary": "수도권에서 LNG복합 열병합 등 분산형 열·전력망 확대로 에너지 효율과 산업 경쟁력을 높이는 사례로 834MW 안산복합화력발전소가 소개됐다는 내용이다.",
+    "implication": "수도권 분산형 열·전력 공급 사례로 집단에너지 사업의 분산에너지 정책 연계 논리를 보강하는 데 참고할 수 있다.",
+    "tags": [
+      "분산형 열·전력망",
+      "열병합",
+      "LNG복합"
+    ],
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=203639",
+    "is_today": "Y",
+    "display_order": 14,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261006-1044",
@@ -39,9 +328,9 @@
     ],
     "url": "https://www.etoday.co.kr/news/view/2631880",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 15,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261005-1038",
@@ -61,9 +350,9 @@
     ],
     "url": "http://www.e2news.com/news/articleView.html?idxno=334825",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 16,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261005-1040",
@@ -83,7 +372,7 @@
     ],
     "url": "https://www.kyeongin.com/article/1772000",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -106,7 +395,7 @@
     ],
     "url": "https://www.hankyung.com/article/2026100536791",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -128,7 +417,7 @@
     ],
     "url": "https://www.hankyung.com/article/2026100537331",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -151,7 +440,7 @@
     ],
     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261006010001174",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -173,7 +462,7 @@
     ],
     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261005010001166",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -195,7 +484,7 @@
     ],
     "url": "http://www.jndn.com/article.php?aid=1791185616440634107",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -217,7 +506,7 @@
     ],
     "url": "https://www.viva100.com/article/20261005500415",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -239,7 +528,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12168425",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -261,7 +550,7 @@
     ],
     "url": "https://view.asiae.co.kr/article/2026100514050439694",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -283,7 +572,7 @@
     ],
     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261005010001035",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -306,7 +595,7 @@
     ],
     "url": "https://www.todayenergy.kr/news/articleView.html?idxno=303833",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -328,7 +617,7 @@
     ],
     "url": "https://www.cctoday.co.kr/news/articleView.html?idxno=2237788",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -350,30 +639,7 @@
     ],
     "url": "https://www.viva100.com/article/20261005500245",
     "is_today": "Y",
-    "display_order": 16,
-    "is_key_issue": "N",
-    "issue_order": 9999
-  },
-  {
-    "id": "N20261005-1023",
-    "date": "2026.10.05",
-    "datetime": "2026.10.05 09:30",
-    "title": "GS그룹, 동해에 100MW급 AI데이터센터 첫발… 2028년 완공 목표",
-    "source": "브이이브이(뉴스)",
-    "priority": "보통",
-    "category": "AI·데이터센터",
-    "detail_category": "데이터센터 투자",
-    "summary": "GS그룹이 동해에 100MW급 AI 데이터센터를 2028년 완공 목표로 추진하며, 전력계통영향평가 등 사전 절차를 마쳤다는 내용이다.",
-    "implication": "계통영향평가 통과가 데이터센터 착공의 핵심 관문임을 보여주는 사례로, 지역 전력수요 증가 동향 파악에 참고된다.",
-    "tags": [
-      "GS그룹",
-      "동해",
-      "AI데이터센터",
-      "계통영향평가"
-    ],
-    "url": "https://www.viva100.com/article/20261005500131",
-    "is_today": "Y",
-    "display_order": 17,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -395,7 +661,7 @@
     ],
     "url": "https://zdnet.co.kr/view/?no=20261005073404",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -418,7 +684,7 @@
     ],
     "url": "https://economist.co.kr/article/view/ecn202609220054",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -440,7 +706,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261002_0003812752",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -461,7 +727,7 @@
     ],
     "url": "http://www.e2news.com/news/articleView.html?idxno=334823",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -483,7 +749,7 @@
     ],
     "url": "http://www.e2news.com/news/articleView.html?idxno=334820",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -506,7 +772,7 @@
     ],
     "url": "https://www.seoul.co.kr/news/economy/industry/2026/10/05/20261005029004?wlog_tag3=naver",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 35,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -528,7 +794,29 @@
     ],
     "url": "https://www.hankookilbo.com/news/article/A2026100412550002310?did=NA",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 36,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261006-1062",
+    "date": "2026.10.06",
+    "datetime": "2026.10.06 09:52",
+    "title": "LNG '공급 과잉' 임박…IEA \"30년까지 3300억㎥ 증설\"",
+    "source": "ESG경제",
+    "priority": "참고",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG 수급 전망",
+    "summary": "IEA가 2030년까지 LNG 공급이 3300억㎥ 증설되어 공급 과잉이 임박했다고 전망했다는 내용이다.",
+    "implication": "중장기 LNG 공급 과잉 전망은 발전용 LNG 가격 하방 요인으로 참고할 수 있다.",
+    "tags": [
+      "LNG 공급과잉",
+      "IEA",
+      "증설"
+    ],
+    "url": "https://www.esgeconomy.com/news/articleView.html?idxno=16911",
+    "is_today": "Y",
+    "display_order": 37,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -550,7 +838,7 @@
     ],
     "url": "https://www.hankookilbo.com/news/article/A2026092717250000054?did=NA",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 38,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -573,7 +861,7 @@
     ],
     "url": "https://www.dailian.co.kr/news/view/1697908/?sc=Naver",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 39,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -595,7 +883,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12168468",
     "is_today": "Y",
-    "display_order": 27,
+    "display_order": 40,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -617,7 +905,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12168456",
     "is_today": "Y",
-    "display_order": 28,
+    "display_order": 41,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -639,7 +927,7 @@
     ],
     "url": "http://www.metroseoul.co.kr/article/20261005500202",
     "is_today": "Y",
-    "display_order": 29,
+    "display_order": 42,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -661,7 +949,7 @@
     ],
     "url": "https://www.dailyt.co.kr/newsView/dlt202610050017",
     "is_today": "Y",
-    "display_order": 30,
+    "display_order": 43,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -683,7 +971,7 @@
     ],
     "url": "https://www.joongang.co.kr/article/25467169",
     "is_today": "Y",
-    "display_order": 31,
+    "display_order": 44,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -705,7 +993,7 @@
     ],
     "url": "https://daily.hankooki.com/news/articleView.html?idxno=1410433",
     "is_today": "Y",
-    "display_order": 32,
+    "display_order": 45,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -727,7 +1015,7 @@
     ],
     "url": "http://www.e2news.com/news/articleView.html?idxno=334585",
     "is_today": "Y",
-    "display_order": 33,
+    "display_order": 46,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -749,7 +1037,7 @@
     ],
     "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7187404",
     "is_today": "Y",
-    "display_order": 34,
+    "display_order": 47,
     "is_key_issue": "N",
     "issue_order": 9999
   }
