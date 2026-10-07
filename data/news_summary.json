@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.10.07 07:39:57",
-  "base_date": "2026.10.07",
-  "total_articles": 660,
-  "today_articles": 54,
-  "archive_articles": 606,
-  "important_articles": 4,
-  "normal_articles": 40,
-  "reference_articles": 10,
+  "generated_at": "2026.10.07 21:45:09",
+  "base_date": "2026.10.08",
+  "total_articles": 672,
+  "today_articles": 35,
+  "archive_articles": 637,
+  "important_articles": 1,
+  "normal_articles": 27,
+  "reference_articles": 7,
   "top_keywords": [
     "데이터센터",
     "12차 전기본",
-    "석유화학",
-    "2040 탈석탄",
-    "ESS"
+    "RPS",
+    "VPP",
+    "산업용 전기요금"
   ],
   "priority_counts": {
-    "중요": 4,
-    "보통": 40,
-    "참고": 10
+    "중요": 1,
+    "보통": 27,
+    "참고": 7
   },
   "category_counts": {
-    "정책·제도": 18,
-    "전력시장": 3,
-    "LNG·에너지안보": 8,
-    "산업·고객": 8,
-    "계통·인프라": 6,
+    "정책·제도": 8,
+    "LNG·에너지안보": 4,
+    "전력시장": 6,
+    "계통·인프라": 4,
     "탄소·ESG": 4,
-    "AI·데이터센터": 7
+    "AI·데이터센터": 4,
+    "산업·고객": 5
   },
   "key_issues": [
     {
@@ -39,22 +39,22 @@
       "url": "https://www.esgeconomy.com/news/articleView.html?idxno=16932"
     },
     {
-      "id": "N20261006-1071",
+      "id": "N20261008-1110",
       "issue_order": 2,
-      "title": "김성환 “지역별 전기요금 연내 확정”…野 “성립할 수 없는 요금제”",
-      "summary": "김성환 기후부 장관이 국감에서 산업용 지역별 전기요금제의 기본 설계를 마쳤으며 행정안전부의 국가균형발전지수 요소를 결합해 가급적 연내 확정하겠다고 밝혔다는 내용이다. 야당은 단일 전력망에서 성립할 수 없는 요금제라고 반박했다는 내용이다.",
-      "implication": "지역별 요금이 연내 확정될 경우 여수·군산 고객사의 전기요금 경쟁력과 당사 열·전력 판매 구조에 미칠 영향을 선제 검토할 필요가 있다.",
-      "category": "전력시장",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=06815846645610296&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+      "title": "\"유가 급등 잡는다\"… G7·IEA, 비축유 1억배럴 방출",
+      "summary": "G7과 IEA가 유가 급등에 대응해 비축유 1억 배럴을 방출한다는 내용이다.",
+      "implication": "중동 리스크에 따른 에너지 가격 변동은 LNG 도입 비용과 석유화학 고객사 업황에 연결될 수 있어 지속 점검이 필요하다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.g-enews.com/view.php?ud=202610080128319889e7e8286d56_1"
     },
     {
-      "id": "N20261006-1050",
+      "id": "N20261007-1107",
       "issue_order": 3,
-      "title": "가스公, LNG 수급안정 승부수…평균요금제 강화·비축의무 검토",
-      "summary": "한국가스공사가 발전사 LNG 직수입 확대로 국제가격 급등 시 현물 조달 부담이 커지자 발전용 평균요금제 경쟁력을 높이는 방안 마련에 착수했다는 내용이다. LNG 비축의무 부과도 검토 대상이라는 내용이다.",
-      "implication": "발전용 LNG 요금제와 비축의무 변화는 여수 LNG 전환 설비의 연료비 구조와 조달 전략에 직접 영향을 줄 수 있어 진행 상황을 추적할 필요가 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://view.asiae.co.kr/article/2026100610081432003"
+      "title": "산업용 전기요금 5년 새 70%↑…제조원가 20% 차지",
+      "summary": "산업용 전기요금이 5년 새 70% 넘게 올라 kWh당 105.5원에서 185원대가 됐고 제조원가의 약 20%를 차지한다는 내용이다.",
+      "implication": "산업용 전기요금 부담이 커진 만큼 고객사의 증기·전력 자체 조달 및 열 공급 수요 판단에 영향을 줄 수 있다.",
+      "category": "전력시장",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8680269&ref=A"
     }
   ]
 }
