@@ -1,31 +1,31 @@
 ﻿{
-  "generated_at": "2026.10.06 21:41:00",
+  "generated_at": "2026.10.07 02:39:22",
   "base_date": "2026.10.07",
-  "total_articles": 640,
-  "today_articles": 34,
+  "total_articles": 650,
+  "today_articles": 44,
   "archive_articles": 606,
   "important_articles": 3,
-  "normal_articles": 27,
-  "reference_articles": 4,
+  "normal_articles": 33,
+  "reference_articles": 8,
   "top_keywords": [
     "12차 전기본",
+    "데이터센터",
     "2040 탈석탄",
     "ESS",
-    "LNG 열병합",
-    "대미투자"
+    "LNG 열병합"
   ],
   "priority_counts": {
     "중요": 3,
-    "보통": 27,
-    "참고": 4
+    "보통": 33,
+    "참고": 8
   },
   "category_counts": {
-    "전력시장": 1,
-    "LNG·에너지안보": 6,
-    "정책·제도": 12,
-    "탄소·ESG": 2,
-    "산업·고객": 5,
-    "AI·데이터센터": 4,
+    "전력시장": 2,
+    "LNG·에너지안보": 8,
+    "정책·제도": 15,
+    "탄소·ESG": 3,
+    "산업·고객": 6,
+    "AI·데이터센터": 6,
     "계통·인프라": 4
   },
   "key_issues": [
