@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.10.08 02:45:32",
+  "generated_at": "2026.10.08 07:42:36",
   "base_date": "2026.10.08",
-  "total_articles": 686,
-  "today_articles": 49,
+  "total_articles": 696,
+  "today_articles": 59,
   "archive_articles": 637,
   "important_articles": 1,
-  "normal_articles": 40,
-  "reference_articles": 8,
+  "normal_articles": 46,
+  "reference_articles": 12,
   "top_keywords": [
     "데이터센터",
-    "12차 전기본",
     "석유화학",
+    "12차 전기본",
     "전력수요",
-    "ESS"
+    "LNG"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 40,
-    "참고": 8
+    "보통": 46,
+    "참고": 12
   },
   "category_counts": {
-    "정책·제도": 11,
-    "산업·고객": 9,
-    "계통·인프라": 6,
-    "AI·데이터센터": 6,
+    "정책·제도": 13,
+    "산업·고객": 12,
+    "전력시장": 8,
+    "계통·인프라": 7,
+    "AI·데이터센터": 7,
     "탄소·ESG": 6,
-    "LNG·에너지안보": 5,
-    "전력시장": 6
+    "LNG·에너지안보": 6
   },
   "key_issues": [
     {
@@ -39,22 +39,22 @@
       "url": "https://www.esgeconomy.com/news/articleView.html?idxno=16932"
     },
     {
-      "id": "N20261008-1123",
+      "id": "N20261008-1132",
       "issue_order": 2,
-      "title": "김재준 군산시장 \"현대차그룹 투자 완성에 전력…지원단 구성\"",
-      "summary": "김재준 군산시장이 취임 100일 기자회견에서 현대차그룹 투자 완성에 전력을 다하겠다며 지원단을 구성하겠다고 밝혔다는 내용이다.",
-      "implication": "군산 신규 대규모 투자는 지역 전력·열 수요 증가 요인이 될 수 있어 투자 진행 상황을 지켜볼 필요가 있다.",
+      "title": "한미일 등 15개국, 中겨냥해 공동 대응…“과잉 생산, 세계 경제의 위협...",
+      "summary": "한미일 등 15개국이 중국발 과잉 생산에 공동 대응하기로 했으며, 석유화학 등 한국 기업의 주요 수출시장과 겹친다는 지적이 나온다는 내용이다.",
+      "implication": "석유화학 공급과잉 대응 논의는 고객사 업황과 당사 산업용 열·전력 수요 전망에 간접 영향을 줄 수 있다.",
       "category": "산업·고객",
-      "url": "https://www.yna.co.kr/view/AKR20261008086400055?input=1195m"
+      "url": "https://www.donga.com/news/Economy/article/all/20261008/134809591/1"
     },
     {
-      "id": "N20261008-1120",
+      "id": "N20261008-1127",
       "issue_order": 3,
-      "title": "멈췄던 석화 '역래깅' 시계 다시 돈다 … 유가 꺾이자 4분기 경고등",
-      "summary": "국제유가와 나프타 가격이 하락 전환하면서 3분기에 미뤄졌던 역래깅 위험이 4분기에 다시 커져 석유화학 업계의 4분기 실적에 경고등이 켜졌다는 내용이다.",
-      "implication": "여수 석유화학 고객사의 4분기 수익성 악화는 증기·전력 수요와 가동률에 영향을 줄 수 있다.",
-      "category": "산업·고객",
-      "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/08/2026100800141.html"
+      "title": "이상한 전력시장…비싼 LNG 더 돌리고도 SMP 56원 '뚝'",
+      "summary": "9월 9일 낮 시간대 전력수요가 전날과 비슷했는데도 비싼 LNG 발전기가 더 가동되며 SMP가 kWh당 56원 급락했다는 내용이다.",
+      "implication": "SMP 변동 원인 분석 사례로, 당사 LNG 발전·열병합의 SMP 수익 구조 점검에 참고할 수 있다.",
+      "category": "전력시장",
+      "url": "https://www.electimes.com/news/articleView.html?idxno=373223"
     }
   ]
 }
