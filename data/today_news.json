@@ -22,6 +22,300 @@
     "issue_order": 1
   },
   {
+    "id": "N20261008-1123",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 11:32",
+    "title": "김재준 군산시장 \"현대차그룹 투자 완성에 전력…지원단 구성\"",
+    "source": "연합뉴스",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "군산 신규 투자",
+    "summary": "김재준 군산시장이 취임 100일 기자회견에서 현대차그룹 투자 완성에 전력을 다하겠다며 지원단을 구성하겠다고 밝혔다는 내용이다.",
+    "implication": "군산 신규 대규모 투자는 지역 전력·열 수요 증가 요인이 될 수 있어 투자 진행 상황을 지켜볼 필요가 있다.",
+    "tags": [
+      "군산",
+      "현대차그룹 투자",
+      "전력 지원단"
+    ],
+    "url": "https://www.yna.co.kr/view/AKR20261008086400055?input=1195m",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261008-1120",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 11:28",
+    "title": "멈췄던 석화 '역래깅' 시계 다시 돈다 … 유가 꺾이자 4분기 경고등",
+    "source": "뉴데일리",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "석유화학 업황",
+    "summary": "국제유가와 나프타 가격이 하락 전환하면서 3분기에 미뤄졌던 역래깅 위험이 4분기에 다시 커져 석유화학 업계의 4분기 실적에 경고등이 켜졌다는 내용이다.",
+    "implication": "여수 석유화학 고객사의 4분기 수익성 악화는 증기·전력 수요와 가동률에 영향을 줄 수 있다.",
+    "tags": [
+      "석유화학",
+      "역래깅",
+      "나프타",
+      "4분기 실적"
+    ],
+    "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/08/2026100800141.html",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261008-1117",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 11:25",
+    "title": "4년 뒤 재생에너지 100GW 한다는데…ESS 계산서도 없다",
+    "source": "조선비즈",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "ESS·재생에너지 확대",
+    "summary": "정부가 2030년까지 재생에너지 100GW 이상 확대를 공언한 지 6개월이 지났지만 이를 뒷받침할 ESS 전체 필요 규모와 비용은 아직 확정되지 않았다는 내용이다.",
+    "implication": "재생에너지 확대와 ESS 확보 계획은 출력제어와 SMP 변동성에 영향을 줄 수 있어 계획 확정 여부를 추적할 필요가 있다.",
+    "tags": [
+      "재생에너지 100GW",
+      "ESS",
+      "계통"
+    ],
+    "url": "https://biz.chosun.com/industry/company/2026/10/08/JIQO6OH2NRDFHKHWZ352RK5UY4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261008-1116",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 11:24",
+    "title": "AI 데이터센터 전력수요 3배 '껑충'…탄소배출량은 '깜깜'",
+    "source": "한스경제",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 전력수요",
+    "summary": "12차 전기본 총괄위원회가 8월 공개한 재산정 결과 AI 데이터센터의 2040년 추가 최대전력수요가 기존 4.0GW에서 크게 늘어나는 것으로 나타났으나 탄소배출 관리체계는 공백이라는 내용이다.",
+    "implication": "데이터센터 전력수요 상향은 지역 전력수급과 신규 열·전력 수요 기회를 가늠하는 참고 자료가 된다.",
+    "tags": [
+      "데이터센터",
+      "12차 전기본",
+      "전력수요",
+      "탄소배출"
+    ],
+    "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=871036",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261008-1124",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 11:19",
+    "title": "SK이터닉스, '연료전지 연계형' AI 데이터센터 개발한다",
+    "source": "지디넷코리아",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 전력공급 모델",
+    "summary": "SK이터닉스와 마스턴투자운용이 데이터센터 부지 내 연료전지 발전설비로 전력을 공급하는 연료전지 연계형 AI 데이터센터를 개발하기로 협약했다는 내용이다.",
+    "implication": "데이터센터 현장 발전형 전력공급 모델은 당사의 데이터센터 전력공급 검토 시 경쟁·참고 사례가 된다.",
+    "tags": [
+      "연료전지",
+      "데이터센터",
+      "현장생산",
+      "SK이터닉스"
+    ],
+    "url": "https://zdnet.co.kr/view/?no=20261008105513",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261008-1114",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 10:57",
+    "title": "전력수요 급증에 원전 건설 시급한데…3개월 공론화 ‘시간끌기’ 논란",
+    "source": "헤럴드경제",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "12차 전기본",
+    "summary": "정부가 12차 전기본 안을 이달까지 마련할 예정이었으나 원전 건설 여부를 정하는 3개월 공론화 이후 발표하기로 미뤘고, 이를 두고 시간끌기 논란이 나온다는 내용이다. 원전 공론화위는 시민참여단 300명이 2박3일 숙의토론을 하는 방식을 논의 중이다.",
+    "implication": "12차 전기본 확정 시점이 늦어지면 석탄 전환·LNG 역할 등 당사 설비 전략에 반영할 정책 확정 시기도 함께 밀릴 수 있다.",
+    "tags": [
+      "12차 전기본",
+      "원전 공론화",
+      "전력수요"
+    ],
+    "url": "https://biz.heraldcorp.com/article/10896742?ref=naver",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261008-1118",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 10:20",
+    "title": "내년 상반기 RE100 산단 조성 추진…입주기업 재정·세제 지원",
+    "source": "ESG경제",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "RE100 산단",
+    "summary": "정부가 내년 상반기 RE100 산단 조성을 추진하며 탄소 다배출·노후 산업단지에 태양광, ESS 통합발전소 등을 묶어 입주기업에 재정·세제를 지원한다는 내용이다.",
+    "implication": "산단 내 RE100 전력·ESS 지원 확대는 산업단지 열·전력 공급 구조와 고객사 에너지 조달 방식에 변화를 줄 수 있다.",
+    "tags": [
+      "RE100 산단",
+      "노후산단",
+      "재정·세제 지원"
+    ],
+    "url": "https://www.esgeconomy.com/news/articleView.html?idxno=16944",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261008-1113",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 10:00",
+    "title": "케이블사 알력에 발목 잡힐라...서해안 HVDC 케이블 입찰방안 사...",
+    "source": "전기신문",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "서해안 HVDC",
+    "summary": "한전이 서해안 HVDC 1단계 사업(525kV 새만금–서화성 해저케이블)의 발주방안을 전자조달시스템에 사전 공개했다는 내용이다.",
+    "implication": "서해안 HVDC 추진 속도는 호남권 계통제약 해소와 SMP·LMP 구조 변화에 영향을 줄 수 있어 진행 상황을 점검할 필요가 있다.",
+    "tags": [
+      "서해안 HVDC",
+      "해저케이블",
+      "한전",
+      "입찰"
+    ],
+    "url": "https://www.electimes.com/news/articleView.html?idxno=373195",
+    "is_today": "Y",
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261008-1119",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 09:52",
+    "title": "RE100 '15년 기준'에 시간 단위 매칭까지…기업 PPA 선점 경쟁 빨라진다",
+    "source": "임팩트온",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "RE100·PPA",
+    "summary": "RE100 기준 강화와 시간 단위 매칭 논의로 기업의 PPA 선점 경쟁이 빨라지고 있으며, 정부가 RPS를 폐지하고 2027년부터 정부 계약시장으로 전환하는 등 제도가 계속 바뀌고 있다는 내용이다.",
+    "implication": "RPS 폐지와 계약시장 전환은 당사 바이오매스 REC 수익과 직결되므로 하위법령 진행 상황을 계속 확인해야 한다.",
+    "tags": [
+      "RE100",
+      "PPA",
+      "RPS 폐지",
+      "시간대별 매칭"
+    ],
+    "url": "https://www.impacton.net/news/articleView.html?idxno=30177",
+    "is_today": "Y",
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261008-1115",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 09:04",
+    "title": "국회포럼 \"전력수요 늘어도 2035년 석탄발전 조기 퇴출 필요\"",
+    "source": "국제뉴스",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "석탄 조기 퇴출",
+    "summary": "국회포럼에서 전력수요가 늘어도 LNG 발전량을 77TWh에서 223TWh로 늘리는 대신 석탄발전을 69TWh에서 0TWh로 줄여 2035년 석탄발전을 조기 퇴출해야 한다는 제안이 나왔다는 내용이다.",
+    "implication": "석탄 퇴출과 LNG 발전 확대 논의는 당사 석탄발전의 LNG 전환 방향과 부합하며, 12차 전기본 논의에서 LNG 역할 변화를 살펴볼 필요가 있다.",
+    "tags": [
+      "석탄발전",
+      "LNG 확대",
+      "2035",
+      "국회포럼"
+    ],
+    "url": "https://www.gukjenews.com/news/articleView.html?idxno=3715820",
+    "is_today": "Y",
+    "display_order": 11,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261008-1125",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 08:41",
+    "title": "제주, 아파트·마을서 전기 만들어 쓴다… 분산특구 2기 3개 모델 도전",
+    "source": "파이낸셜뉴스",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "분산에너지 특구",
+    "summary": "제주도가 분산에너지 특구 2기에 아파트·마을 단위 등 3개 사업모델로 도전하며, 같은 변전소 생활권에서 연간 발전량의 70% 이상을 구역 내에서 소비해야 한다는 요건이 있다는 내용이다.",
+    "implication": "분산특구의 구역 내 소비 요건과 특례는 집단에너지 사업의 분산에너지 제도 대응을 검토할 때 참고할 수 있다.",
+    "tags": [
+      "분산특구",
+      "제주",
+      "지산지소"
+    ],
+    "url": "https://www.fnnews.com/news/202610080836492618",
+    "is_today": "Y",
+    "display_order": 12,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261008-1122",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 07:02",
+    "title": "용인열병합 하이닉스 증기 공급, 에너...",
+    "source": "더벨",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "집단에너지 증기 공급",
+    "summary": "용인열병합이 SK하이닉스 용인 클러스터에 증기를 공급하며, 호주 바로사 프로젝트 LNG가 용인열병합을 거쳐 SK하이닉스로 이어지는 그룹 내 시너지가 예상된다는 내용이다.",
+    "implication": "반도체 클러스터에 열병합이 증기·전력을 공급하는 사례로, 신규 산업단지 열·전력 수요 대응 모델로 참고할 만하다.",
+    "tags": [
+      "용인열병합",
+      "SK하이닉스",
+      "증기 공급",
+      "LNG"
+    ],
+    "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610061538493760107852",
+    "is_today": "Y",
+    "display_order": 13,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261008-1121",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 06:46",
+    "title": "먼저 줄인 롯데가 손해?…석화 감산 둘러싼 '무임승차' 논란",
+    "source": "뉴스웨이",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "석유화학 구조조정",
+    "summary": "석유화학 설비 정리와 감산이 본격화되면서 먼저 생산능력을 줄인 기업이 오히려 손해를 볼 수 있다는 '무임승차' 논란이 나온다는 내용이다.",
+    "implication": "석화 업계의 감산·설비 정리 속도는 여수 고객사의 가동 계획과 당사 열·전력 판매량에 영향을 줄 수 있다.",
+    "tags": [
+      "석유화학",
+      "감산",
+      "사업재편",
+      "롯데"
+    ],
+    "url": "https://www.newsway.co.kr/news/view?ud=2026100717180345128",
+    "is_today": "Y",
+    "display_order": 14,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261008-1110",
     "date": "2026.10.08",
     "datetime": "2026.10.08 05:40",
@@ -39,9 +333,9 @@
     ],
     "url": "https://www.g-enews.com/view.php?ud=202610080128319889e7e8286d56_1",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 15,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261007-1107",
@@ -60,9 +354,9 @@
     ],
     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8680269&ref=A",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 16,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261007-1101",
@@ -82,7 +376,7 @@
     ],
     "url": "https://www.usmbc.co.kr/NewsArticle/866188",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -104,7 +398,7 @@
     ],
     "url": "https://www.itdaily.kr/news/articleView.html?idxno=242038",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -126,7 +420,7 @@
     ],
     "url": "https://www.sedaily.com/article/20099203?ref=naver",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -148,7 +442,7 @@
     ],
     "url": "http://www.newsmaker.or.kr/news/articleView.html?idxno=183781",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -170,7 +464,7 @@
     ],
     "url": "https://www.news1.kr/world/middleeast-africa/6313233",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -193,7 +487,7 @@
     ],
     "url": "https://www.youthdaily.co.kr/news/article.html?no=228072",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -215,7 +509,7 @@
     ],
     "url": "https://www.mediapen.com/news/view/1128503",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -237,7 +531,7 @@
     ],
     "url": "https://www.hankookilbo.com/news/article/A2026100715220002251?did=NA",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -259,7 +553,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12170552",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -281,7 +575,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12170516",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -303,7 +597,7 @@
     ],
     "url": "https://www.polinews.co.kr/news/articleView.html?idxno=745126",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -325,7 +619,7 @@
     ],
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=203884",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -347,7 +641,7 @@
     ],
     "url": "https://www.ekn.kr/web/view.php?key=20261007028193165",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -369,7 +663,7 @@
     ],
     "url": "https://www.sedaily.com/article/20098983?ref=naver",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -391,7 +685,7 @@
     ],
     "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=366778",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -413,7 +707,7 @@
     ],
     "url": "https://www.e-science.co.kr/news/articleView.html?idxno=136864",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -435,7 +729,7 @@
     ],
     "url": "https://www.todayenergy.kr/news/articleView.html?idxno=303920",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -457,7 +751,7 @@
     ],
     "url": "https://www.gasnews.com/news/articleView.html?idxno=127086",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -480,7 +774,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=373154",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 35,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -502,7 +796,7 @@
     ],
     "url": "https://www.news1.kr/local/daegu-gyeongbuk/6312548",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 36,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -525,7 +819,7 @@
     ],
     "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=89968",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 37,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -547,7 +841,7 @@
     ],
     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438023",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 38,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -569,7 +863,7 @@
     ],
     "url": "https://www.nongmin.com/article/20261002500583",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 39,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -591,7 +885,7 @@
     ],
     "url": "https://www.hankookilbo.com/news/article/A2026100513440001053?did=NA",
     "is_today": "Y",
-    "display_order": 27,
+    "display_order": 40,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -613,7 +907,29 @@
     ],
     "url": "http://www.gjdream.com/news/articleView.html?idxno=673207",
     "is_today": "Y",
-    "display_order": 28,
+    "display_order": 41,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261008-1126",
+    "date": "2026.10.08",
+    "datetime": "2026.10.08 09:14",
+    "title": "美 부통령 \"알래스카 LNG 완수\"···한국은 상업성 검토 단계",
+    "source": "스마트비즈",
+    "priority": "참고",
+    "category": "LNG·에너지안보",
+    "detail_category": "알래스카 LNG",
+    "summary": "JD 밴스 미국 부통령이 알래스카 LNG 사업을 완수하겠다고 밝혔으나 한국 정부는 투자 여부와 규모가 정해지지 않았다는 입장이라는 내용이다.",
+    "implication": "알래스카 LNG 도입 여부는 중장기 LNG 도입 전략과 가격 협상에 영향을 줄 수 있어 참고할 만하다.",
+    "tags": [
+      "알래스카 LNG",
+      "밴스",
+      "한미 협력"
+    ],
+    "url": "https://www.smartbizn.com/news/articleView.html?idxno=155868",
+    "is_today": "Y",
+    "display_order": 42,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -634,7 +950,7 @@
     ],
     "url": "https://www.mt.co.kr/stock/2026/10/07/2026100715334441612",
     "is_today": "Y",
-    "display_order": 29,
+    "display_order": 43,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -656,7 +972,7 @@
     ],
     "url": "https://www.kbmaeil.com/article/20261007500505",
     "is_today": "Y",
-    "display_order": 30,
+    "display_order": 44,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -678,7 +994,7 @@
     ],
     "url": "http://www.intn.co.kr/news/articleView.html?idxno=2053879",
     "is_today": "Y",
-    "display_order": 31,
+    "display_order": 45,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -701,7 +1017,7 @@
     ],
     "url": "https://www.hankyung.com/article/202610077695i",
     "is_today": "Y",
-    "display_order": 32,
+    "display_order": 46,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -724,7 +1040,7 @@
     ],
     "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065577535661995",
     "is_today": "Y",
-    "display_order": 33,
+    "display_order": 47,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -746,7 +1062,7 @@
     ],
     "url": "https://biz.chosun.com/policy/politics/president_office/2026/10/07/IOLTWNPSYJBKVIICHFNFCCSTQ4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
     "is_today": "Y",
-    "display_order": 34,
+    "display_order": 48,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -768,7 +1084,7 @@
     ],
     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3714720",
     "is_today": "Y",
-    "display_order": 35,
+    "display_order": 49,
     "is_key_issue": "N",
     "issue_order": 9999
   }
