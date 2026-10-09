@@ -1,11 +1,11 @@
 ﻿{
-  "generated_at": "2026.10.09 02:35:25",
+  "generated_at": "2026.10.09 07:34:41",
   "base_date": "2026.10.09",
-  "total_articles": 717,
-  "today_articles": 46,
+  "total_articles": 720,
+  "today_articles": 49,
   "archive_articles": 671,
   "important_articles": 1,
-  "normal_articles": 38,
+  "normal_articles": 41,
   "reference_articles": 7,
   "top_keywords": [
     "데이터센터",
@@ -16,16 +16,16 @@
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 38,
+    "보통": 41,
     "참고": 7
   },
   "category_counts": {
     "정책·제도": 10,
+    "산업·고객": 11,
+    "AI·데이터센터": 6,
     "LNG·에너지안보": 9,
-    "AI·데이터센터": 5,
-    "산업·고객": 10,
     "탄소·ESG": 5,
-    "계통·인프라": 4,
+    "계통·인프라": 5,
     "전력시장": 3
   },
   "key_issues": [
@@ -39,22 +39,22 @@
       "url": "https://www.chosun.com/opinion/editorial/2026/10/09/LLQLBWABDVHURGPFM7EZOPR3RI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
     },
     {
-      "id": "N20261009-1153",
+      "id": "N20261009-1158",
       "issue_order": 2,
-      "title": "한난 수원사업소, 중유설비 연내 가동 종료 앞두고 주민과 머리 맞대",
-      "summary": "한국지역난방공사 수원사업소가 중유 설비를 LNG 설비로 교체하는 친환경에너지개선공사를 연내 마무리하며 주민에게 진행 상황을 설명했다는 내용이다.",
-      "implication": "동종 집단에너지 사업자의 연료전환 추진 사례로 당사 LNG 전환 추진 시 주민 소통 측면에서 참고할 수 있다.",
-      "category": "정책·제도",
-      "url": "https://www.thepublic.kr/news/articleView.html?idxno=321505"
+      "title": "순천시, 이차전지 특화단지 품고 방산까지… 미래 첨단산업 생태계 확장",
+      "summary": "순천시가 이차전지 특화단지 지정을 계기로 순천의 소재·정밀제조, 광양의 철강·이차전지 소재, 여수의 석유화학·첨단소재를 연결해 광양만권 산업 생태계를 확장한다는 내용이다.",
+      "implication": "여수·광양·순천권 특화단지 지정에 따른 신규 입주·투자는 잠재적인 열·전력 수요로 이어질 수 있어 추이를 볼 필요가 있다.",
+      "category": "산업·고객",
+      "url": "http://www.bizwnews.com/news/articleView.html?idxno=148511"
     },
     {
-      "id": "N20261009-1156",
+      "id": "N20261009-1159",
       "issue_order": 3,
-      "title": "지지율 하락·유가 부담 트럼프, “중간선거 전 이란 공격 안 해”",
-      "summary": "트럼프 대통령이 11월 3일 중간선거 전 이란을 공격하지 않겠다고 밝혔으며, 미국과 이란은 우라늄 농축과 호르무즈 해협 문제로 협상 간극이 평행선이라는 내용이다.",
-      "implication": "중동 군사 충돌 우려가 일시 완화됐으나 협상 불확실성이 남아 LNG·유가 변동 리스크는 계속 점검이 필요하다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.g-enews.com/view.php?ud=202610090725331692fda4f5ab74_1"
+      "title": "“물·전기 늦어도 선착공”… 호남 간 최태원, 반도체 ‘속도전’ 승부...",
+      "summary": "최태원 SK 회장이 광주 반도체 부지를 방문해 정부의 전력·용수 공급망 구축과 팹 건설을 동시에 진행해 사업 기간을 줄이겠다는 청사진을 제시했다는 내용이다.",
+      "implication": "호남권 대규모 반도체 투자는 지역 전력수요와 계통 여건을 바꾸는 요인으로, 남부권 설비 이용률 관점에서 참고할 만하다.",
+      "category": "산업·고객",
+      "url": "https://www.dt.co.kr/article/12088192?ref=naver"
     }
   ]
 }
