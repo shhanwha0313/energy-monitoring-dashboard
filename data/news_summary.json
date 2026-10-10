@@ -1,60 +1,58 @@
 ﻿{
-  "generated_at": "2026.10.10 07:33:21",
-  "base_date": "2026.10.10",
-  "total_articles": 735,
-  "today_articles": 28,
-  "archive_articles": 707,
-  "important_articles": 1,
-  "normal_articles": 21,
-  "reference_articles": 6,
+  "generated_at": "2026.10.10 21:33:31",
+  "base_date": "2026.10.11",
+  "total_articles": 742,
+  "today_articles": 17,
+  "archive_articles": 725,
+  "important_articles": 0,
+  "normal_articles": 14,
+  "reference_articles": 3,
   "top_keywords": [
-    "HVDC",
-    "K-GX",
     "LNG",
-    "데이터센터",
-    "한전"
+    "석유화학",
+    "12차 전기본",
+    "ESS",
+    "GS"
   ],
   "priority_counts": {
-    "중요": 1,
-    "보통": 21,
-    "참고": 6
+    "보통": 14,
+    "참고": 3
   },
   "category_counts": {
-    "정책·제도": 7,
-    "산업·고객": 4,
-    "계통·인프라": 3,
+    "정책·제도": 4,
     "전력시장": 2,
-    "LNG·에너지안보": 7,
-    "탄소·ESG": 1,
-    "AI·데이터센터": 4
+    "AI·데이터센터": 3,
+    "산업·고객": 2,
+    "계통·인프라": 2,
+    "LNG·에너지안보": 4
   },
   "key_issues": [
     {
-      "id": "N20261009-1137",
+      "id": "N20261010-1177",
       "issue_order": 1,
-      "title": "‘無탄소 녹색 대전환’ 선언, 필요한 전기는 어디서 나오나",
-      "summary": "정부가 철강·석유화학 등 배출 많은 업종의 공정 전환과 2030년 재생에너지 설비 100GW 확대를 담은 '무탄소 녹색 대전환' 구상을 선언했고, 이에 필요한 전기를 어디서 조달할지가 쟁점이라는 내용이다.",
-      "implication": "석유화학 고객사의 공정 전환 및 탄소 규제 방향이 구체화되는 만큼 증기·전력 수요와 배출권·재생에너지 정책에 미칠 영향을 점검할 필요가 있다.",
+      "title": "국가 전력수급 설계하는데 명단은 ‘비공개’…국감장 달군 비밀의 ‘전...",
+      "summary": "12차 전력수급기본계획 총괄위원회가 2040년 최대전력 수요를 최대 165GW로 재전망했으며, 국정감사에서 위원 명단 비공개 문제가 제기됐다는 내용이다.",
+      "implication": "전기본 수요 전망과 전원 구성 논의가 진행 중이어서 석탄 전환·LNG 역할 관련 후속 절차를 확인할 필요가 있다.",
       "category": "정책·제도",
-      "url": "https://www.chosun.com/opinion/editorial/2026/10/09/LLQLBWABDVHURGPFM7EZOPR3RI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+      "url": "https://www.mk.co.kr/article/12172799"
     },
     {
-      "id": "N20261010-1175",
+      "id": "N20261010-1181",
       "issue_order": 2,
-      "title": "금융위, 한국형 녹색대전환(K-GX)에 정부 1천조원·민간 시...",
-      "summary": "금융위가 한국형 녹색대전환(K-GX)에 정부 1천조원과 민간 자금을 투입한다는 구상을 내놓았고, 제주 등에서 히트펌프·ESS 배전망·VPP 등 탈탄소 선도사업을 실증한다는 내용이다.",
-      "implication": "탈탄소 전환 금융지원 방향이 구체화되고 있어 당사 LNG 전환·바이오매스·CCU 과제의 자금 조달 및 지원 활용 가능성을 점검할 필요가 있다.",
-      "category": "정책·제도",
-      "url": "http://www.sisacast.kr/news/articleView.html?idxno=100862"
+      "title": "도축업계 전기요금 부담 커져...\"대책 필요\"",
+      "summary": "제주 축협 공판장의 연간 전기요금이 4년간 2배로 늘었다며 산업용 전기요금 인상에 따른 대책이 필요하다는 지적이 국정감사에서 나왔다는 내용이다.",
+      "implication": "산업용 요금 인상에 대한 고객 부담 인식이 커지고 있어 요금 정책 동향을 지속 확인할 필요가 있다.",
+      "category": "전력시장",
+      "url": "https://www.jibs.co.kr/news/replay/viewNewsReplayDetail/2026101021401489631?feed=na"
     },
     {
-      "id": "N20261010-1173",
+      "id": "N20261010-1179",
       "issue_order": 3,
-      "title": "부산상의, 전재수 시장 초청 간담회...가덕신공항.취수원 다변화 등 5대...",
-      "summary": "부산상의가 간담회에서 지역 기여도를 반영한 지역별 전기요금제 시행을 건의했다는 내용이다.",
-      "implication": "지역별 요금제에 대한 지자체·업계의 요구가 이어지고 있어 LMP 도입 논의의 지역 여론을 점검할 수 있다.",
-      "category": "정책·제도",
-      "url": "http://www.breaknews.com/1242004"
+      "title": "최태원 SK 회장, 광주 부지 점검... 400조 투자 속도전 주문",
+      "summary": "최태원 SK 회장이 광주 반도체 부지를 점검하며 전력·용수·교통 등 기반시설 준비 상황을 보고받고 속도감 있는 추진을 주문했다는 내용이다.",
+      "implication": "호남권 대규모 반도체 투자는 지역 전력수요 증가 요인으로, 남부권 설비 이용률 관점에서 참고할 만하다.",
+      "category": "AI·데이터센터",
+      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=278543"
     }
   ]
 }
