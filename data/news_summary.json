@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.10.09 21:36:50",
+  "generated_at": "2026.10.10 02:34:27",
   "base_date": "2026.10.10",
-  "total_articles": 727,
-  "today_articles": 20,
+  "total_articles": 733,
+  "today_articles": 26,
   "archive_articles": 707,
   "important_articles": 1,
-  "normal_articles": 15,
-  "reference_articles": 4,
+  "normal_articles": 20,
+  "reference_articles": 5,
   "top_keywords": [
+    "HVDC",
+    "LNG",
+    "한전",
     "호르무즈",
-    "12차 전기본",
-    "AI 데이터센터",
-    "AIDC",
-    "EU 가스 저장률"
+    "12차 전기본"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 15,
-    "참고": 4
+    "보통": 20,
+    "참고": 5
   },
   "category_counts": {
-    "정책·제도": 5,
-    "LNG·에너지안보": 6,
+    "정책·제도": 6,
+    "산업·고객": 4,
+    "계통·인프라": 3,
+    "전력시장": 2,
+    "LNG·에너지안보": 7,
     "탄소·ESG": 1,
-    "AI·데이터센터": 3,
-    "산업·고객": 3,
-    "전력시장": 1,
-    "계통·인프라": 1
+    "AI·데이터센터": 3
   },
   "key_issues": [
     {
@@ -39,22 +39,22 @@
       "url": "https://www.chosun.com/opinion/editorial/2026/10/09/LLQLBWABDVHURGPFM7EZOPR3RI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
     },
     {
-      "id": "N20261010-1165",
+      "id": "N20261010-1173",
       "issue_order": 2,
-      "title": "'석탄 사랑' 트럼프의 이란전쟁이 바꾼 에너지 판도",
-      "summary": "이란 전쟁으로 에너지 안보를 위해서도 화석연료 의존도를 낮춰야 한다는 논리가 힘을 얻고 있으며, IEA 기준 33개국이 화석연료에서 전기로 전환하는 대응에 나섰다는 내용이다.",
-      "implication": "중동 분쟁이 각국의 에너지 전환 정책에 영향을 주고 있어 LNG 가격과 수급 환경 점검 시 참고할 만하다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.ytn.co.kr/_ln/0104_202610100423153701"
+      "title": "부산상의, 전재수 시장 초청 간담회...가덕신공항.취수원 다변화 등 5대...",
+      "summary": "부산상의가 간담회에서 지역 기여도를 반영한 지역별 전기요금제 시행을 건의했다는 내용이다.",
+      "implication": "지역별 요금제에 대한 지자체·업계의 요구가 이어지고 있어 LMP 도입 논의의 지역 여론을 점검할 수 있다.",
+      "category": "정책·제도",
+      "url": "http://www.breaknews.com/1242004"
     },
     {
-      "id": "N20261010-1166",
+      "id": "N20261010-1172",
       "issue_order": 3,
-      "title": "이란 혁명수비대, 호르무즈서 LPG 운반선 공격…美 지원 항로 겨냥",
-      "summary": "이란 혁명수비대가 호르무즈 해협에서 LPG 운반선을 공격해 LNG·LPG 운송 비용 상승과 공급 차질 우려가 다시 커졌다는 내용이다.",
-      "implication": "호르무즈 해상 위험이 반복되면 발전용 LNG 도입 비용과 수급에 영향을 줄 수 있어 모니터링이 필요하다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=90223"
+      "title": "줄일 곳 줄이고 키울 곳 키운다…롯데케미칼 '라인 재정비'",
+      "summary": "롯데케미칼이 공급과잉에 대응해 국내 범용 석유화학 설비를 줄이고 인도네시아 라인 프로젝트를 키운다는 내용이다.",
+      "implication": "석유화학 설비 감축은 산단 내 증기·전력 수요 감소 요인이 될 수 있어 고객사 가동 동향을 확인할 필요가 있다.",
+      "category": "산업·고객",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1412900"
     }
   ]
 }
