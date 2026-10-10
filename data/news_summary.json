@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.10.10 02:34:27",
+  "generated_at": "2026.10.10 07:33:21",
   "base_date": "2026.10.10",
-  "total_articles": 733,
-  "today_articles": 26,
+  "total_articles": 735,
+  "today_articles": 28,
   "archive_articles": 707,
   "important_articles": 1,
-  "normal_articles": 20,
-  "reference_articles": 5,
+  "normal_articles": 21,
+  "reference_articles": 6,
   "top_keywords": [
     "HVDC",
+    "K-GX",
     "LNG",
-    "한전",
-    "호르무즈",
-    "12차 전기본"
+    "데이터센터",
+    "한전"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 20,
-    "참고": 5
+    "보통": 21,
+    "참고": 6
   },
   "category_counts": {
-    "정책·제도": 6,
+    "정책·제도": 7,
     "산업·고객": 4,
     "계통·인프라": 3,
     "전력시장": 2,
     "LNG·에너지안보": 7,
     "탄소·ESG": 1,
-    "AI·데이터센터": 3
+    "AI·데이터센터": 4
   },
   "key_issues": [
     {
@@ -39,22 +39,22 @@
       "url": "https://www.chosun.com/opinion/editorial/2026/10/09/LLQLBWABDVHURGPFM7EZOPR3RI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
     },
     {
-      "id": "N20261010-1173",
+      "id": "N20261010-1175",
       "issue_order": 2,
+      "title": "금융위, 한국형 녹색대전환(K-GX)에 정부 1천조원·민간 시...",
+      "summary": "금융위가 한국형 녹색대전환(K-GX)에 정부 1천조원과 민간 자금을 투입한다는 구상을 내놓았고, 제주 등에서 히트펌프·ESS 배전망·VPP 등 탈탄소 선도사업을 실증한다는 내용이다.",
+      "implication": "탈탄소 전환 금융지원 방향이 구체화되고 있어 당사 LNG 전환·바이오매스·CCU 과제의 자금 조달 및 지원 활용 가능성을 점검할 필요가 있다.",
+      "category": "정책·제도",
+      "url": "http://www.sisacast.kr/news/articleView.html?idxno=100862"
+    },
+    {
+      "id": "N20261010-1173",
+      "issue_order": 3,
       "title": "부산상의, 전재수 시장 초청 간담회...가덕신공항.취수원 다변화 등 5대...",
       "summary": "부산상의가 간담회에서 지역 기여도를 반영한 지역별 전기요금제 시행을 건의했다는 내용이다.",
       "implication": "지역별 요금제에 대한 지자체·업계의 요구가 이어지고 있어 LMP 도입 논의의 지역 여론을 점검할 수 있다.",
       "category": "정책·제도",
       "url": "http://www.breaknews.com/1242004"
-    },
-    {
-      "id": "N20261010-1172",
-      "issue_order": 3,
-      "title": "줄일 곳 줄이고 키울 곳 키운다…롯데케미칼 '라인 재정비'",
-      "summary": "롯데케미칼이 공급과잉에 대응해 국내 범용 석유화학 설비를 줄이고 인도네시아 라인 프로젝트를 키운다는 내용이다.",
-      "implication": "석유화학 설비 감축은 산단 내 증기·전력 수요 감소 요인이 될 수 있어 고객사 가동 동향을 확인할 필요가 있다.",
-      "category": "산업·고객",
-      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1412900"
     }
   ]
 }

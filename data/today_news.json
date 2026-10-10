@@ -22,6 +22,29 @@
     "issue_order": 1
   },
   {
+    "id": "N20261010-1175",
+    "date": "2026.10.10",
+    "datetime": "2026.10.10 13:20",
+    "title": "금융위, 한국형 녹색대전환(K-GX)에 정부 1천조원·민간 시...",
+    "source": "시사캐스트",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "탄소중립 금융지원",
+    "summary": "금융위가 한국형 녹색대전환(K-GX)에 정부 1천조원과 민간 자금을 투입한다는 구상을 내놓았고, 제주 등에서 히트펌프·ESS 배전망·VPP 등 탈탄소 선도사업을 실증한다는 내용이다.",
+    "implication": "탈탄소 전환 금융지원 방향이 구체화되고 있어 당사 LNG 전환·바이오매스·CCU 과제의 자금 조달 및 지원 활용 가능성을 점검할 필요가 있다.",
+    "tags": [
+      "K-GX",
+      "녹색대전환",
+      "탈탄소",
+      "ESS"
+    ],
+    "url": "http://www.sisacast.kr/news/articleView.html?idxno=100862",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
     "id": "N20261010-1173",
     "date": "2026.10.10",
     "datetime": "2026.10.10 10:22",
@@ -38,9 +61,9 @@
     ],
     "url": "http://www.breaknews.com/1242004",
     "is_today": "Y",
-    "display_order": 2,
+    "display_order": 3,
     "is_key_issue": "Y",
-    "issue_order": 2
+    "issue_order": 3
   },
   {
     "id": "N20261010-1172",
@@ -60,9 +83,9 @@
     ],
     "url": "https://daily.hankooki.com/news/articleView.html?idxno=1412900",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261010-1171",
@@ -82,7 +105,7 @@
     ],
     "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=65547",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 5,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -104,7 +127,7 @@
     ],
     "url": "https://www.ilemonde.com/news/articleView.html?idxno=30756",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 6,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -126,7 +149,7 @@
     ],
     "url": "https://www.chosun.com/economy/industry-company/2026/10/10/D7MMQGNRI5ETND2OGODQNF62JQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 7,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -148,7 +171,7 @@
     ],
     "url": "https://www.ytn.co.kr/_ln/0104_202610100423153701",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 8,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -170,7 +193,7 @@
     ],
     "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=90223",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 9,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -192,7 +215,7 @@
     ],
     "url": "https://magazine.hankyung.com/job-joy/article/202610093106d",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 10,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -214,7 +237,7 @@
     ],
     "url": "https://zdnet.co.kr/view/?no=20261009223352",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -236,7 +259,7 @@
     ],
     "url": "https://mpmbc.co.kr/NewsArticle/1540334",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -258,7 +281,7 @@
     ],
     "url": "http://www.bizwnews.com/news/articleView.html?idxno=148511",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -280,7 +303,7 @@
     ],
     "url": "https://www.dt.co.kr/article/12088192?ref=naver",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -302,7 +325,7 @@
     ],
     "url": "https://news.dealsitetv.com/articles/176649",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -324,7 +347,7 @@
     ],
     "url": "https://www.thepublic.kr/news/articleView.html?idxno=321505",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -346,7 +369,7 @@
     ],
     "url": "https://www.g-enews.com/view.php?ud=202610090725331692fda4f5ab74_1",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -369,7 +392,7 @@
     ],
     "url": "https://www.hankyung.com/article/202610080012i",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -391,7 +414,7 @@
     ],
     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3717045",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -413,7 +436,7 @@
     ],
     "url": "http://www.economytalk.kr/news/articleView.html?idxno=424544",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -436,7 +459,7 @@
     ],
     "url": "https://news.mtn.co.kr/article/2026100819462477180",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -458,7 +481,29 @@
     ],
     "url": "https://www.kukinews.com/article/view/kuk202610080218",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 22,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261010-1176",
+    "date": "2026.10.10",
+    "datetime": "2026.10.10 15:20",
+    "title": "AI 데이터센터 전력난에 배터리 화려한 부활…가스터빈보다 저렴하다",
+    "source": "디지털타임스",
+    "priority": "참고",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 전력조달",
+    "summary": "AI 산업 성장으로 전력 확보 경쟁이 치열해지는 가운데 데이터센터의 에너지 조달 방식이 배터리 중심으로 바뀔 가능성을 보여주는 분석이라는 내용이다.",
+    "implication": "데이터센터 전력공급 모델 검토 시 가스 발전 대비 배터리의 경제성 변화를 참고할 수 있다.",
+    "tags": [
+      "데이터센터",
+      "배터리",
+      "가스터빈"
+    ],
+    "url": "https://www.dt.co.kr/article/12088228?ref=naver",
+    "is_today": "Y",
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -480,7 +525,7 @@
     ],
     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494034",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -502,7 +547,7 @@
     ],
     "url": "https://www.tokenpost.kr/news/economy/420439",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -524,7 +569,7 @@
     ],
     "url": "https://www.hankyung.com/article/2026100929371",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -545,7 +590,7 @@
     ],
     "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2328946",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -567,7 +612,7 @@
     ],
     "url": "http://www.e-platform.net/news/articleView.html?idxno=106020",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   }
