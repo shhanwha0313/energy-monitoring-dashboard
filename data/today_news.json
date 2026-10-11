@@ -1,5 +1,137 @@
 ﻿[
   {
+    "id": "N20261011-1187",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 08:47",
+    "title": "강원 '햇빛소득마을' 42곳 선정…41곳은 전력계통 부족 '조건부'",
+    "source": "뉴스1",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "계통 혼잡",
+    "summary": "강원 햇빛소득마을 42곳이 선정됐으나 41곳이 전력계통 부족으로 조건부이며, 강원도가 배전망 확충과 ESS 연계 등 대책을 건의하고 있다는 내용이다.",
+    "implication": "계통 여건이 재생에너지 접속의 제약으로 드러나고 있어 ESS·계통보강 조치가 SMP·LMP에 미칠 영향을 함께 볼 필요가 있다.",
+    "tags": [
+      "햇빛소득마을",
+      "전력계통",
+      "배전망"
+    ],
+    "url": "https://www.news1.kr/local/kangwon/6315748",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
+    "id": "N20261011-1186",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 08:16",
+    "title": "발전용 석탄-LNG 가격 차 4년 만에 최대… 연말 아시아 수입 2000만t 급증...",
+    "source": "글로벌이코노믹",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "석탄-LNG 가격차",
+    "summary": "발전용 석탄 가격이 LNG 대비 4년 만에 가장 큰 폭으로 저렴해져 동아시아 전력회사들의 재고 확충이 본격화하고 있고, 동계 석탄 수입 경쟁이 심화한다는 내용이다.",
+    "implication": "석탄과 LNG의 연료 경제성 격차는 석탄발전의 LNG 전환 손익과 SMP 형성에 영향을 줄 수 있다.",
+    "tags": [
+      "발전용 석탄",
+      "LNG",
+      "가격차"
+    ],
+    "url": "https://www.g-enews.com/view.php?ud=202610101338507209fda4f5ab74_1",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261011-1188",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 07:00",
+    "title": "AI시대 새 진입장벽은 '전력'…3사의 '선점 경쟁'",
+    "source": "더뷰어스",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "전력계통영향평가",
+    "summary": "전력계통영향평가 1차 기술검토를 신청한 데이터센터 사업이 522건, 3만3592MW에 달했으나 최종 전력공급 가능 승인은 10건(1.9%)에 그쳤다는 내용이다.",
+    "implication": "데이터센터 전력공급이 계통 승인에 좌우되는 만큼 자체 열·전력 공급 모델을 검토할 여지가 있다.",
+    "tags": [
+      "데이터센터",
+      "전력계통영향평가",
+      "전력공급"
+    ],
+    "url": "https://theviewers.co.kr/View.aspx?No=4256264",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261011-1184",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 06:00",
+    "title": "메가프로젝트에 전력 수요 급증…정부, 전력망 계획 원점부터 다시 짠다",
+    "source": "뉴시스",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "전력망 계획",
+    "summary": "김성환 기후부 장관이 국정감사에서 12차 전기본을 확정하는 과정에서 전력망 계획을 원점에서 다시 들여다보겠다고 밝혔다는 내용이다.",
+    "implication": "전력망 계획 재검토 결과가 송전망·계통접속 일정과 지역별 요금 논의에 영향을 줄 수 있어 12차 전기본 확정 과정을 지켜볼 필요가 있다.",
+    "tags": [
+      "12차 전기본",
+      "전력망 계획",
+      "국정감사"
+    ],
+    "url": "https://www.newsis.com/view/NISX20261008_0003819341",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261011-1185",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 06:00",
+    "title": "유럽 가스 재고율 73% '비상'…한국 LNG 도입 가격도 오르나",
+    "source": "뉴스1",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG 도입가격",
+    "summary": "유럽의 천연가스 재고율이 73%로 전년 동기보다 10%포인트 낮아져 겨울철 LNG 확보 경쟁이 치열해지고 있으며, 올해 4분기 유럽 LNG 수입량은 전년 대비 6.5% 늘 것으로 전망된다는 내용이다.",
+    "implication": "유럽 수요 증가는 국내 LNG 도입가격과 발전용 가스 조달 여건에 부담 요인이 될 수 있어 LNG 전환 및 복합발전 연료비 검토 시 참고할 필요가 있다.",
+    "tags": [
+      "LNG",
+      "유럽 재고",
+      "도입가격"
+    ],
+    "url": "https://www.news1.kr/industry/general-industry/6315438",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261011-1189",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 06:00",
+    "title": "생산 줄어든 시멘트업계, 탄소배출권 적극 처분…\"안 팔면 이월도 못해...",
+    "source": "뉴스핌",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "배출권 거래",
+    "summary": "시멘트업계가 건설경기 불황으로 생산이 줄자 남는 탄소배출권을 적극 처분하고 있다는 내용이다.",
+    "implication": "산업계 배출권 매도 확대는 배출권 수급과 가격에 영향을 줄 수 있어 당사 배출권 운용 관점에서 확인할 필요가 있다.",
+    "tags": [
+      "배출권",
+      "시멘트",
+      "이월"
+    ],
+    "url": "https://www.newspim.com/news/view/20261008001232",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261010-1177",
     "date": "2026.10.10",
     "datetime": "2026.10.10 22:56",
@@ -17,9 +149,9 @@
     ],
     "url": "https://www.mk.co.kr/article/12172799",
     "is_today": "Y",
-    "display_order": 1,
-    "is_key_issue": "Y",
-    "issue_order": 1
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261010-1181",
@@ -38,9 +170,9 @@
     ],
     "url": "https://www.jibs.co.kr/news/replay/viewNewsReplayDetail/2026101021401489631?feed=na",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261010-1179",
@@ -60,9 +192,9 @@
     ],
     "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=278543",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261010-1178",
@@ -82,7 +214,7 @@
     ],
     "url": "https://www.newswhoplus.com/news/articleView.html?idxno=71389",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 10,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -104,7 +236,7 @@
     ],
     "url": "https://www.tournews21.com/news/articleView.html?idxno=145377",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -126,7 +258,7 @@
     ],
     "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=815414",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -149,7 +281,7 @@
     ],
     "url": "http://www.sisacast.kr/news/articleView.html?idxno=100862",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -170,7 +302,7 @@
     ],
     "url": "http://www.breaknews.com/1242004",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -192,7 +324,7 @@
     ],
     "url": "https://daily.hankooki.com/news/articleView.html?idxno=1412900",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -214,7 +346,7 @@
     ],
     "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=65547",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -236,7 +368,7 @@
     ],
     "url": "https://www.ilemonde.com/news/articleView.html?idxno=30756",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -258,7 +390,7 @@
     ],
     "url": "https://www.chosun.com/economy/industry-company/2026/10/10/D7MMQGNRI5ETND2OGODQNF62JQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -280,7 +412,7 @@
     ],
     "url": "https://www.ytn.co.kr/_ln/0104_202610100423153701",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -302,7 +434,51 @@
     ],
     "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=90223",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 20,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261011-1190",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 11:02",
+    "title": "HS효성첨단소재, 재생전력 늘리고 폐열 다시 쓴다",
+    "source": "이뉴스투데이",
+    "priority": "참고",
+    "category": "탄소·ESG",
+    "detail_category": "폐열 활용",
+    "summary": "HS효성첨단소재가 2030년까지 온실가스 직간접 배출을 2021년 대비 42% 줄일 계획이며, 재생전력을 늘리고 폐열을 재활용한다는 내용이다.",
+    "implication": "고객사가 외부 구매 전력·스팀 배출까지 감축 대상으로 삼고 있어 스팀 공급 고객의 탈탄소 요구를 가늠할 수 있다.",
+    "tags": [
+      "폐열",
+      "스팀",
+      "온실가스 감축"
+    ],
+    "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2478670",
+    "is_today": "Y",
+    "display_order": 21,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261011-1191",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 10:02",
+    "title": "재정 자립도 8%에도 현금 뿌리고, 공기업은 적자에도 요금 묶고 … '포퓰...",
+    "source": "뉴데일리경제",
+    "priority": "참고",
+    "category": "정책·제도",
+    "detail_category": "한전 재무·전기요금",
+    "summary": "정부가 결정한 전기요금 동결에 따른 재무부담을 공기업이 떠안고 있다는 점을 포퓰리즘 비판과 함께 짚은 내용이다.",
+    "implication": "요금 동결이 한전 재무에 누적되는 구조는 향후 요금 인상 압력으로 이어질 수 있어 산업용 요금 전망에 참고할 만하다.",
+    "tags": [
+      "전기요금 동결",
+      "공기업 재무",
+      "한전"
+    ],
+    "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/08/2026100800363.html",
+    "is_today": "Y",
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -324,7 +500,7 @@
     ],
     "url": "https://magazine.hankyung.com/business/article/202610089570b",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -346,7 +522,7 @@
     ],
     "url": "https://www.dt.co.kr/article/12088228?ref=naver",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -368,7 +544,7 @@
     ],
     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494034",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   }
