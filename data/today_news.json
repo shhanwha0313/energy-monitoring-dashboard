@@ -1,5 +1,181 @@
 ﻿[
   {
+    "id": "N20261011-1192",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 14:18",
+    "title": "원전 건설 공론화 또 한다는데… 이번에도 결론은 정부 몫",
+    "source": "뉴스1",
+    "priority": "중요",
+    "category": "정책·제도",
+    "detail_category": "전력수급기본계획",
+    "summary": "원전 건설 공론화 추진으로 12차 전기본 정부안 확정이 기존 10월에서 내년 초로 미뤄졌고, 공론화위 권고는 구속력이 없다는 업계 지적이 나온다는 내용이다.",
+    "implication": "전기본 확정 지연으로 석탄 폐지·LNG 역할 등 당사 설비 전환 계획에 반영할 정책 확정 시점도 늦어질 수 있어 일정 점검이 필요하다.",
+    "tags": [
+      "12차 전기본",
+      "원전 공론화",
+      "정부안 확정 연기"
+    ],
+    "url": "https://www.viva100.com/article/20261011500516",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
+    "id": "N20261011-1198",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 15:48",
+    "title": "구리자원회수시설 소각열, 토평2지구 집단에너지로 공급…‘친환경 에...",
+    "source": "경기신문",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "재생열",
+    "summary": "구리시가 자원회수시설의 소각 폐열을 신규 주택지구 토평2지구에 집단에너지로 공급해 연 4억 원 재정 수입을 기대한다는 내용이다.",
+    "implication": "폐열 기반 집단에너지 공급 사례로 재생열 활용 정책과 지자체 협력 모델을 검토하는 데 참고가 된다.",
+    "tags": [
+      "소각열",
+      "집단에너지",
+      "폐열"
+    ],
+    "url": "https://www.kgnews.co.kr/news/article.html?no=914566",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261011-1199",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 15:42",
+    "title": "\"청주를 남북으로 가르는 345kv 송전선로 건설 규탄한다\"",
+    "source": "굿모닝충청",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "송전선로 갈등",
+    "summary": "경기 남부 발전력의 계통 연결을 위한 345kV 신서원개폐소-신진천 송전선로가 청주를 관통하게 되자 환경단체가 건설 규탄 성명을 냈다는 내용이다.",
+    "implication": "송전망 건설이 주민 반대로 지연되는 사례가 늘어 계통 혼잡과 지역별 가격 신호에 영향을 줄 수 있다.",
+    "tags": [
+      "345kV",
+      "송전선로",
+      "입지 갈등"
+    ],
+    "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=453731",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261011-1193",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 14:06",
+    "title": "산업용 차등 전기요금제 연내 확정 추진…인천 발전 기여도 반영이 관건",
+    "source": "경기방송",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "지역별 차등요금",
+    "summary": "산업용 지역 차등 전기요금제가 연내 확정을 목표로 추진되는 가운데, 정부 설계안이 개별 시·도 전력자급률 대신 광역권 간 기준을 적용해 인천 등이 발전 기여도 반영을 요구한다는 내용이다.",
+    "implication": "연내 확정 추진 시 여수 등 남부권 산업단지 고객의 요금 구조와 당사 열·전력 수요에 영향을 줄 수 있어 설계안 추이를 확인해야 한다.",
+    "tags": [
+      "지역별 차등요금",
+      "산업용 전기요금",
+      "연내 확정"
+    ],
+    "url": "https://www.kgnews.co.kr/news/article.html?no=914579",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261011-1196",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 13:32",
+    "title": "이종배 의원, 한전 기본요금 기존 산업에도 첨단 데이터센터에도 불합리",
+    "source": "충청타임즈",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "전기요금 기본요금",
+    "summary": "이종배 의원이 요금적용전력 기준을 한 달 단위 등으로 완화해 기존 산업과 첨단 데이터센터의 기본요금 부담을 줄여야 한다고 주장했다는 내용이다.",
+    "implication": "산업용 기본요금 체계 개편 논의는 고객사의 전력 구입 비용과 자가발전·열병합 수요에 영향을 줄 수 있다.",
+    "tags": [
+      "기본요금",
+      "요금적용전력",
+      "데이터센터"
+    ],
+    "url": "http://www.cctimes.kr/news/articleView.html?idxno=931349",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261011-1194",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 13:00",
+    "title": "전력 원가·요금 괴리 커져…산업용 전기료 딜레마",
+    "source": "m-i.kr",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "SMP·산업용 전기요금",
+    "summary": "통합 SMP가 6월 kWh당 114.10원에서 8월 148.39원으로 뛰었다가 9월 119.02원으로 하락했으며, 전력 원가와 요금 간 괴리로 산업용 전기료가 딜레마에 놓였다는 내용이다.",
+    "implication": "SMP 변동과 요금 괴리는 당사 전력 판매 수익과 고객사 요금 부담 양쪽에 영향을 주므로 동향 모니터링이 필요하다.",
+    "tags": [
+      "SMP",
+      "산업용 전기요금",
+      "한전 전력구입비"
+    ],
+    "url": "https://www.m-i.kr/news/articleView.html?idxno=2004042",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261011-1197",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 12:39",
+    "title": "세종시에 7조 원 투입 ··· 360㎿급 AI 데이터센터 추진",
+    "source": "금강일보",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 투자",
+    "summary": "세종시가 SK증권 등과 7조 원 규모, 360MW급 AI 데이터센터 투자협약을 맺고 부지·전력·용수 등 기반시설 확보를 지원한다는 내용이다.",
+    "implication": "대규모 데이터센터의 전력공급 모델과 입지 추진 사례로 당사 데이터센터 전력공급 검토에 참고할 수 있다.",
+    "tags": [
+      "세종",
+      "AI 데이터센터",
+      "360MW"
+    ],
+    "url": "https://www.ggilbo.com/news/articleView.html?idxno=1185909",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261011-1195",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 12:03",
+    "title": "세계 2위 전력회사 이베르드롤라 “비용·수익 확정돼야 투자”…한국은...",
+    "source": "세계일보",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "RPS 제도 개편",
+    "summary": "한국이 내년 1월 개정법 시행으로 RPS를 경쟁 입찰 기반 장기고정가격 계약시장으로 일원화할 예정이며, 이베르드롤라는 비용·수익이 확정돼야 투자하겠다고 밝혔다는 내용이다.",
+    "implication": "RPS 일원화 시행 일정이 확인되어 당사 바이오매스 REC 수익 구조 변화에 대비한 검토가 필요하다.",
+    "tags": [
+      "RPS",
+      "장기고정가격",
+      "경쟁입찰"
+    ],
+    "url": "https://www.segye.com/newsView/20261010502777?OutUrl=naver",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261011-1187",
     "date": "2026.10.11",
     "datetime": "2026.10.11 08:47",
@@ -17,9 +193,9 @@
     ],
     "url": "https://www.news1.kr/local/kangwon/6315748",
     "is_today": "Y",
-    "display_order": 1,
-    "is_key_issue": "Y",
-    "issue_order": 1
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261011-1186",
@@ -39,9 +215,9 @@
     ],
     "url": "https://www.g-enews.com/view.php?ud=202610101338507209fda4f5ab74_1",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261011-1188",
@@ -61,9 +237,9 @@
     ],
     "url": "https://theviewers.co.kr/View.aspx?No=4256264",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 11,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261011-1184",
@@ -83,7 +259,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261008_0003819341",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -105,7 +281,7 @@
     ],
     "url": "https://www.news1.kr/industry/general-industry/6315438",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -127,7 +303,7 @@
     ],
     "url": "https://www.newspim.com/news/view/20261008001232",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -149,7 +325,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12172799",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -170,7 +346,7 @@
     ],
     "url": "https://www.jibs.co.kr/news/replay/viewNewsReplayDetail/2026101021401489631?feed=na",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -192,7 +368,7 @@
     ],
     "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=278543",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -214,7 +390,7 @@
     ],
     "url": "https://www.newswhoplus.com/news/articleView.html?idxno=71389",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -236,7 +412,7 @@
     ],
     "url": "https://www.tournews21.com/news/articleView.html?idxno=145377",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -258,7 +434,7 @@
     ],
     "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=815414",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -281,7 +457,7 @@
     ],
     "url": "http://www.sisacast.kr/news/articleView.html?idxno=100862",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -302,7 +478,7 @@
     ],
     "url": "http://www.breaknews.com/1242004",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -324,7 +500,7 @@
     ],
     "url": "https://daily.hankooki.com/news/articleView.html?idxno=1412900",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -346,7 +522,7 @@
     ],
     "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=65547",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -368,7 +544,7 @@
     ],
     "url": "https://www.ilemonde.com/news/articleView.html?idxno=30756",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -390,7 +566,7 @@
     ],
     "url": "https://www.chosun.com/economy/industry-company/2026/10/10/D7MMQGNRI5ETND2OGODQNF62JQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -412,7 +588,7 @@
     ],
     "url": "https://www.ytn.co.kr/_ln/0104_202610100423153701",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -434,7 +610,29 @@
     ],
     "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=90223",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 28,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261011-1200",
+    "date": "2026.10.11",
+    "datetime": "2026.10.11 15:50",
+    "title": "GS건설 합작 아문에너지, 국내 첫 발전용 그린암모니아 공급계약",
+    "source": "더데일리포스트",
+    "priority": "참고",
+    "category": "정책·제도",
+    "detail_category": "분산발전·그린암모니아",
+    "summary": "GS건설 합작 아문에너지가 국내 첫 발전용 그린암모니아 공급계약을 체결했으며, 지난해 9월 청정암모니아 기반 무탄소 전력 생산 MOU의 후속 조치라는 내용이다.",
+    "implication": "무탄소 연료 기반 분산발전 사례로 향후 LNG 발전 탈탄소 전환 옵션 검토에 참고할 수 있다.",
+    "tags": [
+      "그린암모니아",
+      "분산발전",
+      "무탄소 전력"
+    ],
+    "url": "https://www.thedailypost.kr/news/articleView.html?idxno=116131",
+    "is_today": "Y",
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -456,7 +654,7 @@
     ],
     "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2478670",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -478,7 +676,7 @@
     ],
     "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/08/2026100800363.html",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -500,7 +698,7 @@
     ],
     "url": "https://magazine.hankyung.com/business/article/202610089570b",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -522,7 +720,7 @@
     ],
     "url": "https://www.dt.co.kr/article/12088228?ref=naver",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -544,7 +742,7 @@
     ],
     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494034",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   }
