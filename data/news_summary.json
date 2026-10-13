@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.10.12 21:37:31",
+  "generated_at": "2026.10.13 02:43:02",
   "base_date": "2026.10.13",
-  "total_articles": 805,
-  "today_articles": 37,
+  "total_articles": 815,
+  "today_articles": 47,
   "archive_articles": 768,
   "important_articles": 1,
-  "normal_articles": 31,
-  "reference_articles": 5,
+  "normal_articles": 38,
+  "reference_articles": 8,
   "top_keywords": [
     "데이터센터",
     "재생에너지",
     "ESS",
-    "HVDC",
-    "LNG 발전"
+    "LNG 발전",
+    "HVDC"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 31,
-    "참고": 5
+    "보통": 38,
+    "참고": 8
   },
   "category_counts": {
-    "산업·고객": 4,
-    "정책·제도": 10,
+    "산업·고객": 7,
+    "LNG·에너지안보": 6,
+    "정책·제도": 12,
+    "계통·인프라": 6,
     "전력시장": 4,
     "AI·데이터센터": 5,
-    "LNG·에너지안보": 5,
-    "계통·인프라": 4,
-    "탄소·ESG": 3,
+    "탄소·ESG": 5,
     "기타": 2
   },
   "key_issues": [
@@ -40,22 +40,22 @@
       "url": "https://www.vegannews.co.kr/news/article.html?no=392083"
     },
     {
-      "id": "N20261013-1237",
+      "id": "N20261013-1248",
       "issue_order": 2,
-      "title": "발전공기업 5사 통합법안 잇따라…'한국발전' 설립 방식·지배구조 쟁점",
-      "summary": "발전공기업 5사를 통합하는 '한국발전' 설립 법안이 잇따라 발의돼 설립 방식과 지배구조가 쟁점이라는 내용이다.",
-      "implication": "발전 공기업 구조 개편은 석탄 단계적 폐지와 전력시장 경쟁 구도 변화로 이어질 수 있어 동향 확인이 필요하다.",
-      "category": "정책·제도",
-      "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=203973"
+      "title": "중동전쟁 반짝 특수 끝 … 석유화학업계, 3분기 적자 전환 전망",
+      "summary": "중동전쟁 여파로 2분기 깜짝 실적을 냈던 국내 석유화학 업체들이 에틸렌 스프레드 축소와 고가 원료 부담으로 3분기 다시 적자로 돌아설 전망이라는 내용이다.",
+      "implication": "여수 석유화학 고객사의 가동률과 수익성 악화는 증기·전력 수요에 영향을 줄 수 있어 모니터링이 필요하다.",
+      "category": "산업·고객",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/13/2026101300129.html"
     },
     {
-      "id": "N20261013-1241",
+      "id": "N20261013-1250",
       "issue_order": 3,
-      "title": "에너지공급자 '효율향상 의무화' 법제화 추진…고효율·저소비 체계 전...",
-      "summary": "에너지 공급자에게 효율향상을 의무화하는 제도의 법제화가 추진되며 의무목표와 비용회수 방식, 절감성과 검증기준 등이 구체화될 전망이라는 내용이다.",
-      "implication": "에너지공급자로서 당사에 의무 목표와 비용회수 방식이 적용될 수 있는지 확인이 필요하다.",
-      "category": "정책·제도",
-      "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=203971"
+      "title": "정부, 석유·가스공사 통합 추진…노조 \"부실 정리·재무 검토가 먼저\"",
+      "summary": "정부가 석유공사와 가스공사 통합을 추진하는 가운데 가스공사 노조는 부실 정리와 국가 LNG 조달체계의 안정성 검토가 먼저라고 주장한다는 내용이다.",
+      "implication": "발전용 LNG 도입·공급 주체의 구조 변화는 향후 LNG 조달 안정성과 가격 체계에 영향을 줄 수 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.m-economynews.com/news/article.html?no=71468"
     }
   ]
 }
