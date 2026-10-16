@@ -1,31 +1,31 @@
 ﻿{
-  "generated_at": "2026.10.16 02:42:00",
+  "generated_at": "2026.10.16 07:39:32",
   "base_date": "2026.10.16",
-  "total_articles": 910,
-  "today_articles": 41,
+  "total_articles": 918,
+  "today_articles": 49,
   "archive_articles": 869,
   "important_articles": 1,
-  "normal_articles": 32,
-  "reference_articles": 8,
+  "normal_articles": 37,
+  "reference_articles": 11,
   "top_keywords": [
     "석유화학",
     "데이터센터",
+    "한전",
     "12차 전기본",
-    "LNG",
-    "호남 반도체"
+    "LNG"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 32,
-    "참고": 8
+    "보통": 37,
+    "참고": 11
   },
   "category_counts": {
-    "정책·제도": 9,
-    "전력시장": 5,
-    "탄소·ESG": 5,
-    "계통·인프라": 7,
+    "정책·제도": 10,
+    "산업·고객": 8,
+    "계통·인프라": 8,
+    "탄소·ESG": 7,
+    "전력시장": 6,
     "AI·데이터센터": 6,
-    "산업·고객": 5,
     "LNG·에너지안보": 4
   },
   "key_issues": [
@@ -39,22 +39,22 @@
       "url": "https://www.ajunews.com/view/20261015103644728"
     },
     {
-      "id": "N20261016-1348",
+      "id": "N20261016-1356",
       "issue_order": 2,
-      "title": "SK이터닉스, 삼성바이오로직스와 5000억 원 규모 25년 장기 전력공급 계...",
-      "summary": "SK이터닉스가 삼성바이오로직스와 5000억원 규모, 25년 장기 전력공급 계약을 체결했다는 내용이다. 직접PPA는 발전사업자가 전력 사용 기업과 장기계약으로 재생에너지 전력을 공급하는 방식으로 RE100 이행에 활용된다는 내용이다.",
-      "implication": "산업 고객이 직접PPA로 재생에너지 전력을 조달하는 사례가 늘면 기업고객의 전력·열 조달 선택지 변화에 대비한 검토가 필요하다.",
-      "category": "전력시장",
-      "url": "https://www.donga.com/news/Economy/article/all/20261016/134853705/1"
+      "title": "담합 기소 석화 6사, 과징금에 이익 줄어드나",
+      "summary": "가격 담합 혐의로 기소된 석화 6사에 공정위 과징금이 부과되면 올해 결산에 영향을 줄 수 있고 연내 처분 가능성이 거론된다는 내용이다.",
+      "implication": "주요 고객인 석화업체의 수익성 악화는 설비 가동과 증기 수요에 간접 영향을 줄 수 있다.",
+      "category": "산업·고객",
+      "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=424378"
     },
     {
-      "id": "N20261016-1347",
+      "id": "N20261016-1355",
       "issue_order": 3,
-      "title": "정유사 친환경 전환 '의무만으로는 어렵다'...SAF·CCUS 등 정책 지원 필...",
-      "summary": "정유사의 친환경 전환은 의무만으로 어렵고 SAF·CCUS 등에 정책 지원이 필요하다는 내용이다. CCUS 운영에 필요한 탄소가격과 실제 배출권 가격의 차액을 보전하는 구조 등이 제안됐다는 내용이다.",
-      "implication": "CCUS·SAF 사업의 경제성 확보를 위한 차액 보전 등 지원 구조 논의는 당사 바이오 CO₂ 활용 과제 검토 시 참고할 수 있다.",
-      "category": "탄소·ESG",
-      "url": "http://www.e-platform.net/news/articleView.html?idxno=106164"
+      "title": "여수시장, 율촌 미래산단 현장회의…융복합단지 점검",
+      "summary": "여수시장이 율촌 미래산단 현장회의를 열고 석유화학 중심 산업구조를 다변화하기 위해 첨단산업 유치를 추진한다는 내용이다.",
+      "implication": "석유화학 불황 속 신규 산단 조성은 여수 지역 잠재 열·전력 수요와 고객 구성 변화 요인으로 볼 수 있다.",
+      "category": "산업·고객",
+      "url": "https://www.newsis.com/view/NISX20261016_0003829241"
     }
   ]
 }
