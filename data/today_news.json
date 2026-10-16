@@ -22,6 +22,182 @@
     "issue_order": 1
   },
   {
+    "id": "N20261016-1348",
+    "date": "2026.10.16",
+    "datetime": "2026.10.16 11:35",
+    "title": "SK이터닉스, 삼성바이오로직스와 5000억 원 규모 25년 장기 전력공급 계...",
+    "source": "동아일보",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "직접PPA",
+    "summary": "SK이터닉스가 삼성바이오로직스와 5000억원 규모, 25년 장기 전력공급 계약을 체결했다는 내용이다. 직접PPA는 발전사업자가 전력 사용 기업과 장기계약으로 재생에너지 전력을 공급하는 방식으로 RE100 이행에 활용된다는 내용이다.",
+    "implication": "산업 고객이 직접PPA로 재생에너지 전력을 조달하는 사례가 늘면 기업고객의 전력·열 조달 선택지 변화에 대비한 검토가 필요하다.",
+    "tags": [
+      "직접PPA",
+      "RE100",
+      "장기계약"
+    ],
+    "url": "https://www.donga.com/news/Economy/article/all/20261016/134853705/1",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261016-1347",
+    "date": "2026.10.16",
+    "datetime": "2026.10.16 11:30",
+    "title": "정유사 친환경 전환 '의무만으로는 어렵다'...SAF·CCUS 등 정책 지원 필...",
+    "source": "e-platform.net",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "CCUS·SAF 정책지원",
+    "summary": "정유사의 친환경 전환은 의무만으로 어렵고 SAF·CCUS 등에 정책 지원이 필요하다는 내용이다. CCUS 운영에 필요한 탄소가격과 실제 배출권 가격의 차액을 보전하는 구조 등이 제안됐다는 내용이다.",
+    "implication": "CCUS·SAF 사업의 경제성 확보를 위한 차액 보전 등 지원 구조 논의는 당사 바이오 CO₂ 활용 과제 검토 시 참고할 수 있다.",
+    "tags": [
+      "CCUS",
+      "SAF",
+      "탄소가격"
+    ],
+    "url": "http://www.e-platform.net/news/articleView.html?idxno=106164",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261016-1344",
+    "date": "2026.10.16",
+    "datetime": "2026.10.16 11:10",
+    "title": "조직은 하나로, 석탄은 여전히…발전 5사 통합의 딜레마",
+    "source": "한스경제",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "석탄발전·전기본",
+    "summary": "발전 5사 통합이 추진되더라도 석탄발전소 폐지 등 발전소 운명은 전기본에 묶여 있고, 대형 사업을 위한 자금력 확보가 관건이라는 내용이다. 현재는 11차 전기본에 맞춰 진행하며 12차 계획이 확정되면 그에 따라 대응하겠다는 입장이 전해졌다는 내용이다.",
+    "implication": "12차 전기본의 석탄 폐지·전환 방향이 발전사들의 대응을 좌우하므로 당사 석탄 전환 과제 검토 시 전기본 확정 일정을 함께 추적할 필요가 있다.",
+    "tags": [
+      "발전 5사 통합",
+      "석탄발전",
+      "12차 전기본"
+    ],
+    "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=873475",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261016-1343",
+    "date": "2026.10.16",
+    "datetime": "2026.10.16 10:24",
+    "title": "데이터분석가들 “송전선 설치 ‘전제’ 설득력 잃어…호남 잉여 전기 ...",
+    "source": "아시아투데이",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "호남 반도체 전력공급",
+    "summary": "데이터분석가들이 호남 잉여 전기를 수도권으로 보내기 위한 송전선 설치 전제가 설득력을 잃었다고 지적했다는 내용이다. 정부가 제시한 해상풍력·태양광 추가 공급원에 기존 LNG 발전량 확대가 포함돼 있고 메가프로젝트에는 신규 원전·LNG 확보가 필요하다는 분석도 담겼다는 내용이다.",
+    "implication": "호남 반도체 클러스터 전력공급 논의가 송전망과 LNG 발전 확대 쟁점으로 이어지는 만큼 남부권 전력수급·LNG 발전 환경 변화를 점검할 필요가 있다.",
+    "tags": [
+      "호남 반도체",
+      "송전선",
+      "LNG 발전"
+    ],
+    "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261016010005180",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261016-1350",
+    "date": "2026.10.16",
+    "datetime": "2026.10.16 08:48",
+    "title": "美 AI데이터센터가 전기 만들자…韓 기업에...",
+    "source": "미디어펜",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "온사이트 발전",
+    "summary": "미국에서 AI 데이터센터가 송전망 확충을 기다리지 않고 현장이나 인근에 발전설비를 설치해 전기를 확보하는 방식이 주목받는다는 내용이다.",
+    "implication": "데이터센터 인근 발전·공급 모델은 집단에너지 사업자의 데이터센터 전력공급 검토에 참고할 만한 사례다.",
+    "tags": [
+      "데이터센터",
+      "자가발전",
+      "송전망"
+    ],
+    "url": "https://www.mediapen.com/news/view/1130382",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261016-1346",
+    "date": "2026.10.16",
+    "datetime": "2026.10.16 08:38",
+    "title": "증시 붕괴 속 글로벌 '탄소배출권' 촉각...국내 상승, 유럽·영국 하락",
+    "source": "파이낸셜포스트",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "배출권·연료가격",
+    "summary": "국내 배출권 가격은 상승한 반면 유럽·영국은 하락했으며, 일본·한국 LNG 가격지표 JKM이 26.4% 오르고 유럽 석탄과 호주 뉴캐슬 석탄 가격도 각각 21.1%, 15.1% 상승했다는 내용이다.",
+    "implication": "배출권과 LNG·석탄 가격이 함께 오른 흐름은 당사 연료비와 배출권 비용 부담을 점검할 때 참고할 지표다.",
+    "tags": [
+      "배출권",
+      "LNG",
+      "석탄가격"
+    ],
+    "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=280772",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261016-1349",
+    "date": "2026.10.16",
+    "datetime": "2026.10.16 08:20",
+    "title": "LG화학, 범용 화학소재 NPG 사업 철수 검토",
+    "source": "뉴스웨이",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "석유화학 구조조정",
+    "summary": "LG화학이 범용 화학소재 NPG 사업 철수를 검토 중이라는 내용이다. 중국발 공급과잉과 업황 부진 장기화로 BPA 사업 매각에 이어 제품 단위 구조조정으로 이어지고 있다는 내용이다.",
+    "implication": "석유화학 범용 제품 구조조정이 이어지면 석화 기업고객의 증기·전력 수요 변화 가능성을 계속 모니터링할 필요가 있다.",
+    "tags": [
+      "LG화학",
+      "NPG",
+      "석유화학 구조조정"
+    ],
+    "url": "https://www.newsway.co.kr/news/view?ud=2026101602182366371",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261016-1345",
+    "date": "2026.10.16",
+    "datetime": "2026.10.16 07:02",
+    "title": "'10MW 규제' 피한 9MW 꼼수…수도권에 소형 데이터센터 난립 우려",
+    "source": "인베스트조선",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "전력계통영향평가",
+    "summary": "수도권 데이터센터 개발이 전력계통영향평가 대상 기준인 10MW 바로 아래(9MW)에 집중되고 있다는 내용이다. 현행 제도상 평가 대상 지역에서 10MW 이상 전력을 쓰는 경우 평가를 받아야 한다는 내용이다.",
+    "implication": "데이터센터 전력 수요 규제 기준이 입지와 규모 설계에 영향을 주고 있어 데이터센터 전력공급 모델 검토 시 제도 변화를 참고할 만하다.",
+    "tags": [
+      "데이터센터",
+      "전력계통영향평가",
+      "10MW"
+    ],
+    "url": "https://www.investchosun.com/site/data/html_dir/2026/10/15/2026101580184.html",
+    "is_today": "Y",
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261016-1336",
     "date": "2026.10.16",
     "datetime": "2026.10.16 05:46",
@@ -39,9 +215,9 @@
     ],
     "url": "https://www.g-enews.com/view.php?ud=2026101516001422980c8c1c064d_1",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261015-1338",
@@ -61,9 +237,9 @@
     ],
     "url": "https://www.job-post.co.kr/news/articleView.html?idxno=232651",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 11,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261015-1334",
@@ -83,7 +259,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12177042",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -105,7 +281,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=373461",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -127,7 +303,7 @@
     ],
     "url": "https://www.etoday.co.kr/news/view/2636212",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -149,7 +325,7 @@
     ],
     "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2480586",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -170,7 +346,7 @@
     ],
     "url": "https://www.ngonews.kr/news/articleView.html?idxno=240586",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -191,7 +367,7 @@
     ],
     "url": "https://www.hani.co.kr/arti/society/environment/1282527.html",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -213,7 +389,7 @@
     ],
     "url": "https://www.dailian.co.kr/news/view/1701905/?sc=Naver",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -235,7 +411,7 @@
     ],
     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261014010004481",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -257,7 +433,7 @@
     ],
     "url": "https://www.m-i.kr/news/articleView.html?idxno=2006395",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -279,7 +455,7 @@
     ],
     "url": "https://www.edaily.co.kr/News/Read?newsId=03932726645613248&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -301,7 +477,7 @@
     ],
     "url": "https://www.ekn.kr/web/view.php?key=20261015023576516",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -323,7 +499,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261015_0003826981",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -345,7 +521,7 @@
     ],
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=873084",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -367,7 +543,7 @@
     ],
     "url": "https://kjmbc.co.kr/NewsArticle/1541049",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -389,7 +565,7 @@
     ],
     "url": "https://biz.chosun.com/industry/company/2026/10/15/O3YOLHK3IBE2TOAY2XPC6XX3PM/?utm_source=naver&utm_medium=original&utm_campaign=biz",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -411,7 +587,7 @@
     ],
     "url": "https://www.dailyt.co.kr/newsView/dlt202610150010",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -433,7 +609,7 @@
     ],
     "url": "https://news.knn.co.kr/news/article_sns/1826",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -455,7 +631,7 @@
     ],
     "url": "https://www.newsworker.co.kr/news/articleView.html?idxno=508690",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -477,7 +653,7 @@
     ],
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=204059",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -499,7 +675,7 @@
     ],
     "url": "https://www.fnnews.com/news/202610150826230572",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -521,7 +697,7 @@
     ],
     "url": "https://www.viva100.com/article/20261015500095",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -543,7 +719,29 @@
     ],
     "url": "https://www.joongang.co.kr/article/25469803",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 33,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261016-1351",
+    "date": "2026.10.16",
+    "datetime": "2026.10.16 10:18",
+    "title": "구글, 5조6000억원 규모 연료전지 발전소 전력 구매...702MW·20년 계약",
+    "source": "임팩트온",
+    "priority": "참고",
+    "category": "AI·데이터센터",
+    "detail_category": "연료전지 PPA",
+    "summary": "AEP가 구글과 와이오밍주 연료전지 발전소 702MW, 20년 장기전력구매계약을 체결했다는 내용이다. 블룸에너지 SOFC를 쓰며 향후 탄소포집 기술을 결합할 계획이라는 내용이다.",
+    "implication": "데이터센터 전력을 현지 연료전지 발전과 장기계약으로 조달하는 해외 사례로 보관할 만하다.",
+    "tags": [
+      "구글",
+      "연료전지",
+      "PPA"
+    ],
+    "url": "https://www.impacton.net/news/articleView.html?idxno=30280",
+    "is_today": "Y",
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -565,7 +763,7 @@
     ],
     "url": "https://www.khan.co.kr/article/202610152058005",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 35,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -586,7 +784,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12177076",
     "is_today": "Y",
-    "display_order": 27,
+    "display_order": 36,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -608,7 +806,7 @@
     ],
     "url": "https://www.tokenpost.kr/news/ai/422814",
     "is_today": "Y",
-    "display_order": 28,
+    "display_order": 37,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -630,7 +828,7 @@
     ],
     "url": "https://www.thelec.kr/news/articleView.html?idxno=63787",
     "is_today": "Y",
-    "display_order": 29,
+    "display_order": 38,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -651,7 +849,7 @@
     ],
     "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=313214",
     "is_today": "Y",
-    "display_order": 30,
+    "display_order": 39,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -673,7 +871,7 @@
     ],
     "url": "https://www.impacton.net/news/articleView.html?idxno=30258",
     "is_today": "Y",
-    "display_order": 31,
+    "display_order": 40,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -694,7 +892,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=373433",
     "is_today": "Y",
-    "display_order": 32,
+    "display_order": 41,
     "is_key_issue": "N",
     "issue_order": 9999
   }

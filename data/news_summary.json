@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.10.15 21:42:35",
+  "generated_at": "2026.10.16 02:42:00",
   "base_date": "2026.10.16",
-  "total_articles": 901,
-  "today_articles": 32,
+  "total_articles": 910,
+  "today_articles": 41,
   "archive_articles": 869,
   "important_articles": 1,
-  "normal_articles": 24,
-  "reference_articles": 7,
+  "normal_articles": 32,
+  "reference_articles": 8,
   "top_keywords": [
     "석유화학",
+    "데이터센터",
     "12차 전기본",
-    "ESS",
     "LNG",
-    "SMP"
+    "호남 반도체"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 24,
-    "참고": 7
+    "보통": 32,
+    "참고": 8
   },
   "category_counts": {
-    "정책·제도": 8,
-    "LNG·에너지안보": 4,
-    "산업·고객": 4,
-    "전력시장": 4,
-    "AI·데이터센터": 3,
-    "탄소·ESG": 3,
-    "계통·인프라": 6
+    "정책·제도": 9,
+    "전력시장": 5,
+    "탄소·ESG": 5,
+    "계통·인프라": 7,
+    "AI·데이터센터": 6,
+    "산업·고객": 5,
+    "LNG·에너지안보": 4
   },
   "key_issues": [
     {
@@ -39,22 +39,22 @@
       "url": "https://www.ajunews.com/view/20261015103644728"
     },
     {
-      "id": "N20261016-1336",
+      "id": "N20261016-1348",
       "issue_order": 2,
-      "title": "\"호르무즈 봉쇄에 LNG 대체 폭발\"… 석탄 가격 40% 급등, 톤당 150달러 돌...",
-      "summary": "이란 전쟁과 호르무즈 해협 봉쇄로 LNG 공급망이 차질을 빚으면서 대체재인 발전용 석탄 가격이 40% 급등해 톤당 150달러대에 이르렀다는 내용이다.",
-      "implication": "LNG·석탄 가격 동반 상승은 당사 연료비와 석탄의 LNG 전환 경제성 판단에 영향을 줄 수 있는 변수다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.g-enews.com/view.php?ud=2026101516001422980c8c1c064d_1"
+      "title": "SK이터닉스, 삼성바이오로직스와 5000억 원 규모 25년 장기 전력공급 계...",
+      "summary": "SK이터닉스가 삼성바이오로직스와 5000억원 규모, 25년 장기 전력공급 계약을 체결했다는 내용이다. 직접PPA는 발전사업자가 전력 사용 기업과 장기계약으로 재생에너지 전력을 공급하는 방식으로 RE100 이행에 활용된다는 내용이다.",
+      "implication": "산업 고객이 직접PPA로 재생에너지 전력을 조달하는 사례가 늘면 기업고객의 전력·열 조달 선택지 변화에 대비한 검토가 필요하다.",
+      "category": "전력시장",
+      "url": "https://www.donga.com/news/Economy/article/all/20261016/134853705/1"
     },
     {
-      "id": "N20261015-1338",
+      "id": "N20261016-1347",
       "issue_order": 3,
-      "title": "LG화학 등, 중동전쟁 틈타 '16조원대 가격 짬짜미'…담합사건 중 역대 최...",
-      "summary": "중동전쟁 여파로 제품 가격이 급등한 시기에 16조원 규모 가격 담합을 한 혐의로 LG화학 등 대형 석유화학 업체와 임직원들이 재판에 넘겨졌다는 내용이다.",
-      "implication": "과징금·제재 가능성은 여수 산단 고객사의 재무와 가동 계획에 영향을 줄 수 있는 리스크다.",
-      "category": "산업·고객",
-      "url": "https://www.job-post.co.kr/news/articleView.html?idxno=232651"
+      "title": "정유사 친환경 전환 '의무만으로는 어렵다'...SAF·CCUS 등 정책 지원 필...",
+      "summary": "정유사의 친환경 전환은 의무만으로 어렵고 SAF·CCUS 등에 정책 지원이 필요하다는 내용이다. CCUS 운영에 필요한 탄소가격과 실제 배출권 가격의 차액을 보전하는 구조 등이 제안됐다는 내용이다.",
+      "implication": "CCUS·SAF 사업의 경제성 확보를 위한 차액 보전 등 지원 구조 논의는 당사 바이오 CO₂ 활용 과제 검토 시 참고할 수 있다.",
+      "category": "탄소·ESG",
+      "url": "http://www.e-platform.net/news/articleView.html?idxno=106164"
     }
   ]
 }
