@@ -1,59 +1,59 @@
 ﻿{
-  "generated_at": "2026.10.16 21:38:11",
+  "generated_at": "2026.10.17 02:35:10",
   "base_date": "2026.10.17",
-  "total_articles": 930,
-  "today_articles": 30,
+  "total_articles": 937,
+  "today_articles": 37,
   "archive_articles": 900,
   "important_articles": 0,
-  "normal_articles": 23,
-  "reference_articles": 7,
+  "normal_articles": 29,
+  "reference_articles": 8,
   "top_keywords": [
     "한전",
     "12차 전기본",
+    "ESS",
     "LNG",
-    "RE100",
-    "데이터센터"
+    "RE100"
   ],
   "priority_counts": {
-    "보통": 23,
-    "참고": 7
+    "보통": 29,
+    "참고": 8
   },
   "category_counts": {
-    "LNG·에너지안보": 4,
-    "산업·고객": 7,
+    "LNG·에너지안보": 6,
+    "정책·제도": 6,
+    "계통·인프라": 4,
+    "AI·데이터센터": 4,
+    "산업·고객": 8,
     "탄소·ESG": 6,
-    "계통·인프라": 3,
-    "전력시장": 3,
-    "정책·제도": 4,
-    "AI·데이터센터": 3
+    "전력시장": 3
   },
   "key_issues": [
     {
-      "id": "N20261017-1364",
+      "id": "N20261017-1373",
       "issue_order": 1,
-      "title": "韓, 9월 러시아산 LNG 수입 '2021년 11월 이후 최대'…카타르 공급 차질...",
-      "summary": "한국의 9월 러시아산 LNG 수입량이 2021년 11월 이후 약 5년 만에 최대를 기록했고 카타르 공급 차질이 배경으로 거론된다는 내용이다.",
-      "implication": "중동 공급 리스크에 따른 LNG 도입선 변화는 LNG 전환 발전소의 연료 조달 안정성 검토와 연결된다.",
+      "title": "올해 북미산 LNG 수입 두배로…정부, 알래스카 사업도 고심",
+      "summary": "중동 전쟁 장기화로 올해 LNG 수입량이 중동산은 60% 이상 줄고 북미산은 100% 이상 늘었으며, 미국이 요구하는 알래스카 LNG 사업 참여를 두고 정부가 고심한다는 내용이다.",
+      "implication": "도입선 변화가 발전용 LNG 가격·수급에 영향을 줄 수 있어 당사 LNG 전환 연료 조달 관점에서 점검이 필요하다.",
       "category": "LNG·에너지안보",
-      "url": "https://www.fnnews.com/news/202610170047175748"
+      "url": "https://www.yna.co.kr/view/AKR20261016160900003?input=1195m"
     },
     {
-      "id": "N20261016-1366",
+      "id": "N20261017-1372",
       "issue_order": 2,
-      "title": "중동전쟁에 에너지 가격 출렁…SK가스 'LNG·LPG 겸용 발전' 주목",
-      "summary": "중동전쟁으로 에너지 가격 변동성이 커지면서 SK가스의 울산 LNG·LPG 겸용 복합발전소가 주목받는다는 내용이다.",
-      "implication": "연료 가격 변동에 대응한 겸용 발전 사례로 LNG 전환 설비의 연료 유연성 검토에 참고할 수 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.greened.kr/news/articleView.html?idxno=352314"
+      "title": "서남 집단에너지시설 2단계, 시공사 선정 지연 우려… DL이앤씨 단독 입...",
+      "summary": "서남 집단에너지시설 2단계(285MW급 LNG 열병합발전설비 1기, 열전용보일러, 축열조, 총사업비 약 7000억원)의 시공사 선정이 지연될 우려가 있다는 내용이다. DL이앤씨 단독 입찰이 배경으로 언급됐다는 내용이다.",
+      "implication": "동종 집단에너지 사업의 건설·입찰 동향으로, 당사 LNG 전환 및 신규 설비 추진 시 시공사 선정 리스크를 참고할 수 있다.",
+      "category": "정책·제도",
+      "url": "https://www.ekn.kr/web/view.php?key=20261016027397177"
     },
     {
-      "id": "N20261016-1365",
+      "id": "N20261017-1375",
       "issue_order": 3,
-      "title": "한국남부발전, 고양창릉 3만 8천 세대에 전력·열 공급…500MW 발전소 건...",
-      "summary": "남부발전이 고양창릉 신도시 약 3만 8천 세대에 전력과 열을 공급하는 500MW급 발전소를 내년 1월 착공해 2029년 12월 준공한다는 내용이다.",
-      "implication": "다른 발전사의 신도시 열·전력 공급 사업 사례로 집단에너지 시장 동향 참고가 된다.",
-      "category": "산업·고객",
-      "url": "http://www.newstown.co.kr/news/articleView.html?idxno=718787"
+      "title": "같은 ESS, 규제는 달라…시설물 분류 기준 전국 통일",
+      "summary": "기후에너지환경부와 국무조정실이 15일 옥외형 ESS 시설물 분류 지침서를 마련해 전국 지자체에 안내하며 ESS 시설물 분류 기준을 통일한다는 내용이다.",
+      "implication": "ESS 인허가 기준 통일은 ESS 확산과 계통 유연성 자원 확대의 여건 변화로, 당사 ESS 활용 검토 시 참고할 수 있다.",
+      "category": "계통·인프라",
+      "url": "https://www.sentv.co.kr/article/view/sentv202610160179"
     }
   ]
 }
