@@ -1,59 +1,59 @@
 ﻿{
-  "generated_at": "2026.10.17 02:35:10",
+  "generated_at": "2026.10.17 07:33:30",
   "base_date": "2026.10.17",
-  "total_articles": 937,
-  "today_articles": 37,
+  "total_articles": 941,
+  "today_articles": 41,
   "archive_articles": 900,
   "important_articles": 0,
-  "normal_articles": 29,
-  "reference_articles": 8,
+  "normal_articles": 31,
+  "reference_articles": 10,
   "top_keywords": [
+    "LNG",
+    "데이터센터",
     "한전",
     "12차 전기본",
-    "ESS",
-    "LNG",
-    "RE100"
+    "ESS"
   ],
   "priority_counts": {
-    "보통": 29,
-    "참고": 8
+    "보통": 31,
+    "참고": 10
   },
   "category_counts": {
-    "LNG·에너지안보": 6,
+    "전력시장": 4,
+    "LNG·에너지안보": 8,
     "정책·제도": 6,
     "계통·인프라": 4,
-    "AI·데이터센터": 4,
+    "AI·데이터센터": 5,
     "산업·고객": 8,
-    "탄소·ESG": 6,
-    "전력시장": 3
+    "탄소·ESG": 6
   },
   "key_issues": [
     {
-      "id": "N20261017-1373",
+      "id": "N20261017-1379",
       "issue_order": 1,
+      "title": "원화 강세에 SMP 하락까지…한국전력, 3분기 시장 예상 웃돌 전망",
+      "summary": "원화 강세와 SMP 하락으로 한국전력의 3분기 실적이 시장 예상을 웃돌 전망이며, 석탄·LNG 연료비 단가는 약 28% 상승했지만 원전·석탄 발전량 확대가 이를 상쇄한다는 내용이다.",
+      "implication": "SMP 하락과 전원별 발전량 구성 변화는 당사 전력 판매 단가와 LNG 열병합 가동 수익성 점검에 참고할 만하다.",
+      "category": "전력시장",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496114"
+    },
+    {
+      "id": "N20261017-1380",
+      "issue_order": 2,
+      "title": "日, 100억달러 '아시아 에너지 공급망' 구축…韓과 주도권 경쟁",
+      "summary": "일본이 100억달러 규모로 원유·LNG 수급 정보 공유, 조기경보, 공동비축, 청정에너지 공급망, AI·데이터센터 전력수요 대응을 포함한 아시아 에너지 공급망 구축에 나서 한국과 주도권 경쟁을 벌인다는 내용이다.",
+      "implication": "중동 리스크 속에서 LNG 공동비축·수급 협력 체계가 발전용 가스 조달 안정성에 미칠 영향을 지켜볼 필요가 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.etnews.com/20261016000159"
+    },
+    {
+      "id": "N20261017-1373",
+      "issue_order": 3,
       "title": "올해 북미산 LNG 수입 두배로…정부, 알래스카 사업도 고심",
       "summary": "중동 전쟁 장기화로 올해 LNG 수입량이 중동산은 60% 이상 줄고 북미산은 100% 이상 늘었으며, 미국이 요구하는 알래스카 LNG 사업 참여를 두고 정부가 고심한다는 내용이다.",
       "implication": "도입선 변화가 발전용 LNG 가격·수급에 영향을 줄 수 있어 당사 LNG 전환 연료 조달 관점에서 점검이 필요하다.",
       "category": "LNG·에너지안보",
       "url": "https://www.yna.co.kr/view/AKR20261016160900003?input=1195m"
-    },
-    {
-      "id": "N20261017-1372",
-      "issue_order": 2,
-      "title": "서남 집단에너지시설 2단계, 시공사 선정 지연 우려… DL이앤씨 단독 입...",
-      "summary": "서남 집단에너지시설 2단계(285MW급 LNG 열병합발전설비 1기, 열전용보일러, 축열조, 총사업비 약 7000억원)의 시공사 선정이 지연될 우려가 있다는 내용이다. DL이앤씨 단독 입찰이 배경으로 언급됐다는 내용이다.",
-      "implication": "동종 집단에너지 사업의 건설·입찰 동향으로, 당사 LNG 전환 및 신규 설비 추진 시 시공사 선정 리스크를 참고할 수 있다.",
-      "category": "정책·제도",
-      "url": "https://www.ekn.kr/web/view.php?key=20261016027397177"
-    },
-    {
-      "id": "N20261017-1375",
-      "issue_order": 3,
-      "title": "같은 ESS, 규제는 달라…시설물 분류 기준 전국 통일",
-      "summary": "기후에너지환경부와 국무조정실이 15일 옥외형 ESS 시설물 분류 지침서를 마련해 전국 지자체에 안내하며 ESS 시설물 분류 기준을 통일한다는 내용이다.",
-      "implication": "ESS 인허가 기준 통일은 ESS 확산과 계통 유연성 자원 확대의 여건 변화로, 당사 ESS 활용 검토 시 참고할 수 있다.",
-      "category": "계통·인프라",
-      "url": "https://www.sentv.co.kr/article/view/sentv202610160179"
     }
   ]
 }
