@@ -1,58 +1,58 @@
 ﻿{
-  "generated_at": "2026.10.18 07:34:38",
-  "base_date": "2026.10.18",
-  "total_articles": 960,
-  "today_articles": 31,
-  "archive_articles": 929,
+  "generated_at": "2026.10.18 21:35:39",
+  "base_date": "2026.10.19",
+  "total_articles": 971,
+  "today_articles": 27,
+  "archive_articles": 944,
   "important_articles": 0,
-  "normal_articles": 25,
-  "reference_articles": 6,
+  "normal_articles": 24,
+  "reference_articles": 3,
   "top_keywords": [
-    "데이터센터",
     "석유화학",
-    "ESS",
-    "LNG",
-    "재생에너지"
+    "데이터센터",
+    "나프타",
+    "송전망",
+    "유가"
   ],
   "priority_counts": {
-    "보통": 25,
-    "참고": 6
+    "보통": 24,
+    "참고": 3
   },
   "category_counts": {
-    "정책·제도": 6,
-    "산업·고객": 5,
+    "AI·데이터센터": 3,
+    "LNG·에너지안보": 4,
+    "정책·제도": 5,
+    "산업·고객": 7,
     "전력시장": 4,
-    "계통·인프라": 4,
-    "LNG·에너지안보": 8,
-    "AI·데이터센터": 4
+    "계통·인프라": 4
   },
   "key_issues": [
     {
-      "id": "N20261018-1395",
+      "id": "N20261019-1408",
       "issue_order": 1,
-      "title": "기후위기 속 원전 시계 다시 돈다… 복합 난제 풀어...",
-      "summary": "반도체·AI데이터센터 등 메가프로젝트발 전력수요 증가로 정부가 12차 전기본에서 추가 신규 원전 건설 여부까지 공론화 테이블에 올렸다는 내용이다.",
-      "implication": "12차 전기본의 전원 구성과 수요 전망 논의가 석탄 전환·LNG 역할 및 당사 설비 운영 방향 검토에 영향을 줄 수 있다.",
-      "category": "정책·제도",
-      "url": "http://www.metroseoul.co.kr/article/20261018500244"
+      "title": "MS, '영국 최대 AI 데이터센터' 계약 파기…2030년대까지 \"줄 전기 없다...",
+      "summary": "마이크로소프트가 영국 최대 AI 데이터센터 계약을 파기했으며, 2030년대까지 공급할 전기가 부족하고 송전망·변전소 인프라가 따라가지 못한 점이 배경으로 지적된다는 내용이다.",
+      "implication": "데이터센터 투자가 전력망 제약에 좌우되는 사례로, 당사의 데이터센터 전력공급 모델 검토 시 계통 여건을 함께 고려할 필요가 있다.",
+      "category": "AI·데이터센터",
+      "url": "https://www.the-today.com/news/articleView.html?idxno=91954"
     },
     {
-      "id": "N20261018-1399",
+      "id": "N20261019-1403",
       "issue_order": 2,
-      "title": "울산항 나프타 수입길 바뀌었다…중동산 급감·미국산 급증",
-      "summary": "중동 전쟁 이후 울산항 나프타 수입이 중동산은 급감하고 미국산은 급증하는 등 수입 경로가 바뀌었다는 내용이다.",
-      "implication": "원료 수급 변화는 여수 석화 고객사의 가동률과 증기·전력 수요에 영향을 줄 수 있다.",
-      "category": "산업·고객",
-      "url": "https://www.iusm.co.kr/news/articleView.html?idxno=1069252"
+      "title": "중동 전쟁·유럽 재고 감소… ‘공급 불안’ LNG 가격 치솟는다",
+      "summary": "겨울철 천연가스 재고 확보 경쟁과 중동발 LNG 공급 불안이 겹치며 LNG 가격이 급등하고 있고, EU 저장률이 70%로 낮아져 아시아와 도입 경쟁이 벌어질 수 있다는 내용이다.",
+      "implication": "겨울철 LNG 가격 상승은 여수 LNG 전환·복합발전의 연료비와 열·전력 요금에 직접 영향을 줄 수 있어 도입 계획을 점검할 필요가 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.seoul.co.kr/news/economy/2026/10/19/20261019032005?wlog_tag3=naver"
     },
     {
-      "id": "N20261018-1398",
+      "id": "N20261019-1409",
       "issue_order": 3,
-      "title": "탈탄소 '전기 NCC'···불황의 K석화, 투자 여력 있나",
-      "summary": "석화업계가 부생가스·LNG 연소 대신 전기로 열을 공급하는 전기 NCC를 검토하지만 불황 속 투자 여력이 문제라는 내용이다.",
-      "implication": "석화 고객사의 열원 전기화가 진행되면 증기 수요 구조가 바뀔 수 있어 고객 동향을 모니터링할 필요가 있다.",
-      "category": "산업·고객",
-      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2481406"
+      "title": "해상풍력 큰손들 한국서 줄줄이 철수… 2040년 45GW 목표 '빨간불'",
+      "summary": "해상풍력 대형 사업자들이 한국에서 잇달아 철수해 2040년 45GW 목표에 차질이 우려되며 공급망과 에너지 안보에도 부정적이라는 내용이다.",
+      "implication": "재생에너지 보급 지연은 전력수급기본계획의 LNG·석탄 역할에 영향을 줄 수 있어 정책 방향을 확인할 필요가 있다.",
+      "category": "정책·제도",
+      "url": "https://www.hankookilbo.com/news/article/A2026101513130002306?did=NA"
     }
   ]
 }
