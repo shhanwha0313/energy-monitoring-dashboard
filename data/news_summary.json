@@ -1,12 +1,12 @@
 ﻿{
-  "generated_at": "2026.10.19 02:45:35",
+  "generated_at": "2026.10.19 07:37:29",
   "base_date": "2026.10.19",
-  "total_articles": 987,
-  "today_articles": 43,
+  "total_articles": 996,
+  "today_articles": 52,
   "archive_articles": 944,
   "important_articles": 0,
-  "normal_articles": 38,
-  "reference_articles": 5,
+  "normal_articles": 45,
+  "reference_articles": 7,
   "top_keywords": [
     "석유화학",
     "ESS",
@@ -15,45 +15,45 @@
     "재생에너지"
   ],
   "priority_counts": {
-    "보통": 38,
-    "참고": 5
+    "보통": 45,
+    "참고": 7
   },
   "category_counts": {
+    "전력시장": 8,
+    "계통·인프라": 8,
+    "LNG·에너지안보": 8,
     "정책·제도": 10,
     "산업·고객": 11,
-    "계통·인프라": 7,
-    "전력시장": 5,
-    "LNG·에너지안보": 5,
     "AI·데이터센터": 4,
-    "탄소·ESG": 1
+    "탄소·ESG": 3
   },
   "key_issues": [
     {
-      "id": "N20261019-1413",
+      "id": "N20261019-1430",
       "issue_order": 1,
-      "title": "기후부, 하수처리수·유출지하수까지 '수열에너지' 품는다",
-      "summary": "기후부가 하수처리수와 유출지하수까지 수열에너지 범위에 포함하고, 과밀 도심 대형 건물과 AI 데이터센터 등의 냉난방 수요에 활용하는 방안을 추진한다는 내용이다.",
-      "implication": "재생열 범위 확대는 집단에너지 사업자의 재생열 활용 및 신규 열공급 기회 검토에 참고할 만하다.",
-      "category": "정책·제도",
-      "url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=52368"
+      "title": "한전, 4분기 적자 전환 ‘초읽기’…전기요금 인상론 고개",
+      "summary": "한전이 4분기 적자 전환을 앞두고 전기요금 인상론이 나오고 있으며, KB증권은 지역별 차등요금제 시행 시 평균 전력판매단가가 약 3.3% 낮아질 것으로 추정했다는 내용이다.",
+      "implication": "한전 재무 압박이 산업용 요금 조정과 지역별 요금제 설계에 영향을 줄 수 있어 고객사 에너지 비용 관점에서 점검이 필요하다.",
+      "category": "전력시장",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03788406645614560&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
     },
     {
-      "id": "N20261019-1422",
+      "id": "N20261019-1433",
       "issue_order": 2,
-      "title": "시간은 가는데…울산 석화 구조조정안 언제쯤",
-      "summary": "올해 내 석유화학 구조조정안을 확정하겠다는 정부 계획이 울산산단 감축 대상 협의 지연으로 해를 넘길 전망이라는 내용이다.",
-      "implication": "구조조정 지연은 여수 석화 고객사의 설비 가동과 증기 수요 전망의 불확실성을 키운다.",
-      "category": "산업·고객",
-      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=364825"
+      "title": "한전, 삼성·SK 25조 전기요금 선납 무산…김동철 “재원 조달 다각화 차...",
+      "summary": "김동철 한전 사장이 삼성전자·SK하이닉스에 요청한 25조원 규모 전기요금 선납 제안이 무산됐으며 재원 조달 다각화 차원이었다고 설명했다는 내용이다.",
+      "implication": "한전의 재원 조달 압박이 전기요금 인상 압력으로 이어질 수 있어 산업용 요금 동향 점검에 참고할 수 있다.",
+      "category": "전력시장",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03775286645614560&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
     },
     {
-      "id": "N20261019-1417",
+      "id": "N20261019-1432",
       "issue_order": 3,
-      "title": "재생에너지 접속대기 3.5GW…호남에 65% 몰려",
-      "summary": "재생에너지 접속대기 물량 3.5GW 가운데 65%가 호남에 몰려 있으며 계통 용량 부족으로 접속을 기다리고 있다는 내용이다.",
-      "implication": "호남권 계통 혼잡은 여수 등 남부권 지역별 가격과 출력제어 환경에 영향을 줄 수 있다.",
+      "title": "(2026 국정감사) 김주영 의원 \"이베리아 대정전, 한국도 예외 아냐\"…한...",
+      "summary": "국정감사에서 이베리아 대정전을 계기로 재생에너지 확대에 따른 계통 안정성 문제가 제기됐으며, 동기조상기·STATCOM·ESS 등 설비 확충과 인버터 보완 비용 부담 문제가 거론됐다는 내용이다.",
+      "implication": "그리드코드 개편 과정에서 사업자 설비 보완 비용 부담이 논의될 수 있어 관련 요건 변화를 지켜볼 필요가 있다.",
       "category": "계통·인프라",
-      "url": "https://www.hidomin.com/news/articleView.html?idxno=725421"
+      "url": "https://www.electimes.com/news/articleView.html?idxno=373633"
     }
   ]
 }
