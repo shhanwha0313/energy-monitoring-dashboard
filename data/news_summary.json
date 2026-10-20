@@ -1,60 +1,60 @@
 ﻿{
-  "generated_at": "2026.10.20 02:40:37",
+  "generated_at": "2026.10.20 07:42:54",
   "base_date": "2026.10.20",
-  "total_articles": 1013,
-  "today_articles": 47,
+  "total_articles": 1022,
+  "today_articles": 56,
   "archive_articles": 966,
   "important_articles": 0,
-  "normal_articles": 39,
+  "normal_articles": 48,
   "reference_articles": 8,
   "top_keywords": [
+    "가스공사",
     "석유화학",
     "ESS",
-    "가스공사",
     "송전망",
-    "한전"
+    "지역별 차등요금"
   ],
   "priority_counts": {
-    "보통": 39,
+    "보통": 48,
     "참고": 8
   },
   "category_counts": {
-    "정책·제도": 10,
-    "LNG·에너지안보": 8,
-    "AI·데이터센터": 4,
+    "AI·데이터센터": 5,
+    "LNG·에너지안보": 12,
+    "산업·고객": 10,
+    "정책·제도": 11,
+    "전력시장": 5,
     "탄소·ESG": 7,
     "계통·인프라": 5,
-    "산업·고객": 8,
-    "전력시장": 4,
     "기타": 1
   },
   "key_issues": [
     {
-      "id": "N20261020-1447",
+      "id": "N20261020-1457",
       "issue_order": 1,
-      "title": "지역별 전기 차등요금 도입 임박…산업계 \"산업 기반 고려해야\"",
-      "summary": "정부가 전력 계통을 수도권 남부·수도권 북부·중부권·남부권 4개 광역권으로 구분했으며, 지역별 차등요금 도입이 임박하자 산업계가 산업 기반을 고려해야 한다고 요구한다는 내용이다.",
-      "implication": "여수·군산이 속하는 남부권 구간의 요금 수준에 따라 고객사 전력비와 당사 전력·증기 판매 여건이 달라질 수 있어 구간안 확정 여부를 추적할 필요가 있다.",
-      "category": "정책·제도",
-      "url": "https://www.news1.kr/industry/general-industry/6325560"
-    },
-    {
-      "id": "N20261020-1452",
-      "issue_order": 2,
-      "title": "가스공사 9월 발전용 LNG 판매 '급감'…\"홍의락 사장 '가스는 전기다' 구...",
-      "summary": "가스공사가 공시한 9월 LNG 총판매물량이 전년 동기 대비 8.0% 감소한 176만4000톤으로 집계됐고 발전용 판매도 줄었다는 내용이다.",
-      "implication": "발전용 LNG 수요 변화는 가스 도매요금과 수급 운용에 영향을 줄 수 있어 LNG 전환 이후 연료 조달 계획 검토 시 참고할 수 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.sisajournal.com/news/articleView.html?idxno=390777"
-    },
-    {
-      "id": "N20261020-1449",
-      "issue_order": 3,
-      "title": "AI 데이터센터 속도전에 전력 문턱이 낮아진다",
-      "summary": "AI 데이터센터 사업자가 계통 영향과 자가발전·ESS 등 부담 완화 방안을 담은 전력계통영향평가서를 제출하면 기후부 전력정책심의회가 심의하는 절차로 전력 공급 문턱이 낮아진다는 내용이다.",
-      "implication": "자가발전·ESS를 조건으로 한 데이터센터 전력공급 절차는 당사가 검토 중인 데이터센터 전력공급 모델의 제도적 기반으로 참고할 수 있다.",
+      "title": "동해 AI 데이터센터 12월 초 착공 추진…전력 지중선로 공사 시작",
+      "summary": "동해 AI 데이터센터가 12월 초 착공을 추진하며 전력 지중선로 공사가 시작됐고, 국가AI전략위 부위원장이 GS동해전력의 전력 수급 여건과 HVDC 케이블 생산시설을 점검했다는 내용이다.",
+      "implication": "발전사 연계형 데이터센터 전력공급 사례로, 당사의 데이터센터 전력공급 검토에 참고할 수 있다.",
       "category": "AI·데이터센터",
-      "url": "https://h21.hani.co.kr/arti/society/environment/60031.html"
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261020010006613"
+    },
+    {
+      "id": "N20261020-1458",
+      "issue_order": 2,
+      "title": "가스公, 용인 반도체 산단에 'e-메탄' 25만톤 공급 추진",
+      "summary": "가스공사가 용인 반도체 산단 LNG 발전소에 e-메탄 약 25만톤 공급을 추진하나, 국내 법적 근거가 미비하고 LNG보다 도입 비용이 높다는 내용이다.",
+      "implication": "LNG 전환 설비의 탄소중립 연료 활용 가능성과 제도·비용 제약을 함께 살펴볼 필요가 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.mt.co.kr/politics/2026/10/20/2026102010383789533"
+    },
+    {
+      "id": "N20261020-1462",
+      "issue_order": 3,
+      "title": "'석화 구조개편 1호' 대산 통합법인, 첫 신입사원 채용 나선다",
+      "summary": "석유화학 구조개편 첫 사례인 대산 1호 프로젝트 통합법인이 출범 한 달여 만에 신규 인력 채용에 나섰다는 내용이다.",
+      "implication": "대산 통합법인 사례는 여수산단 구조조정의 진행 방식을 가늠하는 참고가 된다.",
+      "category": "산업·고객",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=04211526645614888&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
     }
   ]
 }
