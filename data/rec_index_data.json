@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-10-20",
+    "price": 71500,
+    "change": 0,
+    "change_rate": 0.0,
+    "volume": 245020
+  },
+  {
     "date": "2026-10-15",
     "price": 71500,
     "change": 200,
