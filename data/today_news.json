@@ -1,5 +1,93 @@
 ﻿[
   {
+    "id": "N20261024-1578",
+    "date": "2026.10.24",
+    "datetime": "2026.10.24 09:32",
+    "title": "한전, 사채 한도 19조 초과 위기…전기요금 인상론 재점화",
+    "source": "아주경제",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "한전 재무·전기요금",
+    "summary": "한전이 사채 발행 한도 특례 종료 시 내년 말 법정 한도 19조원을 초과할 전망이어서 전기요금 인상론이 재점화됐다는 내용이다.",
+    "implication": "한전 재무 압박이 산업용 전기요금 조정 논의로 이어질 경우 고객사 원가와 당사 판매단가에 영향을 줄 수 있다.",
+    "tags": [
+      "한전",
+      "사채한도",
+      "전기요금"
+    ],
+    "url": "https://www.ajunews.com/view/20261024092856136",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
+    "id": "N20261024-1577",
+    "date": "2026.10.24",
+    "datetime": "2026.10.24 08:38",
+    "title": "재생에너지 REC 비용 90조원 추산…기후환경요금 4년째 동결",
+    "source": "에너지데일리",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "RPS·REC 비용",
+    "summary": "재생에너지 REC 구매비용이 90조원으로 추산되며 RPS·배출권 비용을 회수하는 기후환경요금이 4년째 동결됐다는 내용이다.",
+    "implication": "RPS·REC 제도 개편 논의와 요금 부담 구조가 군산 바이오매스 REC 수익 전망에 영향을 줄 수 있어 추이 확인이 필요하다.",
+    "tags": [
+      "REC",
+      "RPS",
+      "기후환경요금"
+    ],
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=204360",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261024-1580",
+    "date": "2026.10.24",
+    "datetime": "2026.10.24 07:02",
+    "title": "매칭해도 계약 안 되는 PPA…중소·중견기업엔 '20년·신용도' 벽",
+    "source": "SEN",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "RE100·PPA",
+    "summary": "RE100 PPA 중개플랫폼에 판매 456MW, 구매 585MW가 등록됐지만 20년 계약기간과 신용도 문제로 중소·중견기업은 계약에 어려움을 겪는다는 내용이다.",
+    "implication": "산단 입주 기업의 재생에너지 조달 수요가 커질 수 있어 당사 재생에너지·바이오 전력 연계 상품 검토 시 참고할 수 있다.",
+    "tags": [
+      "RE100",
+      "PPA",
+      "중소·중견기업"
+    ],
+    "url": "https://www.sentv.co.kr/article/view/sentv202610210198",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261024-1579",
+    "date": "2026.10.24",
+    "datetime": "2026.10.24 06:02",
+    "title": "‘전쟁 특수’ 끝난 석화업계…해상운임·공급과잉에 업황 회복 ‘첩첩...",
+    "source": "에너지경제",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "석유화학 업황",
+    "summary": "올해 2분기 중동발 전쟁 특수로 개선됐던 석유화학업계가 3분기에는 재고 래깅효과 역전과 해상운임, 공급과잉으로 부진한 실적이 전망된다는 내용이다.",
+    "implication": "여수 석유화학 고객사의 업황 부진은 증기·전력 수요와 설비 가동률에 영향을 줄 수 있다.",
+    "tags": [
+      "석유화학",
+      "공급과잉",
+      "3분기 실적"
+    ],
+    "url": "https://www.ekn.kr/web/view.php?key=20261023020090502",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261024-1575",
     "date": "2026.10.24",
     "datetime": "2026.10.24 05:34",
@@ -17,9 +105,9 @@
     ],
     "url": "https://www.the-today.com/news/articleView.html?idxno=92321",
     "is_today": "Y",
-    "display_order": 1,
-    "is_key_issue": "Y",
-    "issue_order": 1
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261023-1570",
@@ -39,9 +127,9 @@
     ],
     "url": "https://www.todayenergy.kr/news/articleView.html?idxno=304623",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261023-1573",
@@ -61,9 +149,9 @@
     ],
     "url": "http://www.ikld.kr/news/articleView.html?idxno=342844",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261023-1568",
@@ -83,7 +171,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12184442",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 8,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -105,7 +193,7 @@
     ],
     "url": "http://www.epj.co.kr/news/articleView.html?idxno=39633",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 9,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -127,7 +215,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=373816",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 10,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -149,7 +237,7 @@
     ],
     "url": "https://www.polinews.co.kr/news/articleView.html?idxno=746713",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -171,7 +259,7 @@
     ],
     "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=313832",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -193,7 +281,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12184249",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -215,7 +303,7 @@
     ],
     "url": "https://thetracker.co.kr/View.aspx?No=4276703",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -237,7 +325,7 @@
     ],
     "url": "https://www.fnnews.com/news/202610231548210517",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -259,7 +347,7 @@
     ],
     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498034",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -281,7 +369,7 @@
     ],
     "url": "http://www.srtimes.kr/news/articleView.html?idxno=215697",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -303,7 +391,7 @@
     ],
     "url": "https://www.etnews.com/20261023000261",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -325,7 +413,7 @@
     ],
     "url": "https://biz.chosun.com/it-science/ict/2026/10/23/7YXZGXSEUFF77OBG3IFSVYCPJE/?utm_source=naver&utm_medium=original&utm_campaign=biz",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -347,7 +435,7 @@
     ],
     "url": "https://www.seoul.co.kr/news/politics/2026/10/23/20261023500143?wlog_tag3=naver",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -369,7 +457,7 @@
     ],
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=204343",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -391,7 +479,7 @@
     ],
     "url": "https://www.ddaily.co.kr/page/view/2026102312052673440",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -413,7 +501,7 @@
     ],
     "url": "https://www.kpinews.kr/newsView/1065578163711004",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -434,7 +522,7 @@
     ],
     "url": "https://www.hani.co.kr/arti/society/labor/1283814.html",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -456,7 +544,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12183894",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -478,7 +566,7 @@
     ],
     "url": "https://www.ktv.go.kr/content/view?content_id=762882",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -500,7 +588,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=373773",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -522,7 +610,7 @@
     ],
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=204320",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -544,7 +632,7 @@
     ],
     "url": "https://www.kfenews.co.kr/news/articleView.html?idxno=666769",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -565,7 +653,7 @@
     ],
     "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2308779",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -587,7 +675,7 @@
     ],
     "url": "https://www.pointe.co.kr/news/articleView.html?idxno=86485",
     "is_today": "Y",
-    "display_order": 27,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -609,7 +697,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12183697",
     "is_today": "Y",
-    "display_order": 28,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -631,7 +719,7 @@
     ],
     "url": "https://www.news1.kr/world/international-economy/6329307",
     "is_today": "Y",
-    "display_order": 29,
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -653,7 +741,7 @@
     ],
     "url": "https://www.ajunews.com/view/20261022141236240",
     "is_today": "Y",
-    "display_order": 30,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -675,7 +763,28 @@
     ],
     "url": "https://www.donga.com/news/Society/article/all/20261022/134893333/2",
     "is_today": "Y",
-    "display_order": 31,
+    "display_order": 35,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261024-1581",
+    "date": "2026.10.24",
+    "datetime": "2026.10.24 07:01",
+    "title": "美전문가들이 본 알래스카LNG…\"시장가 2배 내는 비현실적 사업\"",
+    "source": "연합뉴스",
+    "priority": "참고",
+    "category": "LNG·에너지안보",
+    "detail_category": "알래스카 LNG",
+    "summary": "미국 전문가들이 알래스카 LNG를 시장가의 2배를 내야 하는 비현실적 사업으로 평가했고 LNG 생산은 2030년대 후반에나 가능하다고 본다는 내용이다.",
+    "implication": "한국의 알래스카 LNG 참여가 장기 도입비용에 미칠 영향을 LNG 조달 환경 관점에서 모니터링할 필요가 있다.",
+    "tags": [
+      "알래스카 LNG",
+      "도입가격"
+    ],
+    "url": "https://www.yna.co.kr/view/AKR20261023167400075?input=1195m",
+    "is_today": "Y",
+    "display_order": 36,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -697,7 +806,7 @@
     ],
     "url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=257164",
     "is_today": "Y",
-    "display_order": 32,
+    "display_order": 37,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -719,7 +828,7 @@
     ],
     "url": "http://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=100&CONTENTS_NO=1&bbsGbn=322&bbsSn=322&pNttSn=244495",
     "is_today": "Y",
-    "display_order": 33,
+    "display_order": 38,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -741,7 +850,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=373748",
     "is_today": "Y",
-    "display_order": 34,
+    "display_order": 39,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -762,7 +871,7 @@
     ],
     "url": "https://www.thescoop.co.kr/news/articleView.html?idxno=312012",
     "is_today": "Y",
-    "display_order": 35,
+    "display_order": 40,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -784,7 +893,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12183768",
     "is_today": "Y",
-    "display_order": 36,
+    "display_order": 41,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -806,7 +915,7 @@
     ],
     "url": "https://www.etoday.co.kr/news/view/2638867",
     "is_today": "Y",
-    "display_order": 37,
+    "display_order": 42,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -827,7 +936,7 @@
     ],
     "url": "https://www.esgeconomy.com/news/articleView.html?idxno=17099",
     "is_today": "Y",
-    "display_order": 38,
+    "display_order": 43,
     "is_key_issue": "N",
     "issue_order": 9999
   }

@@ -1,60 +1,60 @@
 ﻿{
-  "generated_at": "2026.10.23 21:38:44",
+  "generated_at": "2026.10.24 02:36:28",
   "base_date": "2026.10.24",
-  "total_articles": 1135,
-  "today_articles": 38,
+  "total_articles": 1140,
+  "today_articles": 43,
   "archive_articles": 1097,
   "important_articles": 0,
-  "normal_articles": 31,
-  "reference_articles": 7,
+  "normal_articles": 35,
+  "reference_articles": 8,
   "top_keywords": [
     "석유화학",
     "AIDC",
     "12차 전기본",
     "LMP",
-    "가스공사"
+    "RPS"
   ],
   "priority_counts": {
-    "보통": 31,
-    "참고": 7
+    "보통": 35,
+    "참고": 8
   },
   "category_counts": {
-    "LNG·에너지안보": 6,
-    "정책·제도": 7,
+    "정책·제도": 8,
+    "탄소·ESG": 8,
+    "산업·고객": 6,
+    "LNG·에너지안보": 7,
     "전력시장": 5,
-    "산업·고객": 5,
     "계통·인프라": 5,
-    "탄소·ESG": 6,
     "AI·데이터센터": 3,
     "기타": 1
   },
   "key_issues": [
     {
-      "id": "N20261024-1575",
+      "id": "N20261024-1578",
       "issue_order": 1,
-      "title": "LNG 대국 카타르, 美서 연 400만t 산다…'이란 전쟁'이 바꾼 에...",
-      "summary": "이란의 폭격으로 핵심 생산시설이 파괴되고 호르무즈 해협 불안이 이어지면서 카타르가 미국으로부터 연 400만t의 LNG를 역수입하는 계약을 맺었다는 내용이다.",
-      "implication": "중동발 공급 차질이 LNG 수급과 가격에 미치는 영향이 커지고 있어 여수 LNG 전환 및 복합발전 연료 조달 리스크 점검에 참고할 수 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.the-today.com/news/articleView.html?idxno=92321"
-    },
-    {
-      "id": "N20261023-1570",
-      "issue_order": 2,
-      "title": "'재생에너지의 날' 첫 국가기념일…\"2030년까지 4년이 승부처\"",
-      "summary": "첫 '재생에너지의 날' 기념식에서 2030년까지 재생에너지 설비 100GW 이상 확대와 함께 RPS를 경쟁입찰 기반의 장기 고정가격계약 시장으로 개편한다는 방향이 언급됐다는 내용이다.",
-      "implication": "RPS의 장기 고정가격계약 전환은 당사 군산 바이오매스 REC 수익구조와 직결되므로 후속 공식 절차를 계속 확인해야 한다.",
+      "title": "한전, 사채 한도 19조 초과 위기…전기요금 인상론 재점화",
+      "summary": "한전이 사채 발행 한도 특례 종료 시 내년 말 법정 한도 19조원을 초과할 전망이어서 전기요금 인상론이 재점화됐다는 내용이다.",
+      "implication": "한전 재무 압박이 산업용 전기요금 조정 논의로 이어질 경우 고객사 원가와 당사 판매단가에 영향을 줄 수 있다.",
       "category": "정책·제도",
-      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=304623"
+      "url": "https://www.ajunews.com/view/20261024092856136"
     },
     {
-      "id": "N20261023-1573",
+      "id": "N20261024-1577",
+      "issue_order": 2,
+      "title": "재생에너지 REC 비용 90조원 추산…기후환경요금 4년째 동결",
+      "summary": "재생에너지 REC 구매비용이 90조원으로 추산되며 RPS·배출권 비용을 회수하는 기후환경요금이 4년째 동결됐다는 내용이다.",
+      "implication": "RPS·REC 제도 개편 논의와 요금 부담 구조가 군산 바이오매스 REC 수익 전망에 영향을 줄 수 있어 추이 확인이 필요하다.",
+      "category": "탄소·ESG",
+      "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=204360"
+    },
+    {
+      "id": "N20261024-1580",
       "issue_order": 3,
-      "title": "잔력거래소, 수요자원 확대·전력시장 개편 논의",
-      "summary": "전력거래소가 재생에너지 확대에 따른 계통 유연성 확보를 위해 수요감축·증대형 신규 수요자원 발굴·실증과 수도권·광주·전남 지역 수요자원 확대 방안을 논의했다는 내용이다.",
-      "implication": "광주·전남 지역 수요자원 확대는 여수 등 남부권 전력시장 환경과 유연성 자원 참여 기회 측면에서 참고할 만하다.",
-      "category": "전력시장",
-      "url": "http://www.ikld.kr/news/articleView.html?idxno=342844"
+      "title": "매칭해도 계약 안 되는 PPA…중소·중견기업엔 '20년·신용도' 벽",
+      "summary": "RE100 PPA 중개플랫폼에 판매 456MW, 구매 585MW가 등록됐지만 20년 계약기간과 신용도 문제로 중소·중견기업은 계약에 어려움을 겪는다는 내용이다.",
+      "implication": "산단 입주 기업의 재생에너지 조달 수요가 커질 수 있어 당사 재생에너지·바이오 전력 연계 상품 검토 시 참고할 수 있다.",
+      "category": "탄소·ESG",
+      "url": "https://www.sentv.co.kr/article/view/sentv202610210198"
     }
   ]
 }
