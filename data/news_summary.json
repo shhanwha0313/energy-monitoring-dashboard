@@ -1,12 +1,12 @@
 ﻿{
-  "generated_at": "2026.10.24 02:36:28",
+  "generated_at": "2026.10.24 07:34:08",
   "base_date": "2026.10.24",
-  "total_articles": 1140,
-  "today_articles": 43,
+  "total_articles": 1144,
+  "today_articles": 47,
   "archive_articles": 1097,
   "important_articles": 0,
-  "normal_articles": 35,
-  "reference_articles": 8,
+  "normal_articles": 37,
+  "reference_articles": 10,
   "top_keywords": [
     "석유화학",
     "AIDC",
@@ -15,46 +15,46 @@
     "RPS"
   ],
   "priority_counts": {
-    "보통": 35,
-    "참고": 8
+    "보통": 37,
+    "참고": 10
   },
   "category_counts": {
+    "계통·인프라": 6,
+    "전력시장": 6,
     "정책·제도": 8,
     "탄소·ESG": 8,
     "산업·고객": 6,
-    "LNG·에너지안보": 7,
-    "전력시장": 5,
-    "계통·인프라": 5,
-    "AI·데이터센터": 3,
+    "LNG·에너지안보": 8,
+    "AI·데이터센터": 4,
     "기타": 1
   },
   "key_issues": [
     {
-      "id": "N20261024-1578",
+      "id": "N20261024-1582",
       "issue_order": 1,
+      "title": "정부, 반도체 메가프로젝트 이행 속도전 총력 지원… 입지·인허가 병행...",
+      "summary": "정부가 반도체 메가프로젝트 이행을 위해 팹 건설과 전력·용수 등 인프라 절차 지연으로 인한 시간 손실을 줄이도록 입지·인허가를 병행 지원한다는 내용이다.",
+      "implication": "대규모 반도체 투자의 전력 인프라 지원 방향은 남부권 전력수요와 계통 여건 변화를 가늠하는 참고 자료가 된다.",
+      "category": "계통·인프라",
+      "url": "https://www.mtnews.net/news/articleView.html?idxno=26326"
+    },
+    {
+      "id": "N20261024-1583",
+      "issue_order": 2,
+      "title": "전력가격 하락에 4분기 눈높이 낮아져…SGC에너지, 12월 회복 기대",
+      "summary": "SGC에너지의 4분기 실적 눈높이가 전력가격 하락으로 낮아졌으며, SMP 움직임이 발전 부문 수익성의 주요 변수로 꼽힌다는 내용이다.",
+      "implication": "최근 SMP 하락은 당사 전력판매 수익에 영향을 줄 수 있어 추이를 지속 확인할 필요가 있다.",
+      "category": "전력시장",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498115"
+    },
+    {
+      "id": "N20261024-1578",
+      "issue_order": 3,
       "title": "한전, 사채 한도 19조 초과 위기…전기요금 인상론 재점화",
       "summary": "한전이 사채 발행 한도 특례 종료 시 내년 말 법정 한도 19조원을 초과할 전망이어서 전기요금 인상론이 재점화됐다는 내용이다.",
       "implication": "한전 재무 압박이 산업용 전기요금 조정 논의로 이어질 경우 고객사 원가와 당사 판매단가에 영향을 줄 수 있다.",
       "category": "정책·제도",
       "url": "https://www.ajunews.com/view/20261024092856136"
-    },
-    {
-      "id": "N20261024-1577",
-      "issue_order": 2,
-      "title": "재생에너지 REC 비용 90조원 추산…기후환경요금 4년째 동결",
-      "summary": "재생에너지 REC 구매비용이 90조원으로 추산되며 RPS·배출권 비용을 회수하는 기후환경요금이 4년째 동결됐다는 내용이다.",
-      "implication": "RPS·REC 제도 개편 논의와 요금 부담 구조가 군산 바이오매스 REC 수익 전망에 영향을 줄 수 있어 추이 확인이 필요하다.",
-      "category": "탄소·ESG",
-      "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=204360"
-    },
-    {
-      "id": "N20261024-1580",
-      "issue_order": 3,
-      "title": "매칭해도 계약 안 되는 PPA…중소·중견기업엔 '20년·신용도' 벽",
-      "summary": "RE100 PPA 중개플랫폼에 판매 456MW, 구매 585MW가 등록됐지만 20년 계약기간과 신용도 문제로 중소·중견기업은 계약에 어려움을 겪는다는 내용이다.",
-      "implication": "산단 입주 기업의 재생에너지 조달 수요가 커질 수 있어 당사 재생에너지·바이오 전력 연계 상품 검토 시 참고할 수 있다.",
-      "category": "탄소·ESG",
-      "url": "https://www.sentv.co.kr/article/view/sentv202610210198"
     }
   ]
 }
