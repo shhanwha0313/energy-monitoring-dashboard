@@ -1,59 +1,60 @@
 ﻿{
-  "generated_at": "2026.10.24 21:34:46",
-  "base_date": "2026.10.24",
-  "total_articles": 1149,
-  "today_articles": 15,
+  "generated_at": "2026.10.25 02:36:19",
+  "base_date": "2026.10.25",
+  "total_articles": 1158,
+  "today_articles": 24,
   "archive_articles": 1134,
-  "important_articles": 0,
-  "normal_articles": 11,
-  "reference_articles": 4,
+  "important_articles": 1,
+  "normal_articles": 17,
+  "reference_articles": 6,
   "top_keywords": [
     "전기요금",
-    "3분기 실적",
-    "AI 데이터센터",
-    "AI 전력수요",
-    "HVDC"
+    "LNG",
+    "공급망",
+    "송전망",
+    "카타르"
   ],
   "priority_counts": {
-    "보통": 11,
-    "참고": 4
+    "중요": 1,
+    "보통": 17,
+    "참고": 6
   },
   "category_counts": {
-    "AI·데이터센터": 2,
-    "계통·인프라": 2,
-    "전력시장": 2,
-    "LNG·에너지안보": 4,
-    "정책·제도": 1,
-    "탄소·ESG": 2,
+    "정책·제도": 3,
+    "계통·인프라": 3,
+    "LNG·에너지안보": 6,
+    "전력시장": 3,
+    "탄소·ESG": 3,
+    "AI·데이터센터": 4,
     "산업·고객": 2
   },
   "key_issues": [
     {
-      "id": "N20261024-1587",
+      "id": "N20261025-1591",
       "issue_order": 1,
-      "title": "SK \"AI 데이터센터 5GW에 464조 필요\"…글로벌 빅테크와 투자 협상",
-      "summary": "SK가 AI 데이터센터 5GW에 464조원이 필요하다며 글로벌 빅테크와 투자 협상 중이고, 국내의 상대적으로 높은 전기요금을 상쇄하기 위해 컴퓨팅 효율 제고에 집중하겠다는 내용이다.",
-      "implication": "데이터센터 사업자가 국내 전기요금을 투자의 부담 요인으로 보고 있어 데이터센터 전력공급 모델 검토 시 참고할 만하다.",
-      "category": "AI·데이터센터",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=216614"
+      "title": "공공기관 '재생에너지 발전 목표' 생긴다…'부지 제공'도 포함",
+      "summary": "내년 RPS 폐지에 맞춰 공공기관에 재생에너지 발전 목표를 부여하는 목표 관리제가 도입되며 부지 제공도 포함된다는 내용이다.",
+      "implication": "RPS 폐지 이후 재생에너지 의무·수익 구조가 바뀌는 만큼 군산 바이오매스 REC 수익에 미치는 영향을 점검할 필요가 있다.",
+      "category": "정책·제도",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813646&plink=ORI&cooper=NAVER"
     },
     {
-      "id": "N20261024-1586",
+      "id": "N20261025-1595",
       "issue_order": 2,
-      "title": "효성중공업, 2GW급 HVDC 핵심기술 2027년 국산화 속도",
-      "summary": "효성중공업이 서해안 전력망 구축에 필요한 2GW급 전압형 HVDC 핵심기술을 2027년 국산화하겠다며 기후에너지환경부 차관과 점검회를 가졌다는 내용이다.",
-      "implication": "서해안 송전망 확충은 계통 혼잡과 지역별 가격(SMP·LMP) 변화로 이어질 수 있어 추이를 살펴볼 필요가 있다.",
+      "title": "태양광·원전 늘어도 전기 보낼 길이 없다…전력망 준공 '지지...",
+      "summary": "태양광·원전 등 발전설비는 늘고 있으나 전력망 준공이 지연되어 전기를 보낼 길이 부족하다는 내용이다.",
+      "implication": "송전 제약은 LMP·지역별 요금 및 출력제어와 연결되어 SMP와 설비 이용률에 영향을 줄 수 있다.",
       "category": "계통·인프라",
-      "url": "https://m.skyedaily.com/news_view.html?ID=313444"
+      "url": "https://www.newsis.com/view/NISX20261023_0003838683"
     },
     {
-      "id": "N20261024-1589",
+      "id": "N20261025-1596",
       "issue_order": 3,
-      "title": "9월 생산자물가 0.2% 상승… 추석 수요·전기요금 감면 종료 영향",
-      "summary": "9월 생산자물가가 추석 수요와 전기요금 감면 종료 영향으로 두 달 연속 올랐고, 10월 산업용 도시가스 도매요금이 인상됐다는 내용이다.",
-      "implication": "산업용 에너지요금 상승은 고객사 원가 부담과 열·전력 수요에 영향을 줄 수 있어 점검이 필요하다.",
-      "category": "전력시장",
-      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1188125"
+      "title": "원유는 돌아오는데 LNG는 막혔다…겨울 앞둔 국내 에너지 수급 '긴장'",
+      "summary": "중동 원유 수출은 전쟁 이전 수준에 근접했으나 카타르 LNG 수출은 대체 경로 부족과 생산시설 피해로 정상화되지 못해 겨울을 앞두고 수급 긴장이 있다는 내용이다.",
+      "implication": "겨울철 발전용 LNG 수급·가격 변동은 여수 LNG 전환 및 YEE 운영에 영향을 줄 수 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.mediapen.com/news/view/1132116"
     }
   ]
 }
