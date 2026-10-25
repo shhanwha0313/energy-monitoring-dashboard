@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.10.25 07:35:43",
-  "base_date": "2026.10.25",
-  "total_articles": 1166,
-  "today_articles": 32,
-  "archive_articles": 1134,
+  "generated_at": "2026.10.25 21:36:35",
+  "base_date": "2026.10.26",
+  "total_articles": 1180,
+  "today_articles": 31,
+  "archive_articles": 1149,
   "important_articles": 1,
-  "normal_articles": 22,
+  "normal_articles": 21,
   "reference_articles": 9,
   "top_keywords": [
+    "데이터센터",
+    "송전망",
     "전기요금",
     "LNG",
-    "공급망",
-    "데이터센터",
-    "송전망"
+    "RE100"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 22,
+    "보통": 21,
     "참고": 9
   },
   "category_counts": {
-    "정책·제도": 4,
+    "정책·제도": 6,
+    "계통·인프라": 5,
     "탄소·ESG": 7,
+    "전력시장": 2,
     "AI·데이터센터": 6,
-    "계통·인프라": 4,
-    "LNG·에너지안보": 6,
-    "전력시장": 3,
-    "산업·고객": 2
+    "산업·고객": 3,
+    "LNG·에너지안보": 2
   },
   "key_issues": [
     {
@@ -39,22 +39,22 @@
       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813646&plink=ORI&cooper=NAVER"
     },
     {
-      "id": "N20261025-1604",
+      "id": "N20261026-1609",
       "issue_order": 2,
-      "title": "‘기후위기 대응’ SAF 의무화 코앞인데… 정부 지원·공급 대책은 ‘빈...",
-      "summary": "SAF 의무화가 임박했으나 일반 항공유보다 가격이 높은데도 정부의 지원·공급 대책은 부족하다는 지적이 나왔다는 내용이다.",
-      "implication": "SAF 수요 확대는 검토 중인 SAF용 바이오 CO₂ 공급 사업의 시장 환경 측면에서 참고할 수 있다.",
-      "category": "탄소·ESG",
-      "url": "https://www.viva100.com/article/20261025500437"
+      "title": "낙찰받고도 착공 못하는 LNG 발전…저가 입찰 개선해야",
+      "summary": "정부가 2024년 경쟁입찰로 선정한 LNG 열병합발전소 두 곳이 주민 수용성, 환경영향평가, 주기기 문제 등으로 착공조차 못하고 있다는 내용이다.",
+      "implication": "석탄에서 LNG로의 전환 사업에서 인허가·수용성 지연이 반복되는 사례여서 여수 LNG 전환 일정 관리에 참고할 만하다.",
+      "category": "정책·제도",
+      "url": "https://www.hankyung.com/article/2026102535001"
     },
     {
-      "id": "N20261025-1602",
+      "id": "N20261026-1610",
       "issue_order": 3,
-      "title": "AIDC 빅뱅, 위기를 기회로 살리려면",
-      "summary": "미국 ERCOT의 대규모 전력 사용자 계통 연결 신청이 급증한 사례를 들며, 비수도권 AIDC에 대한 전력계통영향평가 특례와 인허가 간소화로 구축 속도를 높여야 한다는 내용이다.",
-      "implication": "비수도권 데이터센터 입지 유도 논의는 남부권 전력수요와 데이터센터 전력공급 검토에 참고할 만하다.",
-      "category": "AI·데이터센터",
-      "url": "https://www.mk.co.kr/article/12177750"
+      "title": "320개 규제특례 '초광역특구' 권역별 1곳씩 지정한다",
+      "summary": "정부가 320개 규제특례를 담은 초광역특구를 권역별 1곳씩 지정하며, 전력계통영향평가 절차 간소화 등 에너지 특례와 AI 데이터센터 인허가 일괄처리를 도입한다는 내용이다.",
+      "implication": "비수도권 특구의 전력 특례와 신규 수요 유치 방향은 호남·영남권 산업단지의 열·전력 수요 전망에 영향을 줄 수 있다.",
+      "category": "계통·인프라",
+      "url": "https://www.kado.net/news/articleView.html?idxno=2080383"
     }
   ]
 }
