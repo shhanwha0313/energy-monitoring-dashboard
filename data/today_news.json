@@ -22,6 +22,116 @@
     "issue_order": 1
   },
   {
+    "id": "N20261025-1604",
+    "date": "2026.10.25",
+    "datetime": "2026.10.25 15:18",
+    "title": "‘기후위기 대응’ SAF 의무화 코앞인데… 정부 지원·공급 대책은 ‘빈...",
+    "source": "viva100.com",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "SAF",
+    "summary": "SAF 의무화가 임박했으나 일반 항공유보다 가격이 높은데도 정부의 지원·공급 대책은 부족하다는 지적이 나왔다는 내용이다.",
+    "implication": "SAF 수요 확대는 검토 중인 SAF용 바이오 CO₂ 공급 사업의 시장 환경 측면에서 참고할 수 있다.",
+    "tags": [
+      "SAF",
+      "의무화",
+      "바이오 원료"
+    ],
+    "url": "https://www.viva100.com/article/20261025500437",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261025-1602",
+    "date": "2026.10.25",
+    "datetime": "2026.10.25 13:01",
+    "title": "AIDC 빅뱅, 위기를 기회로 살리려면",
+    "source": "매일경제",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 전력계통",
+    "summary": "미국 ERCOT의 대규모 전력 사용자 계통 연결 신청이 급증한 사례를 들며, 비수도권 AIDC에 대한 전력계통영향평가 특례와 인허가 간소화로 구축 속도를 높여야 한다는 내용이다.",
+    "implication": "비수도권 데이터센터 입지 유도 논의는 남부권 전력수요와 데이터센터 전력공급 검토에 참고할 만하다.",
+    "tags": [
+      "AIDC",
+      "전력계통영향평가",
+      "비수도권"
+    ],
+    "url": "https://www.mk.co.kr/article/12177750",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261025-1601",
+    "date": "2026.10.25",
+    "datetime": "2026.10.25 13:00",
+    "title": "전기안전공사·공주대, 비송전대안 기술 공동 개발 위해 '맞손'",
+    "source": "e-platform.net",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "비송전대안·ESS",
+    "summary": "한국전기안전공사와 공주대가 ESS와 AI를 활용해 기존 전력망을 효율적으로 쓰고 설비 신·증설을 줄이는 비송전대안 기술을 공동 개발하기로 협약했다는 내용이다.",
+    "implication": "ESS 등으로 계통 혼잡을 완화하는 흐름은 향후 LMP·지역별 가격 신호에 영향을 줄 수 있어 동향 확인이 필요하다.",
+    "tags": [
+      "비송전대안",
+      "ESS",
+      "계통"
+    ],
+    "url": "http://www.e-platform.net/news/articleView.html?idxno=106390",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261025-1600",
+    "date": "2026.10.25",
+    "datetime": "2026.10.25 12:00",
+    "title": "히트펌프 350만대 판 커져도…지열·수열 中企는 '공기열' 그늘",
+    "source": "m-i.kr",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "재생열·히트펌프",
+    "summary": "정부가 지난해 12월 발표한 히트펌프 보급 활성화 방안에 따라 2035년까지 히트펌프 350만대를 보급하고 온실가스 518만t을 감축하겠다는 목표를 제시했으나, 지열·수열 중소기업은 공기열 중심 시장에서 소외된다는 내용이다.",
+    "implication": "히트펌프·재생열 보급 정책에서 지열·수열의 비중이 낮아 집단에너지 사업자의 재생열 활용 기회와 지원 범위를 점검할 필요가 있다.",
+    "tags": [
+      "히트펌프",
+      "지열",
+      "수열"
+    ],
+    "url": "https://www.m-i.kr/news/articleView.html?idxno=2009889",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261025-1603",
+    "date": "2026.10.25",
+    "datetime": "2026.10.25 12:00",
+    "title": "시멘트 폐열로 공장 전력 30% 자급…中企 몫은 어디까지",
+    "source": "m-i.kr",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "폐열 활용",
+    "summary": "시멘트 공장의 폐열발전 설비가 공장 전력 사용량의 약 30%를 대체하고 연간 약 9만2000tCO₂를 줄인다고 회사 측이 설명했다는 내용이다.",
+    "implication": "산업 폐열의 자가 활용 확대는 산업용 열·전력 수요 변화와 폐열 활용 사례로 참고할 수 있다.",
+    "tags": [
+      "폐열발전",
+      "시멘트",
+      "전력자급"
+    ],
+    "url": "https://www.m-i.kr/news/articleView.html?idxno=2009806",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261025-1595",
     "date": "2026.10.25",
     "datetime": "2026.10.25 10:00",
@@ -39,9 +149,9 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261023_0003838683",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261025-1596",
@@ -61,9 +171,9 @@
     ],
     "url": "https://www.mediapen.com/news/view/1132116",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261025-1592",
@@ -83,7 +193,7 @@
     ],
     "url": "https://www.ekn.kr/web/view.php?key=20261023020370248",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 9,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -105,7 +215,7 @@
     ],
     "url": "https://www.thepublic.kr/news/articleView.html?idxno=323548",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 10,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -127,7 +237,7 @@
     ],
     "url": "https://www.mt.co.kr/economy/2026/10/25/2026102315572095007",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -149,7 +259,7 @@
     ],
     "url": "https://biz.chosun.com/policy/policy_sub/2026/10/25/23QPRCOSVFEHDIRB2I7O6F6PW4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -171,7 +281,7 @@
     ],
     "url": "https://www.aitimes.com/news/articleView.html?idxno=216614",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -193,7 +303,7 @@
     ],
     "url": "https://m.skyedaily.com/news_view.html?ID=313444",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -215,7 +325,7 @@
     ],
     "url": "https://www.ggilbo.com/news/articleView.html?idxno=1188125",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -237,7 +347,7 @@
     ],
     "url": "https://www.dailyt.co.kr/newsView/dlt202610240010",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -259,7 +369,7 @@
     ],
     "url": "https://www.mtnews.net/news/articleView.html?idxno=26326",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -281,7 +391,7 @@
     ],
     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498115",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -303,7 +413,7 @@
     ],
     "url": "https://www.ajunews.com/view/20261024092856136",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -325,7 +435,7 @@
     ],
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=204360",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -347,7 +457,7 @@
     ],
     "url": "https://www.sentv.co.kr/article/view/sentv202610210198",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -369,7 +479,7 @@
     ],
     "url": "https://www.ekn.kr/web/view.php?key=20261023020090502",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -391,7 +501,73 @@
     ],
     "url": "https://www.the-today.com/news/articleView.html?idxno=92321",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 23,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261025-1605",
+    "date": "2026.10.25",
+    "datetime": "2026.10.25 15:23",
+    "title": "보령, 석탄화력 폐지 위기 돌파구 찾는다",
+    "source": "dynews.co.kr",
+    "priority": "참고",
+    "category": "정책·제도",
+    "detail_category": "석탄화력 폐지지역 지원",
+    "summary": "보령시가 기존 석탄화력 폐지지역에도 특별법 지원을 소급 적용하고 안보전원발전기 지원 근거를 마련해 달라고 요구했다는 내용이다.",
+    "implication": "석탄 폐지·전환 지역 지원 논의는 석탄발전 LNG·바이오매스 전환 정책 환경으로 참고할 수 있다.",
+    "tags": [
+      "석탄화력 폐지",
+      "특별법",
+      "안보전원발전기"
+    ],
+    "url": "https://www.dynews.co.kr/news/articleView.html?idxno=870722",
+    "is_today": "Y",
+    "display_order": 24,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261025-1607",
+    "date": "2026.10.25",
+    "datetime": "2026.10.25 14:32",
+    "title": "엔비디아 성장 신화에 드리운 '전력 절벽'...AI 데이터센터 절반 무산 위...",
+    "source": "글로벌이코노믹",
+    "priority": "참고",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 전력 부족",
+    "summary": "AI 데이터센터 인프라 구축이 극심한 전력 부족과 자재 공급난에 부딪혀 차질을 빚고 있다는 내용이다.",
+    "implication": "데이터센터 확대의 병목이 전력 공급에 있다는 점은 데이터센터 전력공급 모델 검토의 배경으로 참고할 수 있다.",
+    "tags": [
+      "데이터센터",
+      "전력 부족",
+      "엔비디아"
+    ],
+    "url": "https://www.g-enews.com/view.php?ud=202610251424554397e250e8e188_1",
+    "is_today": "Y",
+    "display_order": 25,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261025-1606",
+    "date": "2026.10.25",
+    "datetime": "2026.10.25 13:08",
+    "title": "탄소중립 시대, 바이오매스 발전소 주목, 포항 산업단지의 새로...",
+    "source": "세계일보",
+    "priority": "참고",
+    "category": "탄소·ESG",
+    "detail_category": "바이오매스 발전",
+    "summary": "포항 산업단지에서 지역 산림자원을 지역에서 사용하는 바이오매스 발전소가 탄소중립 연료 측면에서 주목받는다는 내용이다.",
+    "implication": "목재 바이오매스 발전의 지역 연료 조달·탄소중립 논리는 군산 바이오매스 사업 사례로 참고할 수 있다.",
+    "tags": [
+      "바이오매스",
+      "산림자원",
+      "탄소중립"
+    ],
+    "url": "https://www.segye.com/newsView/20261025506174?OutUrl=naver",
+    "is_today": "Y",
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -413,7 +589,7 @@
     ],
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=875957",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -435,7 +611,7 @@
     ],
     "url": "https://www.yna.co.kr/view/AKR20261023120200003?input=1195m",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -457,7 +633,7 @@
     ],
     "url": "https://www.pennmike.com/news/articleView.html?idxno=130212",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -479,7 +655,7 @@
     ],
     "url": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=54492",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -502,7 +678,7 @@
     ],
     "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610240024&t=NN",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -523,7 +699,7 @@
     ],
     "url": "https://www.yna.co.kr/view/AKR20261023167400075?input=1195m",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   }

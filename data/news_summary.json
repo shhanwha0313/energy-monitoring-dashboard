@@ -1,31 +1,31 @@
 ﻿{
-  "generated_at": "2026.10.25 02:36:19",
+  "generated_at": "2026.10.25 07:35:43",
   "base_date": "2026.10.25",
-  "total_articles": 1158,
-  "today_articles": 24,
+  "total_articles": 1166,
+  "today_articles": 32,
   "archive_articles": 1134,
   "important_articles": 1,
-  "normal_articles": 17,
-  "reference_articles": 6,
+  "normal_articles": 22,
+  "reference_articles": 9,
   "top_keywords": [
     "전기요금",
     "LNG",
     "공급망",
-    "송전망",
-    "카타르"
+    "데이터센터",
+    "송전망"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 17,
-    "참고": 6
+    "보통": 22,
+    "참고": 9
   },
   "category_counts": {
-    "정책·제도": 3,
-    "계통·인프라": 3,
+    "정책·제도": 4,
+    "탄소·ESG": 7,
+    "AI·데이터센터": 6,
+    "계통·인프라": 4,
     "LNG·에너지안보": 6,
     "전력시장": 3,
-    "탄소·ESG": 3,
-    "AI·데이터센터": 4,
     "산업·고객": 2
   },
   "key_issues": [
@@ -39,22 +39,22 @@
       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813646&plink=ORI&cooper=NAVER"
     },
     {
-      "id": "N20261025-1595",
+      "id": "N20261025-1604",
       "issue_order": 2,
-      "title": "태양광·원전 늘어도 전기 보낼 길이 없다…전력망 준공 '지지...",
-      "summary": "태양광·원전 등 발전설비는 늘고 있으나 전력망 준공이 지연되어 전기를 보낼 길이 부족하다는 내용이다.",
-      "implication": "송전 제약은 LMP·지역별 요금 및 출력제어와 연결되어 SMP와 설비 이용률에 영향을 줄 수 있다.",
-      "category": "계통·인프라",
-      "url": "https://www.newsis.com/view/NISX20261023_0003838683"
+      "title": "‘기후위기 대응’ SAF 의무화 코앞인데… 정부 지원·공급 대책은 ‘빈...",
+      "summary": "SAF 의무화가 임박했으나 일반 항공유보다 가격이 높은데도 정부의 지원·공급 대책은 부족하다는 지적이 나왔다는 내용이다.",
+      "implication": "SAF 수요 확대는 검토 중인 SAF용 바이오 CO₂ 공급 사업의 시장 환경 측면에서 참고할 수 있다.",
+      "category": "탄소·ESG",
+      "url": "https://www.viva100.com/article/20261025500437"
     },
     {
-      "id": "N20261025-1596",
+      "id": "N20261025-1602",
       "issue_order": 3,
-      "title": "원유는 돌아오는데 LNG는 막혔다…겨울 앞둔 국내 에너지 수급 '긴장'",
-      "summary": "중동 원유 수출은 전쟁 이전 수준에 근접했으나 카타르 LNG 수출은 대체 경로 부족과 생산시설 피해로 정상화되지 못해 겨울을 앞두고 수급 긴장이 있다는 내용이다.",
-      "implication": "겨울철 발전용 LNG 수급·가격 변동은 여수 LNG 전환 및 YEE 운영에 영향을 줄 수 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.mediapen.com/news/view/1132116"
+      "title": "AIDC 빅뱅, 위기를 기회로 살리려면",
+      "summary": "미국 ERCOT의 대규모 전력 사용자 계통 연결 신청이 급증한 사례를 들며, 비수도권 AIDC에 대한 전력계통영향평가 특례와 인허가 간소화로 구축 속도를 높여야 한다는 내용이다.",
+      "implication": "비수도권 데이터센터 입지 유도 논의는 남부권 전력수요와 데이터센터 전력공급 검토에 참고할 만하다.",
+      "category": "AI·데이터센터",
+      "url": "https://www.mk.co.kr/article/12177750"
     }
   ]
 }
