@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.10.26 02:41:32",
+  "generated_at": "2026.10.26 07:45:59",
   "base_date": "2026.10.26",
-  "total_articles": 1197,
-  "today_articles": 48,
+  "total_articles": 1209,
+  "today_articles": 60,
   "archive_articles": 1149,
   "important_articles": 1,
-  "normal_articles": 36,
-  "reference_articles": 11,
+  "normal_articles": 46,
+  "reference_articles": 13,
   "top_keywords": [
     "데이터센터",
-    "전기요금",
     "송전망",
-    "태양광",
-    "LNG"
+    "전기요금",
+    "12차 전기본",
+    "AI 데이터센터"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 36,
-    "참고": 11
+    "보통": 46,
+    "참고": 13
   },
   "category_counts": {
-    "정책·제도": 10,
-    "전력시장": 6,
-    "탄소·ESG": 11,
-    "LNG·에너지안보": 4,
-    "AI·데이터센터": 8,
-    "산업·고객": 4,
-    "계통·인프라": 5
+    "정책·제도": 14,
+    "계통·인프라": 6,
+    "전력시장": 8,
+    "AI·데이터센터": 9,
+    "산업·고객": 5,
+    "LNG·에너지안보": 6,
+    "탄소·ESG": 12
   },
   "key_issues": [
     {
@@ -39,22 +39,22 @@
       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813646&plink=ORI&cooper=NAVER"
     },
     {
-      "id": "N20261026-1634",
+      "id": "N20261026-1642",
       "issue_order": 2,
-      "title": "“원전이 서울에 있었다면 이랬을까”…고리 3·4호기 재가동과 전기료...",
-      "summary": "분산에너지 활성화 특별법에 따른 정부 차등요금 설계안에서 부산·울산·경남이 포함된 남부권 요금이 논의되는 가운데 원전 위험이 반영되지 않았다는 지적이 나왔다는 내용이다.",
-      "implication": "지역별 차등요금 설계는 남부권 산업용 요금과 고객사 부담에 영향을 줄 수 있어 정부안 구체화 과정을 살펴야 한다.",
-      "category": "전력시장",
-      "url": "https://www.kukinews.com/article/view/kuk202610260100"
+      "title": "기후장관 \"새만금~서화성 해저 HVDC 1년 앞당겨…2030년 완성\"",
+      "summary": "김성환 장관이 새만금~서화성 해저 HVDC 계획을 1년 정도 앞당겨 2030년까지 완성하겠다고 밝혔다는 내용이다.",
+      "implication": "군산 인근 새만금 송전 인프라 일정 변화는 지역 계통·LMP 환경에 간접적으로 연결될 수 있다.",
+      "category": "계통·인프라",
+      "url": "https://www.newsis.com/view/NISX20261026_0003841466"
     },
     {
-      "id": "N20261026-1622",
+      "id": "N20261026-1644",
       "issue_order": 3,
-      "title": "송전망 부족 책임 발전사에 전가되나…민간발전사 연 6483억원 수입 감소...",
-      "summary": "전력거래소의 지역별 한계가격제(LMP) 모의운영 결과 수도권 평균 전력가격은 kWh당 107.7원, 비수도권은 97.1원으로 나타났으며, 민간발전사의 연 수입이 6483억원 감소할 수 있다는 증권사 보고서 내용이다.",
-      "implication": "LMP 도입 시 비수도권 발전·열병합 사업자의 손익 영향을 점검하는 기초 자료로 활용할 수 있다.",
+      "title": "한난, 원전 정부승인차액계약 추진",
+      "summary": "한국지역난방공사 고객서비스처가 SMP 급변동으로부터 소비자를 보호하고 발전사업자의 과도한 이익을 제한하는 원전 정부승인차액계약 추진안을 마련했다는 내용이다.",
+      "implication": "동종 집단에너지 사업자의 전력 조달·계약 방식 변화로 SMP 연동 구조 검토에 참고할 수 있다.",
       "category": "전력시장",
-      "url": "https://www.greened.kr/news/articleView.html?idxno=352979"
+      "url": "https://www.discoverynews.kr/news/articleView.html?idxno=1104931"
     }
   ]
 }
