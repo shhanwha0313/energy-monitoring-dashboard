@@ -22,6 +22,340 @@
     "issue_order": 1
   },
   {
+    "id": "N20261026-1634",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 11:38",
+    "title": "“원전이 서울에 있었다면 이랬을까”…고리 3·4호기 재가동과 전기료...",
+    "source": "쿠키뉴스",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "지역별 차등요금",
+    "summary": "분산에너지 활성화 특별법에 따른 정부 차등요금 설계안에서 부산·울산·경남이 포함된 남부권 요금이 논의되는 가운데 원전 위험이 반영되지 않았다는 지적이 나왔다는 내용이다.",
+    "implication": "지역별 차등요금 설계는 남부권 산업용 요금과 고객사 부담에 영향을 줄 수 있어 정부안 구체화 과정을 살펴야 한다.",
+    "tags": [
+      "지역별 차등요금",
+      "남부권",
+      "원전"
+    ],
+    "url": "https://www.kukinews.com/article/view/kuk202610260100",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261026-1622",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 11:18",
+    "title": "송전망 부족 책임 발전사에 전가되나…민간발전사 연 6483억원 수입 감소...",
+    "source": "녹색경제신문",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "LMP",
+    "summary": "전력거래소의 지역별 한계가격제(LMP) 모의운영 결과 수도권 평균 전력가격은 kWh당 107.7원, 비수도권은 97.1원으로 나타났으며, 민간발전사의 연 수입이 6483억원 감소할 수 있다는 증권사 보고서 내용이다.",
+    "implication": "LMP 도입 시 비수도권 발전·열병합 사업자의 손익 영향을 점검하는 기초 자료로 활용할 수 있다.",
+    "tags": [
+      "LMP",
+      "모의운영",
+      "민간발전사"
+    ],
+    "url": "https://www.greened.kr/news/articleView.html?idxno=352979",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261026-1635",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 11:16",
+    "title": "국내 기후단체들 금융위에 공동서한, \"국민성장펀드 신규 LNG 발전소 투...",
+    "source": "비즈니스포스트",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "LNG 발전 투자",
+    "summary": "국내 기후단체들이 금융위원회에 공동서한을 보내 국민성장펀드가 신규 LNG 발전소에 투자하지 않도록 ESG 책임투자원칙을 마련할 것을 요구했다는 내용이다.",
+    "implication": "LNG 발전 투자 배제 요구가 확산되면 LNG 전환·신규 발전 사업의 자금 조달 환경에 영향을 줄 수 있다.",
+    "tags": [
+      "국민성장펀드",
+      "신규 LNG 발전소",
+      "금융위"
+    ],
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=450251",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1628",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 11:12",
+    "title": "국제유가 120弗 육박…겨울 에너지물가 ‘비상’",
+    "source": "헤럴드경제",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "유가·LNG 가격",
+    "summary": "국제유가가 120달러에 육박하고 카타르 생산 차질과 호르무즈 해협 통항 불안으로 LNG 가격도 오르면서 겨울 에너지 물가에 비상이 걸렸다는 내용이다.",
+    "implication": "LNG 가격 상승은 발전용 연료비와 SMP, 증기·전력 공급원가에 직접 영향을 주므로 겨울철 연료 조달 계획 점검이 필요하다.",
+    "tags": [
+      "국제유가",
+      "LNG 가격",
+      "호르무즈"
+    ],
+    "url": "https://biz.heraldcorp.com/article/10914650?ref=naver",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1623",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 11:04",
+    "title": "김성환 “석탄발전 최소출력 하향·ESS 요금 감면 적극 검토”",
+    "source": "이데일리",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "석탄 최소출력·ESS 요금",
+    "summary": "김성환 기후에너지환경부 장관이 국정감사에서 석탄발전 최소출력 기준 하향과 ESS의 전력망 이용 비용 감면을 적극 검토하겠다고 밝혔다는 내용이다.",
+    "implication": "석탄발전 출력 기준과 ESS 비용 체계 변화는 SMP와 계통 운영에 영향을 줄 수 있어 후속 제도화 여부를 모니터링할 필요가 있다.",
+    "tags": [
+      "석탄발전 최소출력",
+      "ESS",
+      "전력망 이용요금"
+    ],
+    "url": "https://www.edaily.co.kr/News/Read?newsId=02653526645616856&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1630",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 10:59",
+    "title": "박찬대 \"경제성장률 5% 목표…산업용 전기료 2~3원 추가 인하 추진\"",
+    "source": "뉴스1",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "산업용 전기요금·LNG 냉열",
+    "summary": "박찬대 인천시장이 산업용 전기료 2~3원 추가 인하를 추진하고 송도 LNG 기지의 초저온 냉열을 바이오 공장과 반도체 시설에 활용하는 방안도 추진하겠다고 밝혔다는 내용이다.",
+    "implication": "LNG 냉열 활용 사례는 당사가 검토 중인 LNG 냉열발전 과제의 참고 사례가 될 수 있다.",
+    "tags": [
+      "산업용 전기료",
+      "LNG 냉열",
+      "인천"
+    ],
+    "url": "https://www.news1.kr/local/incheon/6331698",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1626",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 10:42",
+    "title": "국산 태양광 점유율 '반토막'...\"尹정부 때 RPS 낮춘 탓\"",
+    "source": "뉴스트리",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "RPS",
+    "summary": "이전 정부 시절 RPS 의무공급비율이 하향된 이후 국내 태양광 산업 점유율이 반토막 났다는 지적이 나왔다는 내용이다.",
+    "implication": "RPS 제도 개편 논의가 이어지는 가운데 비율 조정이 재생에너지 수요와 REC 시장에 미친 영향을 가늠할 수 있어 당사 바이오매스 수익 관점에서 참고할 만하다.",
+    "tags": [
+      "RPS",
+      "의무공급비율",
+      "태양광"
+    ],
+    "url": "https://www.newstree.kr/newsView/ntr202610260005",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1625",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 10:16",
+    "title": "기후부 \"원전 전력 '직접구매' 허용은 전기요금 인상 요인\"",
+    "source": "연합뉴스",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "원전 PPA",
+    "summary": "기후에너지환경부가 원전 전력구매계약(PPA) 허용이 전기요금 인상 요인이 될 수 있다는 입장을 밝혔으며, 초광역특구 내 허용에는 신중한 태도를 보였다는 내용이다.",
+    "implication": "산업단지 대상 원전 PPA 허용 여부는 산업용 전력 조달 환경과 집단에너지 경쟁구도에 영향을 줄 수 있다.",
+    "tags": [
+      "원전 PPA",
+      "전기요금",
+      "초광역특구"
+    ],
+    "url": "https://www.yna.co.kr/view/AKR20261026053700530?input=1195m",
+    "is_today": "Y",
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1633",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 10:00",
+    "title": "석탄발전 폐쇄지역, '정의로운전환 특별지구' 지정 추진",
+    "source": "ESG경제",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "석탄 폐쇄 정의로운 전환",
+    "summary": "석탄발전 폐쇄지역을 '정의로운전환 특별지구'로 지정하는 방안이 추진되고 있다는 내용이다.",
+    "implication": "석탄발전 폐지·전환 지역 지원 체계는 당사 여수·군산 석탄 전환 사업과 지역 수용성 측면에서 참고할 수 있다.",
+    "tags": [
+      "석탄발전 폐쇄",
+      "정의로운전환",
+      "특별지구"
+    ],
+    "url": "https://www.esgeconomy.com/news/articleView.html?idxno=17118",
+    "is_today": "Y",
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1631",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 09:47",
+    "title": "어기구 “AI 데이터센터 램프업 고려한 기본요금 개편…전력망 기준 연...",
+    "source": "이데일리",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 전기요금",
+    "summary": "어기구 의원이 AI 데이터센터의 단계적 가동(램프업)을 고려한 기본요금 개편과 전력망 접속 기준 정비가 필요하다고 주장했다는 내용이다.",
+    "implication": "데이터센터 요금·접속 기준이 정비되면 신규 전력수요 형성과 당사 데이터센터 전력공급 모델 검토에 영향을 줄 수 있다.",
+    "tags": [
+      "AI 데이터센터",
+      "기본요금",
+      "전력망 접속"
+    ],
+    "url": "https://www.edaily.co.kr/News/Read?newsId=02400966645616856&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+    "is_today": "Y",
+    "display_order": 11,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1632",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 08:35",
+    "title": "SK, 464조 들여 AI 데이터센터 5GW 추진…2035년 15GW 목표",
+    "source": "이데일리",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 대규모 투자",
+    "summary": "SK가 464조원을 들여 AI 데이터센터 5GW를 추진하고 2035년 15GW를 목표로 하며, 한국 기존 데이터센터 용량은 약 1GW 수준이라는 내용이다.",
+    "implication": "대규모 데이터센터 투자는 전력·열 수요와 입지 논의에 영향을 줄 수 있어 당사 전력공급 사업 기회 관점에서 동향을 볼 필요가 있다.",
+    "tags": [
+      "AI 데이터센터",
+      "SK",
+      "5GW"
+    ],
+    "url": "https://www.edaily.co.kr/News/Read?newsId=02053286645616856&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+    "is_today": "Y",
+    "display_order": 12,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1636",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 08:10",
+    "title": "가스공사·석유공사 통합 '부실 털어내기' 착수..정부, 배드뱅크 분리 ...",
+    "source": "한국에너지신문",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "가스공사·석유공사 통합",
+    "summary": "정부가 가스공사와 석유공사 통합을 추진하며 부실 자산을 배드뱅크로 분리하는 작업에 착수했다는 내용이다.",
+    "implication": "발전용 LNG 도입을 맡는 가스공사의 재무·구조 변화는 장기적으로 LNG 공급 및 요금에 영향을 줄 수 있다.",
+    "tags": [
+      "가스공사",
+      "석유공사",
+      "통합",
+      "배드뱅크"
+    ],
+    "url": "https://kpenews.com/View.aspx?No=4278285",
+    "is_today": "Y",
+    "display_order": 13,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1629",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 07:00",
+    "title": "롯데케미칼·여천NCC 결합 공정위 심사 장기화…통합법인 일정도...",
+    "source": "인베스트조선",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "여수 석유화학 구조조정",
+    "summary": "롯데케미칼과 여천NCC의 결합이 공정위 심사 장기화로 통합법인 일정이 늦어지고 있으며, 여천NCC 2·3공장 가동 중단과 롯데케미칼 여수공장 통합이 골자라는 내용이다.",
+    "implication": "여수산단 주요 고객사의 설비 가동 중단·통합은 증기·전력 수요 감소로 이어질 수 있어 일정과 대상 설비를 지속 확인해야 한다.",
+    "tags": [
+      "여천NCC",
+      "롯데케미칼",
+      "기업결합",
+      "여수"
+    ],
+    "url": "https://www.investchosun.com/site/data/html_dir/2026/10/23/2026102380183.html",
+    "is_today": "Y",
+    "display_order": 14,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1624",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 06:22",
+    "title": "‘원전 공론화’ 변수… 신규발주 지연되나",
+    "source": "대한경제",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "12차 전기본",
+    "summary": "원전 공론화위원회가 전원별 발전비중 상·하한 설문을 진행하면서 12차 전력수급기본계획 정부안이 연말로, 최종 확정이 내년 2월로 늦춰질 수 있고 원전 비중에 따라 LNG·송전망 계획이 달라진다는 내용이다.",
+    "implication": "전기본의 석탄 폐지·LNG 역할 확정 시점이 늦춰질 수 있어 당사 LNG 전환 및 설비 계획의 전제 일정을 재점검할 필요가 있다.",
+    "tags": [
+      "12차 전기본",
+      "원전 공론화",
+      "LNG",
+      "송전망"
+    ],
+    "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610231032550000856",
+    "is_today": "Y",
+    "display_order": 15,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1627",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 06:00",
+    "title": "발전 연료비·SMP 오르는데 판매 단가는 하락…전기요금 인상 필요성 커...",
+    "source": "뉴시스",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "SMP·전기요금",
+    "summary": "발전 연료비단가와 SMP는 오르는데 전력 판매단가는 하락해 전기요금 인상 필요성이 커지고 있다는 내용이다.",
+    "implication": "연료비·SMP 상승과 요금 인상 압력은 산업용 요금과 당사 LNG 발전 수익성 전망에 함께 영향을 준다.",
+    "tags": [
+      "SMP",
+      "연료비",
+      "판매단가",
+      "전기요금"
+    ],
+    "url": "https://www.newsis.com/view/NISX20261025_0003840140",
+    "is_today": "Y",
+    "display_order": 16,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261026-1609",
     "date": "2026.10.26",
     "datetime": "2026.10.26 01:04",
@@ -39,9 +373,9 @@
     ],
     "url": "https://www.hankyung.com/article/2026102535001",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 17,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261026-1610",
@@ -61,9 +395,9 @@
     ],
     "url": "https://www.kado.net/news/articleView.html?idxno=2080383",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 18,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261025-1611",
@@ -83,7 +417,7 @@
     ],
     "url": "https://mpmbc.co.kr/NewsArticle/1542512",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -105,7 +439,7 @@
     ],
     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6860597_37004.html",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -127,7 +461,7 @@
     ],
     "url": "https://www.namdonews.com/news/articleView.html?idxno=927175",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -149,7 +483,7 @@
     ],
     "url": "https://gj.newdaily.co.kr/site/data/html/2026/10/25/2026102500073.html",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -171,7 +505,7 @@
     ],
     "url": "https://www.dt.co.kr/article/12091115?ref=naver",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -193,7 +527,7 @@
     ],
     "url": "https://www.g-enews.com/view.php?ud=20261023180523908324debea800_1",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -215,7 +549,7 @@
     ],
     "url": "http://www.metroseoul.co.kr/article/20261025500239",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -237,7 +571,7 @@
     ],
     "url": "https://www.edaily.co.kr/News/Read?newsId=02033606645616528&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -259,7 +593,7 @@
     ],
     "url": "https://www.viva100.com/article/20261025500437",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -281,7 +615,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12177750",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -303,7 +637,7 @@
     ],
     "url": "http://www.e-platform.net/news/articleView.html?idxno=106390",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -325,7 +659,7 @@
     ],
     "url": "https://www.m-i.kr/news/articleView.html?idxno=2009889",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -347,7 +681,7 @@
     ],
     "url": "https://www.m-i.kr/news/articleView.html?idxno=2009806",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -369,7 +703,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261023_0003838683",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -391,7 +725,7 @@
     ],
     "url": "https://www.mediapen.com/news/view/1132116",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -413,7 +747,7 @@
     ],
     "url": "https://www.ekn.kr/web/view.php?key=20261023020370248",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -435,7 +769,7 @@
     ],
     "url": "https://www.thepublic.kr/news/articleView.html?idxno=323548",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 35,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -457,7 +791,7 @@
     ],
     "url": "https://www.mt.co.kr/economy/2026/10/25/2026102315572095007",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 36,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -479,7 +813,51 @@
     ],
     "url": "https://biz.chosun.com/policy/policy_sub/2026/10/25/23QPRCOSVFEHDIRB2I7O6F6PW4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 37,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1637",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 11:28",
+    "title": "인천 주안·부평산단에 320억 투입…태양광으로 에너지 자립 추진",
+    "source": "뉴스프리존",
+    "priority": "참고",
+    "category": "탄소·ESG",
+    "detail_category": "산단 에너지 자립",
+    "summary": "인천 주안·부평산단에 320억원을 투입해 태양광으로 에너지 자립을 추진하고, 생산 전력을 입주기업에 공급해 RE100 이행 기반을 지원한다는 내용이다.",
+    "implication": "산단 내 재생에너지 자립 모델은 산업단지 에너지 공급 구도 변화의 참고 사례가 된다.",
+    "tags": [
+      "주안·부평산단",
+      "태양광",
+      "RE100"
+    ],
+    "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=715962",
+    "is_today": "Y",
+    "display_order": 38,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261026-1638",
+    "date": "2026.10.26",
+    "datetime": "2026.10.26 09:38",
+    "title": "EU 탄소국경세, 철강서 車부품·가전까지 확대…2028년부터 적용",
+    "source": "ESG경제",
+    "priority": "참고",
+    "category": "탄소·ESG",
+    "detail_category": "EU CBAM",
+    "summary": "EU 탄소국경조정제도가 철강에서 자동차 부품·가전까지 확대되어 2028년부터 적용된다는 내용이다.",
+    "implication": "수출 비중이 큰 산단 고객사의 탄소비용 부담과 저탄소 에너지 수요 변화를 가늠하는 참고 자료다.",
+    "tags": [
+      "EU 탄소국경세",
+      "CBAM",
+      "적용 확대"
+    ],
+    "url": "https://www.esgeconomy.com/news/articleView.html?idxno=17116",
+    "is_today": "Y",
+    "display_order": 39,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -501,7 +879,7 @@
     ],
     "url": "https://www.sedaily.com/article/20105877?ref=naver",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 40,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -523,7 +901,7 @@
     ],
     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8694602&ref=A",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 41,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -545,7 +923,7 @@
     ],
     "url": "https://www.ikbc.co.kr/article/view/kbc202610250039",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 42,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -567,7 +945,7 @@
     ],
     "url": "http://www.ttlnews.com/news/articleView.html?idxno=3154824",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 43,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -589,7 +967,7 @@
     ],
     "url": "https://www.dynews.co.kr/news/articleView.html?idxno=870722",
     "is_today": "Y",
-    "display_order": 27,
+    "display_order": 44,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -611,7 +989,7 @@
     ],
     "url": "https://www.g-enews.com/view.php?ud=202610251424554397e250e8e188_1",
     "is_today": "Y",
-    "display_order": 28,
+    "display_order": 45,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -633,7 +1011,7 @@
     ],
     "url": "https://www.segye.com/newsView/20261025506174?OutUrl=naver",
     "is_today": "Y",
-    "display_order": 29,
+    "display_order": 46,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -655,7 +1033,7 @@
     ],
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=875957",
     "is_today": "Y",
-    "display_order": 30,
+    "display_order": 47,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -677,7 +1055,7 @@
     ],
     "url": "https://www.yna.co.kr/view/AKR20261023120200003?input=1195m",
     "is_today": "Y",
-    "display_order": 31,
+    "display_order": 48,
     "is_key_issue": "N",
     "issue_order": 9999
   }
