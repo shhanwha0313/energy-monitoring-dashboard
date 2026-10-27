@@ -1,59 +1,60 @@
 ﻿{
-  "generated_at": "2026.10.27 07:47:41",
-  "base_date": "2026.10.27",
-  "total_articles": 1240,
-  "today_articles": 63,
-  "archive_articles": 1177,
+  "generated_at": "2026.10.27 21:42:36",
+  "base_date": "2026.10.28",
+  "total_articles": 1253,
+  "today_articles": 36,
+  "archive_articles": 1217,
   "important_articles": 0,
-  "normal_articles": 52,
-  "reference_articles": 11,
+  "normal_articles": 28,
+  "reference_articles": 8,
   "top_keywords": [
-    "12차 전기본",
     "ESS",
+    "12차 전기본",
     "송전망",
-    "AI 데이터센터",
-    "LNG 가격"
+    "AIDC",
+    "HVDC"
   ],
   "priority_counts": {
-    "보통": 52,
-    "참고": 11
+    "보통": 28,
+    "참고": 8
   },
   "category_counts": {
-    "탄소·ESG": 8,
-    "계통·인프라": 8,
-    "LNG·에너지안보": 10,
-    "산업·고객": 4,
-    "정책·제도": 18,
-    "전력시장": 11,
-    "AI·데이터센터": 4
+    "정책·제도": 9,
+    "전력시장": 5,
+    "계통·인프라": 6,
+    "AI·데이터센터": 2,
+    "산업·고객": 3,
+    "탄소·ESG": 4,
+    "LNG·에너지안보": 6,
+    "기타": 1
   },
   "key_issues": [
     {
-      "id": "N20261027-1674",
+      "id": "N20261028-1683",
       "issue_order": 1,
-      "title": "서부발전 컨소, 서남권 해상풍력 철회…‘12조’ 사업에 연쇄 차...",
-      "summary": "서부발전 컨소시엄이 서남권 해상풍력 사업을 철회했으며, 기후부는 RPS 변화에 따른 사업성 문제가 영향을 미쳤을 가능성을 거론했다는 내용이다.",
-      "implication": "RPS 제도 변화가 재생에너지 사업성에 영향을 주는 사례로, 당사 바이오매스 REC 수익 검토 시 참고할 수 있다.",
-      "category": "탄소·ESG",
-      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261027010009456"
+      "title": "\"美는 원전 확대 서두르는데…\" 韓, 공론화에 발목 잡혀 '공회전'만",
+      "summary": "원전 공론화위원회 운영으로 당초 10월로 예상된 12차 전기본 정부안 마련이 2개월 이상 연기된다는 내용이다.",
+      "implication": "석탄 폐지·LNG 역할 등 당사 설비 전환 전제가 되는 전기본 정부안 공개 시점이 늦춰지는 점을 감안해야 한다.",
+      "category": "정책·제도",
+      "url": "https://www.newsis.com/view/NISX20261027_0003843502"
     },
     {
-      "id": "N20261027-1673",
+      "id": "N20261028-1685",
       "issue_order": 2,
-      "title": "전력거래소, 전력망 안정화 설비 확충…전기품질 강화",
-      "summary": "전력거래소가 과전압 대응 설비와 그리드포밍 ESS를 단계적으로 도입해 전력망 안정화 설비를 확충하고 2029년까지 그리드포밍 기술을 구비한다는 내용이다.",
-      "implication": "ESS를 활용한 계통 안정성 확보 방향은 그리드코드 개편 검토 시 함께 살펴볼 사항이다.",
-      "category": "계통·인프라",
-      "url": "http://www.ikld.kr/news/articleView.html?idxno=342991"
+      "title": "산업계, 전기료 완화책 마련 촉구",
+      "summary": "석유화학·비철금속 등 에너지 다소비 업종이 밀집한 울산에서 산업용 전기요금이 최우선 과제로 꼽히는 가운데, 대한상의가 초광역특구법과 관련해 전기요금 포함 산업계 건의를 냈다는 내용이다.",
+      "implication": "석유화학 고객사의 전기요금 부담 인식을 보여주며 당사 증기·전력 공급 단가 경쟁력 점검에 참고할 수 있다.",
+      "category": "정책·제도",
+      "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1070785"
     },
     {
-      "id": "N20261027-1675",
+      "id": "N20261027-1687",
       "issue_order": 3,
-      "title": "LNG 가격 46% 뛰었는데 도시가스 요금은 동결…도시가스업계 수익성 악...",
-      "summary": "NICE신용평가 보고서에 따르면 국제 LNG 가격 상승과 산업용 도시가스 수요 감소로 도시가스 업체 수익성이 악화되고 있으나 도시가스 요금은 동결 상태라는 내용이다.",
-      "implication": "LNG 가격 상승이 연료비 부담으로 이어질 수 있어 LNG 열병합 연료비와 요금 반영 여건을 점검할 필요가 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1729342"
+      "title": "① 사상 첫 마이너스 전기 가격 발생",
+      "summary": "전력시장 개설 이후 처음으로 제주에서 전기 도매가격이 마이너스로 떨어졌다는 내용이다.",
+      "implication": "재생에너지 확대에 따른 도매가격 변동성 확대 사례로 SMP 전망 점검 시 참고할 수 있다.",
+      "category": "전력시장",
+      "url": "https://jejumbc.com/NewsArticle/869800"
     }
   ]
 }
