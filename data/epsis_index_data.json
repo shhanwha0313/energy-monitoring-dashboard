@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-10-30",
+    "smp": 109.72,
+    "max_power": null,
+    "min_power": null,
+    "reserve_power": null,
+    "reserve_ratio": null
+  },
+  {
     "date": "2026-10-29",
     "smp": 119.44,
     "max_power": null,
@@ -2918,13 +2926,5 @@
     "min_power": 0.0,
     "reserve_power": 18877.0,
     "reserve_ratio": 26.6
-  },
-  {
-    "date": "2025-10-29",
-    "smp": 111.63,
-    "max_power": 70693.0,
-    "min_power": 0.0,
-    "reserve_power": 18374.0,
-    "reserve_ratio": 26.0
   }
 ]
