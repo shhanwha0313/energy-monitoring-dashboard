@@ -1,60 +1,60 @@
 ﻿{
-  "generated_at": "2026.10.29 07:44:44",
-  "base_date": "2026.10.29",
-  "total_articles": 1303,
-  "today_articles": 53,
-  "archive_articles": 1250,
+  "generated_at": "2026.10.29 21:55:43",
+  "base_date": "2026.10.30",
+  "total_articles": 1313,
+  "today_articles": 31,
+  "archive_articles": 1282,
   "important_articles": 0,
-  "normal_articles": 44,
-  "reference_articles": 9,
+  "normal_articles": 26,
+  "reference_articles": 5,
   "top_keywords": [
     "12차 전기본",
-    "데이터센터",
+    "LNG",
     "산업용 전기요금",
-    "석유화학",
-    "AI"
+    "ESS",
+    "LNG 발전"
   ],
   "priority_counts": {
-    "보통": 44,
-    "참고": 9
+    "보통": 26,
+    "참고": 5
   },
   "category_counts": {
-    "AI·데이터센터": 4,
-    "계통·인프라": 9,
-    "산업·고객": 7,
-    "정책·제도": 16,
-    "LNG·에너지안보": 5,
-    "전력시장": 4,
-    "탄소·ESG": 6,
+    "정책·제도": 8,
+    "LNG·에너지안보": 6,
+    "계통·인프라": 6,
+    "전력시장": 2,
+    "AI·데이터센터": 2,
+    "산업·고객": 3,
+    "탄소·ESG": 2,
     "기타": 2
   },
   "key_issues": [
     {
-      "id": "N20261029-1735",
+      "id": "N20261030-1750",
       "issue_order": 1,
-      "title": "데이터센터 전력망 영향평가 문턱 낮춘다…'10MW→5MW 이하' 입법 추진",
-      "summary": "데이터센터 증가로 대규모 전력수요가 빠르게 늘면서 전력계통영향평가 대상 기준을 10MW에서 5MW 이하로 낮추는 개정안이 입법 추진되며, 통과 시 대규모 전력소비시설의 입지와 계통 접속에 영향을 미칠 것이라는 내용이다.",
-      "implication": "데이터센터 전력공급 모델 검토 시 계통영향평가 대상 확대에 따른 입지·접속 절차 변화를 함께 살펴볼 필요가 있다.",
-      "category": "AI·데이터센터",
-      "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=204522"
+      "title": "LNG 불러낸 건 정부다",
+      "summary": "12차 전력수급기본계획과 관련해 원전을 그만큼 새로 짓기 어렵고 재생에너지도 날씨에 좌우돼, LNG 발전이 불가피한 상황이라는 취지의 칼럼이다.",
+      "implication": "전기본에서 LNG 발전의 역할을 보는 시각을 보여주는 논의로, 당사 LNG 전환 사업의 정책 환경을 가늠하는 데 참고할 수 있다.",
+      "category": "정책·제도",
+      "url": "https://www.hankookilbo.com/news/article/A2026102912380002355?did=NA"
     },
     {
-      "id": "N20261029-1739",
+      "id": "N20261030-1749",
       "issue_order": 2,
-      "title": "“BESS 실계통 실증 협력”…동서발전, 전력거래소·생산기술연구원과 ...",
-      "summary": "동서발전이 전력거래소·생산기술연구원과 BESS 실계통 실증에 협력하며, 한국형 전력망 형성 기술은 2027년 12월 상업운전 예정인 중앙계약시장 장주기 BESS부터 적용되고 2029년까지 약 1.7GW가 도입될 예정이라는 내용이다.",
-      "implication": "ESS·유연성 자원 확대는 계통 혼잡과 시장가격 구조에 영향을 줄 수 있어 동향을 지켜볼 필요가 있다.",
-      "category": "계통·인프라",
-      "url": "https://www.mk.co.kr/article/12189945"
+      "title": "\"세계 최대 LNG 생산국 카타르, 미국산 LNG 산다\"",
+      "summary": "호르무즈 해협 봉쇄가 장기화되는 가운데 세계 최대 LNG 생산국 중 하나인 카타르가 위험 분산을 위해 미국 등에서 LNG를 직접 매입한다는 내용이다.",
+      "implication": "중동 공급 차질이 길어지는 신호로, 발전용 LNG 도입 가격과 수급 리스크 점검 시 참고할 필요가 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.yna.co.kr/view/AKR20261030001600079?input=1195m"
     },
     {
-      "id": "N20261029-1738",
+      "id": "N20261029-1748",
       "issue_order": 3,
-      "title": "여수 율촌 3조3500억 첨단산단 구상… 재원·기업 유치·환경...",
-      "summary": "여수시가 석유화학산업 침체 극복을 위해 3조3500억 원 규모의 율촌 미래첨단 산업단지 조성을 추진하고 있으나 재원·기업 유치·환경 등 넘어야 할 과제가 많다는 내용이다.",
-      "implication": "석유화학 침체 속 여수권 신규 산단은 중장기 열·전력 수요 요인이 될 수 있으나 실현 가능성은 불확실하다.",
-      "category": "산업·고객",
-      "url": "http://www.newskr.kr/news/articleView.html?idxno=107534"
+      "title": "경남도 \"경남 전력망 변압기의 호남 반도체 전용 반대\"",
+      "summary": "경남도가 경남 전력망용 변압기를 호남 반도체 클러스터에 전용하는 데 반대하며 당초 계획대로 지역 전력계통 보강이 추진돼야 한다고 밝혔다는 내용이다.",
+      "implication": "남부권 대규모 산업 수요와 계통 설비 배분을 둘러싼 지역 갈등이 커지고 있어, 호남권 전력수요 증가 요인으로 참고할 만하다.",
+      "category": "계통·인프라",
+      "url": "https://www.gnnews.co.kr/news/articleView.html?idxno=648533"
     }
   ]
 }
