@@ -1,60 +1,60 @@
 ﻿{
-  "generated_at": "2026.10.29 21:55:43",
+  "generated_at": "2026.10.30 02:51:37",
   "base_date": "2026.10.30",
-  "total_articles": 1313,
-  "today_articles": 31,
+  "total_articles": 1320,
+  "today_articles": 38,
   "archive_articles": 1282,
   "important_articles": 0,
-  "normal_articles": 26,
-  "reference_articles": 5,
+  "normal_articles": 32,
+  "reference_articles": 6,
   "top_keywords": [
     "12차 전기본",
-    "LNG",
     "산업용 전기요금",
-    "ESS",
-    "LNG 발전"
+    "LNG",
+    "여수",
+    "ESS"
   ],
   "priority_counts": {
-    "보통": 26,
-    "참고": 5
+    "보통": 32,
+    "참고": 6
   },
   "category_counts": {
-    "정책·제도": 8,
-    "LNG·에너지안보": 6,
+    "LNG·에너지안보": 8,
+    "정책·제도": 10,
+    "탄소·ESG": 3,
+    "산업·고객": 4,
     "계통·인프라": 6,
-    "전력시장": 2,
+    "전력시장": 3,
     "AI·데이터센터": 2,
-    "산업·고객": 3,
-    "탄소·ESG": 2,
     "기타": 2
   },
   "key_issues": [
     {
-      "id": "N20261030-1750",
+      "id": "N20261030-1757",
       "issue_order": 1,
-      "title": "LNG 불러낸 건 정부다",
-      "summary": "12차 전력수급기본계획과 관련해 원전을 그만큼 새로 짓기 어렵고 재생에너지도 날씨에 좌우돼, LNG 발전이 불가피한 상황이라는 취지의 칼럼이다.",
-      "implication": "전기본에서 LNG 발전의 역할을 보는 시각을 보여주는 논의로, 당사 LNG 전환 사업의 정책 환경을 가늠하는 데 참고할 수 있다.",
-      "category": "정책·제도",
-      "url": "https://www.hankookilbo.com/news/article/A2026102912380002355?did=NA"
-    },
-    {
-      "id": "N20261030-1749",
-      "issue_order": 2,
-      "title": "\"세계 최대 LNG 생산국 카타르, 미국산 LNG 산다\"",
-      "summary": "호르무즈 해협 봉쇄가 장기화되는 가운데 세계 최대 LNG 생산국 중 하나인 카타르가 위험 분산을 위해 미국 등에서 LNG를 직접 매입한다는 내용이다.",
-      "implication": "중동 공급 차질이 길어지는 신호로, 발전용 LNG 도입 가격과 수급 리스크 점검 시 참고할 필요가 있다.",
+      "title": "하동복합발전소 건설…하동군·남부발전·두산에너빌리티, 지역 상생 맞...",
+      "summary": "하동화력 2·3호기(1000㎿)를 대체하는 하동복합발전소가 내년 1월 착공해 2029년 12월 준공을 목표로 하며, 정부의 2040년 석탄 단계적 폐지에 따른 LNG 복합 전환의 일환이라는 내용이다.",
+      "implication": "석탄의 LNG 전환 추진이라는 당사 여수 사업과 같은 방향의 사례로, 지역 상생 방식과 일정 참고가 가능하다.",
       "category": "LNG·에너지안보",
-      "url": "https://www.yna.co.kr/view/AKR20261030001600079?input=1195m"
+      "url": "https://www.news1.kr/local/busan-gyeongnam/6337663"
     },
     {
-      "id": "N20261029-1748",
+      "id": "N20261030-1760",
+      "issue_order": 2,
+      "title": "서울시, 지열·수열 등 재생열 확대…건축물 냉난방 에너지 절감",
+      "summary": "서울시가 지열·수열 등 재생열을 확대해 건축물 냉난방 에너지를 절감한다는 내용이다.",
+      "implication": "지자체 단위 재생열 보급 확대는 집단에너지 열공급 영역과 경합·협력 가능성이 있어 정책 동향 파악이 필요하다.",
+      "category": "정책·제도",
+      "url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=52555"
+    },
+    {
+      "id": "N20261030-1758",
       "issue_order": 3,
-      "title": "경남도 \"경남 전력망 변압기의 호남 반도체 전용 반대\"",
-      "summary": "경남도가 경남 전력망용 변압기를 호남 반도체 클러스터에 전용하는 데 반대하며 당초 계획대로 지역 전력계통 보강이 추진돼야 한다고 밝혔다는 내용이다.",
-      "implication": "남부권 대규모 산업 수요와 계통 설비 배분을 둘러싼 지역 갈등이 커지고 있어, 호남권 전력수요 증가 요인으로 참고할 만하다.",
-      "category": "계통·인프라",
-      "url": "https://www.gnnews.co.kr/news/articleView.html?idxno=648533"
+      "title": "울산·인천, 수소차 보급·충전시설 확대 손잡아…LNG 냉열도 활용",
+      "summary": "울산시와 인천시가 수소차 보급·충전시설 확대와 LNG 냉열을 활용한 신산업 발굴을 위한 상생 협약을 체결했다는 내용이다.",
+      "implication": "당사가 검토 중인 LNG 냉열발전과 관련해 지자체 차원의 냉열 활용 움직임을 참고할 수 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=766723"
     }
   ]
 }
