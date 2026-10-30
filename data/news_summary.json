@@ -1,60 +1,61 @@
 ﻿{
-  "generated_at": "2026.10.30 02:51:37",
+  "generated_at": "2026.10.30 07:46:19",
   "base_date": "2026.10.30",
-  "total_articles": 1320,
-  "today_articles": 38,
+  "total_articles": 1328,
+  "today_articles": 46,
   "archive_articles": 1282,
-  "important_articles": 0,
-  "normal_articles": 32,
-  "reference_articles": 6,
+  "important_articles": 1,
+  "normal_articles": 37,
+  "reference_articles": 8,
   "top_keywords": [
     "12차 전기본",
     "산업용 전기요금",
-    "LNG",
     "여수",
-    "ESS"
+    "ESS",
+    "LNG"
   ],
   "priority_counts": {
-    "보통": 32,
-    "참고": 6
+    "중요": 1,
+    "보통": 37,
+    "참고": 8
   },
   "category_counts": {
+    "탄소·ESG": 5,
+    "정책·제도": 12,
+    "계통·인프라": 7,
+    "AI·데이터센터": 4,
+    "산업·고객": 5,
     "LNG·에너지안보": 8,
-    "정책·제도": 10,
-    "탄소·ESG": 3,
-    "산업·고객": 4,
-    "계통·인프라": 6,
     "전력시장": 3,
-    "AI·데이터센터": 2,
     "기타": 2
   },
   "key_issues": [
     {
-      "id": "N20261030-1757",
+      "id": "N20261030-1762",
       "issue_order": 1,
-      "title": "하동복합발전소 건설…하동군·남부발전·두산에너빌리티, 지역 상생 맞...",
-      "summary": "하동화력 2·3호기(1000㎿)를 대체하는 하동복합발전소가 내년 1월 착공해 2029년 12월 준공을 목표로 하며, 정부의 2040년 석탄 단계적 폐지에 따른 LNG 복합 전환의 일환이라는 내용이다.",
-      "implication": "석탄의 LNG 전환 추진이라는 당사 여수 사업과 같은 방향의 사례로, 지역 상생 방식과 일정 참고가 가능하다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.news1.kr/local/busan-gyeongnam/6337663"
+      "title": "하반기 해상풍력 2.2GW 입찰...상한가격 최대 1.34% 인하",
+      "summary": "RPS 체제에서 사실상 마지막으로 진행되는 올해 하반기 해상풍력 고정가격계약 경쟁입찰 물량이 2.2GW 내외로 공고됐고, 상한가격은 고정식 kWh당 168.937원, 부유식 174.003원이라는 내용이다.",
+      "implication": "RPS가 계약시장 중심으로 전환되는 절차가 입찰 공고 단계로 진행된 만큼, 바이오매스 REC 수익 구조 변화 여부를 계속 점검할 필요가 있다.",
+      "category": "탄소·ESG",
+      "url": "http://www.e2news.com/news/articleView.html?idxno=335650"
     },
     {
-      "id": "N20261030-1760",
+      "id": "N20261030-1766",
       "issue_order": 2,
-      "title": "서울시, 지열·수열 등 재생열 확대…건축물 냉난방 에너지 절감",
-      "summary": "서울시가 지열·수열 등 재생열을 확대해 건축물 냉난방 에너지를 절감한다는 내용이다.",
-      "implication": "지자체 단위 재생열 보급 확대는 집단에너지 열공급 영역과 경합·협력 가능성이 있어 정책 동향 파악이 필요하다.",
+      "title": "“노후 산단 에너지 자립 기반 마련”…KOSPO 컨소, 신평장림산단 에너...",
+      "summary": "남부발전 컨소시엄이 부산 신평장림산단에 태양광과 5MWh급 ESS, 지능형 전력망을 구축하고 입주기업 에너지 효율화를 지원하는 에너지 자립화 사업을 추진한다는 내용이다.",
+      "implication": "산단 내 분산형 에너지 공급 사례로, 산업단지 열·전력 공급 경쟁 구도 관점에서 참고할 수 있다.",
       "category": "정책·제도",
-      "url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=52555"
+      "url": "https://www.mk.co.kr/article/12191562"
     },
     {
-      "id": "N20261030-1758",
+      "id": "N20261030-1764",
       "issue_order": 3,
-      "title": "울산·인천, 수소차 보급·충전시설 확대 손잡아…LNG 냉열도 활용",
-      "summary": "울산시와 인천시가 수소차 보급·충전시설 확대와 LNG 냉열을 활용한 신산업 발굴을 위한 상생 협약을 체결했다는 내용이다.",
-      "implication": "당사가 검토 중인 LNG 냉열발전과 관련해 지자체 차원의 냉열 활용 움직임을 참고할 수 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=766723"
+      "title": "김성진 전력거래소 이사장 \"호남 반도체 팹 9기 가능성 준비해야\"",
+      "summary": "김성진 전력거래소 이사장이 호남 반도체 팹이 9기까지 늘면 가스열병합 발전소 2~3기, 원전·SMR 등 발전설비와 송전선로를 추가로 구축해야 한다고 밝혔다는 내용이다.",
+      "implication": "호남권 대규모 반도체 수요가 지역 전력수급과 열병합 신규 설비 논의로 이어질 수 있어 당사 지역 수요 환경 관점에서 참고할 만하다.",
+      "category": "계통·인프라",
+      "url": "https://www.news1.kr/local/gwangju-jeonnam/6337959"
     }
   ]
 }
