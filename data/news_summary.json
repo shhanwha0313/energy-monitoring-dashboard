@@ -1,33 +1,33 @@
 ﻿{
-  "generated_at": "2026.10.30 07:46:19",
-  "base_date": "2026.10.30",
-  "total_articles": 1328,
-  "today_articles": 46,
-  "archive_articles": 1282,
+  "generated_at": "2026.10.30 21:46:57",
+  "base_date": "2026.10.31",
+  "total_articles": 1340,
+  "today_articles": 30,
+  "archive_articles": 1310,
   "important_articles": 1,
-  "normal_articles": 37,
-  "reference_articles": 8,
+  "normal_articles": 23,
+  "reference_articles": 6,
   "top_keywords": [
+    "호르무즈",
+    "한전",
     "12차 전기본",
-    "산업용 전기요금",
-    "여수",
-    "ESS",
-    "LNG"
+    "LNG",
+    "RPS"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 37,
-    "참고": 8
+    "보통": 23,
+    "참고": 6
   },
   "category_counts": {
-    "탄소·ESG": 5,
-    "정책·제도": 12,
-    "계통·인프라": 7,
-    "AI·데이터센터": 4,
-    "산업·고객": 5,
-    "LNG·에너지안보": 8,
+    "탄소·ESG": 4,
+    "계통·인프라": 3,
+    "LNG·에너지안보": 6,
     "전력시장": 3,
-    "기타": 2
+    "산업·고객": 4,
+    "AI·데이터센터": 3,
+    "정책·제도": 6,
+    "기타": 1
   },
   "key_issues": [
     {
@@ -40,22 +40,22 @@
       "url": "http://www.e2news.com/news/articleView.html?idxno=335650"
     },
     {
-      "id": "N20261030-1766",
+      "id": "N20261031-1772",
       "issue_order": 2,
-      "title": "“노후 산단 에너지 자립 기반 마련”…KOSPO 컨소, 신평장림산단 에너...",
-      "summary": "남부발전 컨소시엄이 부산 신평장림산단에 태양광과 5MWh급 ESS, 지능형 전력망을 구축하고 입주기업 에너지 효율화를 지원하는 에너지 자립화 사업을 추진한다는 내용이다.",
-      "implication": "산단 내 분산형 에너지 공급 사례로, 산업단지 열·전력 공급 경쟁 구도 관점에서 참고할 수 있다.",
-      "category": "정책·제도",
-      "url": "https://www.mk.co.kr/article/12191562"
+      "title": "전력망 최고 '병목' 동서울변전소, 두 달 협의에도 합의점 못 찾아",
+      "summary": "동해안~수도권 HVDC 사업의 핵심인 동서울변전소 옥내화·변환소 증설을 두고 두 달간 협의에도 합의점을 찾지 못했다는 내용이다.",
+      "implication": "송전망 병목 해소 지연은 지역별 계통 혼잡과 SMP·LMP 논의에 영향을 줄 수 있어 모니터링이 필요하다.",
+      "category": "계통·인프라",
+      "url": "https://www.hankookilbo.com/news/article/A2026103011000003630?did=NA"
     },
     {
-      "id": "N20261030-1764",
+      "id": "N20261030-1773",
       "issue_order": 3,
-      "title": "김성진 전력거래소 이사장 \"호남 반도체 팹 9기 가능성 준비해야\"",
-      "summary": "김성진 전력거래소 이사장이 호남 반도체 팹이 9기까지 늘면 가스열병합 발전소 2~3기, 원전·SMR 등 발전설비와 송전선로를 추가로 구축해야 한다고 밝혔다는 내용이다.",
-      "implication": "호남권 대규모 반도체 수요가 지역 전력수급과 열병합 신규 설비 논의로 이어질 수 있어 당사 지역 수요 환경 관점에서 참고할 만하다.",
-      "category": "계통·인프라",
-      "url": "https://www.news1.kr/local/gwangju-jeonnam/6337959"
+      "title": "유럽 가스값 MWh당 101유로 넘어 2022년 이후 최고 수준",
+      "summary": "유럽 가스 가격이 MWh당 101유로를 넘어 2022년 이후 최고 수준이며, 겨울철 저장량이 낮고 호르무즈 통과 제약 우려가 커졌다는 내용이다.",
+      "implication": "글로벌 LNG 가격 강세는 발전용 가스 조달비와 SMP 상승 요인으로 작용할 수 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.tokenpost.kr/news/breaking/430267"
     }
   ]
 }
