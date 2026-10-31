@@ -23,6 +23,182 @@
     "issue_order": 1
   },
   {
+    "id": "N20261031-1787",
+    "date": "2026.10.31",
+    "datetime": "2026.10.31 11:28",
+    "title": "천안·아산·원주 AI 도시 만든다…데이터·전력 규제 푸는 법안 발의",
+    "source": "이데일리",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "AI 인프라 규제",
+    "summary": "천안·아산·원주를 AI 도시로 만들기 위해 전력계통영향평가 면제 등 데이터·전력 관련 규제를 푸는 법안이 발의됐다는 내용이다.",
+    "implication": "데이터센터 입지 및 전력공급 절차 완화 흐름으로, 데이터센터 전력공급 과제 검토에 참고할 수 있다.",
+    "tags": [
+      "AI 도시",
+      "전력계통영향평가",
+      "법안"
+    ],
+    "url": "https://www.edaily.co.kr/News/Read?newsId=02000806645618496&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261031-1789",
+    "date": "2026.10.31",
+    "datetime": "2026.10.31 10:50",
+    "title": "‘녹색채권’ 5.7조 발행한 발전공기업…한국지역난방 신재생 ‘0원’,...",
+    "source": "쿠키뉴스",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "녹색채권",
+    "summary": "발전공기업이 녹색채권 5.7조원을 발행했으며 한국지역난방공사는 신재생 배정이 0원이고 LNG 발전소 건설·환경설비·열수송관 등 기타 사업에 배정됐다는 내용이다.",
+    "implication": "동종 집단에너지 사업자의 녹색채권 활용 방식은 당사 ESG 금융 검토의 비교 사례가 된다.",
+    "tags": [
+      "녹색채권",
+      "한국지역난방공사",
+      "LNG 발전"
+    ],
+    "url": "https://www.kukinews.com/article/view/kuk202610310008",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261031-1788",
+    "date": "2026.10.31",
+    "datetime": "2026.10.31 09:50",
+    "title": "AI가 키운 전력시장…국내 기업, 변...",
+    "source": "미디어펜",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 전력수요",
+    "summary": "정부가 제12차 전력수급기본계획에 반영할 AI 데이터센터 전력수요를 현실적으로 산정하는 작업이 중요해지고 있다는 내용이다.",
+    "implication": "12차 전기본의 데이터센터 수요 산정은 향후 발전·계통 계획과 당사 신규 수요 전망에 영향을 줄 수 있다.",
+    "tags": [
+      "AI 데이터센터",
+      "전력수요",
+      "12차 전기본"
+    ],
+    "url": "https://www.mediapen.com/news/view/1134086",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261031-1783",
+    "date": "2026.10.31",
+    "datetime": "2026.10.31 09:26",
+    "title": "전기 없으면 AI·반도체 멈춘다…\"송전망 구축 6배 끌어올려 인프라 빗...",
+    "source": "더퍼블릭",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "송전망",
+    "summary": "국민경제자문회의 관련 행사에서 반도체·AI 등 3대 메가프로젝트 성패가 전력과 송전망 병목 해소에 달려 있다며 송전망 건설 속도를 크게 높여야 한다는 주장이 나왔다는 내용이다.",
+    "implication": "송전망 확충 논의는 계통 혼잡과 지역별 가격 신호에 영향을 줄 수 있어 모니터링이 필요하다.",
+    "tags": [
+      "송전망",
+      "AI·반도체",
+      "전력 병목"
+    ],
+    "url": "https://www.thepublic.kr/news/articleView.html?idxno=324481",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261031-1785",
+    "date": "2026.10.31",
+    "datetime": "2026.10.31 09:00",
+    "title": "중국발 저가 공습과 내수 절벽…벼랑 끝 철강·석화 현주소",
+    "source": "이코노미스트",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "석유화학·산업용 전기요금",
+    "summary": "중국발 저가 공세와 내수 부진 속에 연이은 인상으로 오른 산업용 전기요금이 여수산단과 포항·당진 제철소 기업의 부담을 키우고 있다는 내용이다.",
+    "implication": "주요 고객인 여수 석화업체의 전력비 부담과 업황 악화는 당사 열·전력 수요와 고객 관계에 영향을 줄 수 있다.",
+    "tags": [
+      "석화",
+      "산업용 전기요금",
+      "여수산단"
+    ],
+    "url": "https://economist.co.kr/article/view/ecn202610270067",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261031-1782",
+    "date": "2026.10.31",
+    "datetime": "2026.10.31 08:31",
+    "title": "'지방에 값싼 전기 남아도는데…' 뜻밖의 상황에 '결단' 내렸다",
+    "source": "한국경제",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "LMP",
+    "summary": "지역별 도매가격제(LMP) 도입으로 수익성 악화를 우려하는 비수도권 민간 발전사들의 이해관계가 부각되고 있고, LMP는 송전망 혼잡에 따라 지역별 전력 도매가격을 다르게 매기는 제도라는 내용이다.",
+    "implication": "LMP 도입 시 당사 여수·군산 설비의 손익 영향 검토에 참고할 수 있다.",
+    "tags": [
+      "LMP",
+      "지역별 도매가격",
+      "비수도권 발전사"
+    ],
+    "url": "https://www.hankyung.com/article/202610280304i",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261031-1784",
+    "date": "2026.10.31",
+    "datetime": "2026.10.31 08:00",
+    "title": "전기, 만들어도 보낼 수 없다…재생에너지의 진짜 병목들[에너지 오디세...",
+    "source": "아시아경제",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "계통 혼잡·ESS",
+    "summary": "재생에너지가 계통 접속 병목으로 송전되지 못하는 문제를 짚으며 유연 접속 확대, ESS 활용, 허수 사업자 점검 등으로 여유 용량을 확보해야 한다는 내용이다.",
+    "implication": "계통 혼잡 완화 조치는 SMP·LMP 전망에 영향을 줄 수 있어 참고할 만하다.",
+    "tags": [
+      "계통접속",
+      "유연접속",
+      "ESS"
+    ],
+    "url": "https://view.asiae.co.kr/article/2026103022460350800",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261031-1786",
+    "date": "2026.10.31",
+    "datetime": "2026.10.31 06:02",
+    "title": "‘무용지물’ K-스틸법… ‘전기료’ 보완입법 기다리는 업계 “속탄다...",
+    "source": "조선비즈",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "산업용 전기요금",
+    "summary": "K-스틸법 2.0 패키지에 산업위기선제대응지역 산업용 전기요금의 전력산업기반기금 부담금(요금의 2.7% 수준) 면제가 담겼으나 보완입법이 지연돼 업계가 기다리고 있다는 내용이다.",
+    "implication": "산업용 전기요금 부담 경감 입법 동향은 석화·철강 고객의 비용 구조와 연결된다.",
+    "tags": [
+      "K-스틸법",
+      "전력산업기반기금",
+      "산업용 전기요금"
+    ],
+    "url": "https://biz.chosun.com/industry/company/2026/10/31/XW5LSNTL45CWHNDERBP3JZFYQM/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+    "is_today": "Y",
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261031-1772",
     "date": "2026.10.31",
     "datetime": "2026.10.31 04:31",
@@ -40,9 +216,9 @@
     ],
     "url": "https://www.hankookilbo.com/news/article/A2026103011000003630?did=NA",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261030-1773",
@@ -62,9 +238,9 @@
     ],
     "url": "https://www.tokenpost.kr/news/breaking/430267",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 11,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261030-1770",
@@ -84,7 +260,7 @@
     ],
     "url": "https://www.news1.kr/economy/env-policy/6338456",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -106,7 +282,7 @@
     ],
     "url": "https://www.g-enews.com/view.php?ud=2026103022204712559a1f309431_1",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -128,7 +304,7 @@
     ],
     "url": "https://www.ddaily.co.kr/page/view/2026103018244315211",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -150,7 +326,7 @@
     ],
     "url": "https://www.hankyung.com/article/2026103069241",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -172,7 +348,7 @@
     ],
     "url": "https://www.hankyung.com/article/2026103068851",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -194,7 +370,7 @@
     ],
     "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003280281&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -216,7 +392,7 @@
     ],
     "url": "https://www.fntimes.com/html/view.php?ud=202610301647291654f9c516e42f_18",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -238,7 +414,7 @@
     ],
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=204591",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -261,7 +437,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12191562",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -283,7 +459,7 @@
     ],
     "url": "https://www.news1.kr/local/gwangju-jeonnam/6337959",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -306,7 +482,7 @@
     ],
     "url": "http://www.paxetv.com/news/articleView.html?idxno=285707",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -328,7 +504,7 @@
     ],
     "url": "https://news.tf.co.kr/read/livingculture/2382922.htm",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -351,7 +527,7 @@
     ],
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=204570",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -373,7 +549,7 @@
     ],
     "url": "https://www.news1.kr/local/busan-gyeongnam/6337663",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -396,7 +572,7 @@
     ],
     "url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=52555",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -419,7 +595,7 @@
     ],
     "url": "https://www.mhns.co.kr/news/articleView.html?idxno=766723",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -441,7 +617,7 @@
     ],
     "url": "https://www.mt.co.kr/economy/2026/10/30/2026103008251243960",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -463,7 +639,7 @@
     ],
     "url": "https://www.dailyt.co.kr/newsView/dlt202610300009",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -486,7 +662,7 @@
     ],
     "url": "https://www.nocutnews.co.kr/news/6599413?utm_source=naver&utm_medium=article&utm_campaign=20261030070032",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -508,7 +684,7 @@
     ],
     "url": "https://www.hankookilbo.com/news/article/A2026102912380002355?did=NA",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -530,7 +706,50 @@
     ],
     "url": "https://www.yna.co.kr/view/AKR20261030001600079?input=1195m",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 32,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261031-1790",
+    "date": "2026.10.31",
+    "datetime": "2026.10.31 10:32",
+    "title": "중동 설비 차질에 윤활유 마진 급등…SK이노베이션 실적 새 기록",
+    "source": "핀포인트뉴스",
+    "priority": "참고",
+    "category": "전력시장",
+    "detail_category": "SMP 동향",
+    "summary": "SMP가 상승하는 상황에서 SK이노베이션 E&S 부문이 상대적으로 저렴한 직도입 LNG를 연료로 써 전력가격 상승의 수혜를 누렸다는 내용이다.",
+    "implication": "SMP 상승기에 LNG 조달 원가에 따라 발전사 수익이 갈린다는 점을 보여주는 사례다.",
+    "tags": [
+      "SMP",
+      "직도입 LNG"
+    ],
+    "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500203",
+    "is_today": "Y",
+    "display_order": 33,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261031-1791",
+    "date": "2026.10.31",
+    "datetime": "2026.10.31 07:04",
+    "title": "(특별기고)좋은 기술도 '계산'에 없으면 외면받는다—ECO2 신기술 반영 ...",
+    "source": "전기신문",
+    "priority": "참고",
+    "category": "탄소·ESG",
+    "detail_category": "재생열",
+    "summary": "폐열·태양열로 제습제를 재생하는 기술이 국내 500곳 넘게 설치됐는데도 평가 제도에 반영되지 않고 있다는 취지의 특별기고다.",
+    "implication": "재생열 인정 범위 논의가 폐열 활용 사업에 미칠 영향을 가늠하는 참고 자료다.",
+    "tags": [
+      "재생열",
+      "폐열",
+      "제도 반영"
+    ],
+    "url": "https://www.electimes.com/news/articleView.html?idxno=373879",
+    "is_today": "Y",
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -552,7 +771,7 @@
     ],
     "url": "https://www.busan.com/view/busan/view.php?code=2026103023003686745",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 35,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -574,7 +793,7 @@
     ],
     "url": "https://www.newsworker.co.kr/news/articleView.html?idxno=511545",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 36,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -597,7 +816,7 @@
     ],
     "url": "https://www.seoulfn.com/news/articleView.html?idxno=641476",
     "is_today": "Y",
-    "display_order": 27,
+    "display_order": 37,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -619,7 +838,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12191526",
     "is_today": "Y",
-    "display_order": 28,
+    "display_order": 38,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -642,7 +861,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261029_0003846121",
     "is_today": "Y",
-    "display_order": 29,
+    "display_order": 39,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -664,7 +883,7 @@
     ],
     "url": "https://www.news2day.co.kr/article/20261026500293",
     "is_today": "Y",
-    "display_order": 30,
+    "display_order": 40,
     "is_key_issue": "N",
     "issue_order": 9999
   }

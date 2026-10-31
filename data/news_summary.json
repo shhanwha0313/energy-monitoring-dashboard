@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.10.30 21:46:57",
+  "generated_at": "2026.10.31 02:37:33",
   "base_date": "2026.10.31",
-  "total_articles": 1340,
-  "today_articles": 30,
+  "total_articles": 1350,
+  "today_articles": 40,
   "archive_articles": 1310,
   "important_articles": 1,
-  "normal_articles": 23,
-  "reference_articles": 6,
+  "normal_articles": 31,
+  "reference_articles": 8,
   "top_keywords": [
     "호르무즈",
-    "한전",
     "12차 전기본",
-    "LNG",
-    "RPS"
+    "산업용 전기요금",
+    "한전",
+    "AI 데이터센터"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 23,
-    "참고": 6
+    "보통": 31,
+    "참고": 8
   },
   "category_counts": {
-    "탄소·ESG": 4,
-    "계통·인프라": 3,
+    "탄소·ESG": 6,
+    "AI·데이터센터": 5,
+    "계통·인프라": 5,
+    "산업·고객": 5,
+    "전력시장": 5,
+    "정책·제도": 7,
     "LNG·에너지안보": 6,
-    "전력시장": 3,
-    "산업·고객": 4,
-    "AI·데이터센터": 3,
-    "정책·제도": 6,
     "기타": 1
   },
   "key_issues": [
@@ -40,22 +40,22 @@
       "url": "http://www.e2news.com/news/articleView.html?idxno=335650"
     },
     {
-      "id": "N20261031-1772",
+      "id": "N20261031-1787",
       "issue_order": 2,
-      "title": "전력망 최고 '병목' 동서울변전소, 두 달 협의에도 합의점 못 찾아",
-      "summary": "동해안~수도권 HVDC 사업의 핵심인 동서울변전소 옥내화·변환소 증설을 두고 두 달간 협의에도 합의점을 찾지 못했다는 내용이다.",
-      "implication": "송전망 병목 해소 지연은 지역별 계통 혼잡과 SMP·LMP 논의에 영향을 줄 수 있어 모니터링이 필요하다.",
-      "category": "계통·인프라",
-      "url": "https://www.hankookilbo.com/news/article/A2026103011000003630?did=NA"
+      "title": "천안·아산·원주 AI 도시 만든다…데이터·전력 규제 푸는 법안 발의",
+      "summary": "천안·아산·원주를 AI 도시로 만들기 위해 전력계통영향평가 면제 등 데이터·전력 관련 규제를 푸는 법안이 발의됐다는 내용이다.",
+      "implication": "데이터센터 입지 및 전력공급 절차 완화 흐름으로, 데이터센터 전력공급 과제 검토에 참고할 수 있다.",
+      "category": "AI·데이터센터",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02000806645618496&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
     },
     {
-      "id": "N20261030-1773",
+      "id": "N20261031-1789",
       "issue_order": 3,
-      "title": "유럽 가스값 MWh당 101유로 넘어 2022년 이후 최고 수준",
-      "summary": "유럽 가스 가격이 MWh당 101유로를 넘어 2022년 이후 최고 수준이며, 겨울철 저장량이 낮고 호르무즈 통과 제약 우려가 커졌다는 내용이다.",
-      "implication": "글로벌 LNG 가격 강세는 발전용 가스 조달비와 SMP 상승 요인으로 작용할 수 있다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.tokenpost.kr/news/breaking/430267"
+      "title": "‘녹색채권’ 5.7조 발행한 발전공기업…한국지역난방 신재생 ‘0원’,...",
+      "summary": "발전공기업이 녹색채권 5.7조원을 발행했으며 한국지역난방공사는 신재생 배정이 0원이고 LNG 발전소 건설·환경설비·열수송관 등 기타 사업에 배정됐다는 내용이다.",
+      "implication": "동종 집단에너지 사업자의 녹색채권 활용 방식은 당사 ESG 금융 검토의 비교 사례가 된다.",
+      "category": "탄소·ESG",
+      "url": "https://www.kukinews.com/article/view/kuk202610310008"
     }
   ]
 }
