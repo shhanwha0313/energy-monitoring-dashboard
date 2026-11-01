@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.11.01 02:38:55",
+  "generated_at": "2026.11.01 07:36:25",
   "base_date": "2026.11.01",
-  "total_articles": 1360,
-  "today_articles": 21,
+  "total_articles": 1367,
+  "today_articles": 28,
   "archive_articles": 1339,
   "important_articles": 1,
-  "normal_articles": 14,
-  "reference_articles": 6,
+  "normal_articles": 20,
+  "reference_articles": 7,
   "top_keywords": [
     "ESS",
     "12차 전기본",
     "산업용 전기요금",
-    "AI 데이터센터",
-    "AI 도시"
+    "새만금",
+    "석유화학"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 14,
-    "참고": 6
+    "보통": 20,
+    "참고": 7
   },
   "category_counts": {
-    "정책·제도": 6,
-    "계통·인프라": 5,
-    "탄소·ESG": 3,
-    "AI·데이터센터": 2,
-    "산업·고객": 2,
-    "전력시장": 2,
-    "LNG·에너지안보": 1
+    "정책·제도": 7,
+    "LNG·에너지안보": 2,
+    "산업·고객": 4,
+    "계통·인프라": 6,
+    "AI·데이터센터": 3,
+    "탄소·ESG": 4,
+    "전력시장": 2
   },
   "key_issues": [
     {
@@ -39,22 +39,22 @@
       "url": "https://www.yna.co.kr/view/AKR20261101019000530?input=1195m"
     },
     {
-      "id": "N20261031-1796",
+      "id": "N20261101-1806",
       "issue_order": 2,
-      "title": "기후부, 2026년 수소발전 입찰시장 개설",
-      "summary": "기후에너지환경부가 2026년 수소발전 입찰시장을 개설하고 포집·활용·저장 계획 평가를 새로 도입했으며, 일반수소발전 우선협상대상자는 올해 12월쯤 선정할 예정이라는 내용이다.",
-      "implication": "발전 부문 입찰 제도와 계통 영향 평가 방향을 보여주는 사례로, LNG·청정연료 전환 및 발전 입찰 제도 변화 검토 시 참고할 필요가 있다.",
-      "category": "정책·제도",
-      "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4115944"
+      "title": "두바이유 어느새 120달러 육박…충청 물가 '압박'",
+      "summary": "두바이유가 120달러에 육박하고 충남 석유화학업계는 중동산 비중이 절반을 넘어 상승 압력이 지속된다고 설명했다는 내용이다.",
+      "implication": "유가 상승은 LNG 가격과 석유화학 고객사 수익성에 영향을 줄 수 있어 연료비와 고객 가동률을 함께 점검할 필요가 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1190267"
     },
     {
-      "id": "N20261031-1797",
+      "id": "N20261101-1803",
       "issue_order": 3,
-      "title": "11월 열람 종료 후 '경북도 산단심의위' 칼끝… 영일만 바이오매스 승인...",
-      "summary": "경북도 산단심의위가 11월 열람 종료 후 영일만 산단 신재생에너지 부지를 전기공급설비(발전시설)로 구체화하는 바이오매스 발전 계획의 승인 여부를 심의한다는 내용이다.",
-      "implication": "바이오매스 발전의 입지·인허가 쟁점과 연료 수급 경쟁 가능성을 가늠할 수 있어 군산 바이오매스 운영 측면에서 동향 확인이 필요하다.",
-      "category": "정책·제도",
-      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=314356"
+      "title": "③사업재편 닻 올린 롯데케미칼, 2030년 첨단 소재 중심으...",
+      "summary": "롯데케미칼이 대산 NCC 110만톤 가동을 중단하고 여수에서도 여천NCC와 통합을 추진하며 에틸렌 139만톤을 감축한다는 내용이다.",
+      "implication": "여수산단 석유화학 고객사의 설비 감축·통합은 증기·전력 수요 변화로 이어질 수 있어 고객사별 가동 계획을 점검할 필요가 있다.",
+      "category": "산업·고객",
+      "url": "https://www.asiatime.co.kr/article/20261101500065"
     }
   ]
 }

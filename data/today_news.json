@@ -22,6 +22,140 @@
     "issue_order": 1
   },
   {
+    "id": "N20261101-1806",
+    "date": "2026.11.01",
+    "datetime": "2026.11.01 15:46",
+    "title": "두바이유 어느새 120달러 육박…충청 물가 '압박'",
+    "source": "금강일보",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "중동 리스크·유가",
+    "summary": "두바이유가 120달러에 육박하고 충남 석유화학업계는 중동산 비중이 절반을 넘어 상승 압력이 지속된다고 설명했다는 내용이다.",
+    "implication": "유가 상승은 LNG 가격과 석유화학 고객사 수익성에 영향을 줄 수 있어 연료비와 고객 가동률을 함께 점검할 필요가 있다.",
+    "tags": [
+      "두바이유",
+      "중동",
+      "석유화학"
+    ],
+    "url": "https://www.ggilbo.com/news/articleView.html?idxno=1190267",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261101-1803",
+    "date": "2026.11.01",
+    "datetime": "2026.11.01 14:54",
+    "title": "③사업재편 닻 올린 롯데케미칼, 2030년 첨단 소재 중심으...",
+    "source": "아시아타임즈",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "석유화학 구조조정",
+    "summary": "롯데케미칼이 대산 NCC 110만톤 가동을 중단하고 여수에서도 여천NCC와 통합을 추진하며 에틸렌 139만톤을 감축한다는 내용이다.",
+    "implication": "여수산단 석유화학 고객사의 설비 감축·통합은 증기·전력 수요 변화로 이어질 수 있어 고객사별 가동 계획을 점검할 필요가 있다.",
+    "tags": [
+      "롯데케미칼",
+      "여수",
+      "여천NCC",
+      "에틸렌 감축"
+    ],
+    "url": "https://www.asiatime.co.kr/article/20261101500065",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261101-1805",
+    "date": "2026.11.01",
+    "datetime": "2026.11.01 14:29",
+    "title": "현대차그룹, 군산에 새만금사무소 개소…9조원 투자 본격화",
+    "source": "국민일보",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "군산 신규 투자",
+    "summary": "현대차그룹이 군산에 새만금사무소를 열고 9조원 투자를 본격화하며 건축허가·산단 입주계약 등 인허가를 연내 마무리할 계획이라는 내용이다.",
+    "implication": "군산 인접 새만금의 대규모 투자는 지역 전력·열 수요와 RE100 수요 증가 요인이 될 수 있다.",
+    "tags": [
+      "현대차그룹",
+      "새만금",
+      "군산",
+      "RE100"
+    ],
+    "url": "https://www.kmib.co.kr/article/20261101500481",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261101-1804",
+    "date": "2026.11.01",
+    "datetime": "2026.11.01 14:18",
+    "title": "변전소 건설 추진 영남 지자체, 호남 반도체 변압기 전용 계획에 반발",
+    "source": "한겨레",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "변전소·변압기",
+    "summary": "호남 반도체 단지용으로 영남 변전소 변압기를 전용하는 계획에 부산 등 영남 지자체와 정치권이 반발하고 있다는 내용이다.",
+    "implication": "변압기 공급 부족으로 지역 전력계통 보강이 지연·재배분되고 있어 남부권 계통 여건과 신규 수요 변화를 살필 필요가 있다.",
+    "tags": [
+      "변압기 전용",
+      "변전소",
+      "호남 반도체"
+    ],
+    "url": "https://www.hani.co.kr/arti/area/yeongnam/1285179.html",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261101-1802",
+    "date": "2026.11.01",
+    "datetime": "2026.11.01 13:02",
+    "title": "AI가 부른 '전력 대란'… 초대형 산단, 이대로 버틸 수 ...",
+    "source": "메트로서울",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "전력수급기본계획",
+    "summary": "12차 전기본 총괄위원회가 2040년 최대전력수요 전망치를 기존 131.8~138.2GW에서 158.4~165GW 수준으로 대폭 상향 조정했다는 내용이다.",
+    "implication": "전력수요 전망 상향은 12차 전기본의 전원 구성과 LNG·석탄 전환 논의에 영향을 줄 수 있어 동향 확인이 필요하다.",
+    "tags": [
+      "12차 전기본",
+      "최대전력수요",
+      "산단"
+    ],
+    "url": "http://www.metroseoul.co.kr/article/20261101500150",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261101-1807",
+    "date": "2026.11.01",
+    "datetime": "2026.11.01 13:00",
+    "title": "AI 키우려면 SMR 전기부터 열어야 한다",
+    "source": "매일일보",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "분산에너지 직접구매",
+    "summary": "분산에너지 활성화 특별법 아래 데이터센터가 SMR 전기를 직접 구매하려 할 때 부딪히는 제도적 장벽을 짚은 기고라는 내용이다.",
+    "implication": "데이터센터의 직접 전력구매 제도 논의는 집단에너지 사업자의 데이터센터 전력공급 모델 검토에 참고가 된다.",
+    "tags": [
+      "분산에너지 특별법",
+      "데이터센터",
+      "SMR"
+    ],
+    "url": "https://www.m-i.kr/news/articleView.html?idxno=2012731",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261031-1796",
     "date": "2026.10.31",
     "datetime": "2026.10.31 16:56",
@@ -40,9 +174,9 @@
     ],
     "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4115944",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261031-1797",
@@ -62,9 +196,9 @@
     ],
     "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=314356",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261031-1794",
@@ -85,7 +219,7 @@
     ],
     "url": "https://www.sedaily.com/article/20108586?ref=naver",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 10,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -107,7 +241,7 @@
     ],
     "url": "https://www.dailyt.co.kr/newsView/dlt202610310008",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -129,7 +263,7 @@
     ],
     "url": "https://www.segye.com/newsView/20261031503830?OutUrl=naver",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -151,7 +285,7 @@
     ],
     "url": "https://www.edaily.co.kr/News/Read?newsId=02000806645618496&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -173,7 +307,7 @@
     ],
     "url": "https://www.kukinews.com/article/view/kuk202610310008",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -195,7 +329,7 @@
     ],
     "url": "https://www.mediapen.com/news/view/1134086",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -217,7 +351,7 @@
     ],
     "url": "https://www.thepublic.kr/news/articleView.html?idxno=324481",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -239,7 +373,7 @@
     ],
     "url": "https://economist.co.kr/article/view/ecn202610270067",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -261,7 +395,7 @@
     ],
     "url": "https://www.hankyung.com/article/202610280304i",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -283,7 +417,7 @@
     ],
     "url": "https://view.asiae.co.kr/article/2026103022460350800",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -305,7 +439,7 @@
     ],
     "url": "https://biz.chosun.com/industry/company/2026/10/31/XW5LSNTL45CWHNDERBP3JZFYQM/?utm_source=naver&utm_medium=original&utm_campaign=biz",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -327,7 +461,30 @@
     ],
     "url": "https://www.hankookilbo.com/news/article/A2026103011000003630?did=NA",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 21,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261101-1808",
+    "date": "2026.11.01",
+    "datetime": "2026.11.01 15:41",
+    "title": "“화력발전 작작 돌려요, 이러다 다 죽어”…농민 ‘기후소송’ 재판부...",
+    "source": "경향신문",
+    "priority": "참고",
+    "category": "탄소·ESG",
+    "detail_category": "기후소송",
+    "summary": "농민들이 이상기후 농작물 피해에 대해 한전과 발전5사 등 대규모 온실가스 배출 기업에 책임을 묻는 기후소송을 제기했다는 내용이다.",
+    "implication": "발전사 대상 기후소송은 화력발전의 법적·ESG 리스크 확대 가능성을 보여주므로 추이를 참고할 만하다.",
+    "tags": [
+      "기후소송",
+      "한전",
+      "발전5사",
+      "온실가스"
+    ],
+    "url": "https://www.khan.co.kr/article/202611011541001",
+    "is_today": "Y",
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -350,7 +507,7 @@
     ],
     "url": "https://www.m-economynews.com/news/article.html?no=72373",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -372,7 +529,7 @@
     ],
     "url": "https://kidd.co.kr/news/247935",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -395,7 +552,7 @@
     ],
     "url": "https://www.m-i.kr/news/articleView.html?idxno=2012539",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -417,7 +574,7 @@
     ],
     "url": "https://www.m-economynews.com/news/article.html?no=72370",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -438,7 +595,7 @@
     ],
     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500203",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -460,7 +617,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=373879",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   }
