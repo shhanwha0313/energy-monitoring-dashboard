@@ -1,5 +1,27 @@
 ﻿[
   {
+    "id": "N20261101-1799",
+    "date": "2026.11.01",
+    "datetime": "2026.11.01 10:45",
+    "title": "원전 공론 시민참여단 선정 시작…\"국민 조사 전화받아 주세요\"",
+    "source": "연합뉴스",
+    "priority": "중요",
+    "category": "정책·제도",
+    "detail_category": "전력수급기본계획",
+    "summary": "정부가 미래 전력수급에서 원전의 역할을 논의할 시민참여단 300명 선정에 착수했으며, 공론 결과를 수립 중인 제12차 전기본에 반영할 계획이라는 내용이다.",
+    "implication": "원전 공론 결과가 12차 전기본의 전원 구성과 LNG·석탄 전환 방향에 영향을 줄 수 있어 절차 진행을 지속 모니터링할 필요가 있다.",
+    "tags": [
+      "12차 전기본",
+      "원전 공론화",
+      "시민참여단"
+    ],
+    "url": "https://www.yna.co.kr/view/AKR20261101019000530?input=1195m",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
     "id": "N20261031-1796",
     "date": "2026.10.31",
     "datetime": "2026.10.31 16:56",
@@ -18,9 +40,9 @@
     ],
     "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4115944",
     "is_today": "Y",
-    "display_order": 1,
+    "display_order": 2,
     "is_key_issue": "Y",
-    "issue_order": 1
+    "issue_order": 2
   },
   {
     "id": "N20261031-1797",
@@ -40,9 +62,9 @@
     ],
     "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=314356",
     "is_today": "Y",
-    "display_order": 2,
+    "display_order": 3,
     "is_key_issue": "Y",
-    "issue_order": 2
+    "issue_order": 3
   },
   {
     "id": "N20261031-1794",
@@ -63,9 +85,9 @@
     ],
     "url": "https://www.sedaily.com/article/20108586?ref=naver",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261031-1792",
@@ -85,7 +107,7 @@
     ],
     "url": "https://www.dailyt.co.kr/newsView/dlt202610310008",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 5,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -107,7 +129,7 @@
     ],
     "url": "https://www.segye.com/newsView/20261031503830?OutUrl=naver",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 6,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -129,7 +151,7 @@
     ],
     "url": "https://www.edaily.co.kr/News/Read?newsId=02000806645618496&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 7,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -151,7 +173,7 @@
     ],
     "url": "https://www.kukinews.com/article/view/kuk202610310008",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 8,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -173,7 +195,7 @@
     ],
     "url": "https://www.mediapen.com/news/view/1134086",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 9,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -195,7 +217,7 @@
     ],
     "url": "https://www.thepublic.kr/news/articleView.html?idxno=324481",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 10,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -217,7 +239,7 @@
     ],
     "url": "https://economist.co.kr/article/view/ecn202610270067",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -239,7 +261,7 @@
     ],
     "url": "https://www.hankyung.com/article/202610280304i",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -261,7 +283,7 @@
     ],
     "url": "https://view.asiae.co.kr/article/2026103022460350800",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -283,7 +305,7 @@
     ],
     "url": "https://biz.chosun.com/industry/company/2026/10/31/XW5LSNTL45CWHNDERBP3JZFYQM/?utm_source=naver&utm_medium=original&utm_campaign=biz",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -305,7 +327,52 @@
     ],
     "url": "https://www.hankookilbo.com/news/article/A2026103011000003630?did=NA",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 15,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261101-1800",
+    "date": "2026.11.01",
+    "datetime": "2026.11.01 09:52",
+    "title": "경북 에너지융복합단지, 풍력 중심서 원자력·수소로 확대 추진",
+    "source": "뉴스웨이브",
+    "priority": "참고",
+    "category": "정책·제도",
+    "detail_category": "분산에너지",
+    "summary": "경북도가 풍력 중심의 에너지융복합단지를 원자력·수소로 확대하는 방안을 추진하며 VPP·ESS 등 분산에너지 실증·사업화 가능성도 검토한다는 내용이다.",
+    "implication": "지자체 단위 분산에너지 실증 확대 흐름으로, 집단에너지 사업자의 분산에너지 제도 대응 참고 사례가 될 수 있다.",
+    "tags": [
+      "에너지융복합단지",
+      "분산에너지",
+      "VPP",
+      "ESS"
+    ],
+    "url": "https://www.m-economynews.com/news/article.html?no=72373",
+    "is_today": "Y",
+    "display_order": 16,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261101-1801",
+    "date": "2026.11.01",
+    "datetime": "2026.11.01 09:10",
+    "title": "ESS 시장 100GW 시대…공급망·기술·운영 역량으로 경쟁 축 이동",
+    "source": "키디",
+    "priority": "참고",
+    "category": "계통·인프라",
+    "detail_category": "ESS",
+    "summary": "삼정KPMG 보고서에 따르면 글로벌 ESS 시장이 10GW에서 100GW에 4년 만에 도달했고 2036년 308GW 규모로 확대될 전망이라는 내용이다.",
+    "implication": "ESS 보급 확대는 계통 유연성과 SMP 변동성에 영향을 줄 수 있는 중장기 배경 정보다.",
+    "tags": [
+      "ESS",
+      "글로벌 시장",
+      "삼정KPMG"
+    ],
+    "url": "https://kidd.co.kr/news/247935",
+    "is_today": "Y",
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -328,7 +395,7 @@
     ],
     "url": "https://www.m-i.kr/news/articleView.html?idxno=2012539",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -350,7 +417,7 @@
     ],
     "url": "https://www.m-economynews.com/news/article.html?no=72370",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -371,7 +438,7 @@
     ],
     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500203",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -393,7 +460,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=373879",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   }
