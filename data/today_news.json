@@ -22,6 +22,225 @@
     "issue_order": 1
   },
   {
+    "id": "N20261102-1826",
+    "date": "2026.11.02",
+    "datetime": "2026.11.02 11:26",
+    "title": "이 대통령, 내년 예산안 시정연설...민생 지원·미래 투자 중요성 강조",
+    "source": "굿모닝충청",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "2027년 예산안",
+    "summary": "대통령이 시정연설에서 재생에너지 확대에 2조 8000억원을 투자하고 1조 4000억원 규모 자원안보기금을 신설하겠다고 밝혔다는 내용이다.",
+    "implication": "재생에너지·자원안보 예산 방향이 확인되어 REC·바이오매스 및 LNG 정책 환경 점검에 참고할 수 있다.",
+    "tags": [
+      "예산안",
+      "재생에너지",
+      "자원안보기금"
+    ],
+    "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=455032",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261102-1824",
+    "date": "2026.11.02",
+    "datetime": "2026.11.02 11:16",
+    "title": "전력망 특별법, 제정 1년 넘었어도 하위법령 미비로 '혼란 가중'",
+    "source": "e-platform",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "전력망 특별법",
+    "summary": "전력망 특별법이 제정 1년을 넘겼지만 하위법령이 미비해 현장 혼란이 커지고 있다는 내용이다.",
+    "implication": "계통접속·송전망 확충 일정에 영향을 줄 수 있어 하위법령 정비 동향을 모니터링할 필요가 있다.",
+    "tags": [
+      "전력망 특별법",
+      "하위법령",
+      "한전 부채"
+    ],
+    "url": "http://www.e-platform.net/news/articleView.html?idxno=106608",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261102-1827",
+    "date": "2026.11.02",
+    "datetime": "2026.11.02 11:13",
+    "title": "여수산단 등 전남광주 동부권 '반도체 트라이앵글' 한 축 맡는다",
+    "source": "연합뉴스",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "여수 석유화학 전환",
+    "summary": "전남광주통합특별시가 여수 석유화학산업을 광주권 반도체와 연계한 고순도 화학소재 산업으로 전환하기 위한 육성 전략을 마련 중이라는 내용이다.",
+    "implication": "여수 고객사의 업종 전환 방향에 따라 장기적인 증기·전력 수요 구조가 달라질 수 있다.",
+    "tags": [
+      "여수산단",
+      "반도체 소재",
+      "석유화학 전환"
+    ],
+    "url": "https://www.yna.co.kr/view/AKR20261102076200054?input=1195m",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261102-1828",
+    "date": "2026.11.02",
+    "datetime": "2026.11.02 11:11",
+    "title": "골칫덩이에서 미래 자원으로…이산화탄소는 무한변신 중",
+    "source": "헤럴드경제",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "CCU·배출권 가격",
+    "summary": "국내 배출권 가격이 톤당 3만100원으로 1년 전보다 약 3배 올랐고 CO₂를 자원화하는 CCU 기술이 확산되고 있다는 내용이다.",
+    "implication": "배출권 가격 상승은 군산 바이오매스 CCU 추진의 경제성 검토에 참고할 수 있다.",
+    "tags": [
+      "CCU",
+      "배출권 가격",
+      "이산화탄소"
+    ],
+    "url": "https://biz.heraldcorp.com/article/10922543?ref=naver",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261102-1819",
+    "date": "2026.11.02",
+    "datetime": "2026.11.02 11:06",
+    "title": "한난, 미래 성장동력 확보 위한 GX·AX 중심 경영전략 개편",
+    "source": "디스커버리뉴스",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "집단에너지 사업자 동향",
+    "summary": "한국지역난방공사가 탄소중립과 AI를 축으로 중장기 경영전략을 재편하고 2034년까지 누적 재생전력 확보 용량 1GW를 신규 목표로 설정했다는 내용이다.",
+    "implication": "동종 집단에너지 사업자의 재생전력·AI 중심 전략 전환으로, 당사 바이오매스·AI 예지정비 과제의 벤치마크로 참고할 수 있다.",
+    "tags": [
+      "한국지역난방공사",
+      "재생전력",
+      "GX·AX"
+    ],
+    "url": "https://www.discoverynews.kr/news/articleView.html?idxno=1105519",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261102-1825",
+    "date": "2026.11.02",
+    "datetime": "2026.11.02 11:06",
+    "title": "첨단산업 전력 대책부터 거버넌스 개편까지…산적한 에너지 과제 확인",
+    "source": "전기신문",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "12차 전기본",
+    "summary": "12차 전기본에 첨단산업 전력 대책과 민간 자본 유입을 위한 시장 개편안이 담겨야 한다는 요구가 이어졌다는 내용이다.",
+    "implication": "전기본 논의 방향이 전력시장 개편과 석탄·LNG 역할에 연결되므로 정부안 공개 전까지 쟁점을 파악해 둘 필요가 있다.",
+    "tags": [
+      "12차 전기본",
+      "시장 개편",
+      "첨단산업 전력"
+    ],
+    "url": "https://www.electimes.com/news/articleView.html?idxno=374216",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261102-1820",
+    "date": "2026.11.02",
+    "datetime": "2026.11.02 10:30",
+    "title": "기후부, 수소발전 입찰시장 개설…석탄·암모니아 혼소 제외",
+    "source": "비즈워크",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "수소발전 입찰시장",
+    "summary": "기후부가 수소발전 입찰시장을 개설하며 청정수소 인증기준을 충족한 연료를 쓰는 설비만 참여할 수 있고 석탄·암모니아 혼소는 제외한다는 내용이다.",
+    "implication": "석탄 전환 시 혼소가 제외되는 등 발전 연료 전환 지원 제도의 범위를 가늠할 참고 자료다.",
+    "tags": [
+      "수소발전 입찰",
+      "혼소 제외",
+      "청정수소"
+    ],
+    "url": "https://www.bizwork.co.kr/news/articleView.html?idxno=420413",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261102-1822",
+    "date": "2026.11.02",
+    "datetime": "2026.11.02 08:34",
+    "title": "호르무즈서 유조선 2척 또 '기뢰 폭발'…이란 \"허가 없는 항로 탔다\"",
+    "source": "이데일리",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "호르무즈 리스크",
+    "summary": "호르무즈 해협에서 유조선 2척이 기뢰 폭발을 겪었고 지난달 30일에는 카타르 LNG 운반선이 정체불명의 물체에 공격받았다는 내용이다.",
+    "implication": "LNG 수급·가격 불안이 지속되는 상황으로, 발전용 LNG 조달 리스크 점검에 참고할 수 있다.",
+    "tags": [
+      "호르무즈",
+      "LNG 운반선",
+      "기뢰"
+    ],
+    "url": "https://www.edaily.co.kr/News/Read?newsId=02135286645641784&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+    "is_today": "Y",
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261102-1823",
+    "date": "2026.11.02",
+    "datetime": "2026.11.02 07:00",
+    "title": "원칙 훼손된 지역별 전기요금제 안된다",
+    "source": "이투뉴스",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "지역별 차등요금·LMP",
+    "summary": "지역별 차등요금제가 원인 제공자에게 더 부담시킨다는 LMP 원칙에서 벗어나 한전 전력구입비 중심으로 설계될 수 있다고 지적하는 내용이다.",
+    "implication": "LMP 도입 방식에 따라 당사 손익 영향이 달라질 수 있어 제도 설계 논의를 계속 확인할 필요가 있다.",
+    "tags": [
+      "LMP",
+      "지역별 차등요금",
+      "한전"
+    ],
+    "url": "http://www.e2news.com/news/articleView.html?idxno=335663",
+    "is_today": "Y",
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261102-1821",
+    "date": "2026.11.02",
+    "datetime": "2026.11.02 06:00",
+    "title": "11월 도시가스용 도매요금 또 인상···대용량 수요처 연료비 부담 지속",
+    "source": "가스신문",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "도시가스 도매요금",
+    "summary": "LNG 원료비 상승으로 11월 도시가스용 도매요금이 8개월 연속 올랐고 대용량 수요처의 연료비 부담이 이어진다는 내용이다.",
+    "implication": "LNG 전환을 추진하는 여수 설비의 연료비 전망과 고객사 부담을 점검할 때 참고할 사안이다.",
+    "tags": [
+      "도시가스 도매요금",
+      "LNG 원료비"
+    ],
+    "url": "https://www.gasnews.com/news/articleView.html?idxno=127437",
+    "is_today": "Y",
+    "display_order": 11,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261102-1814",
     "date": "2026.11.02",
     "datetime": "2026.11.02 05:02",
@@ -39,9 +258,9 @@
     ],
     "url": "https://www.seoul.co.kr/news/economy/2026/11/02/20261102008001?wlog_tag3=naver",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 12,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261102-1812",
@@ -61,9 +280,9 @@
     ],
     "url": "https://www.kmib.co.kr/article/20261101501500",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 13,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261102-1811",
@@ -83,7 +302,7 @@
     ],
     "url": "https://www.chosun.com/economy/industry-company/2026/11/02/NVT5IRKQEFF5DKSKH7BWGWEEKY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -105,7 +324,7 @@
     ],
     "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=92633",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -128,7 +347,7 @@
     ],
     "url": "https://www.ulsanpress.net/news/articleView.html?idxno=585947",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -150,7 +369,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12192973",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -172,7 +391,7 @@
     ],
     "url": "https://www.sedaily.com/article/20108821?ref=naver",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -194,7 +413,7 @@
     ],
     "url": "https://www.etnews.com/20261030000273",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -216,7 +435,7 @@
     ],
     "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3039505",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -238,7 +457,7 @@
     ],
     "url": "https://www.hankyung.com/article/2026110184561",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -260,7 +479,7 @@
     ],
     "url": "https://www.ggilbo.com/news/articleView.html?idxno=1190267",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -283,7 +502,7 @@
     ],
     "url": "https://www.asiatime.co.kr/article/20261101500065",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -306,7 +525,7 @@
     ],
     "url": "https://www.kmib.co.kr/article/20261101500481",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -328,7 +547,7 @@
     ],
     "url": "https://www.hani.co.kr/arti/area/yeongnam/1285179.html",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -350,7 +569,7 @@
     ],
     "url": "http://www.metroseoul.co.kr/article/20261101500150",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -372,7 +591,50 @@
     ],
     "url": "https://www.m-i.kr/news/articleView.html?idxno=2012731",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 27,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261102-1829",
+    "date": "2026.11.02",
+    "datetime": "2026.11.02 09:14",
+    "title": "중동 전쟁 영향 본격화…한전, 영업익 60%↓ 전망",
+    "source": "연합인포맥스",
+    "priority": "참고",
+    "category": "전력시장",
+    "detail_category": "한전 재무",
+    "summary": "중동 전쟁 이후 유가와 LNG 가격이 오르며 한전 영업이익이 60% 감소할 것으로 전망된다는 내용이다.",
+    "implication": "한전 재무 부담은 전기요금 인상 압력으로 이어질 수 있어 요금 정책 동향과 함께 볼 필요가 있다.",
+    "tags": [
+      "한전",
+      "영업이익",
+      "연료비"
+    ],
+    "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442417",
+    "is_today": "Y",
+    "display_order": 28,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261102-1830",
+    "date": "2026.11.02",
+    "datetime": "2026.11.02 06:06",
+    "title": "기후부, '히트펌프 보급사업' 도시가스 미보급지역 중심 추진",
+    "source": "기계설비신문",
+    "priority": "참고",
+    "category": "정책·제도",
+    "detail_category": "히트펌프 보급",
+    "summary": "기후부가 히트펌프 350만대 보급 계획의 첫 대상으로 도시가스 배관망이 닿지 않는 지역을 선정해 보급사업을 추진한다는 내용이다.",
+    "implication": "난방전기화 정책은 장기적으로 열 공급 경쟁 요인이 될 수 있어 참고할 만하다.",
+    "tags": [
+      "히트펌프",
+      "난방전기화"
+    ],
+    "url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=52539",
+    "is_today": "Y",
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -395,7 +657,7 @@
     ],
     "url": "https://www.khan.co.kr/article/202611011541001",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -418,7 +680,7 @@
     ],
     "url": "https://www.m-economynews.com/news/article.html?no=72373",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -440,7 +702,7 @@
     ],
     "url": "https://kidd.co.kr/news/247935",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   }

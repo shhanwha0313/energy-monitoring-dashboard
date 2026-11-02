@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.11.01 21:40:36",
+  "generated_at": "2026.11.02 02:55:35",
   "base_date": "2026.11.02",
-  "total_articles": 1377,
-  "today_articles": 20,
+  "total_articles": 1389,
+  "today_articles": 32,
   "archive_articles": 1357,
   "important_articles": 1,
-  "normal_articles": 16,
-  "reference_articles": 3,
+  "normal_articles": 26,
+  "reference_articles": 5,
   "top_keywords": [
     "12차 전기본",
+    "한전",
+    "호르무즈",
     "ESS",
-    "LNG",
-    "석유화학",
-    "여수"
+    "LNG"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 16,
-    "참고": 3
+    "보통": 26,
+    "참고": 5
   },
   "category_counts": {
-    "정책·제도": 5,
-    "계통·인프라": 3,
-    "LNG·에너지안보": 4,
-    "산업·고객": 3,
-    "전력시장": 2,
-    "AI·데이터센터": 2,
-    "탄소·ESG": 1
+    "정책·제도": 9,
+    "계통·인프라": 4,
+    "산업·고객": 4,
+    "탄소·ESG": 2,
+    "전력시장": 5,
+    "LNG·에너지안보": 6,
+    "AI·데이터센터": 2
   },
   "key_issues": [
     {
@@ -39,22 +39,22 @@
       "url": "https://www.yna.co.kr/view/AKR20261101019000530?input=1195m"
     },
     {
-      "id": "N20261102-1814",
+      "id": "N20261102-1826",
       "issue_order": 2,
-      "title": "동해안~ 수도권 ‘4.6조원 전력길’ 마지막 관문서 막히나",
-      "summary": "한전의 4조 6000억원 규모 동서울 500㎸ HVDC 변환소 증설 사업이 협의체 논의에서 마지막 관문을 맞았다는 내용이다.",
-      "implication": "동해안~수도권 송전망 준공 지연 여부는 계통 혼잡과 지역별 가격 논의에 영향을 줄 수 있다.",
-      "category": "계통·인프라",
-      "url": "https://www.seoul.co.kr/news/economy/2026/11/02/20261102008001?wlog_tag3=naver"
+      "title": "이 대통령, 내년 예산안 시정연설...민생 지원·미래 투자 중요성 강조",
+      "summary": "대통령이 시정연설에서 재생에너지 확대에 2조 8000억원을 투자하고 1조 4000억원 규모 자원안보기금을 신설하겠다고 밝혔다는 내용이다.",
+      "implication": "재생에너지·자원안보 예산 방향이 확인되어 REC·바이오매스 및 LNG 정책 환경 점검에 참고할 수 있다.",
+      "category": "정책·제도",
+      "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=455032"
     },
     {
-      "id": "N20261102-1812",
+      "id": "N20261102-1824",
       "issue_order": 3,
-      "title": "산업부·기후부 갈라진 지 1년… 에너지 정책 ‘칸막이’ 논란 재점화",
-      "summary": "김성환 기후부 장관이 국감에서 막연한 수요를 12차 전기본에 다 넣기는 어렵다며 신중한 입장을 밝혔다는 내용이다.",
-      "implication": "전력수요 전망 반영 수준이 발전설비 규모와 LNG 역할 논의에 영향을 줄 수 있어 추이 확인이 필요하다.",
-      "category": "정책·제도",
-      "url": "https://www.kmib.co.kr/article/20261101501500"
+      "title": "전력망 특별법, 제정 1년 넘었어도 하위법령 미비로 '혼란 가중'",
+      "summary": "전력망 특별법이 제정 1년을 넘겼지만 하위법령이 미비해 현장 혼란이 커지고 있다는 내용이다.",
+      "implication": "계통접속·송전망 확충 일정에 영향을 줄 수 있어 하위법령 정비 동향을 모니터링할 필요가 있다.",
+      "category": "계통·인프라",
+      "url": "http://www.e-platform.net/news/articleView.html?idxno=106608"
     }
   ]
 }
