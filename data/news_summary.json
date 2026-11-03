@@ -1,60 +1,59 @@
 ﻿{
-  "generated_at": "2026.11.02 02:55:35",
-  "base_date": "2026.11.02",
-  "total_articles": 1389,
-  "today_articles": 32,
-  "archive_articles": 1357,
-  "important_articles": 1,
-  "normal_articles": 26,
-  "reference_articles": 5,
+  "generated_at": "2026.11.03 07:44:24",
+  "base_date": "2026.11.03",
+  "total_articles": 1404,
+  "today_articles": 30,
+  "archive_articles": 1374,
+  "important_articles": 0,
+  "normal_articles": 24,
+  "reference_articles": 6,
   "top_keywords": [
     "12차 전기본",
-    "한전",
-    "호르무즈",
-    "ESS",
-    "LNG"
+    "데이터센터",
+    "석유화학",
+    "RE100",
+    "RPS"
   ],
   "priority_counts": {
-    "중요": 1,
-    "보통": 26,
-    "참고": 5
+    "보통": 24,
+    "참고": 6
   },
   "category_counts": {
-    "정책·제도": 9,
-    "계통·인프라": 4,
-    "산업·고객": 4,
+    "정책·제도": 10,
+    "LNG·에너지안보": 3,
     "탄소·ESG": 2,
-    "전력시장": 5,
-    "LNG·에너지안보": 6,
-    "AI·데이터센터": 2
+    "AI·데이터센터": 3,
+    "계통·인프라": 4,
+    "산업·고객": 5,
+    "전력시장": 3
   },
   "key_issues": [
     {
-      "id": "N20261101-1799",
+      "id": "N20261103-1832",
       "issue_order": 1,
-      "title": "원전 공론 시민참여단 선정 시작…\"국민 조사 전화받아 주세요\"",
-      "summary": "정부가 미래 전력수급에서 원전의 역할을 논의할 시민참여단 300명 선정에 착수했으며, 공론 결과를 수립 중인 제12차 전기본에 반영할 계획이라는 내용이다.",
-      "implication": "원전 공론 결과가 12차 전기본의 전원 구성과 LNG·석탄 전환 방향에 영향을 줄 수 있어 절차 진행을 지속 모니터링할 필요가 있다.",
+      "title": "\"12차 전기본에 재생에너지 확대·기업 조달 기반 담아야\"",
+      "summary": "RE100 관련 단체들이 12차 전기본 정부안이 원전 공론화 이후로 연기되고 RPS가 경쟁입찰로 전환되는 가운데 재생에너지 확대와 기업 조달 기반을 담아야 한다는 성명을 냈다는 내용이다.",
+      "implication": "12차 전기본과 재생에너지 조달체계 논의 방향이 산업단지 고객의 RE100 수요와 당사 재생열·바이오 전력 공급 전략에 영향을 줄 수 있다.",
       "category": "정책·제도",
-      "url": "https://www.yna.co.kr/view/AKR20261101019000530?input=1195m"
+      "url": "http://www.e2news.com/news/articleView.html?idxno=335737"
     },
     {
-      "id": "N20261102-1826",
+      "id": "N20261103-1831",
       "issue_order": 2,
-      "title": "이 대통령, 내년 예산안 시정연설...민생 지원·미래 투자 중요성 강조",
-      "summary": "대통령이 시정연설에서 재생에너지 확대에 2조 8000억원을 투자하고 1조 4000억원 규모 자원안보기금을 신설하겠다고 밝혔다는 내용이다.",
-      "implication": "재생에너지·자원안보 예산 방향이 확인되어 REC·바이오매스 및 LNG 정책 환경 점검에 참고할 수 있다.",
+      "title": "재생에너지 입찰제 전환…발전단가·수익성 셈법 바뀐다",
+      "summary": "정부가 내년부터 RPS를 경쟁입찰 기반 계약시장으로 전환해 신규 설비부터 적용하고 기존 RPS는 단계적으로 종료한다는 내용이다.",
+      "implication": "REC 수요 축소와 입찰 단가 구조 변화가 군산 바이오매스 발전 수익에 미칠 영향을 점검할 필요가 있다.",
       "category": "정책·제도",
-      "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=455032"
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2013686"
     },
     {
-      "id": "N20261102-1824",
+      "id": "N20261103-1837",
       "issue_order": 3,
-      "title": "전력망 특별법, 제정 1년 넘었어도 하위법령 미비로 '혼란 가중'",
-      "summary": "전력망 특별법이 제정 1년을 넘겼지만 하위법령이 미비해 현장 혼란이 커지고 있다는 내용이다.",
-      "implication": "계통접속·송전망 확충 일정에 영향을 줄 수 있어 하위법령 정비 동향을 모니터링할 필요가 있다.",
-      "category": "계통·인프라",
-      "url": "http://www.e-platform.net/news/articleView.html?idxno=106608"
+      "title": "자원안보기금 논란… 국회 “4000억 부족” VS 산업부 “채...",
+      "summary": "자원안보기금 재원 조달을 두고 국회는 4000억원이 부족하다고 지적하고 산업부는 이를 반박하며, LNG 수입 부과금 등이 쟁점이 되고 있다는 내용이다.",
+      "implication": "LNG 수입 부과금 조정은 발전용 LNG 비용과 도시가스 요금에 파급될 수 있어 추이를 살필 필요가 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://biz.chosun.com/policy/policy_sub/2026/11/03/ORXFBGUI3ZBOTLAIL2TT3IHINU/?utm_source=naver&utm_medium=original&utm_campaign=biz"
     }
   ]
 }
