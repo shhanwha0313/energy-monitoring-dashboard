@@ -1,5 +1,27 @@
 ﻿[
   {
+    "id": "N20261118-1885",
+    "date": "2026.11.18",
+    "datetime": "2026.11.18 10:18",
+    "title": "정부, ‘지역별 전기 도매가 차등화’ 개편 보류...발전사 강력 ...",
+    "source": "매일경제",
+    "priority": "중요",
+    "category": "전력시장",
+    "detail_category": "LMP(지역별 한계가격제)",
+    "summary": "전력거래소가 20일 예정이던 LMP 실무협의회와 27일 전력시장운영규칙 개정위원회 일정을 잠정 보류한다고 공지했고, 기후부는 속도 조절이라고 밝혔다는 내용이다.",
+    "implication": "LMP 도입 일정이 지연되는 것이어서 당사 손익 영향 검토의 전제 시점을 재점검할 필요가 있다.",
+    "tags": [
+      "LMP",
+      "전력시장운영규칙",
+      "속도조절"
+    ],
+    "url": "https://www.mk.co.kr/article/12212157",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
     "id": "N20261117-1862",
     "date": "2026.11.17",
     "datetime": "2026.11.17 12:01",
@@ -17,9 +39,206 @@
     ],
     "url": "https://www.dailian.co.kr/news/view/1715812/?sc=Naver",
     "is_today": "Y",
-    "display_order": 1,
+    "display_order": 2,
     "is_key_issue": "Y",
-    "issue_order": 1
+    "issue_order": 2
+  },
+  {
+    "id": "N20261118-1887",
+    "date": "2026.11.18",
+    "datetime": "2026.11.18 11:02",
+    "title": "AI 데이터센터發 전력수요 급증…“전력망 비용, 수요자도 부담해야”",
+    "source": "쿠키뉴스",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "AIDC 전력망 비용 분담",
+    "summary": "송재도 에너지경제연구원장이 AI 데이터센터 등 대규모 신규 수요에 따른 송전망 투자비를 정부·전력 부문이 모두 떠안는 것은 적절치 않으며 수요자도 부담해야 한다고 밝혔다는 내용이다.",
+    "implication": "데이터센터 전력공급 모델과 망 비용 분담 논의는 당사 데이터센터 전력공급 과제 검토에 참고가 된다.",
+    "tags": [
+      "데이터센터",
+      "전력망 비용",
+      "에경연"
+    ],
+    "url": "https://www.kukinews.com/article/view/kuk202611180004",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261118-1893",
+    "date": "2026.11.18",
+    "datetime": "2026.11.18 10:11",
+    "title": "\"송전선 막혀 반도체 멈춘다\"… '부처 칸막이' 허물 국가인프라법 시동",
+    "source": "오마이뉴스",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "송전망·계통 인프라",
+    "summary": "송전선 지연으로 반도체 산단이 멈출 수 있다며 부처 칸막이를 허물 국가인프라법 논의가 시작됐다는 내용이다.",
+    "implication": "송전·계통 접속 지연 해소 논의는 계통 혼잡과 신규 수요 대응 측면에서 참고가 된다.",
+    "tags": [
+      "국가인프라법",
+      "송전선",
+      "반도체"
+    ],
+    "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003285906&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261118-1891",
+    "date": "2026.11.18",
+    "datetime": "2026.11.18 09:56",
+    "title": "제주, 재생E '남는 전력' 해법 실험...가상발전소가 전력시장 바꿀까",
+    "source": "ESG경제",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "유연성 자원·VPP",
+    "summary": "제주에서 배전망 연계 ESS와 가상발전소로 재생에너지 잉여 전력을 활용하는 방안이 실험되고 있다는 내용이다.",
+    "implication": "유연성 자원의 시장 참여 방식은 계통 혼잡과 SMP 변동에 영향을 줄 수 있어 참고할 만하다.",
+    "tags": [
+      "가상발전소",
+      "ESS",
+      "제주"
+    ],
+    "url": "https://www.esgeconomy.com/news/articleView.html?idxno=17144",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261118-1888",
+    "date": "2026.11.18",
+    "datetime": "2026.11.18 09:23",
+    "title": "“전기료도 납품단가에 반영해야하는데…” 거래 끊길까 입 못 떼는 中...",
+    "source": "헤럴드경제",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "산업용 전기요금",
+    "summary": "산업용 전기요금(고압A)이 2022년 1분기 kWh당 105.5원에서 2024년 4분기 174.0원으로 64.9% 올랐으나 중소기업이 납품단가 반영을 요구하지 못한다는 내용이다.",
+    "implication": "산업단지 고객의 전기요금 부담이 크다는 점은 당사 열·전력 공급 요금 경쟁력 관점에서 참고할 만하다.",
+    "tags": [
+      "산업용 전기요금",
+      "납품단가",
+      "중소기업"
+    ],
+    "url": "https://biz.heraldcorp.com/article/10940690?ref=naver",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261118-1886",
+    "date": "2026.11.18",
+    "datetime": "2026.11.18 09:06",
+    "title": "'안갯속' Post-RPS 시장, 해상풍력 개발사 과제와 해법 모색한다",
+    "source": "전기신문",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "RPS·REC 제도 개편",
+    "summary": "RPS에서 계약시장으로의 전환에 대비해 해상풍력 개발사의 과제를 논의하는 토론회가 열린다는 내용이다.",
+    "implication": "RPS 이후 계약시장 설계 논의는 당사 바이오매스 수익 구조에 영향을 줄 수 있어 동향을 추적할 필요가 있다.",
+    "tags": [
+      "Post-RPS",
+      "계약시장",
+      "해상풍력"
+    ],
+    "url": "https://www.electimes.com/news/articleView.html?idxno=374908",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261118-1892",
+    "date": "2026.11.18",
+    "datetime": "2026.11.18 08:06",
+    "title": "나주시, 호남권 반도체 클러스터 전력망 운영 방안 논의",
+    "source": "뉴스메이커",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "남부권 반도체 전력망",
+    "summary": "나주시가 호남권 반도체 클러스터 전력망 운영 방안으로 ESS·양수발전 연계와 공동접속 방식 확대 등을 논의했다는 내용이다.",
+    "implication": "호남권 대규모 반도체 수요와 계통 대응은 지역 전력수요와 설비 이용률에 영향을 줄 수 있다.",
+    "tags": [
+      "호남 반도체",
+      "전력망",
+      "ESS"
+    ],
+    "url": "http://www.newsmaker.or.kr/news/articleView.html?idxno=185960",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261118-1890",
+    "date": "2026.11.18",
+    "datetime": "2026.11.18 06:30",
+    "title": "국제 LNG값 2.6배 급등…산업계 덮친 가스비 충격, 생...",
+    "source": "뉴스버스",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG 가격",
+    "summary": "국제 LNG 가격이 중동 전쟁 여파로 급등해 국내 산업계의 에너지 비용 부담이 커지고 있다는 내용이다.",
+    "implication": "LNG 가격 상승은 당사 발전·열 생산 원가와 고객사 비용 부담에 직접 영향을 주는 변수다.",
+    "tags": [
+      "국제 LNG가",
+      "중동 전쟁",
+      "산업계"
+    ],
+    "url": "https://www.newsverse.kr/news/articleView.html?idxno=11947",
+    "is_today": "Y",
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261118-1894",
+    "date": "2026.11.18",
+    "datetime": "2026.11.18 06:06",
+    "title": "충북, 데이터센터 규제자유특구 지정 도전장",
+    "source": "충청리뷰",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 입지",
+    "summary": "내년 3월 시행되는 AI데이터센터 특별법이 비수도권 데이터센터의 전력계통영향평가를 면제했고, 충북이 데이터센터 규제자유특구 지정에 도전한다는 내용이다.",
+    "implication": "비수도권 데이터센터 입지 유인이 커져 전력·열 공급 기회를 검토할 수 있다.",
+    "tags": [
+      "데이터센터 특구",
+      "계통영향평가"
+    ],
+    "url": "https://www.ccreview.co.kr/news/articleView.html?idxno=362985",
+    "is_today": "Y",
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261118-1889",
+    "date": "2026.11.18",
+    "datetime": "2026.11.18 06:02",
+    "title": "LNG 열병합발전소 발주 확대⋯건설사 에너지 인프라 수주전",
+    "source": "이투데이",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "LNG 열병합발전",
+    "summary": "반도체 산업단지와 마곡 등에서 LNG 열병합발전소 건설사업이 추진되며 건설사들의 수주 경쟁이 커지고 있다는 내용이다.",
+    "implication": "신규 LNG 열병합 사업 확대는 집단에너지 시장 경쟁과 기회 요인 모두에 해당해 동향 파악이 필요하다.",
+    "tags": [
+      "LNG 열병합",
+      "건설사",
+      "반도체 산단"
+    ],
+    "url": "https://www.etoday.co.kr/news/view/2648750",
+    "is_today": "Y",
+    "display_order": 11,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261118-1884",
@@ -39,9 +258,9 @@
     ],
     "url": "https://www.mt.co.kr/industry/2026/11/18/2026111713223063085",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 12,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261118-1875",
@@ -62,9 +281,9 @@
     ],
     "url": "https://www.etoday.co.kr/news/view/2649362",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 13,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261118-1880",
@@ -84,7 +303,7 @@
     ],
     "url": "https://www.etoday.co.kr/news/view/2649363",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -106,7 +325,7 @@
     ],
     "url": "https://www.news1.kr/world/usa-canada/6357332",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -128,7 +347,7 @@
     ],
     "url": "https://ysmbc.co.kr/NewsArticle/1546148",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -151,7 +370,7 @@
     ],
     "url": "https://www.ikbc.co.kr/article/view/kbc202611170095",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -173,7 +392,7 @@
     ],
     "url": "https://www.newspim.com/news/view/20261117001340",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -195,7 +414,7 @@
     ],
     "url": "https://www.ekn.kr/web/view.php?key=20261117026201065",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -218,7 +437,7 @@
     ],
     "url": "http://www.newstomato.com/ReadNews.aspx?no=1320806&inflow=N",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -240,7 +459,7 @@
     ],
     "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7194394",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -262,7 +481,7 @@
     ],
     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975909&call_from=naver_news",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -284,7 +503,7 @@
     ],
     "url": "https://www.mt.co.kr/economy/2026/11/17/2026111714142348538",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -306,7 +525,7 @@
     ],
     "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=366271",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -328,7 +547,7 @@
     ],
     "url": "https://www.khan.co.kr/article/202611171513001",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -350,7 +569,7 @@
     ],
     "url": "https://www.asiatime.co.kr/article/20261117500305",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -372,7 +591,7 @@
     ],
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205179",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -394,7 +613,7 @@
     ],
     "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=247581",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -416,7 +635,7 @@
     ],
     "url": "https://www.tfmedia.co.kr/news/article.html?no=208958",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -438,7 +657,7 @@
     ],
     "url": "https://www.todayenergy.kr/news/articleView.html?idxno=305674",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -460,7 +679,7 @@
     ],
     "url": "https://www.gasnews.com/news/articleView.html?idxno=127721",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -482,7 +701,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261116_0003869367",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -504,7 +723,50 @@
     ],
     "url": "https://www.kado.net/news/articleView.html?idxno=2085245",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 33,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261118-1895",
+    "date": "2026.11.18",
+    "datetime": "2026.11.18 11:10",
+    "title": "전기·가스요금 동결 장기화…한전 부채 210조원 육박",
+    "source": "데일리팝",
+    "priority": "참고",
+    "category": "정책·제도",
+    "detail_category": "한전 재무·전기요금",
+    "summary": "전기·가스요금 동결이 길어지며 한전 부채가 210조원에 육박한다는 내용이다.",
+    "implication": "한전 재무 부담은 향후 전기요금 인상 압력으로 이어질 수 있어 참고한다.",
+    "tags": [
+      "한전 부채",
+      "요금 동결"
+    ],
+    "url": "http://www.dailypop.kr/news/articleView.html?idxno=104641",
+    "is_today": "Y",
+    "display_order": 34,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261118-1896",
+    "date": "2026.11.18",
+    "datetime": "2026.11.18 09:30",
+    "title": "한화오션, '21조 규모' 캐나다 FLNG 프로젝트 합의서 체결…2032년 가동 ...",
+    "source": "더구루",
+    "priority": "참고",
+    "category": "LNG·에너지안보",
+    "detail_category": "한화 계열사 LNG",
+    "summary": "한화오션이 캐나다 카나타 LNG와 21조원 규모 FLNG 프로젝트 주요조건합의서를 체결했고 2032년 첫 선적을 목표로 한다는 내용이다.",
+    "implication": "한화 계열사의 LNG 밸류체인 확장 동향으로 보관 가치가 있다.",
+    "tags": [
+      "한화오션",
+      "FLNG",
+      "카나타"
+    ],
+    "url": "https://www.theguru.co.kr/news/article.html?no=109871",
+    "is_today": "Y",
+    "display_order": 35,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -526,7 +788,7 @@
     ],
     "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1731975",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 36,
     "is_key_issue": "N",
     "issue_order": 9999
   }
