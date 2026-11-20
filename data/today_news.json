@@ -1,5 +1,27 @@
 ﻿[
   {
+    "id": "N20261120-1940",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 11:13",
+    "title": "한수원·한전, 원전 정부승인차액계약 체결…내년부터 5년간 적용",
+    "source": "노컷뉴스",
+    "priority": "중요",
+    "category": "전력시장",
+    "detail_category": "RPS·원전 차액계약",
+    "summary": "한수원과 한전이 원전 정부승인차액계약을 체결해 내년부터 5년간 적용하며, 재생에너지는 RPS를 폐지하고 2027년부터 고정가격계약으로 전환한다는 내용이다.",
+    "implication": "RPS 폐지와 고정가격계약 전환이 구체화되는 단계로, 군산 바이오매스 발전의 REC 수익 구조 변화 여부를 점검할 필요가 있다.",
+    "tags": [
+      "정부승인차액계약",
+      "RPS 폐지",
+      "고정가격계약"
+    ],
+    "url": "https://www.nocutnews.co.kr/news/6610075?utm_source=naver&utm_medium=article&utm_campaign=20261120111212",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
     "id": "N20261119-1921",
     "date": "2026.11.19",
     "datetime": "2026.11.19 15:48",
@@ -17,9 +39,143 @@
     ],
     "url": "https://www.ekn.kr/web/view.php?key=20261119021201806",
     "is_today": "Y",
-    "display_order": 1,
+    "display_order": 2,
     "is_key_issue": "Y",
-    "issue_order": 1
+    "issue_order": 2
+  },
+  {
+    "id": "N20261120-1944",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 10:29",
+    "title": "전남광주시, 여수·광양산단 원스톱 지원 가동",
+    "source": "시대일보",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "여수·광양산단 지원",
+    "summary": "석유화학 공급과잉과 철강 수요 둔화로 어려움을 겪는 여수·광양 산단에 전남광주통합특별시가 산업위기 해소 시까지 원스톱 기업지원 체계를 가동한다는 내용이다.",
+    "implication": "여수산단 고객사의 경영 여건과 지원책 동향은 당사 증기·전력 수요 전망 점검에 참고가 된다.",
+    "tags": [
+      "여수산단",
+      "석유화학",
+      "원스톱 지원"
+    ],
+    "url": "https://www.sidae.com/article/2026112010144872329",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261120-1942",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 10:02",
+    "title": "IEA \"호르무즈 사태, 역대 최대 에너지 충격…'전기의 시대' 진입\"",
+    "source": "연합뉴스",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "IEA 한국 에너지 진단",
+    "summary": "IEA가 한국의 에너지 수입의존도가 세계 최고 수준이라며 해상풍력 보급 가속, 송전망 확충, 계통운영 개혁, ESS·양수발전 확대를 핵심 과제로 제시했다는 내용이다.",
+    "implication": "계통운영 개혁과 ESS 확대 권고는 LMP·그리드코드 등 당사 검토 과제와 맞닿아 있다.",
+    "tags": [
+      "IEA",
+      "에너지 수입의존",
+      "송전망",
+      "ESS"
+    ],
+    "url": "https://www.yna.co.kr/view/AKR20261120051200530?input=1195m",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261120-1943",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 10:02",
+    "title": "AIDC 인정 기준 나왔다…특별법 하위법령 입법예고",
+    "source": "뉴스1",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "AIDC 특별법 하위법령",
+    "summary": "정부가 AIDC 특별법 하위법령을 입법예고해 AIDC 인정 기준과 신고제, 인허가 일괄처리, 비수도권 계약전력 50㎿ 이하 전력계통영향평가 면제 등을 제시했다는 내용이다.",
+    "implication": "비수도권 데이터센터 입지 여건이 완화돼 여수 등 남부권 데이터센터 유치와 전력공급 모델 검토에 참고가 된다.",
+    "tags": [
+      "AIDC",
+      "전력계통영향평가",
+      "입법예고"
+    ],
+    "url": "https://www.news1.kr/it-science/cc-newmedia/6360543",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261120-1946",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 08:24",
+    "title": "LG화학 석유화학, 3년 적자 끊는다…고부가 전환 속도",
+    "source": "데이터뉴스",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "석유화학 업황",
+    "summary": "LG화학 석유화학 부문이 3년 연속 적자에서 벗어나 올해 흑자 전환이 전망되나, 3분기 들어 원료가격 효과가 반전되고 수요 부진과 공급과잉이 이어진다는 내용이다.",
+    "implication": "석유화학 고객사의 실적과 가동 여건은 여수 산업용 열·전력 수요에 연결된다.",
+    "tags": [
+      "석유화학",
+      "업황",
+      "공급과잉"
+    ],
+    "url": "http://www.datanews.co.kr/news/article.html?no=147702",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261120-1945",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 08:08",
+    "title": "\"도심은 재생열+집단에너지, 외곽은 태양광+히트펌프\"",
+    "source": "이투뉴스",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "재생열·집단에너지",
+    "summary": "건물·도시 탄소중립 포럼에서 도심은 재생열과 집단에너지, 외곽은 태양광과 히트펌프로 전환하는 방향이 제시됐다는 내용이다.",
+    "implication": "도심 재생열·집단에너지 연계 논의는 집단에너지 사업자의 재생열 활용 정책 검토와 관련된다.",
+    "tags": [
+      "재생열",
+      "집단에너지",
+      "히트펌프"
+    ],
+    "url": "http://www.e2news.com/news/articleView.html?idxno=336307",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261120-1941",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 06:02",
+    "title": "겨울철 에너지요금 딜레마 빠진 정부…한전·가스公에 쏠리는 ‘눈덩이...",
+    "source": "쿠키뉴스",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "에너지요금·LNG 가격",
+    "summary": "중동 전쟁 등으로 LNG 가격이 오르는 가운데 겨울철 에너지요금 결정을 앞둔 정부가 한전·가스공사의 부담 확대 문제로 딜레마에 빠졌다는 내용이다.",
+    "implication": "발전용 LNG 가격과 요금 정책 방향은 여수 LNG 전환·복합발전의 연료비와 요금 환경에 영향을 줄 수 있다.",
+    "tags": [
+      "LNG 가격",
+      "한전",
+      "가스공사",
+      "에너지요금"
+    ],
+    "url": "https://www.kukinews.com/article/view/kuk202611190149",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261120-1936",
@@ -39,9 +195,9 @@
     ],
     "url": "https://www.vegannews.co.kr/news/article.html?no=407973",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261120-1929",
@@ -60,9 +216,9 @@
     ],
     "url": "https://www.hankyung.com/article/2026111982941",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261119-1930",
@@ -82,7 +238,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=374922",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -104,7 +260,7 @@
     ],
     "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=229924",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -126,7 +282,7 @@
     ],
     "url": "https://news.mtn.co.kr/article/2026111916151482682",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -149,7 +305,7 @@
     ],
     "url": "https://www.seoul.co.kr/news/publicnews/2026/11/19/20261119500251?wlog_tag3=naver",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -171,7 +327,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=375023",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -193,7 +349,7 @@
     ],
     "url": "https://www.aitimes.com/news/articleView.html?idxno=217583",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -215,7 +371,7 @@
     ],
     "url": "https://news.tf.co.kr/read/national/2391078.htm",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -237,7 +393,7 @@
     ],
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=885301",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -259,7 +415,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=375025",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -281,7 +437,7 @@
     ],
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205263",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -303,7 +459,7 @@
     ],
     "url": "https://www.news1.kr/world/middleeast-africa/6359644",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -325,7 +481,7 @@
     ],
     "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003286403&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -347,7 +503,7 @@
     ],
     "url": "https://nownews.seoul.co.kr/news/newsView.php?id=20261119601005&wlog_tag3=naver",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -369,7 +525,7 @@
     ],
     "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/19/2026111950083.html",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -391,7 +547,7 @@
     ],
     "url": "https://www.m-economynews.com/news/article.html?no=73274",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -413,7 +569,7 @@
     ],
     "url": "https://www.newstree.kr/newsView/ntr202611190006",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -435,7 +591,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=374987",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -457,7 +613,7 @@
     ],
     "url": "https://www.kyeongin.com/article/1775045",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -479,7 +635,7 @@
     ],
     "url": "https://www.thepowernews.co.kr/view.php?ud=202611181548492609de3f0aa1be_7",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -501,7 +657,73 @@
     ],
     "url": "http://www.ferrotimes.com/news/articleView.html?idxno=51564",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 30,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261120-1947",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 10:12",
+    "title": "3대 메가 프로젝트 위한 전력망 구축, 원인유발자 부담 원칙 확립 필요",
+    "source": "e-platform",
+    "priority": "참고",
+    "category": "계통·인프라",
+    "detail_category": "전력망 비용 부담",
+    "summary": "반도체 등 대형 프로젝트를 위한 전력망 구축에서 원인유발자 부담 원칙을 확립해야 하며, 반도체업계가 한전의 대규모 전기요금 선납제를 거부하고 있다는 내용이다.",
+    "implication": "대규모 수요 연계 전력망 비용 분담 논의는 산업용 요금·계통 정책 흐름을 가늠하는 참고 자료다.",
+    "tags": [
+      "전력망",
+      "원인유발자 부담",
+      "전기요금 선납제"
+    ],
+    "url": "http://www.e-platform.net/news/articleView.html?idxno=107167",
+    "is_today": "Y",
+    "display_order": 31,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261120-1949",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 09:48",
+    "title": "美 데이터센터 자체 발전 확대…가스발전 의존·전력망 부담 논란",
+    "source": "더구루",
+    "priority": "참고",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 자체발전",
+    "summary": "미국 데이터센터의 자체 발전 확대가 가스발전 의존과 전력망 부담 논란으로 이어지고 있다는 내용이다.",
+    "implication": "데이터센터 전력공급 모델 검토 시 해외 사례로 참고할 만하다.",
+    "tags": [
+      "데이터센터",
+      "자체 발전",
+      "가스발전"
+    ],
+    "url": "https://www.theguru.co.kr/news/article.html?no=109992",
+    "is_today": "Y",
+    "display_order": 32,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261120-1948",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 09:18",
+    "title": "COP31, 화석연료 퇴출 문구 삭제…탄소포집 부상",
+    "source": "한경매거진",
+    "priority": "참고",
+    "category": "탄소·ESG",
+    "detail_category": "COP31 협상",
+    "summary": "COP31 합의문 초안에서 화석연료 퇴출 문구가 삭제되고 탄소포집이 부상했다는 내용이다.",
+    "implication": "탄소포집 기조 부상은 군산 바이오매스 CCU 추진의 국제 환경 참고 자료다.",
+    "tags": [
+      "COP31",
+      "화석연료 퇴출",
+      "탄소포집"
+    ],
+    "url": "https://magazine.hankyung.com/business/article/202611209170b",
+    "is_today": "Y",
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -523,7 +745,7 @@
     ],
     "url": "http://www.paxetv.com/news/articleView.html?idxno=287430",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -545,7 +767,7 @@
     ],
     "url": "https://daily.hankooki.com/news/articleView.html?idxno=1426947",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 35,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -567,7 +789,7 @@
     ],
     "url": "https://www.todayenergy.kr/news/articleView.html?idxno=305780",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 36,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -589,7 +811,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=375004",
     "is_today": "Y",
-    "display_order": 27,
+    "display_order": 37,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -611,7 +833,7 @@
     ],
     "url": "https://www.donga.com/news/Society/article/all/20261118/135049639/2",
     "is_today": "Y",
-    "display_order": 28,
+    "display_order": 38,
     "is_key_issue": "N",
     "issue_order": 9999
   }
