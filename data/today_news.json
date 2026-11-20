@@ -44,6 +44,160 @@
     "issue_order": 2
   },
   {
+    "id": "N20261120-1953",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 15:50",
+    "title": "원유 수입가 급등...석유·화학제품 수출로 상쇄",
+    "source": "한국일보",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG 도입가격",
+    "summary": "1~10월 누적 원유 수입액이 전년 동기 대비 43.6%, LNG 수입액이 11.2% 늘었고 원유·천연가스 도입 단가도 크게 올랐다는 내용이다.",
+    "implication": "LNG 도입 단가 상승은 LNG 전환을 추진하는 당사 연료비 부담과 열·전력 요금 검토에 연결된다.",
+    "tags": [
+      "LNG",
+      "도입단가",
+      "원유 수입"
+    ],
+    "url": "https://daily.hankooki.com/news/articleView.html?idxno=1427454",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261120-1955",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 15:43",
+    "title": "원료가격 하락에 숨통 트인 석유화학업계…4분기 실적 반등하나",
+    "source": "녹색경제신문",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "석유화학 업황",
+    "summary": "원료가격 하락으로 석유화학업계가 4분기 수익성 개선을 기대하고 있으나 3분기에는 원가 상승과 수요 부진으로 실적이 악화됐다는 내용이다.",
+    "implication": "여수 석유화학 고객사의 업황 회복 여부는 증기·전력 수요에 직결되므로 가동률 추이를 지속 확인할 필요가 있다.",
+    "tags": [
+      "석유화학",
+      "4분기 실적",
+      "원료가격"
+    ],
+    "url": "https://www.greened.kr/news/articleView.html?idxno=355188",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261120-1950",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 14:43",
+    "title": "전기 도매가격 두 달 새 26% '뚝'…연료비 부담에 발전5사 이중고",
+    "source": "뉴시스",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "SMP",
+    "summary": "전기 도매가격(SMP)이 두 달 새 26% 하락했으나 중동 전쟁으로 LNG·유연탄 등 발전연료 가격이 오른 상태여서 발전 5사의 연료비 부담이 이중고로 이어진다는 내용이다.",
+    "implication": "SMP 하락과 연료비 상승이 겹치는 국면으로 당사 LNG 발전 수익성 점검 시 함께 볼 필요가 있다.",
+    "tags": [
+      "SMP",
+      "발전연료비",
+      "발전5사"
+    ],
+    "url": "https://www.newsis.com/view/NISX20261120_0003876769",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261120-1952",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 14:32",
+    "title": "\"탄소중립, 건물부터 바꿔야\"…온실가스 총량제·난방 전기화 추진",
+    "source": "뉴스트리",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "재생열",
+    "summary": "기후부가 건물 탄소중립을 위해 온실가스 총량제와 난방 전기화를 추진하며 재생열 비중을 현재 3.6%에서 2035년 35%로 확대하고 히트펌프를 보급하겠다는 내용이다.",
+    "implication": "재생열 확대 목표는 집단에너지 열원 구성과 사업 환경에 영향을 줄 수 있어 세부 지원책을 확인할 필요가 있다.",
+    "tags": [
+      "재생열",
+      "히트펌프",
+      "난방 전기화"
+    ],
+    "url": "https://www.newstree.kr/newsView/ntr202611190027",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261120-1951",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 13:58",
+    "title": "기후부 에너지정책, \"관치 회귀\" vs \"낭비 제거\"",
+    "source": "한국일보",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "에너지 정책 방향",
+    "summary": "기후부 에너지정책을 두고 '관치 회귀'라는 비판과 발전 5사 통합으로 중복투자를 걷어내는 '낭비 제거'라는 김성환 장관의 시각이 맞선다는 내용이다.",
+    "implication": "석탄발전 폐쇄 로드맵과 재생에너지·ESS 투자 재원 요구가 이어지고 있어 향후 발전사 정책 환경 변화를 모니터링할 필요가 있다.",
+    "tags": [
+      "발전5사 통합",
+      "석탄 폐쇄",
+      "기후부"
+    ],
+    "url": "https://daily.hankooki.com/news/articleView.html?idxno=1427383",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261120-1954",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 13:58",
+    "title": "LNG 직수입 앞장선 포스코인터, 요금 인상 후폭풍 가져올까",
+    "source": "티리브스",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG 직수입",
+    "summary": "포스코인터내셔널이 광양에 민간 최대 규모 LNG 터미널을 운영 중이며 제2터미널을 열어 저장용량을 확대했다는 내용이다.",
+    "implication": "광양 인근 LNG 직수입·저장 인프라 확대는 여수 LNG 전환 시 연료 조달 선택지와 관련해 참고할 수 있다.",
+    "tags": [
+      "LNG 직수입",
+      "포스코인터",
+      "광양"
+    ],
+    "url": "https://www.tleaves.co.kr/news/articleView.html?idxno=10172",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261120-1956",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 12:36",
+    "title": "포항 110MW 바이오매스 발전소 재추진…시유지 매각 놓고 환경성 논란",
+    "source": "글로벌이코노믹",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "바이오매스",
+    "summary": "포항시가 110MW 바이오매스 발전소를 재추진하는 가운데 시유지 매각을 둘러싼 환경성 논란과 산림바이오매스의 감축 효과 검증 문제, 정부의 지원 축소가 거론된다는 내용이다.",
+    "implication": "정부의 바이오매스 지원 축소 기조와 환경성 논란은 군산 목재 바이오매스 전환 사업의 정책 리스크로 참고할 만하다.",
+    "tags": [
+      "바이오매스",
+      "포항",
+      "산림바이오매스"
+    ],
+    "url": "https://www.g-enews.com/view.php?ud=202611201001095467d9ce08d08_1",
+    "is_today": "Y",
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261120-1944",
     "date": "2026.11.20",
     "datetime": "2026.11.20 10:29",
@@ -61,9 +215,9 @@
     ],
     "url": "https://www.sidae.com/article/2026112010144872329",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261120-1942",
@@ -84,7 +238,7 @@
     ],
     "url": "https://www.yna.co.kr/view/AKR20261120051200530?input=1195m",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 11,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -106,7 +260,7 @@
     ],
     "url": "https://www.news1.kr/it-science/cc-newmedia/6360543",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -128,7 +282,7 @@
     ],
     "url": "http://www.datanews.co.kr/news/article.html?no=147702",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -150,7 +304,7 @@
     ],
     "url": "http://www.e2news.com/news/articleView.html?idxno=336307",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -173,7 +327,7 @@
     ],
     "url": "https://www.kukinews.com/article/view/kuk202611190149",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -195,7 +349,7 @@
     ],
     "url": "https://www.vegannews.co.kr/news/article.html?no=407973",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -216,7 +370,7 @@
     ],
     "url": "https://www.hankyung.com/article/2026111982941",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -238,7 +392,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=374922",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -260,7 +414,7 @@
     ],
     "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=229924",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -282,7 +436,7 @@
     ],
     "url": "https://news.mtn.co.kr/article/2026111916151482682",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -305,7 +459,7 @@
     ],
     "url": "https://www.seoul.co.kr/news/publicnews/2026/11/19/20261119500251?wlog_tag3=naver",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -327,7 +481,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=375023",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -349,7 +503,7 @@
     ],
     "url": "https://www.aitimes.com/news/articleView.html?idxno=217583",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -371,7 +525,7 @@
     ],
     "url": "https://news.tf.co.kr/read/national/2391078.htm",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -393,7 +547,7 @@
     ],
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=885301",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -415,7 +569,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=375025",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -437,7 +591,7 @@
     ],
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205263",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -459,7 +613,7 @@
     ],
     "url": "https://www.news1.kr/world/middleeast-africa/6359644",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -481,7 +635,7 @@
     ],
     "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003286403&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -503,7 +657,7 @@
     ],
     "url": "https://nownews.seoul.co.kr/news/newsView.php?id=20261119601005&wlog_tag3=naver",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -525,7 +679,7 @@
     ],
     "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/19/2026111950083.html",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -547,7 +701,7 @@
     ],
     "url": "https://www.m-economynews.com/news/article.html?no=73274",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -569,7 +723,7 @@
     ],
     "url": "https://www.newstree.kr/newsView/ntr202611190006",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -591,7 +745,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=374987",
     "is_today": "Y",
-    "display_order": 27,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -613,7 +767,7 @@
     ],
     "url": "https://www.kyeongin.com/article/1775045",
     "is_today": "Y",
-    "display_order": 28,
+    "display_order": 35,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -635,7 +789,7 @@
     ],
     "url": "https://www.thepowernews.co.kr/view.php?ud=202611181548492609de3f0aa1be_7",
     "is_today": "Y",
-    "display_order": 29,
+    "display_order": 36,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -657,7 +811,29 @@
     ],
     "url": "http://www.ferrotimes.com/news/articleView.html?idxno=51564",
     "is_today": "Y",
-    "display_order": 30,
+    "display_order": 37,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261120-1957",
+    "date": "2026.11.20",
+    "datetime": "2026.11.20 15:30",
+    "title": "해상풍력 개발에 조 단위 투자 필요…통합발전사, 사채발행한도 상향해...",
+    "source": "이플랫폼",
+    "priority": "참고",
+    "category": "전력시장",
+    "detail_category": "해상풍력",
+    "summary": "해상풍력 개발에 조 단위 투자가 필요해 통합발전사의 사채발행한도를 상향해야 한다는 주장이 토론회에서 제기됐다는 내용이다.",
+    "implication": "발전 5사 통합과 재생에너지 투자 재원 논의는 발전업계 구도 변화로 참고할 수 있다.",
+    "tags": [
+      "해상풍력",
+      "통합발전사",
+      "사채한도"
+    ],
+    "url": "http://www.e-platform.net/news/articleView.html?idxno=107184",
+    "is_today": "Y",
+    "display_order": 38,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -679,7 +855,7 @@
     ],
     "url": "http://www.e-platform.net/news/articleView.html?idxno=107167",
     "is_today": "Y",
-    "display_order": 31,
+    "display_order": 39,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -701,7 +877,7 @@
     ],
     "url": "https://www.theguru.co.kr/news/article.html?no=109992",
     "is_today": "Y",
-    "display_order": 32,
+    "display_order": 40,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -723,7 +899,7 @@
     ],
     "url": "https://magazine.hankyung.com/business/article/202611209170b",
     "is_today": "Y",
-    "display_order": 33,
+    "display_order": 41,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -745,7 +921,7 @@
     ],
     "url": "http://www.paxetv.com/news/articleView.html?idxno=287430",
     "is_today": "Y",
-    "display_order": 34,
+    "display_order": 42,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -767,7 +943,7 @@
     ],
     "url": "https://daily.hankooki.com/news/articleView.html?idxno=1426947",
     "is_today": "Y",
-    "display_order": 35,
+    "display_order": 43,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -789,7 +965,7 @@
     ],
     "url": "https://www.todayenergy.kr/news/articleView.html?idxno=305780",
     "is_today": "Y",
-    "display_order": 36,
+    "display_order": 44,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -811,7 +987,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=375004",
     "is_today": "Y",
-    "display_order": 37,
+    "display_order": 45,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -833,7 +1009,7 @@
     ],
     "url": "https://www.donga.com/news/Society/article/all/20261118/135049639/2",
     "is_today": "Y",
-    "display_order": 38,
+    "display_order": 46,
     "is_key_issue": "N",
     "issue_order": 9999
   }

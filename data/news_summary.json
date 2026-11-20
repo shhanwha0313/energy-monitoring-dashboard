@@ -1,31 +1,31 @@
 ﻿{
-  "generated_at": "2026.11.20 02:34:18",
+  "generated_at": "2026.11.20 07:33:22",
   "base_date": "2026.11.20",
-  "total_articles": 1507,
-  "today_articles": 38,
+  "total_articles": 1515,
+  "today_articles": 46,
   "archive_articles": 1469,
   "important_articles": 2,
-  "normal_articles": 28,
-  "reference_articles": 8,
+  "normal_articles": 35,
+  "reference_articles": 9,
   "top_keywords": [
     "석유화학",
     "재생열",
+    "히트펌프",
     "12차 전기본",
-    "COP31",
-    "ESS"
+    "COP31"
   ],
   "priority_counts": {
     "중요": 2,
-    "보통": 28,
-    "참고": 8
+    "보통": 35,
+    "참고": 9
   },
   "category_counts": {
-    "전력시장": 4,
-    "산업·고객": 5,
-    "LNG·에너지안보": 7,
+    "전력시장": 6,
+    "LNG·에너지안보": 9,
+    "산업·고객": 6,
+    "정책·제도": 8,
+    "탄소·ESG": 7,
     "AI·데이터센터": 5,
-    "탄소·ESG": 6,
-    "정책·제도": 6,
     "계통·인프라": 4,
     "기타": 1
   },
@@ -49,13 +49,13 @@
       "url": "https://www.ekn.kr/web/view.php?key=20261119021201806"
     },
     {
-      "id": "N20261120-1944",
+      "id": "N20261120-1953",
       "issue_order": 3,
-      "title": "전남광주시, 여수·광양산단 원스톱 지원 가동",
-      "summary": "석유화학 공급과잉과 철강 수요 둔화로 어려움을 겪는 여수·광양 산단에 전남광주통합특별시가 산업위기 해소 시까지 원스톱 기업지원 체계를 가동한다는 내용이다.",
-      "implication": "여수산단 고객사의 경영 여건과 지원책 동향은 당사 증기·전력 수요 전망 점검에 참고가 된다.",
-      "category": "산업·고객",
-      "url": "https://www.sidae.com/article/2026112010144872329"
+      "title": "원유 수입가 급등...석유·화학제품 수출로 상쇄",
+      "summary": "1~10월 누적 원유 수입액이 전년 동기 대비 43.6%, LNG 수입액이 11.2% 늘었고 원유·천연가스 도입 단가도 크게 올랐다는 내용이다.",
+      "implication": "LNG 도입 단가 상승은 LNG 전환을 추진하는 당사 연료비 부담과 열·전력 요금 검토에 연결된다.",
+      "category": "LNG·에너지안보",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1427454"
     }
   ]
 }
