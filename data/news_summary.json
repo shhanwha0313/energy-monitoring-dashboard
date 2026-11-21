@@ -1,11 +1,11 @@
 ﻿{
-  "generated_at": "2026.11.21 02:33:17",
+  "generated_at": "2026.11.21 07:32:36",
   "base_date": "2026.11.21",
-  "total_articles": 1532,
-  "today_articles": 37,
+  "total_articles": 1535,
+  "today_articles": 40,
   "archive_articles": 1495,
   "important_articles": 1,
-  "normal_articles": 29,
+  "normal_articles": 32,
   "reference_articles": 7,
   "top_keywords": [
     "석유화학",
@@ -16,17 +16,17 @@
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 29,
+    "보통": 32,
     "참고": 7
   },
   "category_counts": {
     "전력시장": 4,
+    "AI·데이터센터": 4,
+    "산업·고객": 6,
+    "계통·인프라": 6,
     "정책·제도": 8,
-    "계통·인프라": 5,
     "LNG·에너지안보": 6,
-    "산업·고객": 5,
     "탄소·ESG": 5,
-    "AI·데이터센터": 3,
     "기타": 1
   },
   "key_issues": [
@@ -40,22 +40,22 @@
       "url": "https://www.nocutnews.co.kr/news/6610075?utm_source=naver&utm_medium=article&utm_campaign=20261120111212"
     },
     {
-      "id": "N20261121-1971",
+      "id": "N20261121-1975",
       "issue_order": 2,
-      "title": "\"누가 위임했나\"… 인천 송도 열병합발전소 상생협의체, 주민 대표성 논...",
-      "summary": "인천 송도 LNG 500㎿급 열병합발전소 증설사업을 두고 상생협의체의 주민 대표성 논란이 제기됐다는 내용이다.",
-      "implication": "집단에너지 설비 증설 과정의 주민 수용성 갈등 사례로, 당사 설비 전환·증설 추진 시 참고할 수 있다.",
-      "category": "정책·제도",
-      "url": "https://www.joongboo.com/news/articleView.html?idxno=363743150"
+      "title": "울산에 AI 데이터센터 짓는 SK그룹… 2035년 전국 15GW 확대 구상",
+      "summary": "SK그룹이 울산 AI 데이터센터를 시작으로 2035년까지 전국 15GW 규모로 확장하는 구상을 내놓았고, SK가스의 LNG 공급과 SK멀티유틸리티의 발전을 연계한다는 내용이다.",
+      "implication": "LNG 발전과 연계한 데이터센터 전력공급 모델로, 당사의 데이터센터 전력공급 검토 시 참고할 수 있는 사례다.",
+      "category": "AI·데이터센터",
+      "url": "https://www.dt.co.kr/article/12096405?ref=naver"
     },
     {
-      "id": "N20261121-1972",
+      "id": "N20261121-1977",
       "issue_order": 3,
-      "title": "삼성SDI-SK온, 2조원 ESS 입찰 '재격돌'… 가격 경쟁력이 승부 가른다",
-      "summary": "삼성SDI와 SK온이 약 2조원 규모로 추산되는 ESS 중앙계약시장 입찰에서 다시 맞붙었다는 내용이다.",
-      "implication": "ESS 중앙계약시장 확대는 계통 유연성과 SMP·LMP 환경에 영향을 줄 수 있어 관련 동향으로 볼 필요가 있다.",
-      "category": "계통·인프라",
-      "url": "https://www.thepublic.kr/news/articleView.html?idxno=327792"
+      "title": "연말 재편 시한 앞둔 석화 구조조정…압박 수위 커질까",
+      "summary": "석화 4사의 3분기 영업손실 합계가 5225억원으로 불어난 가운데 연말 사업재편 시한을 앞두고 구조조정 압박 수위가 높아질지 주목된다는 내용이다.",
+      "implication": "석유화학 재편 결과에 따라 여수 주요 고객사의 증기·전력 수요가 달라질 수 있어 동향 점검이 필요하다.",
+      "category": "산업·고객",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=903789"
     }
   ]
 }
