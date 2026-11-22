@@ -1,59 +1,59 @@
 ﻿{
-  "generated_at": "2026.11.22 02:32:52",
+  "generated_at": "2026.11.22 07:32:49",
   "base_date": "2026.11.22",
-  "total_articles": 1554,
-  "today_articles": 30,
+  "total_articles": 1557,
+  "today_articles": 33,
   "archive_articles": 1524,
   "important_articles": 0,
-  "normal_articles": 25,
-  "reference_articles": 5,
+  "normal_articles": 27,
+  "reference_articles": 6,
   "top_keywords": [
     "ESS",
     "석유화학",
+    "사업재편",
     "울산",
-    "LNG",
-    "계통접속"
+    "재생에너지"
   ],
   "priority_counts": {
-    "보통": 25,
-    "참고": 5
+    "보통": 27,
+    "참고": 6
   },
   "category_counts": {
+    "산업·고객": 5,
+    "정책·제도": 5,
     "AI·데이터센터": 4,
     "전력시장": 3,
     "LNG·에너지안보": 4,
-    "탄소·ESG": 4,
-    "산업·고객": 4,
-    "정책·제도": 4,
+    "탄소·ESG": 5,
     "계통·인프라": 7
   },
   "key_issues": [
     {
-      "id": "N20261122-1987",
+      "id": "N20261122-1997",
       "issue_order": 1,
+      "title": "여수 석화 구조조정 제자리걸음…1호는 지연, 2호는 안갯속",
+      "summary": "국내 에틸렌 생산능력의 절반 가까이가 집중된 여수 석유화학 단지의 구조조정이 1호 프로젝트부터 통합법인 출범이 지연되며 속도를 내지 못하고 있다는 내용이다.",
+      "implication": "여수 석화 고객사의 설비 감축·재편 지연은 당사 증기·전력 수요 전망과 LNG 전환 설비 계획에 불확실성 요인이다.",
+      "category": "산업·고객",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01682646645648344&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+    },
+    {
+      "id": "N20261122-1998",
+      "issue_order": 2,
+      "title": "원전·재생·석탄…전력망 재설계 韓 '에너지 딜레마'",
+      "summary": "정부가 원전·재생·석탄 관련 공론화 결과를 12차 전기본의 발전원별 공급계획에 반영할 방침이며, 재생에너지 확대에는 입지·간헐성 등 조건이 필요하다는 내용이다.",
+      "implication": "12차 전기본의 발전원별 공급계획은 석탄 전환과 LNG 역할 설정에 영향을 주므로 여수·군산 전환 계획과 연계해 추적할 필요가 있다.",
+      "category": "정책·제도",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2021636"
+    },
+    {
+      "id": "N20261122-1987",
+      "issue_order": 3,
       "title": "지방 50㎿↓ AIDC 전력평가 면제…GW급 프로젝트엔 ‘패스트트랙’",
       "summary": "정부가 AIDC 특별법 하위법령을 입법예고하며 비수도권 50㎿ 이하 AI 데이터센터의 전력계통영향평가를 면제하고 GW급 프로젝트에는 패스트트랙을 적용한다는 내용이다.",
       "implication": "지방 데이터센터 입지·전력공급 절차가 간소화되면 남부권 데이터센터 전력·열 수요 기회 검토에 참고할 수 있다.",
       "category": "AI·데이터센터",
       "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611220908557650034"
-    },
-    {
-      "id": "N20261122-1994",
-      "issue_order": 2,
-      "title": "유럽 전력난에 독일 철강 멈췄다",
-      "summary": "유럽 전력난으로 독일 철강업계가 가동을 멈추고 송전망 보조금 유지와 산업용 전기요금 항구적 인하를 정부에 촉구하고 있다는 내용이다.",
-      "implication": "산업용 전기요금 부담이 고객 산업의 경쟁력에 미치는 영향을 보여주는 해외 사례다.",
-      "category": "전력시장",
-      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=173396"
-    },
-    {
-      "id": "N20261122-1988",
-      "issue_order": 3,
-      "title": "정부가 ‘지방차등 전기료’ 모델 삼았는데…스웨덴, 공급부작용에 정...",
-      "summary": "정부가 지방 차등 전기료의 모델로 삼은 스웨덴이 공급 부작용으로 제도를 재검토하고 있으며, 전문가가 LMP 도입을 서두르지 말아야 한다고 지적했다는 내용이다.",
-      "implication": "LMP·지역별 요금 도입 논의 시 손익 영향 검토에 참고할 해외 사례다.",
-      "category": "전력시장",
-      "url": "https://www.mk.co.kr/article/12215394"
     }
   ]
 }
