@@ -1,59 +1,59 @@
 ﻿{
-  "generated_at": "2026.11.22 07:32:49",
-  "base_date": "2026.11.22",
-  "total_articles": 1557,
-  "today_articles": 33,
-  "archive_articles": 1524,
+  "generated_at": "2026.11.22 21:33:03",
+  "base_date": "2026.11.23",
+  "total_articles": 1566,
+  "today_articles": 22,
+  "archive_articles": 1544,
   "important_articles": 0,
-  "normal_articles": 27,
-  "reference_articles": 6,
+  "normal_articles": 18,
+  "reference_articles": 4,
   "top_keywords": [
-    "ESS",
     "석유화학",
-    "사업재편",
-    "울산",
-    "재생에너지"
+    "재생에너지",
+    "ESS",
+    "LNG",
+    "사업재편"
   ],
   "priority_counts": {
-    "보통": 27,
-    "참고": 6
+    "보통": 18,
+    "참고": 4
   },
   "category_counts": {
+    "AI·데이터센터": 3,
+    "LNG·에너지안보": 3,
     "산업·고객": 5,
-    "정책·제도": 5,
-    "AI·데이터센터": 4,
+    "정책·제도": 4,
     "전력시장": 3,
-    "LNG·에너지안보": 4,
-    "탄소·ESG": 5,
-    "계통·인프라": 7
+    "탄소·ESG": 3,
+    "계통·인프라": 1
   },
   "key_issues": [
     {
-      "id": "N20261122-1997",
+      "id": "N20261123-2005",
       "issue_order": 1,
-      "title": "여수 석화 구조조정 제자리걸음…1호는 지연, 2호는 안갯속",
-      "summary": "국내 에틸렌 생산능력의 절반 가까이가 집중된 여수 석유화학 단지의 구조조정이 1호 프로젝트부터 통합법인 출범이 지연되며 속도를 내지 못하고 있다는 내용이다.",
-      "implication": "여수 석화 고객사의 설비 감축·재편 지연은 당사 증기·전력 수요 전망과 LNG 전환 설비 계획에 불확실성 요인이다.",
-      "category": "산업·고객",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=01682646645648344&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
-    },
-    {
-      "id": "N20261122-1998",
-      "issue_order": 2,
-      "title": "원전·재생·석탄…전력망 재설계 韓 '에너지 딜레마'",
-      "summary": "정부가 원전·재생·석탄 관련 공론화 결과를 12차 전기본의 발전원별 공급계획에 반영할 방침이며, 재생에너지 확대에는 입지·간헐성 등 조건이 필요하다는 내용이다.",
-      "implication": "12차 전기본의 발전원별 공급계획은 석탄 전환과 LNG 역할 설정에 영향을 주므로 여수·군산 전환 계획과 연계해 추적할 필요가 있다.",
-      "category": "정책·제도",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=2021636"
-    },
-    {
-      "id": "N20261122-1987",
-      "issue_order": 3,
-      "title": "지방 50㎿↓ AIDC 전력평가 면제…GW급 프로젝트엔 ‘패스트트랙’",
-      "summary": "정부가 AIDC 특별법 하위법령을 입법예고하며 비수도권 50㎿ 이하 AI 데이터센터의 전력계통영향평가를 면제하고 GW급 프로젝트에는 패스트트랙을 적용한다는 내용이다.",
-      "implication": "지방 데이터센터 입지·전력공급 절차가 간소화되면 남부권 데이터센터 전력·열 수요 기회 검토에 참고할 수 있다.",
+      "title": "트럼프 \"해외 데이터센터 건설땐 세금 폭탄\"…韓 메...",
+      "summary": "트럼프 대통령이 해외에 데이터센터를 짓는 미국 기업에 막대한 세금을 부과하겠다고 밝혔다는 내용이다.",
+      "implication": "해외 데이터센터 투자 위축 시 국내 AIDC 입지와 전력수요 전망에 변수가 될 수 있다.",
       "category": "AI·데이터센터",
-      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611220908557650034"
+      "url": "https://www.newsverse.kr/news/articleView.html?idxno=12010"
+    },
+    {
+      "id": "N20261123-2000",
+      "issue_order": 2,
+      "title": "“이대로면 1년에 미수금 4조원씩 늘어나” 가스公 사장, ‘요금 인상 필...",
+      "summary": "가스공사 사장이 현 요금 구조가 유지되면 미수금이 연 4조원씩 늘어난다며 요금 인상 필요성을 언급했다는 내용이다.",
+      "implication": "발전용 LNG 요금과 가스요금 현실화 논의가 이어질 수 있어 연료비 전망 점검이 필요하다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.chosun.com/economy/economy_general/2026/11/23/VGVZAUYZZBCOLOB2I3FTN4O2GE/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+    },
+    {
+      "id": "N20261122-2002",
+      "issue_order": 3,
+      "title": "신민호 특별시의원 “여수산단 중소 협력업체 챙겨달라” 당부에 특별시...",
+      "summary": "전남광주통합특별시가 석유화학·철강 기업 원스톱 지원 추진계획(안)을 수립해 가동에 나섰다는 내용이다.",
+      "implication": "여수산단 고객사 위기 대응 지원책으로 고객 설비 가동·구조조정 동향과 함께 살펴볼 필요가 있다.",
+      "category": "산업·고객",
+      "url": "https://www.seoul.co.kr/news/publicnews/2026/11/22/20261122500099?wlog_tag3=naver"
     }
   ]
 }
