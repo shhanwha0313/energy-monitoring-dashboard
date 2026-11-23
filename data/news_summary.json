@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.11.23 07:34:57",
-  "base_date": "2026.11.23",
-  "total_articles": 1586,
-  "today_articles": 42,
-  "archive_articles": 1544,
+  "generated_at": "2026.11.23 21:35:28",
+  "base_date": "2026.11.24",
+  "total_articles": 1597,
+  "today_articles": 34,
+  "archive_articles": 1563,
   "important_articles": 1,
-  "normal_articles": 31,
-  "reference_articles": 10,
+  "normal_articles": 24,
+  "reference_articles": 9,
   "top_keywords": [
-    "석유화학",
     "12차 전기본",
-    "여수",
     "ESS",
-    "사업재편"
+    "데이터센터",
+    "LNG",
+    "가스공사"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 31,
-    "참고": 10
+    "보통": 24,
+    "참고": 9
   },
   "category_counts": {
-    "탄소·ESG": 7,
-    "LNG·에너지안보": 6,
-    "산업·고객": 8,
-    "정책·제도": 7,
-    "AI·데이터센터": 5,
+    "탄소·ESG": 5,
+    "전력시장": 5,
+    "정책·제도": 5,
+    "산업·고객": 6,
+    "AI·데이터센터": 4,
+    "LNG·에너지안보": 4,
     "계통·인프라": 4,
-    "전력시장": 4,
     "기타": 1
   },
   "key_issues": [
@@ -40,22 +40,22 @@
       "url": "https://www.fnnews.com/news/202611231115338285"
     },
     {
-      "id": "N20261123-2025",
+      "id": "N20261124-2036",
       "issue_order": 2,
-      "title": "가스공사, LNG 트레이딩·냉열사업 키운다…전담 조직 신설",
-      "summary": "한국가스공사가 '비전 2035' 실행을 위한 조직개편으로 LNG 트레이딩과 냉열사업 등 LNG 연관 사업 전담 조직을 신설한다는 내용이다.",
-      "implication": "가스공사의 냉열사업 확대는 당사가 검토 중인 LNG 냉열발전 과제의 협력·경쟁 구도 파악에 참고가 된다.",
-      "category": "LNG·에너지안보",
-      "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=229999"
+      "title": "만성 적자 코레일… 그 뒤엔 이상한 철도 ‘전기요금’",
+      "summary": "지난 4월 한전 산업용 전기요금제가 개편되기 전에는 낮에 비싸고 저녁·심야에 저렴했으나 개편 이후 철도 부문의 요금 구조가 코레일 적자의 원인이 되고 있다는 내용이다.",
+      "implication": "산업용 시간대별 요금 개편이 사용자별 부담에 미치는 영향 사례로, 고객사 요금 환경 변화를 이해하는 데 참고할 수 있다.",
+      "category": "전력시장",
+      "url": "https://www.kmib.co.kr/article/20261123501789"
     },
     {
-      "id": "N20261123-2023",
+      "id": "N20261123-2035",
       "issue_order": 3,
-      "title": "LG화학 김동춘 \"연내 GS칼텍스·한화토탈과 석화재편 도출 희망\"...대산...",
-      "summary": "김정관 산업부 장관이 석화 CEO 간담회에서 연내 사업재편 논의 마무리를 촉구했고, LG화학 대표는 GS칼텍스·한화토탈과 연내 재편안 도출을 희망한다고 밝혔다는 내용이다. 미확정 프로젝트의 연내 합의를 정부가 촉구한 자리라는 내용이다.",
-      "implication": "여수 석화 고객사의 설비 감축·통합 속도에 따라 당사 여수 증기·전력 판매 수요가 달라질 수 있어 재편 진행 상황을 점검할 필요가 있다.",
-      "category": "산업·고객",
-      "url": "https://www.ajunews.com/view/20261123154127647"
+      "title": "울산대공원·체육공원 주차장 태양광 발전으로 분산특구 도전",
+      "summary": "울산시가 울산대공원·체육공원 주차장 태양광 발전을 활용해 재생에너지와 ESS 기반 커뮤니티 마이크로그리드로 정부 분산에너지 특구 공모에 도전한다는 내용이다.",
+      "implication": "분산특구 공모와 지산지소 모델은 분산에너지 제도 변화와 집단에너지 사업자의 역할 검토에 참고가 된다.",
+      "category": "정책·제도",
+      "url": "https://www.ulsanpress.net/news/articleView.html?idxno=587483"
     }
   ]
 }
