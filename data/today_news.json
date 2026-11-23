@@ -1,5 +1,207 @@
 ﻿[
   {
+    "id": "N20261123-2012",
+    "date": "2026.11.23",
+    "datetime": "2026.11.23 11:08",
+    "title": "동서발전 '대어' 떴다…수천억 기회, LNG 터미널들 눈 번쩍",
+    "source": "전기신문",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG 터미널",
+    "summary": "동서발전이 호남복합·여수그린에너지의 LNG 터미널 이용계약(TUA)을 위한 경쟁입찰을 진행한다는 내용이다.",
+    "implication": "여수 일대 LNG 터미널 수요 확대 움직임으로, 당사 LNG 전환 시 연료 조달 선택지와 연관된다.",
+    "tags": [
+      "동서발전",
+      "여수",
+      "LNG 터미널",
+      "TUA"
+    ],
+    "url": "https://www.electimes.com/news/articleView.html?idxno=375123",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
+    "id": "N20261123-2017",
+    "date": "2026.11.23",
+    "datetime": "2026.11.23 10:56",
+    "title": "동해 AI데이터센터 28일 착공⋯우상호 “강원도 AIDC 특구 만들겠다”",
+    "source": "강원일보",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 입지·전력",
+    "summary": "동해 AI데이터센터가 28일 착공하며 강원도는 25일 AIDC 전력망 공급을 위한 지역 전력계통 해소 방안 간담회를 연다는 내용이다.",
+    "implication": "비수도권 AIDC 입지와 전력공급 방식 논의로 데이터센터 전력공급 과제 검토에 참고할 수 있다.",
+    "tags": [
+      "동해 AIDC",
+      "강원",
+      "전력계통"
+    ],
+    "url": "https://www.kwnews.co.kr/article/20261123500288",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261123-2014",
+    "date": "2026.11.23",
+    "datetime": "2026.11.23 10:30",
+    "title": "美 '데이터센터 전력망 비용 부담법' 통과 충격…삼성SDS 등 관련주 일제...",
+    "source": "와이드데일리",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "데이터센터 전력비용",
+    "summary": "미국에서 대형 데이터센터 사업자가 신규 전력 조달과 전력망 증설 비용을 부담하도록 하는 법안이 통과돼 관련주가 하락했다는 내용이다.",
+    "implication": "데이터센터 전력공급 모델 및 비용 분담 방식 검토 시 해외 사례로 참고할 수 있다.",
+    "tags": [
+      "데이터센터",
+      "전력망 비용 부담",
+      "미국"
+    ],
+    "url": "https://www.widedaily.com/news/articleView.html?idxno=304382",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261123-2016",
+    "date": "2026.11.23",
+    "datetime": "2026.11.23 10:22",
+    "title": "울산항 나프타 수입 42% 급감…빈자리 중국산 에틸렌 채워",
+    "source": "서울경제",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "석유화학 업황",
+    "summary": "중동 정세 불안으로 울산항 나프타 수입이 42% 급감하고 업계가 에틸렌 등 기초유분을 직접 수입하는 방식으로 바꾸고 있다는 내용이다.",
+    "implication": "원료 조달 변화는 석유화학 고객사 가동률과 증기·전력 수요에 영향을 줄 수 있다.",
+    "tags": [
+      "울산항",
+      "나프타",
+      "에틸렌",
+      "중동"
+    ],
+    "url": "https://www.sedaily.com/article/20117628?ref=naver",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261123-2010",
+    "date": "2026.11.23",
+    "datetime": "2026.11.23 10:00",
+    "title": "산업장관, 카타르 에너지 장관 만나 LNG 우선 공급 요청",
+    "source": "연합뉴스",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG 도입",
+    "summary": "김정관 산업부 장관이 카타르 에너지장관을 만나 LNG 생산과 호르무즈 통항이 정상화되면 한국에 LNG를 우선 공급해 달라고 요청했다는 내용이다.",
+    "implication": "중동 리스크로 불안한 발전용 LNG 수급과 연료비 전망 점검에 참고할 사안이다.",
+    "tags": [
+      "카타르",
+      "LNG 우선 공급",
+      "호르무즈"
+    ],
+    "url": "https://www.yna.co.kr/view/AKR20261123041400003?input=1195m",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261123-2013",
+    "date": "2026.11.23",
+    "datetime": "2026.11.23 09:34",
+    "title": "울산시·동서발전, ‘울산형 가상발전소’ 만든다",
+    "source": "서울경제",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "가상발전소",
+    "summary": "울산시와 동서발전이 태양광·ESS·산업단지 전력수요를 묶어 운영하는 울산형 가상발전소 구축 업무협약을 맺었다는 내용이다.",
+    "implication": "산단 단위 유연성 자원 운영 사례로, 분산에너지·VPP 사업 검토에 참고할 수 있다.",
+    "tags": [
+      "울산",
+      "가상발전소",
+      "ESS",
+      "동서발전"
+    ],
+    "url": "https://www.sedaily.com/article/20117579?ref=naver",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261123-2011",
+    "date": "2026.11.23",
+    "datetime": "2026.11.23 09:08",
+    "title": "수술대 오른 전기값…지역 차등·최저가 입찰로 바꾼다 [김리안의 에네...",
+    "source": "한국경제",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "LMP·PBP",
+    "summary": "정부가 발표한 지역별 한계가격제(LMP)와 함께 비수도권 발전사가 희망 판매가격을 제시하는 최저가 입찰(PBP)이 하나의 메커니즘으로 작동하게 된다는 내용이다.",
+    "implication": "LMP와 PBP 병행 시 당사 손익에 미칠 영향을 검토 과제에 반영할 필요가 있다.",
+    "tags": [
+      "LMP",
+      "최저가 입찰",
+      "지역 차등"
+    ],
+    "url": "https://www.hankyung.com/article/202611157309i",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261123-2015",
+    "date": "2026.11.23",
+    "datetime": "2026.11.23 07:30",
+    "title": "반도체 공장 폐수의 변신...히트펌프 타고 친환경 열원으로",
+    "source": "디지털투데이",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "재생열",
+    "summary": "반도체 공장 폐수의 저온 방류열을 히트펌프로 끌어올려 공정 가열·난방에 쓰는 사례로, 한난과 삼성전자가 열 생산 LNG 비용을 줄이기 위한 폐열 활용 협약을 맺었다는 내용이다.",
+    "implication": "집단에너지 사업자의 재생열·폐열 활용 사례로 당사 열원 다변화 검토에 참고할 수 있다.",
+    "tags": [
+      "폐열",
+      "히트펌프",
+      "한난",
+      "반도체"
+    ],
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717054",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261123-2009",
+    "date": "2026.11.23",
+    "datetime": "2026.11.23 07:00",
+    "title": "심판으로 뛰는 선수들, 밀실에서 논의하는 LNG 수급 계획.",
+    "source": "슬로우뉴스",
+    "priority": "보통",
+    "category": "정책·제도",
+    "detail_category": "전력수급기본계획",
+    "summary": "다음 달 12차 전기본이 나오면 지난 7월 발표한 16차 장기 천연가스 수급계획도 업데이트되며, 정부는 2030년까지 석탄발전 19기를 LNG로 전환한다는 방침이라는 내용이다.",
+    "implication": "여수 석탄발전 LNG 전환과 연계되는 전기본·LNG 수급계획 확정 내용을 확인할 필요가 있다.",
+    "tags": [
+      "12차 전기본",
+      "LNG 수급계획",
+      "석탄 LNG 전환"
+    ],
+    "url": "https://slownews.kr/169843",
+    "is_today": "Y",
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261123-2005",
     "date": "2026.11.23",
     "datetime": "2026.11.23 03:54",
@@ -17,9 +219,9 @@
     ],
     "url": "https://www.newsverse.kr/news/articleView.html?idxno=12010",
     "is_today": "Y",
-    "display_order": 1,
-    "is_key_issue": "Y",
-    "issue_order": 1
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261123-2000",
@@ -39,9 +241,9 @@
     ],
     "url": "https://www.chosun.com/economy/economy_general/2026/11/23/VGVZAUYZZBCOLOB2I3FTN4O2GE/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 11,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261122-2002",
@@ -61,9 +263,9 @@
     ],
     "url": "https://www.seoul.co.kr/news/publicnews/2026/11/22/20261122500099?wlog_tag3=naver",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 12,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261122-2003",
@@ -83,7 +285,7 @@
     ],
     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261123010008487",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -105,7 +307,7 @@
     ],
     "url": "https://www.donga.com/news/Politics/article/all/20261122/135067634/1",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -127,7 +329,7 @@
     ],
     "url": "https://www.namdonews.com/news/articleView.html?idxno=930027",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -149,7 +351,7 @@
     ],
     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261122010008467",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -172,7 +374,7 @@
     ],
     "url": "https://www.edaily.co.kr/News/Read?newsId=01682646645648344&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -195,7 +397,7 @@
     ],
     "url": "https://www.m-i.kr/news/articleView.html?idxno=2021636",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -217,7 +419,7 @@
     ],
     "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611220908557650034",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -239,7 +441,7 @@
     ],
     "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=173396",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -261,7 +463,7 @@
     ],
     "url": "https://www.mk.co.kr/article/12215394",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -283,7 +485,7 @@
     ],
     "url": "https://www.news1.kr/economy/trend/6361644",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -305,7 +507,7 @@
     ],
     "url": "https://www.ccdailynews.com/news/articleView.html?idxno=2452611",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -327,7 +529,7 @@
     ],
     "url": "http://www.inews24.com/view/2028708",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -349,7 +551,7 @@
     ],
     "url": "https://www.bloter.net/news/articleView.html?idxno=679246",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -371,7 +573,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261121_0003877675",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -393,7 +595,73 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261120_0003876545",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 27,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261123-2020",
+    "date": "2026.11.23",
+    "datetime": "2026.11.23 09:42",
+    "title": "국제 환경변화에 따른 바이오에너지 지원제도 국제동향",
+    "source": "이투뉴스",
+    "priority": "참고",
+    "category": "탄소·ESG",
+    "detail_category": "바이오에너지 지원제도",
+    "summary": "국제 환경변화에 따른 바이오에너지 지원제도의 국제 동향을 소개한 기사라는 내용이다.",
+    "implication": "바이오매스 발전의 지원제도 방향을 가늠하는 해외 동향으로 보관할 가치가 있다.",
+    "tags": [
+      "바이오에너지",
+      "지원제도",
+      "국제동향"
+    ],
+    "url": "http://www.e2news.com/news/articleView.html?idxno=336332",
+    "is_today": "Y",
+    "display_order": 28,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261123-2019",
+    "date": "2026.11.23",
+    "datetime": "2026.11.23 09:31",
+    "title": "호남권 반도체 클러스터, 전력·용수부터 정주·연구까지 기반 구축 '속...",
+    "source": "전자신문",
+    "priority": "참고",
+    "category": "산업·고객",
+    "detail_category": "남부권 신규 수요",
+    "summary": "800조원 규모 호남권 반도체 클러스터 조성이 전력·용수 공급망 구축 등 기반 마련을 속도감 있게 추진한다는 내용이다.",
+    "implication": "호남권 대규모 신규 수요는 지역 전력수요와 설비 이용률에 영향을 줄 수 있다.",
+    "tags": [
+      "호남권 반도체 클러스터",
+      "전력",
+      "용수"
+    ],
+    "url": "https://www.etnews.com/20261122000099",
+    "is_today": "Y",
+    "display_order": 29,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261123-2018",
+    "date": "2026.11.23",
+    "datetime": "2026.11.23 07:42",
+    "title": "새만금 RE100 사업자 선정 난항…30일까지 재모집",
+    "source": "KBS",
+    "priority": "참고",
+    "category": "탄소·ESG",
+    "detail_category": "RE100 산단",
+    "summary": "새만금 스마트그린 산단 5·6공구에 30MW 태양광을 설치해 입주기업에 직접 공급하는 RE100 사업자 선정이 난항을 겪어 30일까지 재모집한다는 내용이다.",
+    "implication": "군산 인근 산단의 RE100 전력 직접공급 수요 동향으로 참고할 수 있다.",
+    "tags": [
+      "새만금",
+      "RE100",
+      "직접공급"
+    ],
+    "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8719614&ref=A",
+    "is_today": "Y",
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -415,7 +683,7 @@
     ],
     "url": "https://www.hankyung.com/article/2026112225081",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -437,7 +705,7 @@
     ],
     "url": "https://www.hani.co.kr/arti/international/international_general/1288555.html",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -459,7 +727,7 @@
     ],
     "url": "https://news.bizwatch.co.kr/article/industry/2026/11/20/0001",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -481,7 +749,7 @@
     ],
     "url": "https://www.dailyt.co.kr/newsView/dlt202611220009",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   }
