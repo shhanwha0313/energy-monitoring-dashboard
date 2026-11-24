@@ -1,61 +1,59 @@
 ﻿{
-  "generated_at": "2026.11.24 07:34:19",
+  "generated_at": "2026.11.24 21:34:49",
   "base_date": "2026.11.24",
-  "total_articles": 1613,
-  "today_articles": 50,
-  "archive_articles": 1563,
-  "important_articles": 1,
-  "normal_articles": 36,
-  "reference_articles": 13,
+  "total_articles": 1622,
+  "today_articles": 27,
+  "archive_articles": 1595,
+  "important_articles": 0,
+  "normal_articles": 19,
+  "reference_articles": 8,
   "top_keywords": [
-    "12차 전기본",
-    "데이터센터",
+    "산업용 전기요금",
     "ESS",
     "LMP",
-    "LNG"
+    "LNG",
+    "LNG 가격"
   ],
   "priority_counts": {
-    "중요": 1,
-    "보통": 36,
-    "참고": 13
+    "보통": 19,
+    "참고": 8
   },
   "category_counts": {
-    "탄소·ESG": 7,
-    "정책·제도": 7,
-    "산업·고객": 9,
-    "전력시장": 9,
-    "LNG·에너지안보": 6,
-    "AI·데이터센터": 6,
-    "계통·인프라": 5,
-    "기타": 1
+    "정책·제도": 6,
+    "AI·데이터센터": 3,
+    "탄소·ESG": 3,
+    "계통·인프라": 3,
+    "산업·고객": 3,
+    "전력시장": 5,
+    "LNG·에너지안보": 4
   },
   "key_issues": [
     {
-      "id": "N20261123-2021",
+      "id": "N20261124-2061",
       "issue_order": 1,
-      "title": "내년 RPS 대신 '계약시장'…기후부, 27일 고시 초안 공개",
-      "summary": "기후에너지환경부가 27일 '2027년도 재생에너지 보급 제도 및 정책 설명회'를 열고 RPS를 경쟁입찰 기반 계약시장 제도로 전환하는 고시 초안을 공개한다는 내용이다. 기존 RPS는 단계적으로 일몰되며 REC 현물시장은 법 시행 후 유예기간을 두고 운영된다는 내용이다.",
-      "implication": "RPS 폐지와 계약시장 전환은 당사 바이오매스 발전의 REC 수익 구조에 직결되므로 27일 공개되는 고시 초안과 입찰 조건을 즉시 검토할 필요가 있다.",
-      "category": "탄소·ESG",
-      "url": "https://www.fnnews.com/news/202611231115338285"
-    },
-    {
-      "id": "N20261124-2049",
-      "issue_order": 2,
-      "title": "중부발전, 용인 반도체 클러스터 열병합발전소 건설 본궤도... EPC 계약 ...",
-      "summary": "한국중부발전이 SK이노베이션 E&S와 공동 추진 중인 용인 반도체 클러스터 LNG 열병합 집단에너지사업의 EPC 계약을 24일 체결하고 건설 단계에 들어선다는 내용이다.",
-      "implication": "대규모 산업단지 수요를 겨냥한 LNG 집단에너지 신규 설비가 본격 건설에 들어서는 사례로, 당사 사업 모델과 비교할 참고 사례다.",
+      "title": "POST-RPS 전환기 맞은 해상풍력…'고비용·착공절...",
+      "summary": "RPS 이후 제도로 넘어가는 전환기를 맞은 해상풍력이 고비용과 착공 절벽 문제를 겪고 있으며 태양광·ESS와의 경쟁에도 대비해야 한다는 논의가 나왔다는 내용이다.",
+      "implication": "RPS 폐지 이후 재생에너지 계약·입찰 방식 변화는 당사 바이오매스 REC 수익과 직결되므로 제도 논의를 지속 확인할 필요가 있다.",
       "category": "정책·제도",
-      "url": "https://www.viva100.com/article/20261124501066"
+      "url": "https://www.electimes.com/news/articleView.html?idxno=375225"
     },
     {
-      "id": "N20261124-2053",
+      "id": "N20261124-2059",
+      "issue_order": 2,
+      "title": "150일 인허가 타임아웃제…AI 데이터센터 건설 ...",
+      "summary": "AI 데이터센터 건설에 전력계통영향평가 150일 등 법정 처리기한을 두고 기한 내 미처리 시 허가된 것으로 보는 타임아웃제가 도입된다는 내용이다.",
+      "implication": "데이터센터 인허가가 빨라지면 전력 수요 증가 시점이 앞당겨질 수 있어 당사 데이터센터 전력공급 검토에 참고할 수 있다.",
+      "category": "AI·데이터센터",
+      "url": "https://www.ekn.kr/web/view.php?key=20261124029334147"
+    },
+    {
+      "id": "N20261124-2060",
       "issue_order": 3,
-      "title": "①대산·여수 감축 물거품…'9조원 투입' 에쓰오일 샤힌...",
-      "summary": "총 9조2580억원이 투입된 에쓰오일 샤힌 프로젝트가 25일 준공식을 열고 내년 초 상업 가동을 앞두고 있으며, 국내 석유화학 구조조정 흐름에 역행한다는 비판이 나온다는 내용이다.",
-      "implication": "대규모 신규 설비 가동은 석화 업계 공급과잉과 재편 논의에 영향을 줄 수 있어 여수 석화 고객사 가동 전망을 가늠할 변수다.",
-      "category": "산업·고객",
-      "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=302750"
+      "title": "탄소시장연합",
+      "summary": "기후에너지환경부 장관이 12년간 배출권거래제를 운영한 경험을 바탕으로 의무 탄소시장 국제협력 협의체인 탄소시장연합에 참여한다는 취지로 밝혔다는 내용이다.",
+      "implication": "국제 탄소시장 연계 논의는 향후 배출권 제도 변화로 이어질 수 있어 배출권 비용 관점에서 동향을 볼 필요가 있다.",
+      "category": "탄소·ESG",
+      "url": "https://www.danbinews.com/news/articleView.html?idxno=34150"
     }
   ]
 }
