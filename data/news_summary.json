@@ -1,32 +1,32 @@
 ﻿{
-  "generated_at": "2026.11.23 21:35:28",
+  "generated_at": "2026.11.24 02:34:54",
   "base_date": "2026.11.24",
-  "total_articles": 1597,
-  "today_articles": 34,
+  "total_articles": 1606,
+  "today_articles": 43,
   "archive_articles": 1563,
   "important_articles": 1,
-  "normal_articles": 24,
-  "reference_articles": 9,
+  "normal_articles": 31,
+  "reference_articles": 11,
   "top_keywords": [
     "12차 전기본",
-    "ESS",
     "데이터센터",
-    "LNG",
-    "가스공사"
+    "ESS",
+    "LMP",
+    "LNG"
   ],
   "priority_counts": {
     "중요": 1,
-    "보통": 24,
-    "참고": 9
+    "보통": 31,
+    "참고": 11
   },
   "category_counts": {
-    "탄소·ESG": 5,
-    "전력시장": 5,
-    "정책·제도": 5,
-    "산업·고객": 6,
-    "AI·데이터센터": 4,
-    "LNG·에너지안보": 4,
-    "계통·인프라": 4,
+    "탄소·ESG": 6,
+    "AI·데이터센터": 5,
+    "전력시장": 8,
+    "정책·제도": 6,
+    "LNG·에너지안보": 5,
+    "산업·고객": 7,
+    "계통·인프라": 5,
     "기타": 1
   },
   "key_issues": [
@@ -40,22 +40,22 @@
       "url": "https://www.fnnews.com/news/202611231115338285"
     },
     {
-      "id": "N20261124-2036",
+      "id": "N20261124-2045",
       "issue_order": 2,
-      "title": "만성 적자 코레일… 그 뒤엔 이상한 철도 ‘전기요금’",
-      "summary": "지난 4월 한전 산업용 전기요금제가 개편되기 전에는 낮에 비싸고 저녁·심야에 저렴했으나 개편 이후 철도 부문의 요금 구조가 코레일 적자의 원인이 되고 있다는 내용이다.",
-      "implication": "산업용 시간대별 요금 개편이 사용자별 부담에 미치는 영향 사례로, 고객사 요금 환경 변화를 이해하는 데 참고할 수 있다.",
-      "category": "전력시장",
-      "url": "https://www.kmib.co.kr/article/20261123501789"
+      "title": "‘전기 먹는 하마’ 데이터센터, 고용 효과는 ‘글쎄’ 7조원 사업에 직...",
+      "summary": "데이터센터 업계가 전기요금 인하를 요구하는 가운데, 정부가 345kV 이상 초고압 수전 고객을 위한 요금 구간을 추가하는 방안을 추진한다는 내용이다.",
+      "implication": "데이터센터 요금 체계 변화는 대규모 전력수요 공급 모델과 산업용 요금 논의에 연동될 수 있어 검토 과제와 연결된다.",
+      "category": "AI·데이터센터",
+      "url": "https://vop.co.kr/A00001697734.html"
     },
     {
-      "id": "N20261123-2035",
+      "id": "N20261124-2040",
       "issue_order": 3,
-      "title": "울산대공원·체육공원 주차장 태양광 발전으로 분산특구 도전",
-      "summary": "울산시가 울산대공원·체육공원 주차장 태양광 발전을 활용해 재생에너지와 ESS 기반 커뮤니티 마이크로그리드로 정부 분산에너지 특구 공모에 도전한다는 내용이다.",
-      "implication": "분산특구 공모와 지산지소 모델은 분산에너지 제도 변화와 집단에너지 사업자의 역할 검토에 참고가 된다.",
-      "category": "정책·제도",
-      "url": "https://www.ulsanpress.net/news/articleView.html?idxno=587483"
+      "title": "“기업 지방이전 유도 LMP로 태양광 발전사 매출 35% 급락”",
+      "summary": "서울과기대 교수가 국회 토론회에서 지역별 전기 도매요금 차등제(LMP)가 지방 태양광 발전사 매출을 35% 급락시킬 수 있다고 주장했다는 내용이다.",
+      "implication": "LMP 도입 시 지방 발전사 수익에 미치는 영향을 둘러싼 업계 논리로, 당사 LMP 손익 검토 시 참고할 수 있다.",
+      "category": "전력시장",
+      "url": "https://biz.heraldcorp.com/article/10947337?ref=naver"
     }
   ]
 }
