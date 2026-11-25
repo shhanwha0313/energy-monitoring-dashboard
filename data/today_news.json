@@ -1,5 +1,275 @@
 ﻿[
   {
+    "id": "N20261125-2065",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 11:22",
+    "title": "기후부, 27일 내년 재생에너지 보급제도·정책설명회서 대국민 의견수렴",
+    "source": "코스카저널",
+    "priority": "중요",
+    "category": "정책·제도",
+    "detail_category": "RPS 계약시장 전환",
+    "summary": "기후부가 27일 내년 재생에너지 보급제도 정책설명회를 열어 RPS를 경쟁입찰 기반 '계약시장 제도'로 전환하는 방안에 대해 대국민 의견수렴에 나선다는 내용이다. 기존 RPS는 단계적으로 일몰되고 REC 현물시장도 법 시행 후 정리된다는 내용이 담겼다.",
+    "implication": "RPS·REC 제도 전환 절차가 공식 진행되는 단계로, 군산 바이오매스 발전의 REC 수익 구조 영향을 점검해야 한다.",
+    "tags": [
+      "RPS",
+      "계약시장",
+      "REC",
+      "경쟁입찰"
+    ],
+    "url": "https://www.koscaj.com/news/articleView.html?idxno=327633",
+    "is_today": "Y",
+    "display_order": 1,
+    "is_key_issue": "Y",
+    "issue_order": 1
+  },
+  {
+    "id": "N20261125-2067",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 09:52",
+    "title": "기후장관 \"12차 전기본은 탈석탄 전환 계획…원전 공론화에 개입 안 해...",
+    "source": "뉴시스",
+    "priority": "중요",
+    "category": "정책·제도",
+    "detail_category": "12차 전기본 석탄 폐지",
+    "summary": "기후장관이 원전 공론화위 공개설명회에서 2040년까지 석탄발전소를 모두 폐지하는 만큼 그 빈자리를 어떤 전원으로 채울지가 12차 전기본의 핵심이라고 밝혔다는 내용이다. 원전 확대·감축 측 불참으로 공개토론회는 설명회로 대체됐다.",
+    "implication": "석탄 폐지 시점과 대체 전원 논의에서 LNG 발전의 역할이 어떻게 설정되는지 당사 LNG 전환 계획과 연계해 확인해야 한다.",
+    "tags": [
+      "12차 전기본",
+      "탈석탄",
+      "2040",
+      "원전 공론화"
+    ],
+    "url": "https://www.newsis.com/view/NISX20261125_0003882207",
+    "is_today": "Y",
+    "display_order": 2,
+    "is_key_issue": "Y",
+    "issue_order": 2
+  },
+  {
+    "id": "N20261125-2066",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 09:50",
+    "title": "전기요금은 깎고 전력망은 늘린다…한전의 돌파구는",
+    "source": "뉴스락",
+    "priority": "중요",
+    "category": "전력시장",
+    "detail_category": "지역별 차등요금",
+    "summary": "전력계통 구조를 반영한 4개 광역권과 균형성장을 고려한 4개 권역을 조합해 지역별 요금 구간을 나누고, 원전·재생에너지가 밀집한 남부권은 kWh당 최대 18원, 중부권은 최대 15원 수준으로 차등한다는 내용이다. 제주는 도서 지역 특성상 대상에서 제외됐다.",
+    "implication": "여수·군산 등 당사 입지 권역의 요금 구간과 고객사 전기요금·열 수요에 미칠 영향을 검토할 필요가 있다.",
+    "tags": [
+      "지역별 차등요금",
+      "한전",
+      "산업용 전기요금"
+    ],
+    "url": "http://www.newslock.co.kr/news/articleView.html?idxno=140857",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261125-2076",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 11:22",
+    "title": "동서울변환소 협의서 확정…12월 초 주민투표 결과 주목",
+    "source": "대한경제",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "HVDC 송전망",
+    "summary": "동해안 전력 4GW를 수도권으로 보내는 HVDC의 종착지인 동서울변환소 협의서가 확정됐고 12월 초 주민투표 결과가 관건이라는 내용이다.",
+    "implication": "송전망 지연 해소 여부가 지역별 가격·수급에 영향을 주는 변수로, 계통 혼잡 관점에서 모니터링할 만하다.",
+    "tags": [
+      "동서울변환소",
+      "HVDC",
+      "송전망"
+    ],
+    "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611251057111910525",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261125-2071",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 11:08",
+    "title": "전력시장의 새 기준, LMP 들여다보기(4·끝) LMP 넘어 '모선가격' 가야 전...",
+    "source": "전기신문",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "LMP·모선가격",
+    "summary": "LMP를 넘어 모선가격 체계로 가야 ESS·VPP·수요자원이 경제적 신호를 받을 수 있다는 전문가 연재 기사다.",
+    "implication": "지역별 가격 신호 체계 논의 방향이 당사 LMP 손익 검토 시나리오에 참고가 된다.",
+    "tags": [
+      "LMP",
+      "모선가격",
+      "ESS",
+      "VPP"
+    ],
+    "url": "https://www.electimes.com/news/articleView.html?idxno=375259",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261125-2072",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 11:05",
+    "title": "여기선 버리고 저기선 사고…드라이아이스 대란이 드러낸 'CO2 셈법' [취...",
+    "source": "SBS",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "CCU·CO2 활용",
+    "summary": "드라이아이스 대란을 계기로 CO2 포집·판매가 배출권 감축 실적으로 인정되는 방식과 EU 배출권거래제의 영구 고정 기준 등 'CO2 셈법'을 짚은 기사다.",
+    "implication": "군산 바이오매스 CCU·탄산 판매 추진 시 감축 실적 인정과 배출권 수익 구조를 확인하는 데 참고가 된다.",
+    "tags": [
+      "CO2",
+      "드라이아이스",
+      "CCU",
+      "배출권"
+    ],
+    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008861779&plink=ORI&cooper=NAVER",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261125-2068",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 10:42",
+    "title": "AI 데이터센터 인정 기준 입법예고",
+    "source": "투데이에너지",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "AI 데이터센터 특별법 시행령",
+    "summary": "AI 데이터센터의 정의와 설비·전력 기준, 신고 절차, 인허가 일괄처리 등을 담은 시행 관련 기준이 입법예고됐고, 비수도권 계약전력 50MW 이하 시설은 전력계통영향평가가 면제된다는 내용이다.",
+    "implication": "비수도권 데이터센터 입지·전력공급 요건이 구체화돼 산단 내 데이터센터 전력·열 공급 모델 검토에 참고할 수 있다.",
+    "tags": [
+      "AI 데이터센터",
+      "입법예고",
+      "전력계통영향평가"
+    ],
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=306026",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261125-2070",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 10:16",
+    "title": "전력시장 개편, 장기 계약·단기 현물시장 역할 정립 필요",
+    "source": "한국에너지신문",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "전력시장 개편",
+    "summary": "전력거래소가 24일 나주에서 KICEM 2026을 열어 전력시장 개편 방향을 논의했고, 장기 계약시장과 단기 현물시장의 역할 정립이 필요하다는 내용이다.",
+    "implication": "시장 개편 논의에서 장기계약·현물시장 구조가 정리되면 SMP·정산 구조 변화 가능성을 점검해야 한다.",
+    "tags": [
+      "전력시장 개편",
+      "장기계약",
+      "현물시장",
+      "KICEM"
+    ],
+    "url": "http://www.ikld.kr/news/articleView.html?idxno=344815",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261125-2069",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 10:12",
+    "title": "현대엔지니어링, '용인 열병합·호남 복합발전소' 본계약 체결…2조 284...",
+    "source": "팍스경제TV",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "여수 LNG 복합발전",
+    "summary": "현대엔지니어링이 용인 열병합과 여수산단 내 옛 호남화력 부지의 500MW급 LNG 복합발전소 본계약을 체결했다는 내용이다. 호남 복합발전소는 2027년 6월 착공해 2030년 5월 준공 예정이다.",
+    "implication": "여수산단 내 신규 LNG 발전 공급 증가는 지역 전력·열 시장 경쟁 환경에 영향을 줄 수 있어 모니터링이 필요하다.",
+    "tags": [
+      "여수산단",
+      "호남 복합발전",
+      "LNG",
+      "용인 열병합"
+    ],
+    "url": "http://www.paxetv.com/news/articleView.html?idxno=287810",
+    "is_today": "Y",
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261125-2073",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 09:34",
+    "title": "가스공사, LNG 트레이딩 전담부서 신설하는 이유는?",
+    "source": "전기플랫폼",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "LNG 트레이딩",
+    "summary": "한국가스공사가 내년 1월 LNG 트레이딩 전담부서를 신설해 지정학 위기 상시화와 수요 불확실성에 대응한다는 내용이다.",
+    "implication": "발전용 LNG 조달·가격 구조 변화 가능성이 있어 당사 LNG 전환 이후 연료 조달 전략에 참고할 수 있다.",
+    "tags": [
+      "가스공사",
+      "LNG 트레이딩",
+      "지정학 리스크"
+    ],
+    "url": "http://www.e-platform.net/news/articleView.html?idxno=107295",
+    "is_today": "Y",
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261125-2075",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 09:24",
+    "title": "민주당 포항시의원들, 두 차례 불허한 포항바이오매스 발전소 재추진 강...",
+    "source": "뉴스프라임",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "바이오매스 발전",
+    "summary": "포항시의원들이 두 차례 불허된 포항 바이오매스 발전소의 재추진을 촉구했고, 연간 예상 발전량은 77만MWh 규모라는 내용이다.",
+    "implication": "바이오매스 발전에 대한 지역 수용성·인허가 동향으로 군산 2호기 전환 검토 시 참고할 수 있다.",
+    "tags": [
+      "바이오매스",
+      "포항",
+      "발전소 재추진"
+    ],
+    "url": "http://www.newsprime.co.kr/news/article.html?no=756352",
+    "is_today": "Y",
+    "display_order": 11,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261125-2074",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 08:06",
+    "title": "호르무즈가 깨운 'K-석유안보'…2035년 중동산 원유 의존도 50%로...",
+    "source": "메가경제",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "중동 의존도",
+    "summary": "정부가 2035년까지 원유 수입에서 중동산과 비중동산 비중을 각각 50% 수준으로 맞추겠다는 목표를 제시했다는 내용이다.",
+    "implication": "중동 리스크에 따른 에너지안보 정책이 LNG 등 연료 수입선 다변화 논의로 확대될 수 있어 점검이 필요하다.",
+    "tags": [
+      "호르무즈",
+      "중동산 원유",
+      "에너지안보"
+    ],
+    "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065613791975395",
+    "is_today": "Y",
+    "display_order": 12,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261124-2061",
     "date": "2026.11.24",
     "datetime": "2026.11.24 21:26",
@@ -17,9 +287,9 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=375225",
     "is_today": "Y",
-    "display_order": 1,
-    "is_key_issue": "Y",
-    "issue_order": 1
+    "display_order": 13,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261124-2059",
@@ -39,9 +309,9 @@
     ],
     "url": "https://www.ekn.kr/web/view.php?key=20261124029334147",
     "is_today": "Y",
-    "display_order": 2,
-    "is_key_issue": "Y",
-    "issue_order": 2
+    "display_order": 14,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261124-2060",
@@ -60,9 +330,9 @@
     ],
     "url": "https://www.danbinews.com/news/articleView.html?idxno=34150",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 15,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261124-2058",
@@ -82,7 +352,7 @@
     ],
     "url": "https://www.sedaily.com/article/20118464?ref=naver",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -104,7 +374,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261124_0003880942",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -126,7 +396,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261124_0003881502",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -149,7 +419,7 @@
     ],
     "url": "https://www.viva100.com/article/20261124501066",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -171,7 +441,7 @@
     ],
     "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=302750",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -193,7 +463,7 @@
     ],
     "url": "http://www.kjdaily.com/article.php?aid=1795492921693343002",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -215,7 +485,7 @@
     ],
     "url": "https://newscham.net/130213/",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -237,7 +507,7 @@
     ],
     "url": "http://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=90&CONTENTS_NO=1&bbsGbn=244&bbsSn=244&pNttSn=244931",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -259,7 +529,7 @@
     ],
     "url": "https://vop.co.kr/A00001697734.html",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -281,7 +551,7 @@
     ],
     "url": "https://biz.heraldcorp.com/article/10947337?ref=naver",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -303,7 +573,7 @@
     ],
     "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=316053",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -325,7 +595,7 @@
     ],
     "url": "https://biz.chosun.com/industry/company/2026/11/24/KD72FUNURNDLTA5TXCSIPVNWAY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -347,7 +617,7 @@
     ],
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=886521",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -369,7 +639,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261123_0003880012",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -391,7 +661,7 @@
     ],
     "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=904078",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -413,7 +683,50 @@
     ],
     "url": "https://www.kmib.co.kr/article/20261123501789",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 31,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261125-2078",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 10:35",
+    "title": "해남 국가AI컴퓨팅센터, 2028년 중순 조기 개소 검토",
+    "source": "전남일보",
+    "priority": "참고",
+    "category": "AI·데이터센터",
+    "detail_category": "호남 AI 컴퓨팅센터",
+    "summary": "해남 국가AI컴퓨팅센터를 2028년 중순으로 앞당겨 개소하는 방안을 검토하며, 전력계통영향사업자 명의 변경과 선로 인입공사 착수를 추진한다는 내용이다.",
+    "implication": "호남권 대규모 전력수요 신규 발생 사례로 지역 수급과 설비 이용률 변화 요인이 될 수 있다.",
+    "tags": [
+      "해남",
+      "국가AI컴퓨팅센터",
+      "전력계통영향"
+    ],
+    "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000086368",
+    "is_today": "Y",
+    "display_order": 32,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261125-2077",
+    "date": "2026.11.25",
+    "datetime": "2026.11.25 07:27",
+    "title": "노원구, 국회서 도시 냉난방 탈탄소화 전략 모색…4세대 지역난방 논의",
+    "source": "헤럴드경제",
+    "priority": "참고",
+    "category": "정책·제도",
+    "detail_category": "지역난방 탈탄소화",
+    "summary": "노원구가 국회에서 도시 냉난방 탈탄소화 전략 토론회를 열어 지역냉난방의 탄소배출 저감 방안과 4세대 지역난방을 논의했다는 내용이다.",
+    "implication": "집단에너지·지역난방의 탈탄소 정책 방향을 가늠하는 참고 자료다.",
+    "tags": [
+      "4세대 지역난방",
+      "냉난방 탈탄소화"
+    ],
+    "url": "https://biz.heraldcorp.com/article/10948142?ref=naver",
+    "is_today": "Y",
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -435,7 +748,7 @@
     ],
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205419",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -456,7 +769,7 @@
     ],
     "url": "http://www.e-platform.net/news/articleView.html?idxno=107260",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 35,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -478,7 +791,7 @@
     ],
     "url": "http://www.newstomato.com/ReadNews.aspx?no=1321652&inflow=N",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 36,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -501,7 +814,7 @@
     ],
     "url": "https://www.sisaon.co.kr/news/articleView.html?idxno=206362",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 37,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -523,7 +836,7 @@
     ],
     "url": "http://www.popcornnews.net/news/articleView.html?idxno=141322",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 38,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -545,7 +858,7 @@
     ],
     "url": "http://www.breaknews.com/1253392",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 39,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -567,7 +880,7 @@
     ],
     "url": "https://www.esgeconomy.com/news/articleView.html?idxno=17514",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 40,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -590,7 +903,7 @@
     ],
     "url": "https://www.joongang.co.kr/article/25481258",
     "is_today": "Y",
-    "display_order": 27,
+    "display_order": 41,
     "is_key_issue": "N",
     "issue_order": 9999
   }

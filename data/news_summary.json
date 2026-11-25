@@ -1,59 +1,60 @@
 ﻿{
-  "generated_at": "2026.11.24 21:34:49",
-  "base_date": "2026.11.24",
-  "total_articles": 1622,
-  "today_articles": 27,
+  "generated_at": "2026.11.25 02:36:24",
+  "base_date": "2026.11.25",
+  "total_articles": 1636,
+  "today_articles": 41,
   "archive_articles": 1595,
-  "important_articles": 0,
-  "normal_articles": 19,
-  "reference_articles": 8,
+  "important_articles": 3,
+  "normal_articles": 28,
+  "reference_articles": 10,
   "top_keywords": [
     "산업용 전기요금",
     "ESS",
     "LMP",
     "LNG",
-    "LNG 가격"
+    "12차 전기본"
   ],
   "priority_counts": {
-    "보통": 19,
-    "참고": 8
+    "중요": 3,
+    "보통": 28,
+    "참고": 10
   },
   "category_counts": {
-    "정책·제도": 6,
-    "AI·데이터센터": 3,
-    "탄소·ESG": 3,
-    "계통·인프라": 3,
-    "산업·고객": 3,
-    "전력시장": 5,
-    "LNG·에너지안보": 4
+    "정책·제도": 9,
+    "전력시장": 8,
+    "계통·인프라": 4,
+    "탄소·ESG": 5,
+    "AI·데이터센터": 5,
+    "LNG·에너지안보": 7,
+    "산업·고객": 3
   },
   "key_issues": [
     {
-      "id": "N20261124-2061",
+      "id": "N20261125-2065",
       "issue_order": 1,
-      "title": "POST-RPS 전환기 맞은 해상풍력…'고비용·착공절...",
-      "summary": "RPS 이후 제도로 넘어가는 전환기를 맞은 해상풍력이 고비용과 착공 절벽 문제를 겪고 있으며 태양광·ESS와의 경쟁에도 대비해야 한다는 논의가 나왔다는 내용이다.",
-      "implication": "RPS 폐지 이후 재생에너지 계약·입찰 방식 변화는 당사 바이오매스 REC 수익과 직결되므로 제도 논의를 지속 확인할 필요가 있다.",
+      "title": "기후부, 27일 내년 재생에너지 보급제도·정책설명회서 대국민 의견수렴",
+      "summary": "기후부가 27일 내년 재생에너지 보급제도 정책설명회를 열어 RPS를 경쟁입찰 기반 '계약시장 제도'로 전환하는 방안에 대해 대국민 의견수렴에 나선다는 내용이다. 기존 RPS는 단계적으로 일몰되고 REC 현물시장도 법 시행 후 정리된다는 내용이 담겼다.",
+      "implication": "RPS·REC 제도 전환 절차가 공식 진행되는 단계로, 군산 바이오매스 발전의 REC 수익 구조 영향을 점검해야 한다.",
       "category": "정책·제도",
-      "url": "https://www.electimes.com/news/articleView.html?idxno=375225"
+      "url": "https://www.koscaj.com/news/articleView.html?idxno=327633"
     },
     {
-      "id": "N20261124-2059",
+      "id": "N20261125-2067",
       "issue_order": 2,
-      "title": "150일 인허가 타임아웃제…AI 데이터센터 건설 ...",
-      "summary": "AI 데이터센터 건설에 전력계통영향평가 150일 등 법정 처리기한을 두고 기한 내 미처리 시 허가된 것으로 보는 타임아웃제가 도입된다는 내용이다.",
-      "implication": "데이터센터 인허가가 빨라지면 전력 수요 증가 시점이 앞당겨질 수 있어 당사 데이터센터 전력공급 검토에 참고할 수 있다.",
-      "category": "AI·데이터센터",
-      "url": "https://www.ekn.kr/web/view.php?key=20261124029334147"
+      "title": "기후장관 \"12차 전기본은 탈석탄 전환 계획…원전 공론화에 개입 안 해...",
+      "summary": "기후장관이 원전 공론화위 공개설명회에서 2040년까지 석탄발전소를 모두 폐지하는 만큼 그 빈자리를 어떤 전원으로 채울지가 12차 전기본의 핵심이라고 밝혔다는 내용이다. 원전 확대·감축 측 불참으로 공개토론회는 설명회로 대체됐다.",
+      "implication": "석탄 폐지 시점과 대체 전원 논의에서 LNG 발전의 역할이 어떻게 설정되는지 당사 LNG 전환 계획과 연계해 확인해야 한다.",
+      "category": "정책·제도",
+      "url": "https://www.newsis.com/view/NISX20261125_0003882207"
     },
     {
-      "id": "N20261124-2060",
+      "id": "N20261125-2066",
       "issue_order": 3,
-      "title": "탄소시장연합",
-      "summary": "기후에너지환경부 장관이 12년간 배출권거래제를 운영한 경험을 바탕으로 의무 탄소시장 국제협력 협의체인 탄소시장연합에 참여한다는 취지로 밝혔다는 내용이다.",
-      "implication": "국제 탄소시장 연계 논의는 향후 배출권 제도 변화로 이어질 수 있어 배출권 비용 관점에서 동향을 볼 필요가 있다.",
-      "category": "탄소·ESG",
-      "url": "https://www.danbinews.com/news/articleView.html?idxno=34150"
+      "title": "전기요금은 깎고 전력망은 늘린다…한전의 돌파구는",
+      "summary": "전력계통 구조를 반영한 4개 광역권과 균형성장을 고려한 4개 권역을 조합해 지역별 요금 구간을 나누고, 원전·재생에너지가 밀집한 남부권은 kWh당 최대 18원, 중부권은 최대 15원 수준으로 차등한다는 내용이다. 제주는 도서 지역 특성상 대상에서 제외됐다.",
+      "implication": "여수·군산 등 당사 입지 권역의 요금 구간과 고객사 전기요금·열 수요에 미칠 영향을 검토할 필요가 있다.",
+      "category": "전력시장",
+      "url": "http://www.newslock.co.kr/news/articleView.html?idxno=140857"
     }
   ]
 }
