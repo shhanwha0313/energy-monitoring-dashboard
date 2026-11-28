@@ -46,6 +46,183 @@
     "issue_order": 2
   },
   {
+    "id": "N20261128-2172",
+    "date": "2026.11.28",
+    "datetime": "2026.11.28 10:25",
+    "title": "“동서울변환소 증설 성난 민심 달래자”…감일지구 가구당 年1...",
+    "source": "매일경제",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "HVDC·변환소",
+    "summary": "한전이 약 7000억원을 투입해 동서울변환소를 옥내화하고 HVDC 변환설비를 구축하며, 주민 수용성 확보 방안이 논의되고 있다는 내용이다.",
+    "implication": "수도권 송전망 확충은 지역별 계통 혼잡과 요금 논의에 영향을 줄 수 있어 LMP 영향 검토 시 참고할 만하다.",
+    "tags": [
+      "동서울변환소",
+      "HVDC",
+      "송전망"
+    ],
+    "url": "https://www.mk.co.kr/article/12220664",
+    "is_today": "Y",
+    "display_order": 3,
+    "is_key_issue": "Y",
+    "issue_order": 3
+  },
+  {
+    "id": "N20261128-2176",
+    "date": "2026.11.28",
+    "datetime": "2026.11.28 09:16",
+    "title": "충남도, 202조 원 첨단산업 투자 대응 전력·용수·인재 확보 총력",
+    "source": "브레이크뉴스",
+    "priority": "보통",
+    "category": "AI·데이터센터",
+    "detail_category": "지역 전력수요",
+    "summary": "충남도가 2030년까지 202조 원 규모 첨단산업 투자에 대응해 전력·용수·인력 수급 불균형을 해소하는 기본계획안을 마련했다는 내용이다.",
+    "implication": "지자체 차원의 대규모 전력수요 대응 계획은 산단 전력·열 공급 사업 기회를 가늠하는 참고 자료다.",
+    "tags": [
+      "충남",
+      "첨단산업",
+      "전력수급"
+    ],
+    "url": "http://www.breaknews.com/1254912",
+    "is_today": "Y",
+    "display_order": 4,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261128-2175",
+    "date": "2026.11.28",
+    "datetime": "2026.11.28 09:00",
+    "title": "에너지 안보 패러다임 변화…화석연료 개발 공기업 키우는 게 답인가 [...",
+    "source": "에너지경제",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "장기천연가스수급계획",
+    "summary": "7월 발표된 제16차 장기천연가스수급계획에 12차 전기본 논의 방향이 반영되지 못했고 재생에너지·원전 확대 규모에 따라 발전용 가스 수요가 달라진다는 내용이다.",
+    "implication": "발전용 LNG 수요 전망의 불확실성은 LNG 복합발전 전환 계획의 연료 수급 검토에 고려할 사항이다.",
+    "tags": [
+      "12차 전기본",
+      "장기천연가스수급계획",
+      "발전용 가스"
+    ],
+    "url": "https://www.ekn.kr/web/view.php?key=20261127026545647",
+    "is_today": "Y",
+    "display_order": 5,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261128-2173",
+    "date": "2026.11.28",
+    "datetime": "2026.11.28 07:00",
+    "title": "동서발전, ESS 입찰 672MW 확보…누적 용량 국내 1위 달성",
+    "source": "부산일보",
+    "priority": "보통",
+    "category": "계통·인프라",
+    "detail_category": "ESS 중앙계약시장",
+    "summary": "동서발전이 2026년 ESS 중앙계약시장 입찰에서 672MW를 확보해 BESS 누적 용량 국내 1위를 달성했다는 내용이다.",
+    "implication": "발전공기업의 ESS 확대는 계통 유연성과 SMP 형성에 영향을 줄 수 있어 시장 동향 파악에 참고가 된다.",
+    "tags": [
+      "ESS",
+      "중앙계약시장",
+      "동서발전"
+    ],
+    "url": "https://www.busan.com/view/busan/view.php?code=2026112804444710810",
+    "is_today": "Y",
+    "display_order": 6,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261128-2174",
+    "date": "2026.11.28",
+    "datetime": "2026.11.28 07:00",
+    "title": "공공기관이 민간 PPA 중개시장 넘봐서야",
+    "source": "이투뉴스",
+    "priority": "보통",
+    "category": "전력시장",
+    "detail_category": "PPA 중개시장",
+    "summary": "정부와 공공기관이 재생에너지 PPA 중개시장에 진입하려는 움직임을 두고 민간이 닦아온 시장을 잠식한다는 비판이 제기됐다는 내용이다.",
+    "implication": "PPA·CPPA 제도 변화는 바이오매스 등 당사 재생에너지 전력 판매 방식 검토에 참고가 된다.",
+    "tags": [
+      "PPA",
+      "공공기관",
+      "중개시장"
+    ],
+    "url": "http://www.e2news.com/news/articleView.html?idxno=336439",
+    "is_today": "Y",
+    "display_order": 7,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261128-2169",
+    "date": "2026.11.28",
+    "datetime": "2026.11.28 06:58",
+    "title": "배출권 예비분 어떻게 쓰나…기후부, 12월 3일 공개설명회",
+    "source": "비건뉴스",
+    "priority": "보통",
+    "category": "탄소·ESG",
+    "detail_category": "배출권 예비분",
+    "summary": "기후부가 배출권 예비분의 경매 물량 조절 기준을 다루는 공개설명회를 12월 3일 연다는 내용이다.",
+    "implication": "예비분 운용 기준에 따라 배출권 수급과 가격이 달라질 수 있어 당사 배출권 전략 검토 시 설명회 내용을 확인할 필요가 있다.",
+    "tags": [
+      "배출권",
+      "예비분",
+      "경매",
+      "공개설명회"
+    ],
+    "url": "https://www.vegannews.co.kr/news/article.html?no=412508",
+    "is_today": "Y",
+    "display_order": 8,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261128-2171",
+    "date": "2026.11.28",
+    "datetime": "2026.11.28 06:58",
+    "title": "호르무즈 해협 다시 전운…美 봉쇄 돌파 상선 타격, 이란 강경 맞불",
+    "source": "머니투데이",
+    "priority": "보통",
+    "category": "LNG·에너지안보",
+    "detail_category": "호르무즈 리스크",
+    "summary": "호르무즈 해협 인근에서 미군 봉쇄 돌파 상선이 타격을 입고 유조선과 LNG 운반선이 기뢰와 접촉해 화재가 발생하는 등 긴장이 다시 고조되고 있다는 내용이다.",
+    "implication": "LNG 도입 차질과 가격 변동 가능성은 여수 LNG 전환 발전과 연료비 관리 측면에서 모니터링이 필요하다.",
+    "tags": [
+      "호르무즈",
+      "LNG 운반선",
+      "중동"
+    ],
+    "url": "https://www.mt.co.kr/world/2026/11/28/2026112806415235963",
+    "is_today": "Y",
+    "display_order": 9,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261128-2170",
+    "date": "2026.11.28",
+    "datetime": "2026.11.28 06:02",
+    "title": "대산보다 복잡한 여수…석화 4社 통합에 남은 과제",
+    "source": "쿠키뉴스",
+    "priority": "보통",
+    "category": "산업·고객",
+    "detail_category": "여수 석화 사업재편",
+    "summary": "대산 통합법인이 출범한 것과 달리 여수는 참여 기업과 통합 대상 사업이 많고 자산가치 문제로 기업 간 협의가 이어지고 있다는 내용이다.",
+    "implication": "여수 석유화학 고객사의 통합·설비 조정 향방이 당사 증기·전력 수요에 영향을 줄 수 있어 협의 진행을 지속 점검할 필요가 있다.",
+    "tags": [
+      "여수산단",
+      "석화 통합",
+      "사업재편"
+    ],
+    "url": "https://www.kukinews.com/article/view/kuk202611270138",
+    "is_today": "Y",
+    "display_order": 10,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
     "id": "N20261127-2167",
     "date": "2026.11.27",
     "datetime": "2026.11.27 21:52",
@@ -63,9 +240,9 @@
     ],
     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8724857&ref=A",
     "is_today": "Y",
-    "display_order": 3,
-    "is_key_issue": "Y",
-    "issue_order": 3
+    "display_order": 11,
+    "is_key_issue": "N",
+    "issue_order": 9999
   },
   {
     "id": "N20261127-2161",
@@ -85,7 +262,7 @@
     ],
     "url": "http://www.e2news.com/news/articleView.html?idxno=336570",
     "is_today": "Y",
-    "display_order": 4,
+    "display_order": 12,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -107,7 +284,7 @@
     ],
     "url": "https://www.newstree.kr/newsView/ntr202611270018",
     "is_today": "Y",
-    "display_order": 5,
+    "display_order": 13,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -129,7 +306,7 @@
     ],
     "url": "http://www.e2news.com/news/articleView.html?idxno=336567",
     "is_today": "Y",
-    "display_order": 6,
+    "display_order": 14,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -151,7 +328,7 @@
     ],
     "url": "https://www.newsis.com/view/NISX20261127_0003886626",
     "is_today": "Y",
-    "display_order": 7,
+    "display_order": 15,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -173,7 +350,7 @@
     ],
     "url": "http://www.srtimes.kr/news/articleView.html?idxno=218880",
     "is_today": "Y",
-    "display_order": 8,
+    "display_order": 16,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -195,7 +372,7 @@
     ],
     "url": "https://www.esgeconomy.com/news/articleView.html?idxno=17582",
     "is_today": "Y",
-    "display_order": 9,
+    "display_order": 17,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -217,7 +394,7 @@
     ],
     "url": "https://www.newspim.com/news/view/20261127001124",
     "is_today": "Y",
-    "display_order": 10,
+    "display_order": 18,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -240,7 +417,7 @@
     ],
     "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=316421",
     "is_today": "Y",
-    "display_order": 11,
+    "display_order": 19,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -262,7 +439,7 @@
     ],
     "url": "https://www.todayenergy.kr/news/articleView.html?idxno=306186",
     "is_today": "Y",
-    "display_order": 12,
+    "display_order": 20,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -284,7 +461,7 @@
     ],
     "url": "https://biz.heraldcorp.com/article/10951436?ref=naver",
     "is_today": "Y",
-    "display_order": 13,
+    "display_order": 21,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -306,7 +483,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=375374",
     "is_today": "Y",
-    "display_order": 14,
+    "display_order": 22,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -328,7 +505,7 @@
     ],
     "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=732296",
     "is_today": "Y",
-    "display_order": 15,
+    "display_order": 23,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -351,7 +528,7 @@
     ],
     "url": "https://www.newsway.co.kr/news/view?ud=2026112713133623363",
     "is_today": "Y",
-    "display_order": 16,
+    "display_order": 24,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -373,7 +550,7 @@
     ],
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=887928",
     "is_today": "Y",
-    "display_order": 17,
+    "display_order": 25,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -395,7 +572,7 @@
     ],
     "url": "http://www.e2news.com/news/articleView.html?idxno=336548",
     "is_today": "Y",
-    "display_order": 18,
+    "display_order": 26,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -417,7 +594,7 @@
     ],
     "url": "https://biz.chosun.com/industry/company/2026/11/27/ETGESKZQ6JDMRK57KR3YCMZL7U/?utm_source=naver&utm_medium=original&utm_campaign=biz",
     "is_today": "Y",
-    "display_order": 19,
+    "display_order": 27,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -439,7 +616,7 @@
     ],
     "url": "https://biz.chosun.com/stock/finance/2026/11/27/Z3AZQJBZMNAG5JNY47L4TGAEJI/?utm_source=naver&utm_medium=original&utm_campaign=biz",
     "is_today": "Y",
-    "display_order": 20,
+    "display_order": 28,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -461,7 +638,7 @@
     ],
     "url": "https://www.news1.kr/politics/assembly/6367836",
     "is_today": "Y",
-    "display_order": 21,
+    "display_order": 29,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -483,7 +660,7 @@
     ],
     "url": "http://www.ikld.kr/news/articleView.html?idxno=345007",
     "is_today": "Y",
-    "display_order": 22,
+    "display_order": 30,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -506,7 +683,7 @@
     ],
     "url": "https://www.electimes.com/news/articleView.html?idxno=375354",
     "is_today": "Y",
-    "display_order": 23,
+    "display_order": 31,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -528,7 +705,7 @@
     ],
     "url": "https://www.ceoscoredaily.com/page/view/2026112517103951103",
     "is_today": "Y",
-    "display_order": 24,
+    "display_order": 32,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -550,7 +727,7 @@
     ],
     "url": "http://www.press9.kr/news/articleView.html?idxno=87079",
     "is_today": "Y",
-    "display_order": 25,
+    "display_order": 33,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -572,7 +749,7 @@
     ],
     "url": "https://www.etoday.co.kr/news/view/2653226",
     "is_today": "Y",
-    "display_order": 26,
+    "display_order": 34,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -594,7 +771,7 @@
     ],
     "url": "https://www.edaily.co.kr/News/Read?newsId=01105366645649984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
     "is_today": "Y",
-    "display_order": 27,
+    "display_order": 35,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -617,7 +794,51 @@
     ],
     "url": "https://www.kwnews.co.kr/article/20261126501112",
     "is_today": "Y",
-    "display_order": 28,
+    "display_order": 36,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261128-2178",
+    "date": "2026.11.28",
+    "datetime": "2026.11.28 08:02",
+    "title": "韓·사우디, 원유 공동비축 늘린다…비축시설 증설도 추진",
+    "source": "SEN",
+    "priority": "참고",
+    "category": "LNG·에너지안보",
+    "detail_category": "에너지 비축",
+    "summary": "정부가 사우디와 원유 공동비축을 늘리고 비축시설 증설을 추진하며 실무 협상을 통해 협력 범위를 넓힐 계획이라는 내용이다.",
+    "implication": "중동 공급망 리스크에 대한 정부 대응 기조를 보여 주는 참고 기사다.",
+    "tags": [
+      "사우디",
+      "원유 비축",
+      "에너지안보"
+    ],
+    "url": "https://www.sentv.co.kr/article/view/sentv202611270174",
+    "is_today": "Y",
+    "display_order": 37,
+    "is_key_issue": "N",
+    "issue_order": 9999
+  },
+  {
+    "id": "N20261128-2177",
+    "date": "2026.11.28",
+    "datetime": "2026.11.28 08:00",
+    "title": "빚 내 만든 저수지 vs 미래 종잣돈…162조 미래기금의 숙제",
+    "source": "뉴시스",
+    "priority": "참고",
+    "category": "정책·제도",
+    "detail_category": "전기요금 재정지원",
+    "summary": "한전이 부담하던 전기요금 할인비용 일부를 국가재정으로 돌리는 3500억원 예산이 미래기금 성장동력계정 목적에 부합하는지 논란이라는 내용이다.",
+    "implication": "한전 요금 부담 구조 변화는 향후 전기요금 정책 방향을 가늠하는 참고 사항이다.",
+    "tags": [
+      "미래기금",
+      "전기요금 특례",
+      "한전"
+    ],
+    "url": "https://www.newsis.com/view/NISX20261127_0003886578",
+    "is_today": "Y",
+    "display_order": 38,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -639,7 +860,7 @@
     ],
     "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1733240",
     "is_today": "Y",
-    "display_order": 29,
+    "display_order": 39,
     "is_key_issue": "N",
     "issue_order": 9999
   },
@@ -661,7 +882,7 @@
     ],
     "url": "https://www.yna.co.kr/view/AKR20261127058400009?input=1195m",
     "is_today": "Y",
-    "display_order": 30,
+    "display_order": 40,
     "is_key_issue": "N",
     "issue_order": 9999
   }
