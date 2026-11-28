@@ -1,30 +1,30 @@
 ﻿{
-  "generated_at": "2026.11.28 02:33:11",
+  "generated_at": "2026.11.28 07:32:59",
   "base_date": "2026.11.28",
-  "total_articles": 1736,
-  "today_articles": 40,
+  "total_articles": 1739,
+  "today_articles": 43,
   "archive_articles": 1696,
   "important_articles": 2,
-  "normal_articles": 34,
+  "normal_articles": 37,
   "reference_articles": 4,
   "top_keywords": [
-    "사업재편",
     "RPS",
+    "사업재편",
     "ESS",
-    "석유화학",
-    "계약시장"
+    "계약시장",
+    "석유화학"
   ],
   "priority_counts": {
     "중요": 2,
-    "보통": 34,
+    "보통": 37,
     "참고": 4
   },
   "category_counts": {
-    "정책·제도": 7,
+    "정책·제도": 8,
+    "LNG·에너지안보": 9,
+    "전력시장": 6,
     "계통·인프라": 5,
     "AI·데이터센터": 4,
-    "LNG·에너지안보": 8,
-    "전력시장": 5,
     "탄소·ESG": 3,
     "산업·고객": 8
   },
@@ -48,13 +48,13 @@
       "url": "https://www.newsis.com/view/NISX20261127_0003885920"
     },
     {
-      "id": "N20261128-2172",
+      "id": "N20261128-2179",
       "issue_order": 3,
-      "title": "“동서울변환소 증설 성난 민심 달래자”…감일지구 가구당 年1...",
-      "summary": "한전이 약 7000억원을 투입해 동서울변환소를 옥내화하고 HVDC 변환설비를 구축하며, 주민 수용성 확보 방안이 논의되고 있다는 내용이다.",
-      "implication": "수도권 송전망 확충은 지역별 계통 혼잡과 요금 논의에 영향을 줄 수 있어 LMP 영향 검토 시 참고할 만하다.",
-      "category": "계통·인프라",
-      "url": "https://www.mk.co.kr/article/12220664"
+      "title": "LNG 홍수 온다는데… IEA \"값 내려도 가스 수요 반등, 재생E에 막힐 수도...",
+      "summary": "호르무즈 위기가 풀리면 LNG가 대규모로 남을 수 있으나 값이 내려도 장기 수요 반응은 제한적이며, 한국 가스발전은 2040년까지 30% 넘게 줄 수 있다는 IEA 전망을 다룬 내용이다.",
+      "implication": "중장기 LNG 가격과 가스발전 비중 전망은 여수 LNG 전환·복합발전의 연료비 및 가동률 검토에 참고할 수 있다.",
+      "category": "LNG·에너지안보",
+      "url": "https://www.segye.com/newsView/20261128504509?OutUrl=naver"
     }
   ]
 }
